@@ -12,6 +12,8 @@ I hope my work, though old and outdated, can still bring joy or inspiration to s
 
 Goodbye, friends. Thank you for everything. ❤️
 
+Janvier123, Dekaron PHP Guru
+
 
 ## All my files come with no warranty ("as is") what so ever, using the scripts at your own risk. I will not be held responsible for any damage it may do. There will be no updates , nor any support for the files.
 ## YOU ARE NOT ALLOWED TO SELL MY WORK !!!
