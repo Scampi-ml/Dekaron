@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="submit_achievements.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="650"
+ height="542"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFFFFFF"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The E-Mail address you entered does not match !"
+ reqmessage="One or More Fields are Required !"
+ invalidemailmsg="is an invalid address, please correct it."
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<hidden
+ name="thankyoupage"
+ value="http://www.scampiml.com/evo_stuff/achievements/"
+></hidden>
+
+<hidden
+ name="subject"
+ value=""
+></hidden>
+
+<textinput
+ name="txt"
+ x="180"
+ y="100"
+ w="390"
+ h="22"
+ initvalue=""
+ maxchars="999"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="desc"
+ x="180"
+ y="161"
+ w="390"
+ h="22"
+ initvalue=""
+ maxchars="999"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<submitbutton
+ name="Reset Button"
+ x="180"
+ y="325"
+ w="89"
+ h="27"
+ label="Submit"
+ fontname="Arial"
+ fontcolor="0x000000"
+ image="submit-grey.png"
+  fontsize="12"
+></submitbutton>
+
+<combobox
+ name="progress"
+ x="180"
+ y="219"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ required="true"
+ isemail="false"
+ w="100"
+ h="20">
+  <item name="Yes"></item>
+  <item name="No"></item>
+</combobox>
+
+<textinput
+ name="count"
+ x="180"
+ y="269"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<label
+ name="My Text 1"
+ x="35"
+ y="32"
+ w="235"
+ h="29"
+ text="Submit Achievements"
+  fontname="Georgia"
+  fontcolor="0x3C312F"
+  fontsize="23"
+></label>
+
+<label
+ name="My Text 2"
+ x="50"
+ y="100"
+ w="69"
+ h="16"
+ text="Short Text"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="50"
+ y="164"
+ w="75"
+ h="16"
+ text="Description"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="180"
+ y="123"
+ w="174"
+ h="14"
+ text="A short text, the achievement name"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 4"
+ x="50"
+ y="218"
+ w="84"
+ h="16"
+ text="Progress bar"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="50"
+ y="271"
+ w="125"
+ h="16"
+ text="Progress bar Count"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="180"
+ y="184"
+ w="318"
+ h="14"
+ text="The description, what the user have to do to get the achievement"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 10"
+ x="180"
+ y="239"
+ w="259"
+ h="14"
+ text="If a player needs to perform this task more then once"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 5"
+ x="180"
+ y="293"
+ w="291"
+ h="14"
+ text="Please fill this in if progress bar is set to YES, numbers only"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="11"
+></label>
+
+</form>

@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+# no hot-linking
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://abnormal-dekaron\.no-ip\.org [NC]
+RewriteCond %{HTTP_REFERER} !^http://abnormal-dekaron\.mo-rpg\.com [NC]
+RewriteRule .*\.(rar|exe)$ http://abnormal-dekaron.no-ip.org/hotlink.html [NC] 

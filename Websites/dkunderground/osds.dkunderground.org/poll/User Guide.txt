@@ -1,0 +1,136 @@
+X-POLL 2.30 User Guide
+_______________________
+
+This user guide was created to ensure that you get the most out of what the script has to
+offer. We will create a test poll together with full explanation of all the features.
+Before we proceed it will be assumed that PHP 4 & MySQL are installed.
+
+Let's Get Started
+_______________________
+
+1. Okay first things first, unzip the contents of xpoll.zip to your desired location on
+your webserver.
+
+2. Open config.php. We are about to edit some of the variables to ensure X-Poll is
+configured with MySQL. Below are descriptions of the values you will need to enter.
+
+	$user_db = This is your MySQL username (DEFAULT = 'root')
+	$pass_db = This is your MySQL password (DEFAULT = '')
+	$host_db = The name of the host X-Poll resides (e.g. localhost)
+	$db = The name of the database where X-Poll will be stored.
+
+The path variables ($dir, $dir2) only need to be edited if you move the images folder, 
+which comes with X-Poll, away from where it was originally placed. It is best if you just 
+keep it in its default place.
+
+The image properties reflect how the Bar Graph's bar looks when poll results are displayed.
+
+3. Now we will use X-Install to create the database. Point your browser to
+install/install.php and follow the options and press install. The database is now setup.
+If the database cannot be created due to restrictions on your server try using an existing
+database or creating one via your hosts control panel. 
+
+4. Click the here link to be taken to the admin area.
+
+5. You will hopefully see the grey & blue admin area and a notice saying
+"There are currently no polls. Please create one.". Now click on the Create A Poll link
+which will take us to the add.php page in order for us to do so.
+
+6. You are now asked how many options you want for the Poll. In this example we will use 3.
+So type 3 and press the "Step 2 >>"button. I will now run through what all the options
+mean:
+
+	Poll Title = The name of the poll (e.g. "Do you like the website?")
+	Option 1 = The name of the first option (e.g. "Yes")
+	Option 2 = The name of the second option (e.g. "No")
+	Poll Starts = The date when the poll starts working
+	Poll Expires = The date when the poll stops functioning
+	User Can Vote Every = How often the user can vote on the poll (e.g. once a day)
+	See Results Before Voting = Are results visible if the user hasn't voted
+	See Votes in Results = Display the number of people who have voted on the poll
+	Use IP Protection = Prevent users from continuously voting using IP protection.
+	Use Cookie Protection = Prevent users from continuously voting using Cookie
+				protection.
+	Status = Is the poll visible to the public?
+
+Next to the option fields is a drop down list with the images which will be used to
+represent that option when poll results are displayed. If you are not sure what images to
+use then leave it at random and the poll will randomly choose them when the results are
+viewed.
+
+The Poll Expires list allows years up to 2037 because after that the poll stops functioning
+on windows machines.
+
+My personal opinions are to turn off Cookie Protection and to just use IP Protection.
+Cookies can be deleted at any time by the user, resulting in them being able to vote
+continuosly if no other protection is used. IP Protection is pretty much guaranteed. Of
+course Dial Up Internet Users who have dynamic IP Addresses could vote multiply but they
+are a minority. Wherever you go on the internet people will no doubt have some way to vote
+multiply, be it with a proxy or some other way.
+
+For our test poll enter the following.
+
+	Poll Title = Do you like the website?
+	Option 1 = Yes | Random
+	Option 2 = No | Random
+	Poll Starts = LEAVE AS IT IS
+	Poll Expires = LEAVE AS IT IS
+	User Can Vote Every = MAKE SURE JUST 1 IS SELECTED IN THE MINUTES LIST
+	See Results Before Voting = YES
+	See Votes in Results = YES
+	Use IP Protection = YES
+	Use Cookie Protection = NO
+	Status = ON
+
+Now press the "Finish >>" button and the poll is created.
+
+7. Now point your browser to the index.php page you extracted. (In the folder outside the
+admin one). You will now see the poll you created. Vote on the first option.
+
+8. You will now see the results. Press refresh. You will see the bar colours change
+randomly as we selected random when creating the poll. Also notice how the votes themselves
+remain constant. This is the IP Protection coming into play. Now wait a minute and revisit
+the polls.php page. You are now able to vote again.
+
+The reason is because when we created the poll we chose the "User Can Vote Every" option
+as being 1 minute. So since a minute has passed, the user can now vote again.
+
+9. We will now see how the IP Blocker in the Admin Area can be useful. Visit the admin area
+again and click on the IP Blocker tab.
+
+This is a feature of X-Poll which allows you to block other people from voting. This is
+useful if there is a person on your website who is misusing the polls. For the purposes
+of this tutorial it is us who is being the nuisance!
+
+Click on the "Create A Block" button and enter your IP Address in the IP Address field. If
+you have a webserver on your computer your ip address will probably be 127.0.0.1. Now
+click on the poll entitled "Do you like the website?". Now press the "Finish >>" button and
+navigate to the polls.php page. See how only the results are shown and you cannot vote.
+
+10. By now you are probably wondering about the Images tab in the admin area.So, let's 
+click on the tab. You now see a list of five images which come bundled with X-Poll. You 
+can add to these, rename them and delete them. There is no need to go through this with 
+you since it is self explanatory.
+
+Final Word
+_______________________
+
+X-Poll is, in my opinion, a pretty feature heavy script. This can be off putting especially
+since some you probably only want a basic poll. However all these features I believe are
+completely useful and do add a lot to your website. The images option in the admin area is
+a little gimicky I admit, but I know some of you out there will find it useful.
+
+I hope that the general reaction is a good one since this is far and away a much better
+script than version 1.50 was. The code is now optimised and the script runs faster.
+I was a little disappointed with the reaction to version 1.X of X-Poll. A lot of you found
+it fantastic, while a number of you had problems with it. I am hoping this is the version
+you can all use.
+
+New features are being added all the time so its worth checking back once in a while to see
+if there are any improvements.
+
+Anybody who is stil using a version of X-Poll below version 2.0 is heavily advised to
+update!!!
+
+Good Luck!
+X-Scripts

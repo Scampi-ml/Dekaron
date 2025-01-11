@@ -1,0 +1,21 @@
+﻿
+
+p {border: 0; margin: 0;  vertical-align: baseline; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit;}
+
+
+.msg {
+	border-radius: 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	border: 1px solid; margin: 0 0px 15px 4px; padding: 8px 10px 0 10px;
+}
+.msg p {margin: 0 0 8px 0; text-align: left; padding-left: 20px;}
+.msg-ok {border-color: #a6d877; background: #d2ecba url("msg-ok.png") repeat-x; color: #336801;}
+.msg-error {border-color: #f3abab; background: #f9c9c9 url("msg-error.png") repeat-x; color: #8d0d0d;}
+.msg-warn {border-color: #d7e059; background: #f3f7aa url("msg-warn.png") repeat-x; color: #6c6600;}
+.msg-info {border-color: #9fd1f5; background: #c3e6ff url("msg-info.png") repeat-x; color: #005898;}
+.msg-ok p {background: url("accept.png") 0 50% no-repeat;}
+.msg-error p {background: url("cross_octagon.png") 0 50% no-repeat;}
+.msg-warn p {background: url("exclamation_octagon_fram.png") 0 50% no-repeat;}
+.msg-info p {background: url("exclamau.png") 0 50% no-repeat; padding: 0px;}
+.error {color: #b70b0b;}
+
+

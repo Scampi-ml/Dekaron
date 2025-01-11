@@ -1,0 +1,260 @@
+.about {
+	padding:3px;
+	border-left:1px solid #a8a8a8;
+	border-top:1px solid #a8a8a8;
+	border-right:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	-moz-border-radius:3px;
+	margin:3px;
+}
+.about:focus, .about:focus {
+	border: 1px solid #5596D9;
+}
+.subject {
+	background: #fff url('Ticket_images/ticket_imagesbg_box00.gif') repeat-x top left;
+	COLOR: #000000;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica;
+	FONT-FAMILY: Verdana, Arial, Helvetica;
+}
+.subjects {
+	background: #fff url('images/ticket_images/bg_box00.gif') repeat-x top left;
+}
+.subjectss {
+	background: #fff url('images/ticket_images/bg_box00.gif') repeat-x top left;
+	border-bottom: 1px solid #ccc;
+}
+.subjectssm {
+	background: #fff url('images/ticket_images/bg_box00.gif') repeat-x top left;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 6px 0px;
+}
+.row2 {
+	BACKGROUND-COLOR: #EFEFEF;
+	COLOR: #000000;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+table, td, th {
+	vertical-align: middle;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: none;
+}
+.mediumtext {
+	margin: 10px 10px 10px 10px;
+}
+.edit, .delete {
+	display: block;
+	padding: 1px 8px;
+	color: #fff;
+	float: right;
+	margin: -4px 0px;
+}
+.edit {
+	background: #5DC082;
+	-moz-border-radius: 2px 2px 2px 2px;
+}
+.edit:hover {
+	background: #328551;
+	color: #fff;
+}
+.delete {
+	background: #DC6A6A;
+}
+.delete:hover {
+	background: #C64747;
+	color: #fff;
+}
+.tbodysn {
+	border-top: 1px solid #ccc;
+	background: #FFFFFF;
+	border: 1px solid #ccc;
+}
+.tbodys {
+	border-top: 1px solid #ccc;
+	background: #FFFFFF;
+	border: 1px solid #ccc;
+}
+.trs {
+	border-top: 1px solid #ccc;
+	padding: 6px 0px;
+	background: #FFFFFF;
+}
+.tds {
+	border-top: 1px solid #ccc;
+	padding: 6px 0px;
+	background: #FFFFFF;
+}
+theadw {
+	font-weight: bold;
+	background: #fff url('images/ticket_images/bg_box00.gif') repeat-x top left;
+	border-bottom: 1px solid #eee;
+	padding: 4px 5px;
+}
+thead tr th {
+	font-weight: bold;
+	background: #fff url('images/ticket_images/bg_box00.gif') repeat-x top left;
+	border-bottom: 1px solid #eee;
+	padding: 4px 5px;
+}
+/* Body */
+
+
+	
+.tbodys tr:hover td {
+	background: #F4F4F4;
+}
+.readed {
+	border-top: 1px solid #ccc;
+	padding: 6px 0px;
+	background: #F4F4F4;
+}
+code, pre {
+	border-left: 4px solid #C5BEB2;
+}
+.pen {
+	margin: -3px 0px;
+}
+.posted {
+	margin: -3px 0px;
+}
+/*** page navigation ***/
+
+.paa {
+	float: right;
+	margin: -20px 0px;
+	min-width: 20px;
+	background: url("button_i.png") repeat-x center center #EEEEEE;
+	text-align: center;
+	border: 1px solid #dddddd;
+	border-bottom: 1px solid #cccccc;
+	color: #333333;
+	text-decoration: none;
+	-moz-border-radius: 2px 5px 2px 2px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+.pager {
+	font-size: 11px;
+	line-height: 20px;
+	float: right;
+	margin: 5px;
+}
+.pager a {
+	display: block;
+	float: left;
+}
+.pager .nav {
+	display: block;
+	float: left;
+}
+.pager .nav a {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #dddddd;
+	border-bottom: 1px solid #cccccc;
+}
+.pager .nav a span {
+	display: block;
+	font-size: 0%;
+	visibility: hidden;
+	text-indent: -9999px;
+}
+.previous {
+	background: url('images/ticket_images/arrow_left.png') center center no-repeat;
+	border-left-width: 0px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	border-radius: 0px 3px 3px 0px;
+	border: 1px solid #dddddd;
+}
+.previous:hover {
+	background: url('images/ticket_images/arrow_left2.png') center center no-repeat;
+}
+.pager a.next {
+	background: url('images/ticket_images/arrow_right.png') center center no-repeat;
+	border-right-width: 0px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	border-radius: 3px 0px 0px 3px;
+	border: 1px solid #dddddd;
+}
+.pager a.next:hover {
+	background: url('images/ticket_images/arrow_right2.png') center center no-repeat;
+}
+.pager .pages {
+	display: block;
+	float: left;
+	margin: 0px 1px 3px 2px;
+	font-weight: bold;
+}
+.pager .pages a {
+	min-width: 20px;
+	margin: 0px 1px 0px 1px;
+	background: url("button_i.png") repeat-x center center #EEEEEE;
+	text-align: center;
+	border: 1px solid #dddddd;
+	border-bottom: 1px solid #cccccc;
+	color: #333333;
+	text-decoration: none;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+.pager .pages a span {
+	padding: 0px 2px 0px 2px;
+}
+.pager .pages a:hover {
+	background: url('images/ticket_images/bck_whiu.png');
+	color: #00A5C4;
+	text-decoration: none;
+}
+.pager .pages a.active {
+	background: url('images/ticket_images/page_act.gif');
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	border-width: 0px;
+	line-height: 22px;
+	min-width: 22px;
+}
+#view {
+	color:#333;
+	text-decoration:none;
+}
+#view:hover {
+	color:black;
+	text-decoration:underline;
+}
+#bodys {
+	color:#333;
+	text-decoration:none;
+	-moz-border-radius: 5px 5px 5px 5px;
+	width:100px;
+	color:#fff;
+	background:#33B842;
+	border-left:1px solid #0C7117;
+	border-top:1px solid #0C7117;
+	border-right:1px solid #0C7117;
+	border-bottom:1px solid #0C7117;
+}
+#bodys:hover {
+	background: #328551;
+	color: #fff;
+}

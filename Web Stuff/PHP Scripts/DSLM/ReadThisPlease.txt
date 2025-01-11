@@ -1,0 +1,36 @@
+Good, so you're running livemaps.
+
+To avoid a few common questions.
+
+- i get error 403 forbidden or it keeps sending me to abnormal-dekaron page!
+~ ~ Open the .htaccess in notepad, add a new line with your ip (www.whatismyip.com)
+~ ~ Or delete the .htaccess (NOT RECOMMENDED) to give the entire world access!
+
+- it gives errors contaning cannot connect / invalid login or missing /confic/mssql.config.php !
+~ ~ You did not open the livemaps.php file to enter the correct info, or you made a typo!
+~ ~ best practive to prevent typing errors in PHP files is to use Notepad++ or Crimson Editor
+
+- In internet explorer it looks like crap
+~ ~ I've decided NOT to add support for internet explorer since it has become more and more crappy and
+~ ~ I refuse to make the code 2x longer just because of it's inefficiencies
+~ ~ So.. fix it by installing firefox (www.getfirefox.com)
+
+- How do i change ******** (insert anything here) in the livemap
+~ ~ Open the livemap.php in a editor like notepad++ or Crimson Editor
+~ ~ Nearly every line of code has a comment near it telling it what it does, or how to change it
+
+- Will there be update's?
+~ ~ Not to be released to the public. I'm currently building one fully based on silverlight.
+~ ~ With complete administration options linked to the players on the map (livebanning/jailing/editting)
+~ ~ But if that's finished (long term project) it'l go on the market. this one is free, enoy it as it is! 
+
+- i changed something and now it stopped working
+~ ~ Re-download and install the livemap.php file, im not going to try and find your typo's in the code
+
+- Credits?
+~ ~ You can remove the credits if u want to, but atleast have the decency, not to re-release this 
+~ ~ (not even in editted form) claiming it's your's
+~ ~ Thats one of the reason why noone is releasing anything anymore nowadays
+
+- version? 
+~ ~ 2.0  (just added an aloken class icon :P)

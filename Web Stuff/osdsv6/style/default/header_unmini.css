@@ -1,0 +1,31 @@
+body {
+	background: #E1E1E1;
+	color: #000000;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin:0px;
+	padding: 0px;
+}
+.border_big {
+	background: #F2F2F2;
+	color: #000000;
+	border-right: outset 1px #DEE0E2;
+}
+.cat_big {
+	background: #465786;
+	color: #FFFFFF;
+	font: bold 12px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 4px;
+}
+.border_big a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.border_big a:hover {
+	text-decoration: underline;
+	color:  #ffffff;
+}
+h3 {
+	margin-top: 5px;
+	font-size: 16px;
+}
+

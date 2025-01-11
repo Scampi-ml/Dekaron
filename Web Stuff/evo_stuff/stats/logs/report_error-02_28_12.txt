@@ -1,0 +1,2030 @@
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'BY'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:10:11.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:10:11.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'BY'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:11:37.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:11:37.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wWinRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:11:45.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:11:45.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wWinRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:12:29.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:12:29.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wWinRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:14:17.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:14:17.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wLoseRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:14:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:14:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wLoseRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:15:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:15:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wWinRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:15:29.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:15:29.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wWinRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:16:49.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:16:49.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wWinRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:17:15.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:17:15.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near 'wWinRecord'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:17:25.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:17:25.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Incorrect syntax near the keyword 'DESC'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:27:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:27:54.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 58.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:29:01.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Incorrect syntax near the keyword 'DESC'. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:29:01.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 01:29:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 58.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:29:22.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 63.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:31:35.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 63.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:31:43.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 63.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:31:47.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 63.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:32:09.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 63.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:32:45.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 63.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:33:00.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 63.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:33:04.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:40:05.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 120.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:40:05.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:40:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 120.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:40:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 101.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:42:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:42:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 101.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:42:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:42:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: sort).
+Line Number  : 101.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:42:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 116.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:42:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 101.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:44:19.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 117.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:44:19.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 101.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:44:37.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 116.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:45:54.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 01:51:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:33:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:40:33.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:40:38.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:40:45.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:40:55.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:41:19.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:41:31.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:41:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:51:27.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:53:56.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:54:06.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:54:39.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:55:38.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:55:42.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:56:00.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:56:19.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:56:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:57:17.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:59:19.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 02:59:50.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:00:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:01:16.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:02:21.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:02:23.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:04:27.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:05:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:06:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:07:06.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: order).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:14:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\stats_pvp.php.
+Date : 28.02.2012 03:15:14.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 03:16:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 03:16:33.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 03:17:26.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 03:17:54.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 03:19:27.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for cache/index.cache).
+Line Number  : 60.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 28.02.2012 03:32:00.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (file_get_contents() expects at least 1 parameter, 0 given).
+Line Number  : 14.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 28.02.2012 03:57:32.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (file_get_contents() expects at least 1 parameter, 0 given).
+Line Number  : 14.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 28.02.2012 03:57:57.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (file_get_contents() expects at least 1 parameter, 0 given).
+Line Number  : 15.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 28.02.2012 03:59:23.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (file_get_contents() expects at least 1 parameter, 0 given).
+Line Number  : 15.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 28.02.2012 03:59:31.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (file_get_contents() expects at least 1 parameter, 0 given).
+Line Number  : 15.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 28.02.2012 03:59:35.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:14:18.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:15:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:24:08.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:25:05.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 115.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:33:19.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 91.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:33:35.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 107.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:35:29.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:36:53.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:37:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:37:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:37:25.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:38:29.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:39:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:39:25.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:39:34.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:40:06.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:41:51.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:42:00.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:42:52.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:43:29.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:43:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:44:04.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 106.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:44:31.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 78.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:45:33.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 113.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:45:33.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:51:10.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:51:10.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:51:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:51:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:51:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:51:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:53:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:53:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:53:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:53:37.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:54:00.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:54:00.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:57:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:57:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:57:55.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:57:55.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:58:25.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:58:25.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:58:35.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 112.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:58:35.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 80.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:58:59.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 111.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 04:58:59.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 78.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:01:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 109.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:01:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 78.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:02:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 105.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:02:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 78.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:02:58.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 105.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:02:58.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 79.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:08:09.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 114.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:08:09.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 79.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:57:47.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 114.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 05:57:47.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:01:54.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:03:00.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:03:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:04:57.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:05:08.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:05:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:05:17.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:05:54.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:06:04.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:06:12.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:06:18.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:06:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:06:59.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:07:39.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:07:51.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:18:02.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 89.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:21:41.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: json).
+Line Number  : 40.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Invalid argument supplied for foreach()).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 47.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 53.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 57.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 61.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 67.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 77.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:37:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: json).
+Line Number  : 51.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Invalid argument supplied for foreach()).
+Line Number  : 53.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 58.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 64.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 68.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 72.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 78.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: rank).
+Line Number  : 88.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: where).
+Line Number  : 58.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:38:44.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for cache/pvp_win.cache).
+Line Number  : 176.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 06:49:29.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for cache/pvp_win.cache).
+Line Number  : 176.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 06:50:02.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (unlink(cache/pvp_win.cache) [function.unlink]: No such file or directory).
+Line Number  : 12.
+File Path : C:\xampp\htdocs\stats\run_cache\run_pvp_win.php.
+Date : 28.02.2012 06:50:02.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 43.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:51:02.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 43.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:51:02.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for cache/pvp_win.cache).
+Line Number  : 176.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 06:51:15.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (unlink(cache/pvp_win.cache) [function.unlink]: No such file or directory).
+Line Number  : 12.
+File Path : C:\xampp\htdocs\stats\run_cache\run_pvp_win.php.
+Date : 28.02.2012 06:51:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 43.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:51:15.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 43.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:51:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 43.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:51:37.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 43.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:51:37.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:52:01.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:52:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:52:11.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:52:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:53:40.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:53:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:53:52.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:53:52.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:55:13.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:55:13.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: val).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:55:14.
+**************************************************************
+
+**************************************************************
+[System Suggest] (Creating default object from empty value).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp.php.
+Date : 28.02.2012 06:55:14.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for cache/pvp_lose.cache).
+Line Number  : 176.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:04:31.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(run_cache/run_pvp_lose.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 27.
+File Path : C:\xampp\htdocs\stats\pvp_lose.php.
+Date : 28.02.2012 07:04:31.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening 'run_cache/run_pvp_lose.php' for inclusion (include_path='.;C:\xampp\php\PEAR')).
+Line Number  : 27.
+File Path : C:\xampp\htdocs\stats\pvp_lose.php.
+Date : 28.02.2012 07:04:31.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (file_get_contents(cache/pvp_lose.cache) [function.file-get-contents]: failed to open stream: No such file or directory).
+Line Number  : 35.
+File Path : C:\xampp\htdocs\stats\pvp_lose.php.
+Date : 28.02.2012 07:04:31.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Invalid argument supplied for foreach()).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\pvp_lose.php.
+Date : 28.02.2012 07:04:31.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for cache/pvp_lose.cache).
+Line Number  : 176.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:05:40.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (unlink(cache/pvp_lose.cache) [function.unlink]: No such file or directory).
+Line Number  : 18.
+File Path : C:\xampp\htdocs\stats\run_cache\run_pvp_lose.php.
+Date : 28.02.2012 07:05:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: cache_file).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:27:29.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: cache_file).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:27:29.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: cache_file).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:27:29.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for index.cache).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:27:48.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for pvp_win.cache).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:27:48.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (filemtime() [function.filemtime]: stat failed for pvp_lose.cache).
+Line Number  : 42.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:27:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Use of undefined constant filetimemod - assumed 'filetimemod').
+Line Number  : 49.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:42:50.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:42:50.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Use of undefined constant filetimemod - assumed 'filetimemod').
+Line Number  : 49.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:42:50.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:42:50.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Use of undefined constant filetimemod - assumed 'filetimemod').
+Line Number  : 49.
+File Path : C:\xampp\htdocs\stats\cache.php.
+Date : 28.02.2012 07:42:50.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:42:50.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:10.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:10.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:10.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:20.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:20.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:20.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:43:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:45:07.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:45:07.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:45:07.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:47:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:47:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:47:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:39.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:39.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:39.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:40.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:40.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:40.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:41.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:41.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:41.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:41.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:41.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:41.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:54.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:55.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:55.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (Division by zero).
+Line Number  : 100.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 28.02.2012 07:52:55.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:17.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:17.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:17.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:21.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:23.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:23.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:23.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:32.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:32.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:32.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:44.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:44.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:09:44.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:10:55.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:10:55.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:10:55.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:10:57.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:10:57.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 28.02.2012 07:10:57.
+**************************************************************
+

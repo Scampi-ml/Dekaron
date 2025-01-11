@@ -1,0 +1,26 @@
+.progress_bar {
+	width:150px;
+	height:5px;
+	background-color:#ccc;
+	border-radius:2px;
+}
+
+.progress_bar a {
+	display:block;
+	float:left;
+	background-color:#1d6d9c;
+	background-image: linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
+	background-image: -o-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
+	background-image: -moz-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
+	background-image: -webkit-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
+	background-image: -ms-linear-gradient(bottom, #1D6D9C 0%, #3D92C4 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #1D6D9C),
+		color-stop(1, #3D92C4)
+	);
+	height:100%;
+	border-radius:2px;
+}

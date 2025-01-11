@@ -1,0 +1,33 @@
+{
+	"name":"Donate PayPal",
+	"module_name":"donate_paypal",
+	"description":"Allows users to donate to your server using Paypal",
+	"author":"Janvier123",
+	"version":1,
+	"website":"http://www.dekaroncms.com/checkModuleVersion/check/donate_paypal",
+	"isadmin":0,
+	"isucp":0,
+	"update":0,
+	"enabled":0,
+	"install_sql":"application/modules/donate_paypal/install.sql",
+	"install_file":"application/modules/donate_paypal/install.php",
+	"uninstall_sql":"application/modules/donate_paypal/uninstall.sql",
+	"uninstall_file":"application/modules/donate_paypal/uninstall.php",
+	"admin":
+	[
+		{
+			"text":"Addons",
+			"links":
+			[
+				{
+					"text":"Donate Paypal Settings",
+					"controller":"settings"
+				},	
+				{
+					"text":"Donate Paypal Items",
+					"controller":"items"
+				}				
+			]	
+		}				
+	]
+}

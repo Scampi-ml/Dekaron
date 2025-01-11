@@ -1,0 +1,1 @@
+DELETE FROM `module_config` WHERE `module_name` = 'register';

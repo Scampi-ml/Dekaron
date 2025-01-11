@@ -1,0 +1,48 @@
+{
+	"name":"Downloads",
+	"module_name":"downloads",
+	"description":"Allows users to download files",
+	"author":"Janvier123",
+	"version":1,
+	"website":"http://www.dekaroncms.com/checkModuleVersion/check/downloads",
+	"isadmin":0,
+	"isucp":0,
+	"update":0,
+	"enabled":0,
+	"install_sql":"application/modules/downloads/install.sql",
+	"install_file":"application/modules/downloads/install.php",
+	"uninstall_sql":"application/modules/downloads/uninstall.sql",
+	"uninstall_file":"application/modules/downloads/uninstall.php",
+	"admin":
+	[
+		{
+			"text":"Addons",
+			"links":
+			[
+				{
+					"text":"Downloads",
+					"controller":"admin"
+				}	
+			]	
+		}				
+	],
+	"permissions":
+	{
+		"view": 
+		{ 
+			"default": true, 
+			"description": "View the downloads" 
+		}
+	},
+	"roles": 
+	{
+		"view": 
+		{
+			"description": "View the downloads",
+			"permissions": 
+			{
+				"view": true
+			}
+		}
+	}
+}

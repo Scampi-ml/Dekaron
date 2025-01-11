@@ -1,0 +1,830 @@
+﻿AJC Sync v3.7.16.0   Copyright AJC Systems Ltd 2002 - 2014   www.ajcsoft.com
+
+Project: DekaronCMS (C:\Users\php\Documents\dekaroncms.ajcs)
+
+FULL REPORT
+Synchronize run
+Started at: 5/12/2014 10:44:33
+
+Sync pair: DekaronCMS
+Started at: 5/12/2014 10:44:33
+Left side: C:\wamp\www
+Right side: E:\dekaroncms\cms
+
+Synchronize both ways without deletions
+Recurse sub folders
+Include empty folders
+Modified both sides action: Newest
+Allow an hour difference between modification stamps
+
+
+C:\wamp\www\application\js\ckeditor & E:\dekaroncms\cms\application\js\ckeditor
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> build-config.js                         11/07/2014 11:54:16 > 19/03/2014 13:36:02             3 KB =             3 KB  Yes
+--> CHANGES.md                              11/07/2014 11:54:16 > 19/03/2014 13:36:02            48 KB =            48 KB  Yes
+--> ckeditor.js                             11/07/2014 11:54:16 > 19/03/2014 13:36:02           498 KB =           498 KB  Yes
+--> config.js                               11/07/2014 11:54:16 > 19/03/2014 13:36:02             1 KB =             1 KB  Yes
+--> contents.css                            11/07/2014 11:54:16 > 19/03/2014 13:36:02             2 KB =             2 KB  Yes
+--> LICENSE.md                              11/07/2014 11:54:16 > 19/03/2014 13:36:02            67 KB =            67 KB  Yes
+--> README.md                               11/07/2014 11:54:16 > 19/03/2014 13:36:02             2 KB =             2 KB  Yes
+--> styles.js                               11/07/2014 11:54:16 > 19/03/2014 13:36:02             4 KB =             4 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\adapters & E:\dekaroncms\cms\application\js\ckeditor\adapters
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> jquery.js                               11/07/2014 11:54:13 > 19/03/2014 13:35:56             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\lang & E:\dekaroncms\cms\application\js\ckeditor\lang
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> af.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            18 KB =            18 KB  Yes
+--> ar.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            23 KB =            23 KB  Yes
+--> bg.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            25 KB =            25 KB  Yes
+--> bn.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            24 KB =            24 KB  Yes
+--> bs.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            18 KB =            18 KB  Yes
+--> ca.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> cs.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> cy.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> da.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> de.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> el.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            29 KB =            29 KB  Yes
+--> en.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            18 KB =            18 KB  Yes
+--> en-au.js                                11/07/2014 11:54:13 > 19/03/2014 13:35:56            18 KB =            18 KB  Yes
+--> en-ca.js                                11/07/2014 11:54:13 > 19/03/2014 13:35:56            18 KB =            18 KB  Yes
+--> en-gb.js                                11/07/2014 11:54:13 > 19/03/2014 13:35:56            18 KB =            18 KB  Yes
+--> eo.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> es.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> et.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> eu.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> fa.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            25 KB =            25 KB  Yes
+--> fi.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> fo.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> fr.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            21 KB =            21 KB  Yes
+--> fr-ca.js                                11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> gl.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> gu.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            31 KB =            31 KB  Yes
+--> he.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            23 KB =            23 KB  Yes
+--> hi.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            25 KB =            25 KB  Yes
+--> hr.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> hu.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> id.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            18 KB =            18 KB  Yes
+--> is.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            19 KB =            19 KB  Yes
+--> it.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            20 KB =            20 KB  Yes
+--> ja.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            22 KB =            22 KB  Yes
+--> ka.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            35 KB =            35 KB  Yes
+--> km.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:56            30 KB =            30 KB  Yes
+--> ko.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            19 KB =            19 KB  Yes
+--> ku.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            27 KB =            27 KB  Yes
+--> lt.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> lv.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> mk.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+--> mn.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            23 KB =            23 KB  Yes
+--> ms.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+--> nb.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+--> nl.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            19 KB =            19 KB  Yes
+--> no.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+--> pl.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> pt.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> pt-br.js                                11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> ro.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> ru.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            29 KB =            29 KB  Yes
+--> si.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            25 KB =            25 KB  Yes
+--> sk.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> sl.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            19 KB =            19 KB  Yes
+--> sq.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> sr.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            22 KB =            22 KB  Yes
+--> sr-latn.js                              11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+--> sv.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+--> th.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            29 KB =            29 KB  Yes
+--> tr.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            20 KB =            20 KB  Yes
+--> ug.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            28 KB =            28 KB  Yes
+--> uk.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            28 KB =            28 KB  Yes
+--> vi.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            22 KB =            22 KB  Yes
+--> zh.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+--> zh-cn.js                                11/07/2014 11:54:13 > 19/03/2014 13:35:57            18 KB =            18 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins & E:\dekaroncms\cms\application\js\ckeditor\plugins
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> icons.png                               11/07/2014 11:54:15 > 19/03/2014 13:36:01            21 KB =            21 KB  Yes
+--> icons_hidpi.png                         11/07/2014 11:54:15 > 19/03/2014 13:36:01            67 KB =            67 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\a11yhelp\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\a11yhelp\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> a11yhelp.js                             11/07/2014 11:54:14 > 19/03/2014 13:35:58             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\a11yhelp\dialogs\lang & E:\dekaroncms\cms\application\js\ckeditor\plugins\a11yhelp\dialogs\lang
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> _translationstatus.txt                  11/07/2014 11:54:13 > 19/03/2014 13:35:57             1 KB =             1 KB  Yes
+--> ar.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57             4 KB =             4 KB  Yes
+--> bg.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57             4 KB =             4 KB  Yes
+--> ca.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57             5 KB =             5 KB  Yes
+--> cs.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57             5 KB =             5 KB  Yes
+--> cy.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57             5 KB =             5 KB  Yes
+--> da.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57             4 KB =             4 KB  Yes
+--> de.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:57             5 KB =             5 KB  Yes
+--> el.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:58             8 KB =             8 KB  Yes
+--> en.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> eo.js                                   11/07/2014 11:54:13 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> es.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> et.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> fa.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             6 KB =             6 KB  Yes
+--> fi.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> fr.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             6 KB =             6 KB  Yes
+--> fr-ca.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> gl.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> gu.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> he.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> hi.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> hr.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> hu.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> id.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> it.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> ja.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             6 KB =             6 KB  Yes
+--> km.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> ko.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> ku.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             6 KB =             6 KB  Yes
+--> lt.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> lv.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> mk.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> mn.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> nb.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> nl.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> no.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> pl.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> pt.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> pt-br.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> ro.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> ru.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             6 KB =             6 KB  Yes
+--> si.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             7 KB =             7 KB  Yes
+--> sk.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> sl.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> sq.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> sr.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> sr-latn.js                              11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+--> sv.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> th.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> tr.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> ug.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             7 KB =             7 KB  Yes
+--> uk.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             7 KB =             7 KB  Yes
+--> vi.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             6 KB =             6 KB  Yes
+--> zh.js                                   11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+--> zh-cn.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\about\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\about\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> about.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:58             2 KB =             2 KB  Yes
+--> logo_ckeditor.png                       11/07/2014 11:54:14 > 19/03/2014 13:35:58             7 KB =             7 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\about\dialogs\hidpi & E:\dekaroncms\cms\application\js\ckeditor\plugins\about\dialogs\hidpi
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> logo_ckeditor.png                       11/07/2014 11:54:14 > 19/03/2014 13:35:58            14 KB =            14 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\clipboard\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\clipboard\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> paste.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:58             4 KB =             4 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\colordialog\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\colordialog\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> colordialog.js                          11/07/2014 11:54:14 > 19/03/2014 13:35:58             5 KB =             5 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\dialog & E:\dekaroncms\cms\application\js\ckeditor\plugins\dialog
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> dialogDefinition.js                     11/07/2014 11:54:14 > 19/03/2014 13:35:58             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\div\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\div\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> div.js                                  11/07/2014 11:54:14 > 19/03/2014 13:35:59             5 KB =             5 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\fakeobjects\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\fakeobjects\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> spacer.gif                              11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\find\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\find\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> find.js                                 11/07/2014 11:54:14 > 19/03/2014 13:35:59            11 KB =            11 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\flash\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\flash\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> flash.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:59            10 KB =            10 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\flash\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\flash\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> placeholder.png                         11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\forms\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\forms\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> button.js                               11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> checkbox.js                             11/07/2014 11:54:14 > 19/03/2014 13:35:59             3 KB =             3 KB  Yes
+--> form.js                                 11/07/2014 11:54:14 > 19/03/2014 13:35:59             3 KB =             3 KB  Yes
+--> hiddenfield.js                          11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> radio.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> select.js                               11/07/2014 11:54:14 > 19/03/2014 13:35:59             8 KB =             8 KB  Yes
+--> textarea.js                             11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> textfield.js                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\forms\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\forms\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> hiddenfield.gif                         11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\iframe\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\iframe\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> iframe.js                               11/07/2014 11:54:14 > 19/03/2014 13:35:59             4 KB =             4 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\iframe\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\iframe\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> placeholder.png                         11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\image\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\image\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> image.js                                11/07/2014 11:54:14 > 19/03/2014 13:35:59            21 KB =            21 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\image\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\image\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> noimage.png                             11/07/2014 11:54:14 > 19/03/2014 13:35:59             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\link\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\link\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> anchor.js                               11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> link.js                                 11/07/2014 11:54:14 > 19/03/2014 13:35:59            17 KB =            17 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\link\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\link\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> anchor.png                              11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\link\images\hidpi & E:\dekaroncms\cms\application\js\ckeditor\plugins\link\images\hidpi
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> anchor.png                              11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\liststyle\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\liststyle\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> liststyle.js                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\magicline\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\magicline\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> icon.png                                11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\magicline\images\hidpi & E:\dekaroncms\cms\application\js\ckeditor\plugins\magicline\images\hidpi
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> icon.png                                11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\pagebreak\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\pagebreak\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> pagebreak.gif                           11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\pastefromword\filter & E:\dekaroncms\cms\application\js\ckeditor\plugins\pastefromword\filter
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> default.js                              11/07/2014 11:54:14 > 19/03/2014 13:35:59            14 KB =            14 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\preview & E:\dekaroncms\cms\application\js\ckeditor\plugins\preview
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> preview.html                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\scayt & E:\dekaroncms\cms\application\js\ckeditor\plugins\scayt
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> LICENSE.md                              11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> README.md                               11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\scayt\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\scayt\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> options.js                              11/07/2014 11:54:14 > 19/03/2014 13:35:59             9 KB =             9 KB  Yes
+--> toolbar.css                             11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\showblocks\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\showblocks\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> block_address.png                       11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_blockquote.png                    11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_div.png                           11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_h1.png                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_h2.png                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_h3.png                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_h4.png                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_h5.png                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_h6.png                            11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_p.png                             11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> block_pre.png                           11/07/2014 11:54:14 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\smiley\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\smiley\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> smiley.js                               11/07/2014 11:54:14 > 19/03/2014 13:35:59             4 KB =             4 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\smiley\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\smiley\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> angel_smile.gif                         11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> angel_smile.png                         11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> angry_smile.gif                         11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> angry_smile.png                         11/07/2014 11:54:14 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> broken_heart.gif                        11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> broken_heart.png                        11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> confused_smile.gif                      11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> confused_smile.png                      11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> cry_smile.gif                           11/07/2014 11:54:15 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> cry_smile.png                           11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> devil_smile.gif                         11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> devil_smile.png                         11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> embaressed_smile.gif                    11/07/2014 11:54:15 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> embarrassed_smile.gif                   11/07/2014 11:54:15 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> embarrassed_smile.png                   11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> envelope.gif                            11/07/2014 11:54:15 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> envelope.png                            11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> heart.gif                               11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> heart.png                               11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> kiss.gif                                11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> kiss.png                                11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> lightbulb.gif                           11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> lightbulb.png                           11/07/2014 11:54:15 > 19/03/2014 13:35:59             1 KB =             1 KB  Yes
+--> omg_smile.gif                           11/07/2014 11:54:15 > 19/03/2014 13:35:59             2 KB =             2 KB  Yes
+--> omg_smile.png                           11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> regular_smile.gif                       11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> regular_smile.png                       11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> sad_smile.gif                           11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> sad_smile.png                           11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> shades_smile.gif                        11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> shades_smile.png                        11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> teeth_smile.gif                         11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> teeth_smile.png                         11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> thumbs_down.gif                         11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> thumbs_down.png                         11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> thumbs_up.gif                           11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> thumbs_up.png                           11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> tongue_smile.gif                        11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> tongue_smile.png                        11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> tounge_smile.gif                        11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> whatchutalkingabout_smile.gif           11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> whatchutalkingabout_smile.png           11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> wink_smile.gif                          11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+--> wink_smile.png                          11/07/2014 11:54:15 > 19/03/2014 13:36:00             2 KB =             2 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\specialchar\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\specialchar\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> specialchar.js                          11/07/2014 11:54:15 > 19/03/2014 13:36:01             5 KB =             5 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\specialchar\dialogs\lang & E:\dekaroncms\cms\application\js\ckeditor\plugins\specialchar\dialogs\lang
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> _translationstatus.txt                  11/07/2014 11:54:15 > 19/03/2014 13:36:00             1 KB =             1 KB  Yes
+--> ar.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> bg.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> ca.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> cs.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> cy.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> de.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> el.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             8 KB =             8 KB  Yes
+--> en.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> eo.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> es.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> et.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> fa.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             6 KB =             6 KB  Yes
+--> fi.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> fr.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> fr-ca.js                                11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> gl.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> he.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> hr.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> hu.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> id.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> it.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> ja.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> km.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> ku.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             8 KB =             8 KB  Yes
+--> lv.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> nb.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> nl.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> no.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> pl.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> pt.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> pt-br.js                                11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> ru.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             8 KB =             8 KB  Yes
+--> si.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> sk.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> sl.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> sq.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> sv.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             4 KB =             4 KB  Yes
+--> th.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> tr.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> ug.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             5 KB =             5 KB  Yes
+--> uk.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             7 KB =             7 KB  Yes
+--> vi.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:00             6 KB =             6 KB  Yes
+--> zh.js                                   11/07/2014 11:54:15 > 19/03/2014 13:36:01             5 KB =             5 KB  Yes
+--> zh-cn.js                                11/07/2014 11:54:15 > 19/03/2014 13:36:01             5 KB =             5 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\table\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\table\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> table.js                                11/07/2014 11:54:15 > 19/03/2014 13:36:01             9 KB =             9 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\tabletools\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\tabletools\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> tableCell.js                            11/07/2014 11:54:15 > 19/03/2014 13:36:01             7 KB =             7 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\templates\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\templates\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> templates.css                           11/07/2014 11:54:15 > 19/03/2014 13:36:01             2 KB =             2 KB  Yes
+--> templates.js                            11/07/2014 11:54:15 > 19/03/2014 13:36:01             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\templates\templates & E:\dekaroncms\cms\application\js\ckeditor\plugins\templates\templates
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> default.js                              11/07/2014 11:54:15 > 19/03/2014 13:36:01             2 KB =             2 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\templates\templates\images & E:\dekaroncms\cms\application\js\ckeditor\plugins\templates\templates\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> template1.gif                           11/07/2014 11:54:15 > 19/03/2014 13:36:01             1 KB =             1 KB  Yes
+--> template2.gif                           11/07/2014 11:54:15 > 19/03/2014 13:36:01             1 KB =             1 KB  Yes
+--> template3.gif                           11/07/2014 11:54:15 > 19/03/2014 13:36:01             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\wsc & E:\dekaroncms\cms\application\js\ckeditor\plugins\wsc
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> LICENSE.md                              11/07/2014 11:54:15 > 19/03/2014 13:36:01             2 KB =             2 KB  Yes
+--> README.md                               11/07/2014 11:54:15 > 19/03/2014 13:36:01             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\plugins\wsc\dialogs & E:\dekaroncms\cms\application\js\ckeditor\plugins\wsc\dialogs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> ciframe.html                            11/07/2014 11:54:15 > 19/03/2014 13:36:01             2 KB =             2 KB  Yes
+--> tmp.html                                11/07/2014 11:54:15 > 19/03/2014 13:36:01             4 KB =             4 KB  Yes
+--> tmpFrameset.html                        11/07/2014 11:54:15 > 19/03/2014 13:36:01             2 KB =             2 KB  Yes
+--> wsc.css                                 11/07/2014 11:54:15 > 19/03/2014 13:36:01             2 KB =             2 KB  Yes
+--> wsc.js                                  11/07/2014 11:54:15 > 19/03/2014 13:36:01            33 KB =            33 KB  Yes
+--> wsc_ie.js                               11/07/2014 11:54:15 > 19/03/2014 13:36:01             4 KB =             4 KB  Yes
+
+C:\wamp\www\application\js\ckeditor & E:\dekaroncms\cms\application\js\ckeditor
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> samples\                                                                                                             
+
+C:\wamp\www\application\js\ckeditor\samples & E:\dekaroncms\cms\application\js\ckeditor\samples
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> ajax.html                               11/07/2014 11:54:16 >                                 3 KB >                   No
+--> api.html                                11/07/2014 11:54:16 >                                 7 KB >                   No
+--> appendto.html                           11/07/2014 11:54:16 >                                 2 KB >                   No
+--> datafiltering.html                      11/07/2014 11:54:16 >                                34 KB >                   No
+--> divreplace.html                         11/07/2014 11:54:16 >                                 5 KB >                   No
+--> index.html                              11/07/2014 11:54:16 >                                 6 KB >                   No
+--> inlineall.html                          11/07/2014 11:54:16 >                                10 KB >                   No
+--> inlinebycode.html                       11/07/2014 11:54:16 >                                 6 KB >                   No
+--> inlinetextarea.html                     11/07/2014 11:54:16 >                                 5 KB >                   No
+--> jquery.html                             11/07/2014 11:54:16 >                                 8 KB >                   No
+--> readonly.html                           11/07/2014 11:54:16 >                                 3 KB >                   No
+--> replacebyclass.html                     11/07/2014 11:54:16 >                                 7 KB >                   No
+--> replacebycode.html                      11/07/2014 11:54:16 >                                 7 KB >                   No
+--> sample.css                              11/07/2014 11:54:16 >                                 6 KB >                   No
+--> sample.js                               11/07/2014 11:54:16 >                                 2 KB >                   No
+--> sample_posteddata.php                   11/07/2014 11:54:16 >                                 1 KB >                   No
+--> tabindex.html                           11/07/2014 11:54:16 >                                 3 KB >                   No
+--> uicolor.html                            11/07/2014 11:54:16 >                                 3 KB >                   No
+--> uilanguages.html                        11/07/2014 11:54:16 >                                 5 KB >                   No
+--> xhtmlstyle.html                         11/07/2014 11:54:16 >                                 7 KB >                   No
+--> assets\                                                                                                              
+
+C:\wamp\www\application\js\ckeditor\samples\assets & E:\dekaroncms\cms\application\js\ckeditor\samples\assets
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> posteddata.php                          11/07/2014 11:54:16 >                                 2 KB >                   No
+--> sample.css                              11/07/2014 11:54:16 >                                 1 KB >                   No
+--> sample.jpg                              11/07/2014 11:54:16 >                                18 KB >                   No
+--> inlineall\                                                                                                           
+
+C:\wamp\www\application\js\ckeditor\samples\assets\inlineall & E:\dekaroncms\cms\application\js\ckeditor\samples\assets\inlineall
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> logo.png                                11/07/2014 11:54:15 >                                 5 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples\assets & E:\dekaroncms\cms\application\js\ckeditor\samples\assets
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> outputxhtml\                                                                                                         
+
+C:\wamp\www\application\js\ckeditor\samples\assets\outputxhtml & E:\dekaroncms\cms\application\js\ckeditor\samples\assets\outputxhtml
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> outputxhtml.css                         11/07/2014 11:54:15 >                                 3 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples\assets & E:\dekaroncms\cms\application\js\ckeditor\samples\assets
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> uilanguages\                                                                                                         
+
+C:\wamp\www\application\js\ckeditor\samples\assets\uilanguages & E:\dekaroncms\cms\application\js\ckeditor\samples\assets\uilanguages
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> languages.js                            11/07/2014 11:54:16 >                                 2 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples & E:\dekaroncms\cms\application\js\ckeditor\samples
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> plugins\                                                                                                             
+
+C:\wamp\www\application\js\ckeditor\samples\plugins & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> dialog\                                                                                                              
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\dialog & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\dialog
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> dialog.html                             11/07/2014 11:54:16 >                                 7 KB >                   No
+--> assets\                                                                                                              
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\dialog\assets & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\dialog\assets
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> my_dialog.js                            11/07/2014 11:54:16 >                                 1 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples\plugins & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> enterkey\                                                                                                            
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\enterkey & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\enterkey
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> enterkey.html                           11/07/2014 11:54:16 >                                 5 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples\plugins & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> htmlwriter\                                                                                                          
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\htmlwriter & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\htmlwriter
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> outputforflash.html                     11/07/2014 11:54:16 >                                10 KB >                   No
+--> outputhtml.html                         11/07/2014 11:54:16 >                                 7 KB >                   No
+--> assets\                                                                                                              
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\htmlwriter\assets & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\htmlwriter\assets
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> outputforflash\                                                                                                      
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\htmlwriter\assets\outputforflash & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\htmlwriter\assets\outputforflash
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> outputforflash.fla                      11/07/2014 11:54:16 >                                84 KB >                   No
+--> outputforflash.swf                      11/07/2014 11:54:16 >                                16 KB >                   No
+--> swfobject.js                            11/07/2014 11:54:16 >                                 9 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples\plugins & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> magicline\                                                                                                           
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\magicline & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\magicline
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> magicline.html                          11/07/2014 11:54:16 >                                 8 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples\plugins & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> toolbar\                                                                                                             
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\toolbar & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\toolbar
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> toolbar.html                            11/07/2014 11:54:16 >                                 9 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\samples\plugins & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> wysiwygarea\                                                                                                         
+
+C:\wamp\www\application\js\ckeditor\samples\plugins\wysiwygarea & E:\dekaroncms\cms\application\js\ckeditor\samples\plugins\wysiwygarea
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> fullpage.html                           11/07/2014 11:54:16 >                                 8 KB >                   No
+
+C:\wamp\www\application\js\ckeditor\skins\moono & E:\dekaroncms\cms\application\js\ckeditor\skins\moono
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> dialog.css                              11/07/2014 11:54:16 > 19/03/2014 13:36:02            13 KB =            13 KB  Yes
+--> dialog_ie.css                           11/07/2014 11:54:16 > 19/03/2014 13:36:02            14 KB =            14 KB  Yes
+--> dialog_ie7.css                          11/07/2014 11:54:16 > 19/03/2014 13:36:02            15 KB =            15 KB  Yes
+--> dialog_ie8.css                          11/07/2014 11:54:16 > 19/03/2014 13:36:02            15 KB =            15 KB  Yes
+--> dialog_iequirks.css                     11/07/2014 11:54:16 > 19/03/2014 13:36:02            14 KB =            14 KB  Yes
+--> dialog_opera.css                        11/07/2014 11:54:16 > 19/03/2014 13:36:02            14 KB =            14 KB  Yes
+--> editor.css                              11/07/2014 11:54:16 > 19/03/2014 13:36:02            32 KB =            32 KB  Yes
+--> editor_gecko.css                        11/07/2014 11:54:16 > 19/03/2014 13:36:02            32 KB =            32 KB  Yes
+--> editor_ie.css                           11/07/2014 11:54:16 > 19/03/2014 13:36:02            33 KB =            33 KB  Yes
+--> editor_ie7.css                          11/07/2014 11:54:16 > 19/03/2014 13:36:02            36 KB =            36 KB  Yes
+--> editor_ie8.css                          11/07/2014 11:54:16 > 19/03/2014 13:36:02            34 KB =            34 KB  Yes
+--> editor_iequirks.css                     11/07/2014 11:54:16 > 19/03/2014 13:36:02            34 KB =            34 KB  Yes
+--> icons.png                               11/07/2014 11:54:16 > 19/03/2014 13:36:02            10 KB =            10 KB  Yes
+--> icons_hidpi.png                         11/07/2014 11:54:16 > 19/03/2014 13:36:02            34 KB =            34 KB  Yes
+--> readme.md                               11/07/2014 11:54:16 > 19/03/2014 13:36:02             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\skins\moono\images & E:\dekaroncms\cms\application\js\ckeditor\skins\moono\images
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> arrow.png                               11/07/2014 11:54:16 > 19/03/2014 13:36:02             1 KB =             1 KB  Yes
+--> close.png                               11/07/2014 11:54:16 > 19/03/2014 13:36:02             1 KB =             1 KB  Yes
+--> lock.png                                11/07/2014 11:54:16 > 19/03/2014 13:36:02             1 KB =             1 KB  Yes
+--> lock-open.png                           11/07/2014 11:54:16 > 19/03/2014 13:36:02             1 KB =             1 KB  Yes
+--> refresh.png                             11/07/2014 11:54:16 > 19/03/2014 13:36:02             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\js\ckeditor\skins\moono\images\hidpi & E:\dekaroncms\cms\application\js\ckeditor\skins\moono\images\hidpi
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> close.png                               11/07/2014 11:54:16 > 19/03/2014 13:36:02             2 KB =             2 KB  Yes
+--> lock.png                                11/07/2014 11:54:16 > 19/03/2014 13:36:02             2 KB =             2 KB  Yes
+--> lock-open.png                           11/07/2014 11:54:16 > 19/03/2014 13:36:02             2 KB =             2 KB  Yes
+--> refresh.png                             11/07/2014 11:54:16 > 19/03/2014 13:36:02             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\modules\admin\controllers & E:\dekaroncms\cms\application\modules\admin\controllers
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> settings.php                            5/12/2014 10:24:31  > 17/11/2014 6:36:37             10 KB <            10 KB  Yes
+
+C:\wamp\www\application\modules\admin\js & E:\dekaroncms\cms\application\modules\admin\js
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> settings.js                             5/12/2014 10:00:50  > 12/11/2014 17:14:25             6 KB =             6 KB  Yes
+
+C:\wamp\www\application\modules\admin\views\settings & E:\dekaroncms\cms\application\modules\admin\views\settings
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> tab_theme.tpl                           5/12/2014 10:01:50  > 11/11/2014 6:22:23              2 KB >             2 KB  Yes
+
+C:\wamp\www\application\themes\admin\css & E:\dekaroncms\cms\application\themes\admin\css
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> bootstrap.css                           11/07/2014 11:54:13 < 5/08/2014 9:33:28              98 KB <            98 KB  Yes
+--> main.css                                11/07/2014 11:54:13 < 6/08/2014 11:32:11             75 KB >            74 KB  Yes
+--> plugins.css                             11/07/2014 11:54:13 > 11/07/2014 10:49:22           174 KB =           174 KB  Yes
+--> themes.css                              11/07/2014 11:54:13 > 17/10/2013 14:27:11            10 KB =            10 KB  Yes
+
+C:\wamp\www\application\themes\admin\css\fonts & E:\dekaroncms\cms\application\themes\admin\css\fonts
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> Glyphicons PRO (License).txt            11/07/2014 11:54:12 > 17/10/2013 14:27:10             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\themes\admin\css\fonts\fontawesome & E:\dekaroncms\cms\application\themes\admin\css\fonts\fontawesome
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> FontAwesome.otf                         11/07/2014 11:54:12 > 11/07/2014 9:42:02             74 KB =            74 KB  Yes
+--> fontawesome-webfont.eot                 11/07/2014 11:54:12 > 11/07/2014 9:42:02             71 KB =            71 KB  Yes
+--> fontawesome-webfont.svg                 11/07/2014 11:54:12 > 11/07/2014 9:42:02            248 KB =           248 KB  Yes
+--> fontawesome-webfont.ttf                 11/07/2014 11:54:12 > 11/07/2014 9:42:02            139 KB =           139 KB  Yes
+--> fontawesome-webfont.woff                11/07/2014 11:54:12 > 11/07/2014 9:42:02             82 KB =            82 KB  Yes
+
+C:\wamp\www\application\themes\admin\css\fonts\glyphicons.filetypes.pro & E:\dekaroncms\cms\application\themes\admin\css\fonts\glyphicons.filetypes.pro
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> glyphicons-filetypes-regular.eot        11/07/2014 11:54:12 > 19/03/2014 14:13:47            22 KB =            22 KB  Yes
+--> glyphicons-filetypes-regular.svg        11/07/2014 11:54:12 > 19/03/2014 14:13:48            93 KB =            93 KB  Yes
+--> glyphicons-filetypes-regular.ttf        11/07/2014 11:54:12 > 19/03/2014 14:13:48            76 KB =            76 KB  Yes
+--> glyphicons-filetypes-regular.woff       11/07/2014 11:54:12 > 19/03/2014 14:13:48            25 KB =            25 KB  Yes
+
+C:\wamp\www\application\themes\admin\css\fonts\glyphicons.halflings.pro & E:\dekaroncms\cms\application\themes\admin\css\fonts\glyphicons.halflings.pro
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> glyphicons-halflings-regular.eot        11/07/2014 11:54:12 > 19/03/2014 14:13:48            20 KB =            20 KB  Yes
+--> glyphicons-halflings-regular.svg        11/07/2014 11:54:12 > 19/03/2014 14:13:48            62 KB =            62 KB  Yes
+--> glyphicons-halflings-regular.ttf        11/07/2014 11:54:12 > 19/03/2014 14:13:48            41 KB =            41 KB  Yes
+--> glyphicons-halflings-regular.woff       11/07/2014 11:54:12 > 19/03/2014 14:13:48            23 KB =            23 KB  Yes
+
+C:\wamp\www\application\themes\admin\css\fonts\glyphicons.pro & E:\dekaroncms\cms\application\themes\admin\css\fonts\glyphicons.pro
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> glyphicons-regular.eot                  11/07/2014 11:54:12 > 19/03/2014 14:13:48            80 KB =            80 KB  Yes
+--> glyphicons-regular.svg                  11/07/2014 11:54:12 > 19/03/2014 14:13:48           274 KB =           274 KB  Yes
+--> glyphicons-regular.ttf                  11/07/2014 11:54:12 > 19/03/2014 14:13:48           154 KB =           154 KB  Yes
+--> glyphicons-regular.woff                 11/07/2014 11:54:12 > 19/03/2014 14:13:48            93 KB =            93 KB  Yes
+
+C:\wamp\www\application\themes\admin\css\fonts\glyphicons.social.pro & E:\dekaroncms\cms\application\themes\admin\css\fonts\glyphicons.social.pro
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> glyphicons-social-regular.eot           11/07/2014 11:54:12 > 19/03/2014 14:13:48            14 KB =            14 KB  Yes
+--> glyphicons-social-regular.svg           11/07/2014 11:54:12 > 19/03/2014 14:13:48            37 KB =            37 KB  Yes
+--> glyphicons-social-regular.ttf           11/07/2014 11:54:12 > 19/03/2014 14:13:48            22 KB =            22 KB  Yes
+--> glyphicons-social-regular.woff          11/07/2014 11:54:12 > 19/03/2014 14:13:48            15 KB =            15 KB  Yes
+
+C:\wamp\www\application\themes\admin\css\themes & E:\dekaroncms\cms\application\themes\admin\css\themes
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> amethyst.css                            11/07/2014 11:54:12 >                                 4 KB >                   No
+--> army.css                                11/07/2014 11:54:12 >                                 4 KB >                   No
+--> asphalt.css                             11/07/2014 11:54:12 >                                 4 KB >                   No
+--> autumn.css                              11/07/2014 11:54:12 >                                 4 KB >                   No
+--> cherry.css                              11/07/2014 11:54:12 >                                 4 KB >                   No
+--> city.css                                11/07/2014 11:54:12 >                                 4 KB >                   No
+--> dawn.css                                11/07/2014 11:54:12 >                                 4 KB >                   No
+--> deepsea.css                             11/07/2014 11:54:12 >                                 4 KB >                   No
+--> diamond.css                             11/07/2014 11:54:12 >                                 4 KB >                   No
+--> fire.css                                11/07/2014 11:54:12 >                                 4 KB >                   No
+--> grass.css                               11/07/2014 11:54:13 >                                 4 KB >                   No
+--> leaf.css                                11/07/2014 11:54:13 >                                 4 KB >                   No
+--> night.css                               11/07/2014 11:54:13 > 20/03/2014 10:09:08             4 KB =             4 KB  Yes
+--> ocean.css                               11/07/2014 11:54:13 >                                 4 KB >                   No
+--> oil.css                                 11/07/2014 11:54:13 >                                 4 KB >                   No
+--> stone.css                               11/07/2014 11:54:13 >                                 4 KB >                   No
+--> sun.css                                 11/07/2014 11:54:13 >                                 4 KB >                   No
+--> tulip.css                               11/07/2014 11:54:13 >                                 4 KB >                   No
+--> wood.css                                11/07/2014 11:54:13 >                                 4 KB >                   No
+
+C:\wamp\www\application\themes\admin\img & E:\dekaroncms\cms\application\themes\admin\img
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> favicon.ico                             11/07/2014 11:54:12 > 25/10/2013 23:42:01             1 KB =             1 KB  Yes
+--> icon114.png                             11/07/2014 11:54:12 >                                 1 KB >                   No
+--> icon120.png                             11/07/2014 11:54:12 >                                 1 KB >                   No
+--> icon144.png                             11/07/2014 11:54:12 >                                 1 KB >                   No
+--> icon152.png                             11/07/2014 11:54:12 >                                 1 KB >                   No
+--> icon57.png                              11/07/2014 11:54:12 >                                 1 KB >                   No
+--> icon72.png                              11/07/2014 11:54:12 >                                 1 KB >                   No
+--> icon76.png                              11/07/2014 11:54:12 >                                 1 KB >                   No
+
+C:\wamp\www\application\themes\admin\img\gemicon & E:\dekaroncms\cms\application\themes\admin\img\gemicon
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> gemicon_dark_16x16.png                  11/07/2014 11:54:11 > 17/10/2013 14:27:11            32 KB =            32 KB  Yes
+--> gemicon_dark_32x32.png                  11/07/2014 11:54:11 > 17/10/2013 14:27:11            65 KB =            65 KB  Yes
+--> gemicon_dark_64x64.png                  11/07/2014 11:54:11 > 17/10/2013 14:27:11           140 KB =           140 KB  Yes
+--> gemicon_white_16x16.png                 11/07/2014 11:54:11 > 17/10/2013 14:27:11            19 KB =            19 KB  Yes
+--> gemicon_white_32x32.png                 11/07/2014 11:54:11 > 17/10/2013 14:27:11            35 KB =            35 KB  Yes
+--> gemicon_white_64x64.png                 11/07/2014 11:54:11 > 17/10/2013 14:27:11            74 KB =            74 KB  Yes
+
+C:\wamp\www\application\themes\admin\img\jquery.chosen & E:\dekaroncms\cms\application\themes\admin\img\jquery.chosen
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> chosen-sprite.png                       11/07/2014 11:54:11 > 17/10/2013 14:27:11             1 KB =             1 KB  Yes
+--> chosen-sprite@2x.png                    11/07/2014 11:54:11 > 17/10/2013 14:27:11             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\themes\admin\img\jquery.colorpicker & E:\dekaroncms\cms\application\themes\admin\img\jquery.colorpicker
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> alpha.png                               11/07/2014 11:54:11 > 17/10/2013 14:27:11             4 KB =             4 KB  Yes
+--> hue.png                                 11/07/2014 11:54:11 > 17/10/2013 14:27:11             3 KB =             3 KB  Yes
+--> saturation.png                          11/07/2014 11:54:11 > 17/10/2013 14:27:12             9 KB =             9 KB  Yes
+
+C:\wamp\www\application\themes\admin\img\jquery.datatables & E:\dekaroncms\cms\application\themes\admin\img\jquery.datatables
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> sort_asc.png                            11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_asc@2x.png                         11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_asc_disabled.png                   11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_asc_disabled@2x.png                11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_both.png                           11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_both@2x.png                        11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_desc.png                           11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_desc@2x.png                        11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_desc_disabled.png                  11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+--> sort_desc_disabled@2x.png               11/07/2014 11:54:11 > 17/10/2013 14:27:12             1 KB =             1 KB  Yes
+
+C:\wamp\www\application\themes\admin\img\jquery.icheck & E:\dekaroncms\cms\application\themes\admin\img\jquery.icheck
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> grey.png                                11/07/2014 11:54:11 > 17/10/2013 14:27:12             3 KB =             3 KB  Yes
+--> grey@2x.png                             11/07/2014 11:54:11 > 17/10/2013 14:27:12             5 KB =             5 KB  Yes
+
+C:\wamp\www\application\themes\admin\img\loading.gifs & E:\dekaroncms\cms\application\themes\admin\img\loading.gifs
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> loading01.gif                           11/07/2014 11:54:11 > 17/10/2013 14:27:12             2 KB =             2 KB  Yes
+--> loading01@2x.gif                        11/07/2014 11:54:11 > 17/10/2013 14:27:12             3 KB =             3 KB  Yes
+--> loading02.gif                           11/07/2014 11:54:11 > 17/10/2013 14:27:12             7 KB =             7 KB  Yes
+--> loading02@2x.gif                        11/07/2014 11:54:11 > 17/10/2013 14:27:12            11 KB =            11 KB  Yes
+--> loading03.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:12             5 KB =             5 KB  Yes
+--> loading03@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:12             9 KB =             9 KB  Yes
+--> loading04.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:12             5 KB =             5 KB  Yes
+--> loading04@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             9 KB =             9 KB  Yes
+--> loading05.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             5 KB =             5 KB  Yes
+--> loading05@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             8 KB =             8 KB  Yes
+--> loading06.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13            12 KB =            12 KB  Yes
+--> loading06@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13            23 KB =            23 KB  Yes
+--> loading07.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             5 KB =             5 KB  Yes
+--> loading07@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             8 KB =             8 KB  Yes
+--> loading08.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             3 KB =             3 KB  Yes
+--> loading08@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             5 KB =             5 KB  Yes
+--> loading09.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             4 KB =             4 KB  Yes
+--> loading09@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             7 KB =             7 KB  Yes
+--> loading10.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             3 KB =             3 KB  Yes
+--> loading10@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             6 KB =             6 KB  Yes
+--> loading11.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             6 KB =             6 KB  Yes
+--> loading11@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13            12 KB =            12 KB  Yes
+--> loading12.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             7 KB =             7 KB  Yes
+--> loading12@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             8 KB =             8 KB  Yes
+--> loading13.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             5 KB =             5 KB  Yes
+--> loading13@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13            11 KB =            11 KB  Yes
+--> loading14.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             4 KB =             4 KB  Yes
+--> loading14@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             6 KB =             6 KB  Yes
+--> loading15.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             4 KB =             4 KB  Yes
+--> loading15@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             6 KB =             6 KB  Yes
+--> loading16.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             4 KB =             4 KB  Yes
+--> loading16@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             7 KB =             7 KB  Yes
+--> loading17.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             7 KB =             7 KB  Yes
+--> loading17@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13            10 KB =            10 KB  Yes
+--> loading18.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             6 KB =             6 KB  Yes
+--> loading18@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13             8 KB =             8 KB  Yes
+--> loading19.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             5 KB =             5 KB  Yes
+--> loading19@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13            10 KB =            10 KB  Yes
+--> loading20.gif                           11/07/2014 11:54:12 > 17/10/2013 14:27:13             8 KB =             8 KB  Yes
+--> loading20@2x.gif                        11/07/2014 11:54:12 > 17/10/2013 14:27:13            13 KB =            13 KB  Yes
+
+C:\wamp\www\application\themes\admin\img\placeholders & E:\dekaroncms\cms\application\themes\admin\img\placeholders
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> full_background.jpg                     11/07/2014 11:54:12 > 11/07/2014 11:03:07            92 KB =            92 KB  Yes
+--> image_120x120_dark.png                  11/07/2014 11:54:12 > 17/10/2013 14:27:13             1 KB =             1 KB  Yes
+--> image_120x120_light.png                 11/07/2014 11:54:12 > 17/10/2013 14:27:13             1 KB =             1 KB  Yes
+--> image_160x120_dark.png                  11/07/2014 11:54:12 > 17/10/2013 14:27:13             1 KB =             1 KB  Yes
+--> image_160x120_light.png                 11/07/2014 11:54:12 > 17/10/2013 14:27:13             1 KB =             1 KB  Yes
+--> image_1680x1050_dark.png                11/07/2014 11:54:12 > 17/10/2013 14:27:13             6 KB =             6 KB  Yes
+--> image_1680x1050_light.png               11/07/2014 11:54:12 > 17/10/2013 14:27:14             6 KB =             6 KB  Yes
+--> image_64x64_dark.png                    11/07/2014 11:54:12 > 17/10/2013 14:27:14             1 KB =             1 KB  Yes
+--> image_64x64_light.png                   11/07/2014 11:54:12 > 17/10/2013 14:27:14             1 KB =             1 KB  Yes
+--> image_720x450_dark.png                  11/07/2014 11:54:12 > 17/10/2013 14:27:14             3 KB =             3 KB  Yes
+--> image_720x450_light.png                 11/07/2014 11:54:12 > 17/10/2013 14:27:14             3 KB =             3 KB  Yes
+
+C:\wamp\www\application\themes\admin\img\template & E:\dekaroncms\cms\application\themes\admin\img\template
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> avatar.jpg                              11/07/2014 11:54:12 >                                 6 KB >                   No
+--> avatar@2x.jpg                           11/07/2014 11:54:12 >                                19 KB >                   No
+--> avatar2.jpg                             11/07/2014 11:54:12 >                                 9 KB >                   No
+--> avatar2@2x.jpg                          11/07/2014 11:54:12 >                                31 KB >                   No
+--> bg.png                                  11/07/2014 11:54:12 > 17/10/2013 14:27:14             8 KB =             8 KB  Yes
+--> bg@2x.png                               11/07/2014 11:54:12 > 17/10/2013 14:27:14            35 KB =            35 KB  Yes
+--> flatapp_landing_promo.png               11/07/2014 11:54:12 >                                21 KB >                   No
+--> landing_bg.jpg                          11/07/2014 11:54:12 >                                46 KB >                   No
+--> logo.png                                11/07/2014 11:54:12 < 8/10/2014 16:11:44              1 KB <             8 KB  Yes
+--> logo@2x.png                             11/07/2014 11:54:12 >                                 1 KB >                   No
+--> pixelcave.png                           11/07/2014 11:54:12 >                                 2 KB >                   No
+--> pixelcave@2x.png                        11/07/2014 11:54:12 >                                 3 KB >                   No
+
+C:\wamp\www\application\themes\admin\js & E:\dekaroncms\cms\application\themes\admin\js
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> main.js                                 11/07/2014 11:54:16 < 29/10/2014 13:08:25            21 KB >             9 KB  Yes
+--> plugins.js                              11/07/2014 17:19:00 < 29/10/2014 13:12:55           691 KB =           691 KB  Yes
+
+C:\wamp\www\application\themes\admin\js\helpers & E:\dekaroncms\cms\application\themes\admin\js\helpers
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> excanvas.min.js                         11/07/2014 11:54:16 > 17/10/2013 14:27:15            19 KB =            19 KB  Yes
+--> gmaps.min.js                            11/07/2014 11:54:16 > 11/07/2014 9:38:15             29 KB =            29 KB  Yes
+--> jqvmap.maps.js                          11/07/2014 11:54:16 > 17/10/2013 14:27:16           410 KB =           410 KB  Yes
+
+C:\wamp\www\application\themes\admin\js\vendor & E:\dekaroncms\cms\application\themes\admin\js\vendor
+Act File name                               Left modified         Right modified             Left size         Right size  Archive
+--> bootstrap.min.js                        11/07/2014 11:54:16 > 11/07/2014 9:40:07             38 KB =            38 KB  Yes
+--> jquery-1.11.1.min.js                    11/07/2014 11:54:16 > 11/07/2014 9:40:07             94 KB =            94 KB  Yes
+--> modernizr-2.7.1-respond-1.4.2.min.js    11/07/2014 11:54:16 > 20/03/2014 11:10:00            14 KB =            14 KB  Yes
+
+Sync pair ended at: 5/12/2014 10:44:44 time taken: 0:00:10
+Total items checked: 1797
+Total items synchronized: 514
+Total items transferred: 514    Size: 7,6 MB    KB per second: 714
+
+----------------------------------------------------------------------------------------------------
+
+Sync run ended at: 5/12/2014 10:44:44 time taken: 0:00:10
+Total items checked: 1797
+Total items synchronized: 514
+Total items transferred: 514    Size: 7,6 MB    KB per second: 714

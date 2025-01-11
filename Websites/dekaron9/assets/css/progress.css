@@ -1,0 +1,26 @@
+#progress {
+ width: 649px;   
+ border: 1px solid #867A68;
+ position: relative;
+ padding: 3px;
+}
+
+#percent {
+ position: absolute;   
+ left: 50%;
+  color: #FFFFFF;
+}
+
+#bar_green {
+ height: 20px;
+ background-color: green;
+
+
+}
+
+#bar_red {
+ height: 20px;
+ background-color: red;
+
+
+}

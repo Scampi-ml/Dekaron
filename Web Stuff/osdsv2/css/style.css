@@ -1,0 +1,455 @@
+body {
+	background: #374251;
+	font-family: arial, verdana, tahoma, sans-serif;
+	font-size: 12px;
+	position: relative;
+	color: #b1c1d6;
+	padding: 0px 0px 0px 0px;
+	margin: 20px;
+
+}
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+
+
+
+
+#easyTooltip{
+	padding:5px;
+	border:1px solid #ffdb1f;
+	background:#fafafa;
+	color: #374251;
+	}
+
+a:link,
+a:visited{
+	color: #b1c1d6;
+	text-decoration: none;
+}
+
+a:hover,
+a:active{
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.main_content{
+	    background: #5b6877;
+		color: #fff;
+		font-size: 12px;
+		padding: 10px;
+		text-align: left;
+}
+.yui-t7 .content {
+  width: 36em;
+  margin: 1em auto 4em auto;
+}
+
+.logo{
+	    background: #dcd9de url('images/logo_bg.png') no-repeat right;
+	    float: left
+		padding: 0px;
+		text-align: left;
+}
+
+
+.nav{
+	    background: url('images/ui-bg_gloss-wave_35_f6a828_500x100.png') repeat-x left;
+		color: #000;
+		font-size: 11px;
+		font-weight: bold;
+		padding: 5px;
+		text-align: left;
+}
+
+.nav a:link,
+.nav a:visited{
+	color: #5b6877;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+.nav a:hover,
+.nav a:active{
+	color: #000;
+	text-decoration: none;
+}
+
+
+.bottom{
+	    background: url('images/ui-bg_gloss-wave_35_f6a828_500x100.png') repeat-x left;
+		color: #000;
+		font-size: 11px;
+		font-weight: bold;
+		padding: 5px;
+		text-align: middle;		
+}
+
+.bottom a:link,
+.bottom a:visited{
+	color: #5b6877;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+.bottom a:hover,
+.bottom a:active{
+	color: #000;
+	text-decoration: none;
+}
+
+input, select {
+    border: 1px solid #888;
+    background: #ffffff;
+    padding: 3px 4px;
+    color: #222;
+    margin: 0px 5px 0px 0px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.InputGroup {
+    display: inline-block;
+    padding: 3px 4px;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+
+
+
+
+.content form {
+	margin-bottom: 1.5em;
+}
+.content fieldset {
+	margin: 0 0 1em 0;
+	padding: 0;
+	border-bottom: 1px solid #eeeeee; 
+}
+.form-field {
+	position: relative;
+	clear: both;
+	margin-bottom: 0em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+.form-field2 {
+	position: relative;
+	clear: both;
+	margin-bottom: 0em;
+	margin-right: 0em;
+	margin-left: 0em;
+}
+
+.content form.slim .form-field {
+	margin-left: 0;
+}
+.content .form-field-error input, .content .form-field-error select, .content .form-field-error textarea {
+	background-color: #FFF4F4;
+	border-color: #FFCCCC;
+}
+.content .form-field-error .form-field-message {
+	margin: -5px 2px 1em 2px;	
+	font-style: italic;
+	color: #990000;
+}
+.content label {
+	display: inline-block;
+	font-weight: bold;
+	width: 12em;
+	margin-bottom: .2em;
+	top: .4em;
+}
+.content .form-text, .content .form-password, .content select, .content .form-textarea, .content .form-text_and_select .form-select_and_text {
+	border: 1px solid #CAD4D8;
+	background-color: #F4F6F7;
+	margin-bottom: 10px;
+}
+.content .form-text, .content .form-password, .content .password-strength, .content .form-textarea, .content .form-text_and_select .form-select_and_text {
+	padding: .3em;
+	width: 20em;
+}
+.content .form-textarea {
+	width: 30em;
+	height: 10em;
+}
+.content select {
+	padding: .2em;
+}
+
+.content input.form-text_and_select {
+	width: 8em;
+}
+.content select.form-text_and_select {
+	min-width: 8em;
+}
+
+.content .form-field input:focus, .content .form-field input:hover, .content .form-textarea:hover, .content .form-textarea:focus {
+	border-color: #617F8A;
+	background-color: #E9EEEF;
+}
+.content .form-field-error input:focus, .content .form-field-error input:hover, .content .form-field-error textarea:focus, .content .form-field-error textarea:hover {
+	background-color: #FFe0e0;
+	border-color: #cc0000;
+}
+.content .form-field input:focus, .content .form-field textarea:focus {
+	border-width: 3px;
+	margin: -2px -2px 8px -2px;	
+}
+
+.content .form-radio_horizontal {
+	float: left;
+	margin-top: .4em;
+	margin-bottom: 1em;
+	margin-right: 1.5em;
+}
+
+.content .form-radio_vertical input, .content .form-radio_horizontal input:focus {
+	margin: 0;
+	padding: 0;
+}
+.content .form-button input {
+	margin: 5px 15px 2px 2px;
+	padding: .3em .8em .3em .8em;
+	border: 1px solid #95A9B1;
+	border-radius: .9em;
+	-moz-border-radius: .9em;
+	-khtml-border-radius: .9em;
+	-webkit-border-radius: .9em;
+	background-repeat: repeat-x;
+  color: #2C5463;
+  font-weight: bold;
+}
+/* FORM */
+.content input.new {
+	float: right;
+}
+
+
+.content form {
+	margin-bottom: 1.5em;
+}
+.content fieldset {
+	margin: 0 0 1em 0;
+	padding: 0;
+	border-bottom: 1px solid #eeeeee; 
+}
+.content fieldset div.help {
+	clear: both;
+	margin-bottom: .5em;
+}
+.content .form-field {
+	position: relative;
+	clear: both;
+	margin-bottom: 0em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+.content form.slim .form-field {
+	margin-left: 0;
+}
+.content .form-field-error input, .content .form-field-error select, .content .form-field-error textarea {
+	background-color: #FFF4F4;
+	border-color: #FFCCCC;
+}
+.content .form-field-error .form-field-message {
+	margin: -5px 2px 1em 2px;	
+	font-style: italic;
+	color: #990000;
+}
+.content label {
+	display: inline-block;
+	font-weight: bold;
+	width: 12em;
+	margin-bottom: .2em;
+	top: .4em;
+}
+
+
+.content .addonmiddle
+{
+  display: inline-block;
+  width: 10em;
+  padding-right:5em;
+  text-align:right;
+}
+.content .long_label label {
+	width: 24em;
+}
+.content .form-field-error label {
+	color: #990000;
+}
+.content form.slim label {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.content .form-plaintext {
+	padding-top: .3em;
+	margin-bottom: 10px;
+}
+.content .form-text, .content .form-password, .content select, .content .form-textarea, .content .form-text_and_select .form-select_and_text {
+	border: 1px solid #CAD4D8;
+	background-color: #F4F6F7;
+	margin-bottom: 10px;
+}
+.content .form-text, .content .form-password, .content .password-strength, .content .form-textarea, .content .form-text_and_select .form-select_and_text {
+	padding: .3em;
+	width: 20em;
+}
+.content .form-textarea {
+	width: 30em;
+	height: 10em;
+}
+.content select {
+	padding: .2em;
+}
+
+.content input.form-text_and_select {
+	width: 8em;
+}
+.content select.form-text_and_select {
+	min-width: 8em;
+}
+.content span.text_and_select {
+	margin-right: .3em;
+	font-weight: bold;
+}
+.content .form-select_and_text {
+	min-width: 10em;
+}
+
+.content .table-bulk {
+	margin-left: 0;
+	margin-top: -.5em;
+}
+.content .form-field input:focus, .content .form-field input:hover, .content .form-textarea:hover, .content .form-textarea:focus {
+	border-color: #617F8A;
+	background-color: #E9EEEF;
+}
+.content .form-field-error input:focus, .content .form-field-error input:hover, .content .form-field-error textarea:focus, .content .form-field-error textarea:hover {
+	background-color: #FFe0e0;
+	border-color: #cc0000;
+}
+.content .form-field input:focus, .content .form-field textarea:focus {
+	border-width: 3px;
+	margin: -2px -2px 8px -2px;	
+}
+
+.reload {
+	display: none;
+}
+
+.content .form-radio_horizontal {
+	float: left;
+	margin-top: .4em;
+	margin-bottom: 1em;
+	margin-right: 1.5em;
+}
+.content .form-radio_horizontal span {
+	position: relative;
+	top: -.2em;
+}
+.content .form-radio_horizontal input, .content .form-radio_horizontal input:focus {
+	margin: 0;
+	padding: 0;
+}
+.content .form-radio_vertical {
+	margin-top: .4em;
+	margin-bottom: 1em;
+	margin-right: 1.5em;
+}
+.content .form-radio_vertical span {
+	position: relative;
+	top: -.2em;
+}
+.content .form-radio_vertical input, .content .form-radio_horizontal input:focus {
+	margin: 0;
+	padding: 0;
+}
+.content .form-button input {
+	margin: 5px 15px 2px 2px;
+	padding: .3em .8em .3em .8em;
+	border: 1px solid #95A9B1;
+	border-radius: .9em;
+	-moz-border-radius: .9em;
+	-khtml-border-radius: .9em;
+	-webkit-border-radius: .9em;
+	background-repeat: repeat-x;
+  background-image: url('images/bg_light.png');
+  color: #2C5463;
+  font-weight: bold;
+}
+.content .form-button input:hover {
+  cursor: pointer;
+  border-color: #617F8A;
+  background-image: url('images/bg_light.png');
+  color: #2C5463; 
+  border-width: 2px;
+  margin: 4px 14px 1px 1px;
+}
+.content .form-field .cancel {
+}
+
+.content .password-strength-bar {
+	height: 5px;
+	background-color: #eeeeee;
+	margin-bottom: .5em;
+}
+.content .password-strength-bar div {
+	height: 100%;
+}
+.content .password-strength-bar-level0 { width:10%; background-color:#cc0000; }
+.content .password-strength-bar-level1 { width:25%; background-color:#ff0000; }
+.content .password-strength-bar-level2 { width:40%; background-color:#ff9900; }
+.content .password-strength-bar-level3 { width:60%; background-color:#00ff00; }
+.content .password-strength-bar-level4 { width:80%; background-color:#00cc00; }
+.content .password-strength-bar-level5 { width:100%;  background-color:#009900;}
+
+.content .password-strength-description {
+	margin-bottom: 1em;
+	font-style: italic;
+}
+
+
+#jsddm
+{	margin: 0;
+	padding: 0}
+	
+	#jsddm li
+	{	float: left;
+		list-style: none;
+		font: 12px Tahoma, Arial}
+
+	#jsddm li a
+	{	display: block;
+		padding: 5px 12px;
+		text-decoration: none;
+		width: 70px;}
+
+	#jsddm li a:hover
+	{	}
+		
+		#jsddm li ul
+		{	margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			}
+		
+		#jsddm li ul li
+		{	float: none;
+			}
+		
+		#jsddm li ul li a
+		{	width: auto;
+		
+		#jsddm li ul li a:hover
+		{	}
+
+

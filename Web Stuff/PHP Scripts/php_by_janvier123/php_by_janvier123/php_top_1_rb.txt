@@ -1,0 +1,26 @@
+<?php
+//--------------------------------------
+//      Written by Janvier123
+//      Made for DK servers
+//--------------------------------------
+// THIS ONLY WORKS IF THERE IS A TABLE IN "USER_CHARACTER" CALLED "REBORN"
+
+
+
+	$msconnect = mssql_connect("localhost","sa","pass");
+	$msdb = mssql_select_db("character", $msconnect);
+	$plist = "SELECT TOP 1 character_name, Reborn FROM [user_character] WHERE Reborn > '0'order by Reborn desc";
+	$pplist = mssql_query($plist);
+
+	while($list = mssql_fetch_array($pplist)){
+	if($list[''] == "0"){
+	$char = "";
+	}
+	elseif($list[''] == "1"){
+	$char = "";
+	}
+	else
+	$char = "";
+	echo $list['character_name'];
+	}
+?>

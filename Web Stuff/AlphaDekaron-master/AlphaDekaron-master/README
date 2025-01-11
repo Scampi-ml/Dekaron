@@ -1,0 +1,60 @@
+AUC - Alpha Update Client - The Alpha AutoPatcher Client written in AutoIt
+
+AUS - Alpha Update Server - The Alpha AutoPatcher server written in C++
+
+updatetool - The update tool for easily managed patch creation written in AutoIt
+
+website - The most updated Alpha Dekaron website source written in PHP
+
+
+End User Documentation
+-------------------------------------
+Alpha Dekaron Automatic Update System
+-------------------------------------
+The Alpha Dekaron Automatic Update System is a small, but effective updating system 
+I developed while running Alpha Dekaron. The client is written in a scripting language 
+called AutoIt. The server is written in C++. The system was designed to work with 
+unpacked client files only.
+
+Client 2
+----------
+- Edit the .au3 script to suit your needs.
+- Compile and distribute the executable along with md5hash.dll and patchsettings.ini. 
+  Both the ini file and the dll file must be in the same directory as the executable. 
+- Configure patchsettings.ini
+ 	--basepath= the server that you're connecting to. This can be in the form of a url 
+    	(e.g http://example.com) or IP (e.g 127.0.0.1).
+	--port= the port on the server that you will be using
+	--version= The client version that you are want to use. The inital version and 
+	incrementing is at your discretion, but only use whole numbers.
+*If you need to update the patcher itself later, update the patcher version, compile 
+it as patch.temp and upload it to the location specified in the server's host setting.
+
+Server
+------
+-Modify settings.ini
+	--host= The host where your update files is stored
+	--cver= Current client version (whole number)
+	--pver= Current patcher version (whole number)
+	--notice= The page where the patcher notice is located
+	--port= Port for the server to listen on
+-Compile, place settings.ini in executable's directory and run your server.
+
+Creating patches
+----------------
+1. Create a text file name "uList.txt". (only needs to be done once)
+
+2. Generate an md5 checksum of all the files.
+
+3. Insert each file with relative path into "uList.txt" with it's md5 checksum seperated 
+by a comma. (e.g /some/file.txt,4004583eb8fb7f89)
+
+4. Upload uList.txt and all files you need to be updated to the location specified in the
+host mimicking folder branching. (e.g if /data/share/example.txt needs to be updated then
+example.txt needs to be placed in ~host/data/share/example.txt where ~host is the host 
+specified in server INI's host value.)
+
+5. Update cversion in the settings.ini on the server and restart the Alpha Server.
+
+*If you need to update a file that's already on uList.txt then just overwrite the file on
+the server and replace the checksum in uList.txt.

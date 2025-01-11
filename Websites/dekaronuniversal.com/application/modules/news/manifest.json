@@ -1,0 +1,48 @@
+{
+	"name":"News",
+	"description":"Displays server news to the users. Acts as front page",
+	"author":"Janvier123",
+	"website":"http://www.dekaroncms.com",
+	"version":"1.0",
+	"update":"http://www.dekaroncms.com/checkModuleVersion/check/sidebox",	
+	"permissions": {
+		"view": { "default": true, "description":"View the news" },
+		"canViewSpecificArticle": { "default": true, "description":"View a specific news article" },
+		"canViewAdmin": { "default": false, "description":"View the news through the admin panel. Requires view permission in admin module" },
+		"canAddArticle": { "default": false, "description":"Add an article" },
+		"canRemoveArticle": { "default": false, "description":"Remove an article" },
+		"canEditArticle": { "default": false, "description":"Edit an article" }
+	},	
+	"admin": [
+		{
+			"text":"Website",
+			"links": [
+				{
+					"text":"News articles",
+					"controller":"admin",
+					"requirePermission":"canViewAdmin"
+				}
+			]
+		}
+	],
+	"roles":
+	{
+		"view": {
+			"description":"View the news",
+			"permissions": {
+				"view": true,
+				"canViewSpecificArticle": true
+			}
+		},
+		"manage": {
+			"description":"Manage the news. <font style='color:red;'>Admin-tool</font>",
+			"permissions": {
+				"canViewAdmin": true,
+				"canAddArticle": true,
+				"canRemoveArticle": true,
+				"canEditArticle": true
+			}
+		}
+	},
+	"enabled": true
+}

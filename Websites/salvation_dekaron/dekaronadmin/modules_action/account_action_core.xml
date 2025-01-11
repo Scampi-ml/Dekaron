@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<action_master>
+
+  <action_cat title="Account" group="1">
+  	<action_option link="index.php?get=module_edit_account" group="1">Edit Account</action_option>
+  	<action_option link="index.php?get=module_delete_account" group="1">Delete Account</action_option>
+  	<action_option link="index.php?get=module_ban_account" group="1">Ban Account</action_option>
+	<action_option link="index.php?get=module_unban_account" group="1">Unban Account</action_option>
+	<action_option link="index.php?get=module_account_login" group="1">Account Login</action_option>
+	<action_option link="index.php?get=module_account_logout" group="1">Account Logout</action_option>
+  </action_cat>
+  
+  <action_cat title="Character" group="2">
+  	<action_option link="index.php?get=module_view_characters" group="2">View Characters</action_option>
+  </action_cat>
+  
+  <action_cat title="Guild" group="3">
+  	<action_option link="index.php?get=module_search_guild" group="3">View Guild</action_option>
+  </action_cat>
+
+  <action_cat title="Coins" group="4">
+  	<action_option link="index.php?get=module_coins_log_user" group="4">Coins Log</action_option>
+	<action_option link="index.php?get=module_edit_coins" group="4">Edit Coins</action_option>
+  </action_cat>
+  
+  <action_cat title="Userpanel" group="5">
+  	<action_option link="index.php?get=module_cp_action" group="5">Userpanel Action</action_option>
+	<action_option link="index.php?get=module_donations" group="5">Donations</action_option>	
+
+  </action_cat>  
+  
+  
+</action_master>

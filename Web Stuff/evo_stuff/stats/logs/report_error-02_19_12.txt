@@ -1,0 +1,42 @@
+**************************************************************
+[Run-time notices] (Undefined index: CHARACTERSNUM).
+Line Number  : 26.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 19.02.2012 01:29:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined index: USERNO).
+Line Number  : 30.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 19.02.2012 01:29:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: query4).
+Line Number  : 39.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 19.02.2012 01:29:01.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: The sum or average aggregate operation cannot take a varchar data type as an argument. (severity 16)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 19.02.2012 01:44:59.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 19.02.2012 01:44:59.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined index: characters).
+Line Number  : 32.
+File Path : C:\xampp\htdocs\stats\index.php.
+Date : 19.02.2012 01:45:17.
+**************************************************************
+

@@ -1,0 +1,31 @@
+{
+	"name":"Reborn",
+	"description":"Lets your users reborn - either for free or for the cost of gold",
+	"author":
+	{
+		"name":"DekaronCMS",
+		"website":"http:\/\/janvier123.be\/dekaroncms"
+	},
+	"permissions":
+	{
+		"view":
+		{
+			"default":true,
+			"description":"View the reborn screen."
+		}
+	},
+	"roles":
+	{
+		"view":
+		{
+			"description":"View the reborn module.",
+			"permissions":
+			{
+				"view":true
+			}
+		}
+	},
+	
+	"enabled":true,
+	"in_ucp":true
+}

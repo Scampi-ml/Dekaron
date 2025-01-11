@@ -1,0 +1,25 @@
+                <table width="100%" border="0" align="center">
+                  <tr>            
+					<?php
+						$top_rank = '1';
+                        $query1 = $dekaron->SQLquery('SELECT TOP 3 character_name,wWinRecord,wLoseRecord,byPCClass FROM character2.dbo.user_character '.$where.' '.$order.' ');
+                        while ( $pvp_top = $dekaron->SQLfetchArray($query1) )
+                        {
+                            if($top_rank == '1')
+                            {
+                                echo '<th scope="col" width="33%"><h2 style="color: #C98910;"><a style="color: #C98910; href="character.php?character='.$pvp_top['character_name'].'">'.$pvp_top['character_name'].'</a><h2><span class="avatar"><img src="images/class/'.$pvp_top['byPCClass'].'.png"></span></th>';
+                            }
+                            elseif($top_rank == '2')
+                            {
+                            	echo '<th scope="col" width="33%"><h2 style="color: #A8A8A8;"><a style="color: #A8A8A8;" href="character.php?character='.$pvp_top['character_name'].'">'.$pvp_top['character_name'].'</a><h2><span class="avatar"><img src="images/class/'.$pvp_top['byPCClass'].'.png"></span></th>';
+                            }
+                            else
+                            {
+                            	echo '<th scope="col" width="33%"><h2 style="color: #965A38;"><a style="color: #965A38;" href="character.php?character='.$pvp_top['character_name'].'">'.$pvp_top['character_name'].'</a><h2><span class="avatar"><img src="images/class/'.$pvp_top['byPCClass'].'.png"></span></th>';
+                            }
+							$top_rank ++;
+                        }
+                    ?>
+                  </tr>
+                </table>
+				<br />            

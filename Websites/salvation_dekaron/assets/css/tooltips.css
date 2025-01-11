@@ -1,0 +1,346 @@
+﻿.aion_tooltip .d {color: #ffbb00 }
+.r  { color: #FFBB00 }
+a.aion_r0 { color: #d5d5d5 ; font-weight:normal ; }
+a.aion_r1 { color: #d5d5d5 ; font-weight:normal ; }
+a.aion_r2 { color: #4AB93B ; font-weight:normal ; }
+a.aion_r3 { color: #1699C4 ; font-weight:normal ; }
+a.aion_r4 { color: #FF9900  ; font-weight:normal ; }
+a.aion_r5 { color: #9238D0 ; font-weight:normal ; }
+a.aion_r6 { color: #f17f06 ; font-weight:normal ; }
+a.aion_r7 { color: #f17f06 ; font-weight:normal ; }
+a.aion_spell { color:#004499 ; font-weight:normal ; }
+.ability-name
+{
+
+	color: #ffffff 
+}
+.aion_tooltip .ability-name
+{
+    color: #F0C060 ;
+    font-size: 14px;
+}
+.ability-desc
+{
+    color: #0072bc ;
+}
+.ability-border
+{
+    border-top: solid 3px #828282;    
+}
+.ability-info
+{
+    white-space: nowrap;
+}
+.item-tooltip-bonus
+{
+	color: #FFFF00 
+}
+
+.aiondb-table .iconlarge {
+    background:transparent none no-repeat scroll 6px;
+    height:68px;
+    position:relative;
+    width:68px;
+}
+.aiondb-table .iconlarge .tile
+{	
+    /*background-image:url(images/icon_border_l.png);*/
+    height:68px;
+    width:68px;
+    background-repeat:no-repeat;
+    
+}
+
+.aiondb-table .iconlarge .glow {cursor:default; font-size:18px; font-weight:bold; margin:5px 7px; }
+.aiondb-table .iconlarge .hilite{display: none;position: absolute; width: 62px; height: 62px; left: 3px; top: 3px; background: /*url(images/icon_highlight_l.png);*/}
+
+.aiondb-table .iconlarge a { width: 62px; height: 62px; left: 2px; top: 2px; position: absolute; z-index: 20; display: block; border: 0; background: /*url(http://www.runesdb.com/images/icon_highlight_l.png)*/ no-repeat -64px 0; }
+.aiondb-table .iconlarge a:hover { background-position: 0 0 }
+
+.aiondb-table .iconmedium { width: 48px; height: 48px; background: 4px 4px no-repeat;position: relative;}
+.aiondb-table .iconmedium .tile  { width: 44px; height: 44px; /*background-image: url(http://www.runesdb.com/images/icon_border_m.png);*/position: relative;}
+.aiondb-table .iconmedium a { width: 48px; height: 48px; position: absolute; z-index: 20; display: block; border: 0; background: /*url(http://www.runesdb.com/images/icon_highlight_m.png)*/ no-repeat -40px 0; }
+
+.aiondb-table .iconmedium a:hover { background-position: 0 0 }
+
+.aiondb-table .iconsmall { background:transparent none no-repeat scroll 1px; height:26px; position:relative; width:26px; }
+.aiondb-table .iconsmall .tile { /*background-image:url(http://www.runesdb.com/images/icon_border_s.png);*/ height:26px; width:26px;position:relative;left:0px; }
+.aiondb-table .iconsmall a { width: 30px; height: 30px; left: 0px; top: 0px; position: absolute; z-index: 20; display: block; border: 0; background: /*url(http://www.runesdb.com/images/icon_highlight_s.png)*/ no-repeat -26px 0; }
+.aiondb-table .iconsmall a:hover { background-position: 0 0 }
+.aiondb-table .iconsmall .glow
+{
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 2px 5px 2px 4px;
+}
+
+.aion_tooltip .c0
+{
+    color: #ff5503 ;
+}
+.aion_tooltip .c1
+{
+    color: #b5b5b5 ;
+}
+.aion_tooltip .c2
+{
+    color: #888887 ;
+}
+.aion_tooltip .c3
+{
+    color: #7be15c ;
+}
+.aion_tooltip .c4
+{
+    color: #fd2f1f ;
+}
+.aion_tooltip .c5
+{
+    color: #ffffff ;
+}
+.aion_tooltip .r0
+{
+    color: #ff5503 ;
+}
+.aion_tooltip .r1
+{
+    color: #b5b5b5 ;
+}
+.aion_tooltip .r2
+{
+    color: #888887 ;
+}
+.aion_tooltip .r3
+{
+    color: #7be15c ;
+}
+.aion_tooltip .r4
+{
+    color: #fd2f1f ;
+}
+.aion_tooltip .r5
+{
+    color: #ffffff ;
+}
+.tooltip-cache
+{
+    background:transparent url(http://www.aionarmory.com/images/tooltip.png);
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+#tooltipContainer, .aion_tooltip-container
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 100001;	
+	white-space: nowrap;
+}
+
+.tooltip-icon
+{
+    display: none;
+    float: left;
+    position: relative;
+    background: transparent none no-repeat scroll 4px;
+    height:44px;                
+    width:44px;
+    
+}
+.tooltip-icon div
+{
+    height:44px;
+    width:44px;
+}
+
+.aion_tooltip
+{    
+    max-width: 420px;    
+    float: left;
+    display: none;        
+    white-space: normal;
+}
+.aion_tooltip-icon
+{
+	display: none;
+	float: left;
+	position: relative;
+	background: transparent none no-repeat scroll 4px;
+	height:44px;				
+	width:44px;
+	
+}
+.aion_tooltip-icon div
+{
+	height:44px;
+	width:44px;
+	background-image:url(http://www.aionarmory.com/images/icon_border_m.png) ;
+}
+.aion_tooltip table {
+    border-collapse:collapse;
+    border-spacing:0pt;        
+}
+.aion_tooltip th {
+    padding:4px; 
+	height: 8px;
+}
+.aion_tooltip td {
+      padding: 8px 4px 1px 9px;
+}
+.aion_tooltip td, .aion_tooltip th {
+    background:transparent url(http://www.aionarmory.com/images/tooltip.png) repeat scroll 0% 0%;
+    color:white;
+    font-family:Arial;
+    font-size:12px;
+    line-height:17px;
+}
+.aion_tooltip td td {
+    padding:0pt;
+}
+.aion_tooltip td th, .aion_tooltip td td {
+    background:transparent none repeat scroll 0%;
+}
+.aion_tooltip td th {
+    font-weight:normal;
+    padding:0pt 0pt 0pt 4em;
+    text-align:right;
+}
+.aion_tooltip td th, .aion_tooltip td td {
+    background:transparent none repeat scroll 0%;
+}
+.aion_tooltip b { font-size: 15px; line-height: 19px; font-weight: normal }
+.aion_tooltip a {text-decoration: none;}
+.aion_tooltip a:hover {
+    text-decoration:underline;
+}
+.aion_tooltip div.indent {
+    padding-left:0.6em;
+}
+
+.aion_tooltip var
+{
+    display: block;
+    background: transparent url(http://www.aionarmory.com/images/tooltip_divider.png) repeat-x;
+    position: relative;    
+    height: 10px;
+    margin-top: 10px;
+}
+
+.aiondb-table
+{
+    display:inline-table;    
+}
+
+
+.item-tip-extra-stats
+{
+
+}
+
+.item-tip-misc
+{
+
+}
+
+.item-tip-stats
+{
+
+}
+
+
+.item-tip-strike
+{
+
+}
+
+.item-tip-strike .tipColOne
+{
+    color:#eef08f ;
+}
+
+.item-tip-attack .tipColOne
+{
+    width: 114px;
+}
+
+.item-tip-stats .tipColOne
+{
+    width: 120px;
+}
+
+.item-tip-stats .tipColTwo
+{
+    width: 40px;
+}
+
+
+
+.item-tip-stats .tipColThree
+{
+    width: 120px;
+}
+
+.item-tip-stats .tipColFour
+{
+    width: 40px;
+}
+
+
+
+.item-tip-extra-stats .tipColOne
+{
+    width: 120px;
+}
+
+.item-tip-extra-stats .tipColTwo
+{
+    width: 40px;
+}
+
+.item-tip-extra-stats .tipColThree
+{
+    width: 120px;
+}
+
+.item-tip-extra-stats .tipColFour
+{
+    width: 40px;
+}
+
+
+.tooltipExtraText
+{
+    color:#eef08f ;
+}
+
+
+.item-tip-line
+{
+
+}
+
+.item-tip-line2
+{
+    width:267%;
+}
+
+.item-tip-line-table
+{
+    width:100%;
+}
+
+.item-socket
+{
+
+    background: transparent url(http://www.aionarmory.com/images/socket_image.png) left no-repeat ;
+
+    width: 120px;
+    height: 25px;
+}
+
+.socket-images
+{
+    width:100%;
+}

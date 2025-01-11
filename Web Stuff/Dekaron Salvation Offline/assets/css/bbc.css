@@ -1,0 +1,108 @@
+/************************************************************************/
+/*  BBCODE STYLES */
+/* 	NOTE: These selectors style bbcodes throughout IPB. It is recommended that you DO NOT change these 
+	styles if you are creating a skin since it may interfere with user expectation
+	of what certain BBCodes look like (quote boxes are an exception to this). */
+	
+	
+html body section#wrapper div#main aside#right article section.body ul.bbc li {
+	list-style: disc outside none;
+}
+
+html body section#wrapper div#main aside#right article section.body ul li {
+
+	list-style: disc outside none;
+	margin: 0 0 0 10px;
+}
+
+
+strong.bbc {
+	font-weight: bold !important;
+}
+em.bbc {
+	font-style: italic !important;
+}
+span.bbc_underline {
+	text-decoration: underline !important;
+}
+acronym.bbc {
+	border-bottom: 1px dotted #000;
+}
+span.bbc_center, div.bbc_center, p.bbc_center {
+	text-align: center;
+	display: block;
+}
+span.bbc_left, div.bbc_left, p.bbc_left {
+	text-align: left;
+	display: block;
+}
+span.bbc_right, div.bbc_right, p.bbc_right {
+	text-align: right;
+	display: block;
+}
+div.bbc_indent {
+	margin-left: 50px;
+}
+del.bbc {
+	text-decoration: line-through !important;
+}
+.post.entry-content ul, ul.bbc, .as_content ul {
+	list-style: disc outside none;
+	margin: 0 0 0 0;
+}
+.post.entry-content ul, ul.bbc ul.bbc, .as_content ul {
+	list-style-type: circle;
+}
+.post.entry-content ul, ul.bbc ul.bbc ul.bbc, .as_content ul {
+	list-style-type: square;
+}
+.post.entry-content ul.decimal, ul.bbcol.decimal, .post.entry-content ol, .post_body ol, .as_content ol {
+	margin: 12px 0 12px 40px !important;
+	list-style-type: decimal !important;
+}
+.post.entry-content ul.lower-alpha, ul.bbcol.lower-alpha {
+	margin-left: 40px;
+	list-style-type: lower-alpha;
+}
+.post.entry-content ul.upper-alpha, ul.bbcol.upper-alpha {
+	margin-left: 40px;
+	list-style-type: upper-alpha;
+}
+.post.entry-content ul.lower-roman, ul.bbcol.lower-roman {
+	margin-left: 40px;
+	list-style-type: lower-roman;
+}
+.post.entry-content ul.upper-roman, ul.bbcol.upper-roman {
+	margin-left: 40px;
+	list-style-type: upper-roman;
+}
+hr.bbc {
+	display: block;
+	border-top: 2px solid #777;
+}
+div.bbc_spoiler {
+}
+div.bbc_spoiler span.spoiler_title {
+	font-weight: bold;
+}
+div.bbc_spoiler_wrapper {
+	border: 1px inset #777;
+	padding: 4px;
+}
+div.bbc_spoiler_content {
+}
+input.bbc_spoiler_show {
+	width: 45px;
+	font-size: .7em;
+	margin: 0px;
+	padding: 0px;
+}
+img.bbc_img {
+	cursor: pointer;
+}
+.signature img.bbc_img {
+	cursor: default;
+}
+.signature a img.bbc_img {
+	cursor: pointer;
+}

@@ -1,0 +1,2067 @@
+
+
+
+<html>
+<head>
+
+<Title>KalOnline</Title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<link href="http://web.archive.org/web/20071211120037cs_/http://www.kalonline.com/Common/Style.css" rel="stylesheet" type="text/css">
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+</head>
+
+<body style="margin:0px 0px 0px 0px; " background="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/bg.gif">
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+
+<script type="text/javascript" src="http://staticweb.archive.org/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="http://staticweb.archive.org/js/graph-calc.js" ></script>
+<script type="text/javascript" src="http://staticweb.archive.org/jflot/jquery.min.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+var firstDate = 820454400000;
+var lastDate = 1325375999999;
+var wbPrefix = "http://web.archive.org/web/";
+var wbCurrentUrl = "http:\/\/www.kalonline.com\/Community\/Ranking.asp?btn=4";
+
+var curYear = -1;
+var curMonth = -1;
+var yearCount = 16;
+var firstYear = 1996;
+var imgWidth=400;
+var yearImgWidth = 25;
+var monthImgWidth = 2;
+var trackerVal = "none";
+var displayDay = "11";
+var displayMonth = "dec";
+var displayYear = "2007";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function showTrackers(val) {
+	if(val == trackerVal) {
+		return;
+	}
+	if(val == "inline") {
+		document.getElementById("displayYearEl").style.color = "#ec008c";
+		document.getElementById("displayMonthEl").style.color = "#ec008c";
+		document.getElementById("displayDayEl").style.color = "#ec008c";		
+	} else {
+		document.getElementById("displayYearEl").innerHTML = displayYear;
+		document.getElementById("displayYearEl").style.color = "#ff0";
+		document.getElementById("displayMonthEl").innerHTML = displayMonth;
+		document.getElementById("displayMonthEl").style.color = "#ff0";
+		document.getElementById("displayDayEl").innerHTML = displayDay;
+		document.getElementById("displayDayEl").style.color = "#ff0";
+	}
+   document.getElementById("wbMouseTrackYearImg").style.display = val;
+   document.getElementById("wbMouseTrackMonthImg").style.display = val;
+   trackerVal = val;
+}
+function getElementX2(obj) {
+	var thing = jQuery(obj);
+	if((thing == undefined) 
+			|| (typeof thing == "undefined") 
+			|| (typeof thing.offset == "undefined")) {
+		return getElementX(obj);
+	}
+	return Math.round(thing.offset().left);
+}
+function trackMouseMove(event,element) {
+
+   var eventX = getEventX(event);
+   var elementX = getElementX2(element);
+   var xOff = eventX - elementX;
+	if(xOff < 0) {
+		xOff = 0;
+	} else if(xOff > imgWidth) {
+		xOff = imgWidth;
+	}
+   var monthOff = xOff % yearImgWidth;
+
+   var year = Math.floor(xOff / yearImgWidth);
+	var yearStart = year * yearImgWidth;
+   var monthOfYear = Math.floor(monthOff / monthImgWidth);
+   if(monthOfYear > 11) {
+       monthOfYear = 11;
+   }
+   // 1 extra border pixel at the left edge of the year:
+   var month = (year * 12) + monthOfYear;
+   var day = 1;
+	if(monthOff % 2 == 1) {
+		day = 15;
+	}
+	var dateString = 
+		zeroPad(year + firstYear) + 
+		zeroPad(monthOfYear+1,2) +
+		zeroPad(day,2) + "000000";
+
+	var monthString = prettyMonths[monthOfYear];
+	document.getElementById("displayYearEl").innerHTML = year + 1996;
+	document.getElementById("displayMonthEl").innerHTML = monthString;
+	// looks too jarring when it changes..
+	//document.getElementById("displayDayEl").innerHTML = zeroPad(day,2);
+
+	var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+	document.getElementById('wm-graph-anchor').href = url;
+
+   //document.getElementById("wmtbURL").value="evX("+eventX+") elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") ms("+monthString+")";
+   if(curYear != year) {
+       var yrOff = year * yearImgWidth;
+       document.getElementById("wbMouseTrackYearImg").style.left = yrOff + "px";
+       curYear = year;
+   }
+   if(curMonth != month) {
+       var mtOff = year + (month * monthImgWidth) + 1;
+       document.getElementById("wbMouseTrackMonthImg").style.left = mtOff + "px";
+       curMonth = month;
+   }
+}
+//]]>
+</script>
+
+<style type="text/css">body{margin-top:0!important;padding-top:0!important;min-width:800px!important;}#wm-ipp a:hover{text-decoration:underline!important;}</style>
+<div id="wm-ipp" style="display:none; position:relative;padding:0 5px;min-height:70px;min-width:800px; z-index:9000;">
+<div id="wm-ipp-inside" style="position:fixed;padding:0!important;margin:0!important;width:97%;min-width:780px;border:5px solid #000;border-top:none;background-image:url(http://staticweb.archive.org/images/toolbar/wm_tb_bk_trns.png);text-align:center;-moz-box-shadow:1px 1px 3px #333;-webkit-box-shadow:1px 1px 3px #333;box-shadow:1px 1px 3px #333;font-size:11px!important;font-family:'Lucida Grande','Arial',sans-serif!important;">
+   <table style="border-collapse:collapse;margin:0;padding:0;width:100%;"><tbody><tr>
+   <td style="padding:10px;vertical-align:top;min-width:110px;">
+   <a href="http://wayback.archive.org/web/" title="Wayback Machine home page" style="background-color:transparent;border:none;"><img src="http://staticweb.archive.org/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"/></a>
+   </td>
+   <td style="padding:0!important;text-align:center;vertical-align:top;width:100%;">
+
+       <table style="border-collapse:collapse;margin:0 auto;padding:0;width:570px;"><tbody><tr>
+       <td style="padding:3px 0;" colspan="2">
+       <form target="_top" method="get" action="http://wayback.archive.org/web/form-submit.jsp" name="wmtb" id="wmtb" style="margin:0!important;padding:0!important;"><input type="text" name="url" id="wmtbURL" value="http://www.kalonline.com/Community/Ranking.asp?btn=4" style="width:400px;font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;" onfocus="javascript:this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20071211120037" /><input type="submit" value="Go" style="font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;margin-left:5px;" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td style="vertical-align:bottom;padding:5px 0 0 0!important;" rowspan="2">
+           <table style="border-collapse:collapse;width:110px;color:#99a;font-family:'Helvetica','Lucida Grande','Arial',sans-serif;"><tbody>
+			
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr style="width:110px;height:16px;font-size:10px!important;">
+           	<td style="padding-right:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20071108205333/http://www.kalonline.com/Community/Ranking.asp?btn=4" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="8 nov 2007"><strong>NOV</strong></a>
+		                
+               </td>
+               <td id="displayMonthEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight:bold;text-transform:uppercase;width:34px;height:15px;padding-top:1px;text-align:center;" title="You are here: 12:00:37 dec 11, 2007">DEC</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20080114022227/http://www.kalonline.com/Community/Ranking.asp?btn=4" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="14 jan 2008"><strong>JAN</strong></a>
+		                
+               </td>
+           </tr>
+
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr>
+               <td style="padding-right:9px;white-space:nowrap;overflow:visible;text-align:right!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20071206151006/http://www.kalonline.com/Community/Ranking.asp?btn=4" title="15:10:06 dec 6, 2007" style="background-color:transparent;border:none;"><img src="http://staticweb.archive.org/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+		                
+               </td>
+               <td id="displayDayEl" style="background:#000;color:#ff0;width:34px;height:24px;padding:2px 0 0 0;text-align:center;font-size:24px;font-weight: bold;" title="You are here: 12:00:37 dec 11, 2007">11</td>
+				<td style="padding-left:9px;white-space:nowrap;overflow:visible;text-align:left!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20071216064731/http://www.kalonline.com/Community/Ranking.asp?btn=4" title="6:47:31 dec 16, 2007" style="background-color:transparent;border:none;"><img src="http://staticweb.archive.org/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"/></a>
+		                
+			    </td>
+           </tr>
+
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr style="width:110px;height:13px;font-size:9px!important;">
+				<td style="padding-right:9px;font-size:11px!important;font-weight: bold;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20061209231350/http://www.kalonline.com/Community/Ranking.asp?btn=4" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="9 dec 2006"><strong>2006</strong></a>
+		                
+               </td>
+               <td id="displayYearEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight: bold;padding-top:1px;width:34px;height:13px;text-align:center;" title="You are here: 12:00:37 dec 11, 2007">2007</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight: bold;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20090130080814/http://www.kalonline.com/Community/Ranking.asp?btn=4" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="30 jan 2009"><strong>2009</strong></a>
+		                
+				</td>
+           </tr>
+           </tbody></table>
+       </td>
+
+       </tr>
+       <tr>
+       <td style="vertical-align:middle;padding:0!important;">
+           <a href="http://wayback.archive.org/web/20071211120037*/http://www.kalonline.com/Community/Ranking.asp?btn=4" style="color:#33f;font-size:11px;font-weight:bold;background-color:transparent;border:none;" title="See a list of every capture for this URL"><strong>98 captures</strong></a>
+           <div style="margin:0!important;padding:0!important;color:#666;font-size:9px;padding-top:2px!important;white-space:nowrap;" title="Timespan for captures of this URL">21 feb 06 - 30 jan 09</div>
+       </td>
+       <td style="padding:0!important;">
+       <a style="position:relative; white-space:nowrap; width:400px;height:27px;" href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" style="position:relative; white-space:nowrap; width:400px;height:27px;background-color:#fff;cursor:pointer;border-right:1px solid #ccc;" title="Explore captures for this URL">
+			<img id="sparklineImgId" style="position:absolute; z-index:9012; top:0px; left:0px;"
+				onmouseover="showTrackers('inline');" 
+				onmouseout="showTrackers('none');"
+				onmousemove="trackMouseMove(event,this)"
+				alt="sparklines"
+				width="400"
+				height="27"
+				border="0"
+				src="http://wayback.archive.org/jsp/graph.jsp?graphdata=400_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:010001310155_2007:11:754242211468_2008:-1:665543000401_2009:-1:100000000000_2010:-1:000000000000_2011:-1:000000000000"></img>
+			<img id="wbMouseTrackYearImg" 
+				style="display:none; position:absolute; z-index:9010;"
+				width="25" 
+				height="27"
+				border="0"
+				src="http://staticweb.archive.org/images/toolbar/transp-yellow-pixel.png"></img>
+			<img id="wbMouseTrackMonthImg"
+				style="display:none; position:absolute; z-index:9011; " 
+				width="2"
+				height="27" 
+				border="0"
+				src="http://staticweb.archive.org/images/toolbar/transp-red-pixel.png"></img>
+       </div>
+		</a>
+
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td style="text-align:right;padding:5px;width:65px;font-size:11px!important;">
+       <a href="javascript:;" onclick="document.getElementById('wm-ipp').style.display='none';" style="display:block;padding-right:18px;background:url(http://staticweb.archive.org/images/toolbar/wm_tb_close.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;margin-bottom:23px;background-color:transparent;border:none;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="display:block;padding-right:18px;background:url(http://staticweb.archive.org/images/toolbar/wm_tb_help.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;background-color:transparent;border:none;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+
+</div>
+</div>
+<script type="text/javascript">
+ var wmDisclaimBanner = document.getElementById("wm-ipp");
+ if(wmDisclaimBanner != null) {
+   disclaimElement(wmDisclaimBanner);
+ }
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<table width="1004" border="0" cellspacing="0" cellpadding="0" id="table1">
+  <tr>
+    <td height="25" align="left"><table width="860" height="25" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="right" background="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/top.gif"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/index.asp" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/home_1.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Common/home_01.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Common/home_1.gif'" border="0"></a><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/User/Login.asp" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/login_1.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Common/login_01.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Common/login_1.gif'" border="0"></a><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/User/Agreement.asp" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/join_1.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Common/join_01.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Common/join_1.gif'" border="0"></a></td>
+  </tr>
+</table></td>
+  </tr>
+  <tr>
+    <td height="225"><script language="javascript" type="text/javascript" src="http://web.archive.org/web/20071211120037js_/http://www.kalonline.com/Common/flashobj.js"></script> 
+<script language="javascript" type="text/javascript"> 
+<!--
+function objCall(strpath,strwid,strhei){
+var fla = new FlashObject(strpath, strwid, strhei); 
+fla.wmode = "transparent"; 
+fla.Render(); 
+}
+//-->
+</script>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+objCall("http://web.archive.org/web/20071211120037/http://img.kalonline.com//EKal_0511/Flash/com_070817.swf","1004","225");
+//-->
+</SCRIPT></td>
+  </tr>
+  <tr>
+    <td align="right">
+	
+	<table width="979" border="0" cellspacing="0" cellpadding="0" id="table2">
+      <tr>
+        <td width="180" rowspan="2" valign="top" background="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/menu_bg.gif">
+<table width="180" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="73"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/title.jpg" border="0"></td>
+  </tr>
+  <tr>
+    <td height="37"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Notice_List.asp?btn=1" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/menu_5.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_05.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_5.gif';" border="0"></a></td>
+  </tr>
+    <tr>
+    <td height="30"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Update_List.asp?btn=7" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/menu_8.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_08.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_8.gif';" border="0"></a></td>
+  </tr>
+      <tr>
+    <td height="37"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/KalWorld_List.asp?btn=11" onfocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/menu_11.gif" onmouseover="src='http://img.kalonline.com/EKal_0511/Community/menu_011.gif';" onmouseout="src='http://img.kalonline.com/EKal_0511/Community/menu_11.gif';" border="0"></a></td>
+  </tr>
+  <tr>
+    <td height="37"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/FreeBoard.asp?BoardType=List&btn=2" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/menu_1.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_01.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_1.gif';" border="0"></a></td>
+  </tr>
+  <tr>
+    <td height="30"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Fansite.asp?btn=3" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/menu_2.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_02.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_2.gif';" border="0"></a></td>
+  </tr>
+  <tr>
+    <td height="30"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking.asp?btn=4" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/menu_07.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_07.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_07.gif';" border="0"></a></td>
+  </tr>
+  <!--tr>
+    <td height="30"><a href="/Community/Email.asp?btn=5" onFocus="blur();"><img src="http://img.kalonline.com/EKal_0511/Community/menu_4.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_04.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_4.gif';" border="0"></a></td>
+  </tr>
+    <tr>
+    <td height="30"><a href="/Community/Poll_List.asp?btn=6" onFocus="blur();"><img src="http://img.kalonline.com/EKal_0511/Community/menu_6.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_06.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_6.gif';" border="0"></a></td>
+  </tr-->
+  <tr>
+    <td height="30"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Event/Event_List.asp?btn=8" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/menu_9.gif" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/menu_09.gif';" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/menu_9.gif';" border="0"></a></td>
+  </tr>
+</table>
+</td>
+        <td rowspan="3" width="5"></td>
+        <td valign="top"><table background="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/c_mid.gif" width="650" border="0" cellspacing="0" cellpadding="0" id="table3">
+          <tr>
+            <td height="15" valign="top"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/c_top.gif"></td>
+          </tr>
+          <tr>
+            <td align="center"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/HallofFame_title.gif"></td>
+          </tr>
+          <tr>
+            <td height="20">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table width="620" border="0" cellspacing="0" cellpadding="0">
+
+
+				  
+                <tr>
+                  <td>
+
+				    <table width="620" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="82"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/Level_Ran_st_01.gif" border="0"></td>
+                      <td align="left" valign="top">
+					  
+					  
+
+<!-- 텝메뉴-->
+									<script language="JavaScript" type="text/JavaScript">
+									<!--
+									function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+									  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+										document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+									  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+									}
+									MM_reloadPage(true);
+
+									function MM_findObj(n, d) { //v4.01
+									  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+										d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+									  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+									  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+									  if(!x && d.getElementById) x=d.getElementById(n); return x;
+									}
+
+									function MM_showHideLayers() { //v6.0
+									  var i,p,v,obj,args=MM_showHideLayers.arguments;
+									  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+										if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+										obj.visibility=v; }
+									}
+									//-->
+									</script>
+									  
+									  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td>&nbsp;</td>
+
+                                          <td width="95" valign="bottom" ><div id="LayDef" style="position:absolute; height:36px; z-index:1; top: 345; visibility: hidden;" onmouseover="MM_showHideLayers('LayDef','','show','LayWep','','hide')" onmouseout="MM_showHideLayers('LayDef','','hide','LayWep','','hide')">
+                                              <table border="0" cellspacing="0" cellpadding="0">
+												<tr>
+												<td><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking.asp?btn=4" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/sb_1.gif" border="0" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/sb_01.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/sb_1.gif'"></a></td>
+												</tr>
+												<tr>
+												<td><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking2.asp?btn=4" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/sb_2.gif" border="0" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/sb_02.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/sb_2.gif'"></a></td>
+												</tr>
+												<tr>
+												<td><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking3.asp?btn=4" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/sb_3.gif" border="0" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/sb_03.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/sb_3.gif'"></a></td>
+												</tr>
+												</table>
+                                          </div>
+                                          <a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking.asp?btn=4" onfocus="blur();" onmouseover="MM_showHideLayers('LayDef','','show','LayWep','','hide')" onmouseout="MM_showHideLayers('LayDef','','hide','LayWep','','hide')"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/Ran_tb_05.gif" border="0" onmouseover="src='http://img.kalonline.com/EKal_0511/Community/Ran_tb_05.gif';" onmouseout="src='http://img.kalonline.com/EKal_0511/Community/Ran_tb_05.gif';"></a></td>
+                                          <td width="5"></td>
+                                          <td width="95" valign="bottom" ><div id="LayWep" style="position:absolute; height:36px; z-index:1; top: 345; visibility: hidden;"  onmouseover="MM_showHideLayers('LayDef','','hide','LayWep','','show')" onmouseout="MM_showHideLayers('LayDef','','hide','LayWep','','hide')">
+											<table border="0" cellspacing="0" cellpadding="0">
+											<tr>
+											<td><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking4.asp?btn=4&SvrPart=1" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/sb_1.gif" border="0" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/sb_01.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/sb_1.gif'"></a></td>
+											</tr>
+											<tr>
+											<td><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking4.asp?btn=4&SvrPart=2" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/sb_2.gif" border="0" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/sb_02.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/sb_2.gif'"></a></td>
+											</tr>
+											<tr>
+											<td><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking4.asp?btn=4&SvrPart=3" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/sb_3.gif" border="0" onMouseOver="src='http://img.kalonline.com/EKal_0511/Community/sb_03.gif'" onMouseOut="src='http://img.kalonline.com/EKal_0511/Community/sb_3.gif'"></a></td>
+											</tr>
+											</table>
+                                          </div>
+                                          <a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking4.asp?btn=4" onfocus="blur();" onmouseover="MM_showHideLayers('LayDef','','hide','LayWep','','show')" onmouseout="MM_showHideLayers('LayDef','','hide','LayWep','','hide')"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/Ran_tb_4.gif" border="0"onmouseover="src='http://img.kalonline.com/EKal_0511/Community/Ran_tb_04.gif';" onmouseout="src='http://img.kalonline.com/EKal_0511/Community/Ran_tb_4.gif';"></a></td>
+                                          <td width="5"></td>
+                                          <td width="95" valign="bottom" >
+                                          
+										  <a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/HallofFame.asp?btn=4" onfocus="blur();" onmouseover="MM_showHideLayers('LayDef','','hide','LayWep','','hide')" onmouseout="MM_showHideLayers('LayDef','','hide','LayWep','','hide')"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/Ran_tb_3.gif" border="0"onmouseover="src='http://img.kalonline.com/EKal_0511/Community/Ran_tb_03.gif';" onmouseout="src='http://img.kalonline.com/EKal_0511/Community/Ran_tb_3.gif';"></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="1"></td>
+                                          <td valign="bottom"></td>
+                                          <td bgcolor="#CCCCCC"></td>
+                                          <td valign="bottom"></td>
+                                          <td bgcolor="#CCCCCC"></td>
+                                          <td valign="bottom"></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="1" bgcolor="#CCCCCC"></td>
+                                          <td valign="bottom" bgcolor="#CCCCCC"></td>
+                                          <td bgcolor="#CCCCCC"></td>
+                                          <td valign="bottom" bgcolor="#CCCCCC"></td>
+                                          <td bgcolor="#CCCCCC"></td>
+                                          <td valign="bottom" bgcolor="#CCCCCC"></td>
+                                        </tr>
+                                    </table>
+									
+<!--텝메뉴-->	
+					
+					  
+					  </td>
+                    </tr>
+                  </table>
+
+				  </td>
+                </tr>
+
+                <tr>
+                  <td height=30>	
+				  </td>
+                </tr>
+
+
+
+
+                <tr>
+                  <td>	
+				  
+				  <table width="620" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/rg_img_01.gif"></td>
+                      <td width="344" style="padding-bottom:15px; " valign="bottom" background="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/rg_img_02.gif">00:00  on 12-11-2007</td>
+                    </tr>
+                  </table>
+				  
+				  
+				  </td>
+                </tr>
+
+
+
+                <tr>
+                  <td align="center"><table width="600" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/rg_img_03.jpg"></td>
+                    </tr>
+                    <tr>
+                      <td height="48" align="center" background="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/rg_img_04.gif"><table width="540" border="0" cellspacing="0" cellpadding="0">
+                        <tr align="center">
+                          <td width="150" height="25" style="font-size:11px; font-weight:bold; color:#CC3300; ">Knight</td>
+                          <td width="240" style="font-size:11px; font-weight:bold; color:#CC3300;  ">Archer</td>
+                          <td width="150" style="font-size:11px; font-weight:bold; color:#CC3300;  ">Magician</td>
+                        </tr>
+                        <tr align="center">
+                          <td>lido</td>
+                          <td>Saam</td>
+                          <td>Bulletproofed</td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="30">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="117"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Community/rg_st_02.gif"></td>
+                      <td valign="middle"><hr width="100%" size="7" color="#efefef"></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>
+
+
+				  <table width="600" border="0" cellspacing="1" cellpadding="2" bgcolor="efefef" align=center>
+                              <tr bgcolor="#f5f5f5"> 
+                                <td width="100" height="30" align="center"><b>Ranking</b></td>
+                                <td width="150" align="center"><b>Character</b></td>
+                                <td width="100" align="center"><b>Level</b></td>
+                                <td width="100" align="center"><b>Job</b></td>
+                                <td width="150"  align="center"><b>Guild</b></td>
+                              </tr>
+                              <tr bgcolor="#FFFFFF"> 
+                                <td colspan="5" align="center">
+								<table width="99%" border="0" cellspacing="0" cellpadding="0">
+                                 
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >1</td>
+                                      <td width="150" align="center"> 
+                                         <font Color="Red">Saam</font> 
+                                      </td>
+                                      <td width="100" align="center">73</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >2</td>
+                                      <td width="150" align="center"> 
+                                         <font Color="Blue">Martis</font> 
+                                      </td>
+                                      <td width="100" align="center">72</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >3</td>
+                                      <td width="150" align="center"> 
+                                         <font Color="Green">Tatania</font> 
+                                      </td>
+                                      <td width="100" align="center">72</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">SolarEclipse</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >4</td>
+                                      <td width="150" align="center"> 
+                                        Kwartai
+                                      </td>
+                                      <td width="100" align="center">72</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >5</td>
+                                      <td width="150" align="center"> 
+                                        lido
+                                      </td>
+                                      <td width="100" align="center">72</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >6</td>
+                                      <td width="150" align="center"> 
+                                        Qeener
+                                      </td>
+                                      <td width="100" align="center">72</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >7</td>
+                                      <td width="150" align="center"> 
+                                        Clikslither
+                                      </td>
+                                      <td width="100" align="center">72</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">PhantomLegion</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >8</td>
+                                      <td width="150" align="center"> 
+                                        ElfenLied
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">BlackPearl</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >9</td>
+                                      <td width="150" align="center"> 
+                                        InFeRnOJeReZ
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >10</td>
+                                      <td width="150" align="center"> 
+                                        Bulletproofed
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >11</td>
+                                      <td width="150" align="center"> 
+                                        Lojko
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">Dominion</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >12</td>
+                                      <td width="150" align="center"> 
+                                        Blitzteufel
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">Hashishins</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >13</td>
+                                      <td width="150" align="center"> 
+                                        BibleBlack
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">BlackPearl</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >14</td>
+                                      <td width="150" align="center"> 
+                                        DracoMaster
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >15</td>
+                                      <td width="150" align="center"> 
+                                        Fani
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >16</td>
+                                      <td width="150" align="center"> 
+                                        joli
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >17</td>
+                                      <td width="150" align="center"> 
+                                        killer61
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >18</td>
+                                      <td width="150" align="center"> 
+                                        Todesangel
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >19</td>
+                                      <td width="150" align="center"> 
+                                        Myrvyn
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >20</td>
+                                      <td width="150" align="center"> 
+                                        DIESELz
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >21</td>
+                                      <td width="150" align="center"> 
+                                        CruellaBR
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">LastVampireS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >22</td>
+                                      <td width="150" align="center"> 
+                                        Tonno88
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >23</td>
+                                      <td width="150" align="center"> 
+                                        Gecka
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">SeReNiTy</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >24</td>
+                                      <td width="150" align="center"> 
+                                        killerz
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >25</td>
+                                      <td width="150" align="center"> 
+                                        Xeniea
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >26</td>
+                                      <td width="150" align="center"> 
+                                        DEXTER
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">SolarEclipse</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >27</td>
+                                      <td width="150" align="center"> 
+                                        Tidus32
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">LORDofVsbClan</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >28</td>
+                                      <td width="150" align="center"> 
+                                        Shilara
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >29</td>
+                                      <td width="150" align="center"> 
+                                        SHIVAKI
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >30</td>
+                                      <td width="150" align="center"> 
+                                        Jessie
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">PTF</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >31</td>
+                                      <td width="150" align="center"> 
+                                        SkewerMaster
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">Hashishins</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >32</td>
+                                      <td width="150" align="center"> 
+                                        Twardziel
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">PerfectLeaguE</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >33</td>
+                                      <td width="150" align="center"> 
+                                        BaksPL
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >34</td>
+                                      <td width="150" align="center"> 
+                                        Silberblut
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >35</td>
+                                      <td width="150" align="center"> 
+                                        Evarella
+                                      </td>
+                                      <td width="100" align="center">71</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >36</td>
+                                      <td width="150" align="center"> 
+                                        TNTfreak
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >37</td>
+                                      <td width="150" align="center"> 
+                                        Ih8HipHop
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">Dominion</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >38</td>
+                                      <td width="150" align="center"> 
+                                        CrAcKeR
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >39</td>
+                                      <td width="150" align="center"> 
+                                        LordHrosci
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >40</td>
+                                      <td width="150" align="center"> 
+                                        Chilly
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">DutchUndeTaker</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >41</td>
+                                      <td width="150" align="center"> 
+                                        HiSPANo
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >42</td>
+                                      <td width="150" align="center"> 
+                                        CHNElvis
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >43</td>
+                                      <td width="150" align="center"> 
+                                        SmEE
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">LORDofVsbClan</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >44</td>
+                                      <td width="150" align="center"> 
+                                        SelinaRed
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >45</td>
+                                      <td width="150" align="center"> 
+                                        BOWSIE
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">SolarEclipse</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >46</td>
+                                      <td width="150" align="center"> 
+                                        MrOschie3
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">Hashishins</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >47</td>
+                                      <td width="150" align="center"> 
+                                        Ryu1
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">SolarEclipse</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >48</td>
+                                      <td width="150" align="center"> 
+                                        Pima
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">Hashishins</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >49</td>
+                                      <td width="150" align="center"> 
+                                        freidric
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">Dominion</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >50</td>
+                                      <td width="150" align="center"> 
+                                        CharmedSloves
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">PTF</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >51</td>
+                                      <td width="150" align="center"> 
+                                        Xca
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">EliteExposure</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >52</td>
+                                      <td width="150" align="center"> 
+                                        MartinE
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">SeReNiTy</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >53</td>
+                                      <td width="150" align="center"> 
+                                        JIRAIYA
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">PTF</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >54</td>
+                                      <td width="150" align="center"> 
+                                        SultaN
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >55</td>
+                                      <td width="150" align="center"> 
+                                        CHEESUS
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >56</td>
+                                      <td width="150" align="center"> 
+                                        NarutaruPL
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">PerfectLeaguE</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >57</td>
+                                      <td width="150" align="center"> 
+                                        PhysX
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >58</td>
+                                      <td width="150" align="center"> 
+                                        Chlodnica
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">PhantomLegion</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >59</td>
+                                      <td width="150" align="center"> 
+                                        HabeasCorpus
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >60</td>
+                                      <td width="150" align="center"> 
+                                        HALIK
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">PhantomLegion</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >61</td>
+                                      <td width="150" align="center"> 
+                                        sefir
+                                      </td>
+                                      <td width="100" align="center">70</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >62</td>
+                                      <td width="150" align="center"> 
+                                        Aquiel
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">SolarEclipse</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >63</td>
+                                      <td width="150" align="center"> 
+                                        Miraculix
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >64</td>
+                                      <td width="150" align="center"> 
+                                        Ashtaroth
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">Hashishins</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >65</td>
+                                      <td width="150" align="center"> 
+                                        MiKon
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >66</td>
+                                      <td width="150" align="center"> 
+                                        Owacya
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >67</td>
+                                      <td width="150" align="center"> 
+                                        JAcK
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >68</td>
+                                      <td width="150" align="center"> 
+                                        luckyboy
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">PerfectLeaguE</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >69</td>
+                                      <td width="150" align="center"> 
+                                        KAKAROTTO
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >70</td>
+                                      <td width="150" align="center"> 
+                                        Speedy3
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >71</td>
+                                      <td width="150" align="center"> 
+                                        pcom
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">EternalParty</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >72</td>
+                                      <td width="150" align="center"> 
+                                        k82master
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">LastVampireS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >73</td>
+                                      <td width="150" align="center"> 
+                                        HamoLovac
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >74</td>
+                                      <td width="150" align="center"> 
+                                        zycho
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">PerfectLeaguE</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >75</td>
+                                      <td width="150" align="center"> 
+                                        Chris18
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">AtlantiS</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >76</td>
+                                      <td width="150" align="center"> 
+                                        UNCLE
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >77</td>
+                                      <td width="150" align="center"> 
+                                        mercilessXoX
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">SeReNiTy</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >78</td>
+                                      <td width="150" align="center"> 
+                                        VampiRata
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >79</td>
+                                      <td width="150" align="center"> 
+                                        GetsugaTenshou
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">LORDofVsbClan</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >80</td>
+                                      <td width="150" align="center"> 
+                                        Kyrasha
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >81</td>
+                                      <td width="150" align="center"> 
+                                        FENIXCOMANDER
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">SolarEclipse</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >82</td>
+                                      <td width="150" align="center"> 
+                                        YoUrDeaTh
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >83</td>
+                                      <td width="150" align="center"> 
+                                        Mahlander
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">Resurrection</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >84</td>
+                                      <td width="150" align="center"> 
+                                        GhostHero
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >85</td>
+                                      <td width="150" align="center"> 
+                                        arrowBerg
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >86</td>
+                                      <td width="150" align="center"> 
+                                        JINEI
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">-</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >87</td>
+                                      <td width="150" align="center"> 
+                                        codon
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >88</td>
+                                      <td width="150" align="center"> 
+                                        Italian
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >89</td>
+                                      <td width="150" align="center"> 
+                                        juliette2cum
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >90</td>
+                                      <td width="150" align="center"> 
+                                        PrincessMary
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >91</td>
+                                      <td width="150" align="center"> 
+                                        KENPACHI
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >92</td>
+                                      <td width="150" align="center"> 
+                                        elpopooooo
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">DarkThrone</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >93</td>
+                                      <td width="150" align="center"> 
+                                        grek
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >94</td>
+                                      <td width="150" align="center"> 
+                                        Balthasar3k
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">Hashishins</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >95</td>
+                                      <td width="150" align="center"> 
+                                        Elbrus
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >96</td>
+                                      <td width="150" align="center"> 
+                                        knoopploch
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Knight</td>
+                                      <td align="center">ProjectX</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >97</td>
+                                      <td width="150" align="center"> 
+                                        LaadyP
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">LimitedEdition</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >98</td>
+                                      <td width="150" align="center"> 
+                                        KachangPuteh
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">SunMoonSect</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                    <tr bgcolor="#F9F9F9"> 
+                                      
+                                      <td width="95" height="30" align="center" >99</td>
+                                      <td width="150" align="center"> 
+                                        DemonNZDS
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Archer</td>
+                                      <td align="center">ThePharaohs</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                      <td width="95" height="30" align="center" >100</td>
+                                      <td width="150" align="center"> 
+                                        Spidergirl2
+                                      </td>
+                                      <td width="100" align="center">69</td>
+                                      <td width="95" align="center">Magician</td>
+                                      <td align="center">Dominion</td>
+                                    </tr>
+                                    <tr bgcolor="efefef"> 
+                                      <td height="1" colspan="5"></td>
+                                    </tr>
+									
+                                  </table></td>
+                              </tr>
+                            </table>
+
+
+
+	
+				  
+				  </td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/c_bottom.gif"></td>
+          </tr>
+        </table>
+          </td>
+        <td width="5" rowspan="3"></td>
+        <td width="139" rowspan="3" valign="top">          <table width="190" border="0" cellspacing="0" cellpadding="0">
+		  <!--tr>
+		    <td valign="top"><a href="/GameInfo/Emokdo.asp?btn=1" onfocus="blur();">
+			<img src="http://img.kalonline.com/EKal_0511/NewMain_/Banner_Emokdo.gif" border="0"></a></td>
+          </tr-->
+		  <tr>
+		    <td valign="top"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Event/Event071211.asp?btn=8" onFocus="blur();">
+			<img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/NewMain_/Banner_Ev_Xmas.gif" border="0"></a></td>
+          </tr>
+  		  <tr>
+		    <td height="5"></td>
+		  </tr>
+		  <tr>
+		    <td valign="top"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Event/Event071218.asp?btn=8" onFocus="blur();">
+			<img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/NewMain_/Banner_Ev_LevelUp.gif" border="0"></a></td>
+          </tr>
+  		  <tr>
+		    <td height="5"></td>
+		  </tr>
+		  <tr>
+		    <td valign="top"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/GameInfo/Weapon01_51-70.asp?btn=3" onFocus="blur();">
+			<img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/NewMain_/Banner_Up_071130.gif" border="0"></a></td>
+          </tr>
+  		  <tr>
+		    <td height="5"></td>
+		  </tr>
+		  <tr>
+		    <td valign="top"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/ItemShop/CashChargeSelect_Bronze.asp?btn=5" onFocus="blur();">
+			<img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/NewMain_/Banner_Up_Attendance.gif" border="0"></a></td>
+          </tr>
+  		  <tr>
+		    <td height="5"></td>
+		  </tr>
+		  <!--tr>
+		    <td valign="top"><a href="/ItemShop/CashChargeSelect_Bronze.asp?btn=5" onFocus="blur();">
+			<img src="http://img.kalonline.com/EKal_0511/NewMain_/Banner_KalW.jpg" border="0"></a></td>
+          </tr>
+  		  <tr>
+		    <td height="5"></td>
+		  </tr>
+		  <tr>
+		    <td valign="top"><a href="/GameInfo/Scenario03.asp?btn=1" onfocus="blur();">
+			<img src="http://img.kalonline.com/EKal_0511/NewMain_/Banner_S3_PL.jpg" border="0"></a></td>
+		    </tr-->
+		  <tr>
+		    <td valign="top"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Event/Event071130.asp?btn=8" onFocus="blur();">
+			<img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/NewMain_/Banner_Ev_Cash.gif" border="0"></a></td>
+          </tr>
+  		  <tr>
+		    <td height="5"></td>
+		  </tr>
+		  <tr>
+		    <td valign="top"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Customer/Comic6.asp?btn=10" onfocus="blur();">
+			<img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/NewMain_/Banner_Comic_061128.jpg" border="0"></a></td>
+          </tr>
+
+
+
+
+  <!--tr>
+    <td><a href="http://www.kalonline.co.kr" onFocus="blur();" target="_blank"><img src="http://img.kalonline.com/EKal_0511/Common/banner_01.jpg" border="0"></a></td>
+  </tr>
+
+  <tr>
+    <td height="2"></td>
+  </tr>
+  <tr>
+    <td><a href="http://eng.inixsoft.co.kr" onFocus="blur();" target="_blank"><img src="http://img.kalonline.com/EKal_0511/Common/banner_02.jpg" border="0"></a></td>
+  </tr>
+  <tr>
+    <td height="2"></td>
+  </tr>
+  <tr>
+    <td><a href="http://eng.shinru.co.kr" onFocus="blur();" target="_blank"><img src="http://img.kalonline.com/EKal_0511/Common/banner_03.jpg" border="0"></a></td>
+  </tr>
+
+  <tr>
+    <td height="2"></td>
+  </tr>
+  <tr>
+    <td align=center><script src="https://siteseal.thawte.com/cgi/server/thawte_seal_generator.exe"></script></td>
+  </tr-->
+
+
+
+ 
+
+
+
+</table>
+ <Script Language="javascript">
+function OpenSystem1()
+		{
+			window.open("http://web.archive.org/web/20071211120037/http://www.kalonline.com//Vbv_1.asp","popup","toolbar=0,menubar=0,scrollbars=no,resizable=no,width=555,height=361");
+		}
+
+</Script></td>
+      </tr>
+      <tr>
+        <td height="5"></td>
+        </tr>
+      <tr>
+        <td align="left" valign="bottom" background="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/menu_bg.gif" bgcolor="#EFEFE7"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/menu_bgb.gif"></td>
+        <td align="left" valign="top"><table width="650" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="650" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" bgcolor="E0DED7"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/cp_l.gif"></td>
+        <td width="80"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Customer/Stipulation.asp?btn=1" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/cpb_01.gif" border="0"></a></td>
+        <td width="215"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Customer/CashStipulation.asp?btn=2" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/cpb_02.gif" border="0"></a></td>
+        <td width="87"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Customer/Policy01.asp" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/cpb_03.gif" border="0"></a></td>
+        <td width="66"><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Customer/SiteMap.asp" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/cpb_04.gif" border="0"></a></td>
+        <td align="right" bgcolor="E0DED7"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/cp_r.gif"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/copyright.gif"></td>
+  </tr>
+</table>
+<div id=divMenu style="LEFT: 858px; WIDTH: 22px; POSITION: absolute; TOP: 496px">
+<TABLE cellSpacing=0 cellPadding=0 width=22 height="30" border=0>
+  <TBODY>
+  <TR>
+    <TD><a href="http://web.archive.org/web/20071211120037/http://www.kalonline.com/Community/Ranking.asp?btn=4#" onFocus="blur();"><img src="http://web.archive.org/web/20071211120037im_/http://img.kalonline.com/EKal_0511/Common/b_top.gif" border="0"></a></TD></TR></TBODY></TABLE></DIV>
+	<script language=javascript>
+<!--
+var bNetscape4plus = (navigator.appName == "Netscape" && navigator.appVersion.substring(0,1) >= "4");
+var bExplorer4plus = (navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.substring(0,1) >= "4");
+function CheckUIElements(){
+        var yMenuFrom, yMenuTo, yButtonFrom, yButtonTo, yOffset, timeoutNextCheck;
+
+        if ( bNetscape4plus ) { 
+                yMenuFrom   = document["divMenu"].top;
+                yMenuTo     = top.pageYOffset + 600; // ⓒøY¨o¨￢￠?e ¡¤ⓒoAI¨ui Y AAC¡I
+        }
+        else if ( bExplorer4plus ) {
+                yMenuFrom   = parseInt (divMenu.style.top, 10);
+                yMenuTo     = document.body.scrollTop + 600; // AI¨o¨￢￠?e ¡¤ⓒoAI¨ui Y AAC¡I
+        }
+
+        timeoutNextCheck = 500;
+
+        if ( Math.abs (yButtonFrom - (yMenuTo + 152)) < 6 && yButtonTo < yButtonFrom ) {
+                setTimeout ("CheckUIElements()", timeoutNextCheck);
+                return;
+        }
+
+        if ( yButtonFrom != yButtonTo ) {
+                yOffset = Math.ceil( Math.abs( yButtonTo - yButtonFrom ) / 10 );
+                if ( yButtonTo < yButtonFrom )
+                        yOffset = -yOffset;
+
+                if ( bNetscape4plus )
+                        document["divLinkButton"].top += yOffset;
+                else if ( bExplorer4plus )
+                        divLinkButton.style.top = parseInt (divLinkButton.style.top, 10) + yOffset;
+
+                timeoutNextCheck = 10;
+        }
+        if ( yMenuFrom != yMenuTo ) {
+                yOffset = Math.ceil( Math.abs( yMenuTo - yMenuFrom ) / 20 );
+                if ( yMenuTo < yMenuFrom )
+                        yOffset = -yOffset;
+
+                if ( bNetscape4plus )
+                        document["divMenu"].top += yOffset;
+                else if ( bExplorer4plus )
+                        divMenu.style.top = parseInt (divMenu.style.top, 10) + yOffset;
+
+                timeoutNextCheck = 10;
+        }
+
+        setTimeout ("CheckUIElements()", timeoutNextCheck);
+}
+
+function OnLoad()
+{
+        var y;
+        if ( top.frames.length )
+        if ( bNetscape4plus ) {
+                document["divMenu"].top = top.pageYOffset + 600;  //ⓒøY¨o¨￢￠?e ¡¤ⓒoAI¨ui Y AAC¡I
+
+                document["divMenu"].visibility = "visible";
+        }
+        else if ( bExplorer4plus ) {
+                divMenu.style.top = document.body.scrollTop + 600;  //AI¨o¨￢￠?e ¡¤ⓒoAI¨ui Y AAC¡I
+
+                divMenu.style.visibility = "visible";
+        }
+        CheckUIElements();
+        return true;
+}
+OnLoad();
+//-->
+</script>
+
+
+
+<script src="http://web.archive.org/web/20071211120037js_/http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-810656-1";
+urchinTracker();
+</script></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 12:00:37 dec 11, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:36:08 nov 30, 2011.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

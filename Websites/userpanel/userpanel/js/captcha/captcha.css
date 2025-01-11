@@ -1,0 +1,41 @@
+img { behavior: url(iepngfix.htc); }
+
+
+
+/* FANCY CAPTCHA STARTS */
+.ajax-fc-container { width: 326px;   color:#fff;  margin:15px 0 0; }
+
+/* rounded corners */
+.ajax-fc-rtop, .ajax-fc-rbottom{ display:block;  }
+.ajax-fc-rtop *, .ajax-fc-rbottom *{ display: block; height: 1px; overflow: hidden;  }
+
+/* describes left and right boxes */
+div#ajax-fc-content { position: absolute; margin-top: -3px; margin-left: 9px; width: 310px; height: 105px; }
+div#ajax-fc-content div#ajax-fc-left { width: 200px; height: 100px; float: left; }
+
+div#ajax-fc-content div#ajax-fc-right { width: 98px; height: 100px; float: right; }
+
+/* block left: task and pictures */
+p#ajax-fc-task { line-height: 16px; margin: 0; padding: 0px 0 0 11px; font-size: 10px; font-family: Verdana, Tahoma, Arial; color: #color:#fff;; }
+p#ajax-fc-task span { color: #66a70b; font-weight: bold; }
+
+ul#ajax-fc-task { width: 190px; height: 18px; list-style-type: none;  background-repeat: no-repeat; margin: 6px 0 0 0; padding: 5px 0 0 2px; }
+
+/* block right: cycle and backlink */
+ul#ajax-fc-task li { float: left; margin-right: 1px; margin-top: 6px;}
+p#ajax-fc-circle { position: absolute; margin: 18px 0 0 15px; width: 79px; height: 79px; background: url(imgs/circle.png); background-repeat: no-repeat; }
+img#ajax-fc-backlink { position: absolute; margin-top: 1px; margin-left: 6px; border: 0px; z-index: 101; }
+
+/* left and right png borders */
+div#ajax-fc-corner-spacer { height: 99px; }
+img.ajax-fc-border { position: absolute; margin-top: -3px; }
+img.ajax-fc-border#ajax-fc-left { margin-left: 2px; }
+img.ajax-fc-border#ajax-fc-right { margin-left: 307px; }
+
+/* items */
+.ajax-fc-highlighted { cursor: pointer; z-index: 102}
+
+/* rounded corners */
+.ajax-fc-r1{ margin: 0 5px } .ajax-fc-r2{ margin: 0 3px } .ajax-fc-r3{ margin: 0 2px } .ajax-fc-r4{ margin: 0 1px; height: 2px }
+
+/* FANCY CAPTCHA ENDS */

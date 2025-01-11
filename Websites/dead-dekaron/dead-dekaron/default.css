@@ -1,0 +1,287 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #EAE7DE;
+	background-image: url(img/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #B4B4B4;
+}
+a {
+	color: #00BAFF;
+	text-decoration: none;
+	outline: none;
+}
+a:visited, a:active, a:focus {
+	color: #929292;
+}
+a:hover {
+	color: #007EAD;
+}
+#quote {
+	margin: 10px;
+ 	padding: 10px 10px 10px 10px;  	
+  	background-image: url(img/quote.jpg);
+	color: #FFFFFF;
+	overflow: hidden;
+}
+#header {
+	margin-left: 172px;
+	overflow: hidden;
+	height: 184px;
+	width: 850px;
+}
+#top-menu {
+	margin-left: 172px;
+	background-image: url(img/bg_menu.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;
+	height: 3px;
+	width: 856px;
+}
+#menu {
+	margin-left: 172px;
+	background-image: url(img/menu.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;
+	height: 46px;
+	width: 856px;
+}
+#line {
+	margin-left: 175px;
+	background-color: #FFFFFF;
+	height: 1px;
+	width: 248px;
+}
+#line2 {
+	margin-left: 248px;
+	background-color: #000000;
+	height: 1px;
+	width: 602px;
+}
+#line3 {
+	margin-left: 172px;
+	background-image: url(img/line3.png);
+	height: 1px;
+	width: 856px;
+}
+#center {
+	margin-left: 172px;
+	margin-right: 172px;
+	background-image: url(img/line3.png);
+	overflow: hidden;
+	height: auto;
+	width: 856px;
+}
+#right {
+	float: right;
+	overflow: hidden;
+	height: auto;
+	width: 605px;
+}
+#left {
+	float: left;
+	overflow: hidden;
+	width: 251px;
+}
+#server-status {
+	background-image: url(img/bg_server_status.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 100%;
+	width: 251px;
+}
+#last-update {
+	background-image: url(img/bg_last_update.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 235px;
+	width: 602px;
+}
+#user-panel {
+	margin-top: 1px;
+	background-image: url(img/bg_user_panel.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 100%;
+	width: 251px;
+}
+#us-txt {
+	float: right;
+	padding: 5px 0px 0px 7px;
+	background-image: url(img/txt.jpg);
+	background-repeat: no-repeat;
+	height: 23px;
+	width: 164px;
+}
+#info {
+	background-image: url(img/info.png);
+	overflow: hidden;
+	height: 52px;
+	width: 605px;
+}
+#info-txt {
+	overflow: hidden;
+	height: 100%;
+	width: 602px;
+}
+#menu0 {
+	margin: 0px;
+	padding: 0px;
+	background-color: #DDDDDD;
+	overflow: hidden;
+}
+#menu0 dt {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	background-color: #CBCBCB;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 7px 7px 7px 7px;
+	cursor: pointer;
+	overflow: hidden;
+}
+#menu0 dd {
+	background-color: #DDDDDD;
+	color: #919191;
+	text-align: justify;
+	margin: 0px;
+	padding: 10px 20px;
+	overflow: hidden;
+}
+#menu0 dd.active {
+	font-weight: bold;
+}
+#menu1 {
+	margin: 0px;
+	padding: 0px;
+	background-color: #DDDDDD;
+	overflow: hidden;
+}
+#menu1 dt {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	background-color: #CBCBCB;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 7px 7px 7px 7px;
+	cursor: pointer;
+	overflow: hidden;
+}
+#menu1 dd {
+	background-color: #DDDDDD;
+	color: #919191;
+	text-align: justify;
+	margin: 0px;
+	padding: 10px 20px;
+	overflow: hidden;
+}
+#menu1 dd.active {
+	font-weight: bold;
+}
+#menu2 {
+	margin: 0px;
+	padding: 0px;
+	background-color: #DDDDDD;
+	overflow: hidden;
+}
+#menu2 dt {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	background-color: #CBCBCB;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 7px 7px 7px 7px;
+	cursor: pointer;
+	overflow: hidden;
+}
+#menu2 dd {
+	background-color: #DDDDDD;
+	color: #919191;
+	text-align: justify;
+	margin: 0px;
+	padding: 10px 20px;
+	overflow: hidden;
+}
+#menu2 dd.active {
+	font-weight: bold;
+}
+#timer {
+	background-image: url(img/timer.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 110px;
+	width: 251px;
+}
+#coins {
+	background-repeat: repeat-y;
+	overflow: hidden;
+	overflow: hidden;
+	height: 100%;
+	width: 251px;
+}
+#df {
+	background-image: url(img/deadfront.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 110px;
+	width: 251px;
+}
+#advertisement {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-image: url(img/advertisement.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 110px;
+	width: 605px;
+}
+#free-box {
+	background-image: url(img/free_box.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 168px;
+	width: 251px;
+}
+#footer {
+	margin-left: 172px;
+	margin-bottom: 75px;
+	background-image: url(img/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;
+	height: 45px;
+	width: 856px;
+}
+#links {
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 75px;
+	width: 100%;
+}
+#links-txt {
+	display: block;
+	background: url(img/bg_links.png);
+	position: relative;
+	height: 75px;
+	width: 100%;
+	zoom: 1;
+	margin: 0px auto;
+}
+#rotator img {
+	border: 0px;
+	margin-top: 49px;
+	margin-left: 12px;
+	margin-right: 15px;
+	height: 172px;
+	width: 578px;
+}
+#rotator {
+	width: 578px;
+}

@@ -1,0 +1,63 @@
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 08:47:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 08:47:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 08:47:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 03:41:17.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 03:41:18.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 03:41:18.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 10:37:33.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include(../evo_config.php) [function.include]: failed to open stream: No such file or directory).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 10:37:33.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (include() [function.include]: Failed opening '../evo_config.php' for inclusion (include_path='.:/usr/local/php5/lib/php')).
+Line Number  : 3.
+File Path : /home/content/40/8746340/html/evo_stuff/stats/settings.php.
+Date : 13.03.2012 10:37:33.
+**************************************************************
+

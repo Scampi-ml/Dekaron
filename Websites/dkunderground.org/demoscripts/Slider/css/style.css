@@ -1,0 +1,285 @@
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.a:focus {
+	outline: 0px none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.nohover:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+.body_text {
+	color: #b0aeac;
+}
+
+.secondary_text {
+	color: #626366;
+}
+
+
+
+/*
+ * MAIN CAPSULE ROTATION
+ */
+ 
+#slider_box {
+	width: 616px;
+}
+ 
+.main_cluster_content {
+	position: relative;
+	width: 616px;
+	height: 353px;
+	overflow: hidden;
+}
+
+.main_cluster_content .cluster_capsule {
+	width: 616px; 
+	height: 353px;
+}
+
+.main_cluster_content img.cluster_capsule_image {
+	width: 616px;
+	height: 353px;
+	position: relative;
+}
+
+.colossal_cluster_content {
+	position: relative;
+	width: 616px;
+	height: 716px;
+	overflow: hidden;
+}
+
+.colossal_cluster_content .cluster_capsule {
+	width: 616px; 
+	height: 716px;
+}
+
+.colossal_cluster_content img.cluster_capsule_image {
+	width: 616px;
+	height: 716px;
+	position: relative;
+}
+
+.cluster_control_left, .cluster_control_right {
+	position: absolute;
+	top: 16px;
+	height: 44px;
+	color: #8bb9e0;
+	background-color: #000000;
+	padding: 6px;
+	cursor: pointer;
+}
+
+.cluster_control_left img, .cluster_control_right img {
+	vertical-align: middle;
+}
+
+.cluster_control_left {
+	left: 0px;
+	padding-right: 16px;
+}
+
+.cluster_control_right {
+	right: 0px;
+	text-align: right;
+	padding-left: 16px;
+}
+
+.cluster_scroll_area {
+	position: relative; 
+	left: 0px;
+}
+
+#home_main_cluster {
+	margin-bottom: 7px;
+}
+
+#main_cluster_control_ctn {
+	height: 13px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+
+.cluster_capsule {
+	display: block;
+	float: left;
+	margin-right: 4px;
+	position: relative;
+}
+
+a.cluster_capsule:hover {
+	text-decoration: none;
+}
+
+a.main_cap:hover {
+	text-decoration: none;
+}
+
+.main_cap_desc {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	
+	width: 616px;
+	height: 86px;
+	overflow: hidden;
+}
+
+.main_cap_desc .desc_overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 616px;
+	height: 86px;
+	
+	background-color: #000000;
+	opacity: 0.6;	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+}
+
+.main_cap_desc .main_cap_platform_area {
+	position: absolute;
+	top: 8px;
+	right: 13px;
+}
+
+.main_cap_desc .main_cap_content {
+	position: relative;
+	padding: 8px 13px 0px 13px;
+	
+	color: #ffffff;
+	font-size: 14px;
+	
+	height: 70px;
+	
+	overflow: hidden;
+}
+
+.main_cap_content h1 {
+	white-space: nowrap;
+}
+
+
+div.slider { 
+	height: 13px; 
+	position: relative;
+	background-color:#323232; 
+}
+
+div.slider div.handle {
+	position: absolute;
+	top: 0px;
+	 
+	width: 60px; 
+	height: 13px;  
+	cursor: pointer; 
+	
+	background-image: url( ../images/control_slider.png );
+	background-repeat: no-repeat; 
+	background-position: left;
+}
+
+div.slider div.handle:hover {
+	background-position: right;
+}
+
+#main_capsule_control_ctn div.slider {
+	width: 616px;
+}
+
+.large_cluster_content_twoup {
+	position: relative;
+	width: 940px;
+	height: 254px;
+	overflow: hidden;
+}
+
+.large_cluster_content_twoup .cluster_control_left {
+	border-left: 1px solid #4D4B49;
+}
+
+.large_cluster_content_twoup .cluster_control_right {
+	border-right: 1px solid #4D4B49;
+}
+
+.large_cap {
+	width: 467px; 
+	height: 252px;
+	border: 1px solid #4D4B49;
+}
+
+.cluster_capsule.large_cap {
+	margin-right: 2px;
+}
+
+a.large_cap:hover {
+	text-decoration: none;
+}
+
+img.large_cap {
+	width: 467px; 
+	height: 181px;
+	position: relative;
+}
+
+.large_cap_content {
+	padding: 13px 16px;
+}
+
+.large_cap_content h4 {
+	margin-bottom: 6px;
+}
+
+.large_cap_content p {
+	color: #B0AEAC;
+	font-size: 12px;
+	height: 32px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+.large_cap_desc {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	
+	background-color: #1a1a1a;
+	
+	width: 467px;
+	height: 71px;
+	overflow: hidden;
+}

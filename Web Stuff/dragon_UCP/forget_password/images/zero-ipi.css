@@ -1,0 +1,49 @@
+body {
+  margin: 0px !important; 
+  background: #333 url(bg_login.png) repeat-x top !important; 
+  padding: 0px !important; 
+  margin: 0 !important;
+  font: 12px Arial, Helvetica, sans-serif !important;
+  color: #fff !important;
+}
+body > div {width: 320px; margin: 0 auto; text-align: center; overflow: hidden}
+body > div input {border: none; outline: none;}
+body > div h1 {margin: 0; padding: 15px 0 0 0; font-size: 18px !important; letter-spacing: -1px;}
+body > div input[type="text"],
+body > div input[type="password"] {width: 230px; padding: 8px 15px; -webkit-border-radius: 10px; font-weight: bold; color: #ccc; font-size: 20px;}
+body > div p,
+body > div h1 {font-family: Arial, Helvetica, sans-serif}
+body > div > table {width: 320px !important;background: transparent; text-align: left; margin: 0 auto;}
+body > div form {width: 265px !important; overflow: hidden; margin-left: auto; margin-right: auto;}
+th {text-align: left !important}
+input[type="text"], input[type="password"] {
+  background-color: white !important;
+  margin: 0px !important;
+}
+input[size="30"] {width: 140px !important;} /* In tables */
+input[type="checkbox"] {margin: 0px;}
+
+input[type='submit'] {
+	background: url(btn_logi.png) transparent;
+	border: none;
+	width: 121px;
+	height: 42px;
+	color: transparent;
+}
+body table.not-foldable {width: 100% !important; border: none !important;}
+
+/* Overrides */
+div#header-block, #body-block, #body-block h1 {background: transparent; color: white;}
+
+div.topimg {display: none}
+a, #body-block a {color: #dde !important;}
+div#captchabox {background: transparent !important;}
+p.inline-doc {display: none;}
+
+div#header-block {background: transparent !important;}
+table {background: transparent !important;}
+td {border: none; padding: 0px}
+body #header-block {background: transparent !important; height: auto !important}
+body #effective-body {background: transparent; border: none}
+#body-block input[size="30"] {width: 120px !important}
+#body-block input[type="submit"], #body-block input[type="button"] {text-shadow: none}

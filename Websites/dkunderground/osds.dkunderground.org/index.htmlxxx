@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<title>ImmaculÃ©e | Software and Web Apps template</title>
+	<meta http-equiv="Content-Language" content="en-us" />
+	
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	
+	<meta name="description" content="" />
+    
+	<meta name="keywords" content="" />
+    <link href="./style.css" media="all" rel="stylesheet" type="text/css" />
+    
+    <script src="./js/jquery-1.2.6.pack.js" type="text/javascript"></script>
+    <script src="./js/jquery.flow.1.2.min.js" type="text/javascript"></script>
+        
+    <!--[if lt IE 7]>
+       <script type="text/javascript" src="./js/supersleight-min.js"></script>
+       <script type="text/javascript" src="./js/jquery.dropdown.js"></script>
+       <style type="text/css" media="screen">
+       @import url("http://theme.idowebdesign.ca/immaculee/blue/ie6.css");
+           
+    	</style>
+        
+	<![endif]--> 
+    
+    <script type="text/javascript">
+    
+	$(function() {
+		$("body").addClass("has-script");
+        
+		$("#Controller").jFlow({
+			slides: "#slides",
+			controller: ".jFlowControl",
+			slideWrapper : "#jFlowSlide", 
+			selectedWrapper: "jFlowSelected",
+			width: "390px",
+			height: "170px",
+			duration: 300,
+			prev: ".prev", 
+			next: ".next" 
+		});
+		
+    });
+	
+    </script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+<body>
+
+    	<div id="container">
+                    
+            <!-- header -->
+            <div id="header">
+            
+                <h1><a href="./index.html">Your Company Name</a></h1>
+                                
+          	</div>
+            
+           	<div id="menus">
+                <ul id="main-menu" class="dropdown dropdown-horizontal">
+                        <li><a id="current" href="./index.html">Home</a></li>                
+                        <li><a href="./products.html">Products</a>
+                            <ul>
+                                <li><a href="./products.html">Overview</a></li>
+                                <li><a href="./features.html">Features</a></li>
+                                <li><a href="./index.html">FAQ</a></li>
+                                <li><a href="./index.html">Version History</a></li>
+                                <li><a href="./index.html">Products Comparison</a></li>                             
+                            </ul>
+                        </li>
+                        <li><a href="./index.html">Company</a>                        
+                        	<ul>
+                                <li><a href="./index.html">About Us</a></li>
+                                <li><a href="./index.html">Media Coverage</a></li>
+                                <li><a href="./index.html">Press Releases</a></li>
+                                <li><a href="./index.html">Awards</a></li>
+                                <li><a href="./index.html">Clients</a></li>
+                                <li><a href="./index.html">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./pricing.html">Pricing</a>
+                        	<ul>
+                                <li><a href="./pricing.html">Standard</a></li>
+                                <li><a href="./index.html">Special</a></li>
+                                <li><a href="./index.html">Corporate</a></li>
+                                <li><a href="./index.html">Non Profit</a></li>
+                			</ul>
+                        </li>
+                        <li><a href="./news.html">News</a></li>                        
+                        <li><a href="./contact.php.html">Contact</a></li>                        
+                </ul>
+                
+                <ul class="contact">
+                	<li>Sales: 1 800 654 3215</li>
+                </ul>
+                
+            </div><!-- End Menus -->
+            
+            <div id="mainbar" class="clearfix">
+            	<div class="col2">	
+               
+                	<div id="Controller" class="hidden">
+                        <span class="jFlowControl">No 1 </span>
+                        <span class="jFlowControl">No 2 </span>
+                    	<span class="jFlowControl">No 2 </span>
+                   	</div>
+                	
+                    <div class="prevNext">  
+                    	<a href="#" class="prev">Previous</a>
+                    </div>
+                        
+                   <div id="slides">  
+                        
+                        <div>
+                            <a class="mainimage" href="./features.html"><img alt="Slide1" width="390px" height="170px" src="./images/slide1.jpg" /></a>
+                        </div>
+                            
+                        <div>
+                            <a class="mainimage" href="./features.html"><img alt="Slide2" width="390px" height="170px" src="./images/slide2.jpg" /></a>
+                        </div>
+                        
+                        <div>
+                            <a class="mainimage" href="./features.html"><img alt="Slide3" width="390px" height="170px" src="./images/slide3.jpg" /></a>
+                        </div>
+                           
+                 
+                    </div>  <!-- End of Slides -->
+                    
+                    <div class="prevNext">  
+                    	<a href="#" class="next">Next</a>
+                    </div> 
+                    
+           		</div><!-- end col2 -->
+                
+                <div class="col2">                    
+                    <div id="description" align="center">
+                    	<h2>Easiest Way To Manage Your Business</h2>
+                    	<p>Knight Rider, a shadowy flight into the dangerous world of a man who does not exist. Michael Knight, a young loner on a crusade to champion the cause of the innocent, the helpless in a world of criminals who operate above the law. This where you will but a brief overview of the product you offer.</p>
+                    	<div class="buttons-group">
+                    		<div class="button-home1"><a class="button-home">Download</a></div>
+                    		<div class="button-home1"><a class="button-home">Read More</a></div>
+                    	</div>
+                  </div>
+                </div>
+                    
+        	</div><!-- end mainbar -->
+   	    	        
+            <div id="content" class="home clearfix">
+                <div class="col3" align="center">
+                    <h2>{ <a href="http://themeforest.net/?ref=idowebdesign">Solutions to fit your needs</a> }</h2>
+                    <p>Ut eget nibh <a href="./index.html">vehicula turpis</a> aliquet congue. Fusce arcu dolor, consectetur eu, feugiat nec, hendrerit ut, lectus. Suspendisse est sapien, laoreet ac, ultricies placerat, rhoncus et, libero. You can put a lot more text here about the software feautre. You will learn much more on our product page.</p>
+                </div>
+                
+                <div class="col3" align="center">
+                    <h2>{ <a href="http://themeforest.net/?ref=idowebdesign">Affordable</a> }</h2>
+                    <p>Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles undergroun. Really affordable as you can see. No need to purchase a <a href="./index.html">server licence.</a></p>
+               </div>
+               
+               <div class="col3" align="center">
+                    <h2>{ <a href="http://themeforest.net/?ref=idowebdesign">Speed up billing time</a> }</h2>
+                    <p>Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find. <a href="./index.html">The nicest feature</a> ever to propule your business to new area never been before. Therefore you will see improvment in the work done by your employes.</p>
+              </div>
+              
+            
+              <div class="col3" align="center">
+                    <h2>{ <a href="http://themeforest.net/?ref=idowebdesign">Tons of features</a> }</h2>
+                    <p>Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a <a href="./index.html">maximum security</a> stockade to the Los Angeles underground.Ten years ago a crack commando unit was sent to prison by a military court.</p>
+              </div>
+                
+                
+              <div class="col3" align="center">
+                    <h2>{ <a href="http://themeforest.net/?ref=idowebdesign">Fast and Effective</a> }</h2>
+                    <p>Ulysses, Ulysses - Soaring through all the galaxies. In search of <a href="./index.html">Earth</a>, flying in to the night. Ulysses, Ulysses - Fighting evil and tyranny, with all his power, and with all of his might. Ulysses. Ten years ago a crack commando unit was sent to prison by a military court Column centering feature.</p>
+              </div>
+              
+              <div class="col3" align="center">
+                    <h2>{ <a href="http://themeforest.net/?ref=idowebdesign">Get out and play</a> }</h2>
+                    <p>Top Cat! The most effectual Top Cat! Who's intellectual close friends get to call him T.C., providing it's with dignity. Top Cat! The indisputable. Yes you are building web sites but it is now time to get out an play before it is too late. Take a big breath and go outside to appreciate the nature and sports.</p>
+              </div>
+           
+            </div><!-- end content -->
+            
+            <div id="footer">
+     
+               <ul>
+                    <li><a href="./index.html">Immacul&eacute;e @ 2009</a></li>
+                    
+                    <li><a href="./index.html">Disclaimer</a></li>
+                    
+                    <li><a href="./index.html">License</a></li>
+                    
+                    <li><a href="./index.html">Support</a></li>
+                    
+                </ul>
+                
+                <div class="download"><a class="download" href="./index.html">Download Now</a></div>
+                
+                <div class="clear"></div>
+            
+    		</div><!-- end Footer -->
+            
+          </div> <!--end container-->
+   
+</body>
+</html>

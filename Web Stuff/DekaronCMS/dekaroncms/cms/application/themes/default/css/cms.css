@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+/**
+ * This stylesheet contains both general
+ * and certain module specific selectors.
+ * You should edit the colors to suit your
+ * theme. You can also override their module
+ * provided default styles like font-size,
+ * margin and padding.
+ *
+ * If you need to look up the default styles
+ * of a selector, please refer to:
+ * /application/css/default.css
+ */
+
+
+/* Slider text bar */
+.caption {
+	background-color:rgba(0,0,0,0.6);
+	color:#fff;
+}
+
+#slider_next,
+#slider_previous {
+	color:#fff;
+	background-color:rgba(0,0,0,0.6);
+}
+
+#slider_next:hover,
+#slider_previous:hover {
+	background-color:#000;
+}
+
+
+/* Comments and shoutbox: characters remaining indicator text */
+.characters_remaining {
+	color:#666;
+}
+
+#poll_answers .poll_answer {
+	margin-left:10px;
+}
+
+/* Modal boxes: alert & confirm */
+.popup {
+	background-color:#eee;
+	border:1px solid #fff;
+	box-shadow:0px 0px 35px #000;
+	-webkit-box-shadow:0px 0px 35px #000;
+	-moz-box-shadow:0px 0px 35px #000;
+}
+
+.popup a {
+	color: #fff;
+}
+
+.popup a:hover {
+	color:#fff;
+}
+
+.popup_button {
+	background-color: #7fbf4d;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+	background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: linear-gradient(top, #7fbf4d, #63a62f);
+	border: 1px solid #63a62f;
+	border-bottom: 1px solid #5b992b;
+	-webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+	-moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+	-ms-box-shadow: inset 0 1px 0 0 #96ca6d;
+	-o-box-shadow: inset 0 1px 0 0 #96ca6d;
+	box-shadow: inset 0 1px 0 0 #96ca6d;
+	text-shadow: 0 -1px 0 #4c9021;
+}
+
+.popup_button:hover {
+	 background-color: #76b347;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: linear-gradient(top, #76b347, #5e9e2e);
+    -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+    -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+    -ms-box-shadow: inset 0 1px 0 0 #8dbf67;
+    -o-box-shadow: inset 0 1px 0 0 #8dbf67;
+    box-shadow: inset 0 1px 0 0 #8dbf67;
+}
+
+.popup_button:active {
+	border: 1px solid #5b992b;
+    border-bottom: 1px solid #538c27;
+    -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    -ms-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    -o-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+}
+
+.popup_hide {
+	background-color: #bfbfbf;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bfbfbf), color-stop(100%, #9a9a9a));
+	background-image: -webkit-linear-gradient(top, #bfbfbf, #9a9a9a);
+	background-image: -moz-linear-gradient(top, #bfbfbf, #9a9a9a);
+	background-image: -ms-linear-gradient(top, #bfbfbf, #9a9a9a);
+	background-image: -o-linear-gradient(top, #bfbfbf, #9a9a9a);
+	background-image: linear-gradient(top, #bfbfbf, #9a9a9a);
+	border: 1px solid #9a9a9a;
+	border-bottom: 1px solid #9a9a9a;
+	-webkit-box-shadow: inset 0 1px 0 0 #cbcbcb;
+	-moz-box-shadow: inset 0 1px 0 0 #cbcbcb;
+	-ms-box-shadow: inset 0 1px 0 0 #cbcbcb;
+	-o-box-shadow: inset 0 1px 0 0 #cbcbcb;
+	box-shadow: inset 0 1px 0 0 #cbcbcb;
+	text-shadow: 0 -1px 0 #8f8f8f;
+}
+
+.popup_hide:hover {
+	background-color: #adadad;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adadad), color-stop(100%, #a0a0a0));
+    background-image: -webkit-linear-gradient(top, #adadad, #a0a0a0);
+    background-image: -moz-linear-gradient(top, #adadad, #a0a0a0);
+    background-image: -ms-linear-gradient(top, #adadad, #a0a0a0);
+    background-image: -o-linear-gradient(top, #adadad, #a0a0a0);
+    background-image: linear-gradient(top, #adadad, #a0a0a0);
+    -webkit-box-shadow: inset 0 1px 0 0 #bbbbbb;
+    -moz-box-shadow: inset 0 1px 0 0 #bbbbbb;
+    -ms-box-shadow: inset 0 1px 0 0 #bbbbbb;
+    -o-box-shadow: inset 0 1px 0 0 #bbbbbb;
+    box-shadow: inset 0 1px 0 0 #bbbbbb;
+}
+
+.popup_hide:active {
+	border: 1px solid #a0a0a0;
+    border-bottom: 1px solid #8b8b8b;
+    -webkit-box-shadow: inset 0 0 8px 4px #8c8c8c, 0 1px 0 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 8px 4px #8c8c8c, 0 1px 0 0 #eeeeee;
+    -ms-box-shadow: inset 0 0 8px 4px #8c8c8c, 0 1px 0 0 #eeeeee;
+    -o-box-shadow: inset 0 0 8px 4px #8c8c8c, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 8px 4px #8c8c8c, 0 1px 0 0 #eeeeee;
+}
+
+#popup_bg {
+	background-color:#000;
+}
+
+/* Form fields */
+textarea {
+	padding:8px;
+	color:#fff;
+	background-color:#cfd2d9;
+	border:1px solid #222222;
+	font-family:Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-ms-transition: all 300ms;
+	transition: all 300ms;
+}
+
+select {
+	font-family:Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	width:84%;
+	padding:8px;
+	color:#fff;
+	background-color:#cfd2d9;
+	border:1px solid #222222;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	margin:5px;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-ms-transition: all 300ms;
+	transition: all 300ms;
+}
+
+input[type="submit"], .nice_button {
+	padding:7px;
+	background-color:#021015;
+	background:-webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					color-stop(0, #cfd2d9),
+					color-stop(1, #aaadb4));
+	background:-moz-linear-gradient(
+					center bottom,
+					#cfd2d9 0%,
+					#aaadb4 100%);
+	border:1px solid #0a3748;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	color:#222222;
+	margin-top:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+input[type="submit"]:hover, .nice_button:hover, .nice_active {
+	background:-webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					color-stop(0, #aaadb4),
+					color-stop(1, #cfd2d9));
+	background:-moz-linear-gradient(
+					center bottom,
+					#aaadb4 0%,
+					#cfd2d9 100%);
+	color:#000;
+}
+
+input[type="submit"]:active, .nice_button:active {
+	box-shadow:0px 0px 5px #000 inset;
+	-webkit-box-shadow:0px 0px 5px #000 inset;
+	-moz-box-shadow:0px 0px 5px #000 inset;
+	color:#999;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+	font-family:Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	width:80%;
+	padding:8px;
+	background-color:#fff;
+	border:1px solid #222222;
+	color:#222222;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	margin:5px;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-ms-transition: all 300ms;
+	transition: all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+	color:#000;
+}
+
+/* Full-page styles (log in, register etc.) */
+.page_form input[type="submit"] {
+	padding-left:20px;
+	padding-right:20px;
+	font-size:16px;
+}
+
+.avatar, #ucp_avatar, .store_item .item_icon {
+	border:1px solid #000;
+	margin-right:10px;
+}
+
+.ucp_divider {
+	background-image:url(../images/ucp_divider.png);
+	background-repeat:no-repeat;
+	height:33px;
+	background-position:center;
+}
+
+.vertical_divider {
+	background-image:url(../images/vertical_divider.jpg);
+	background-repeat:no-repeat;
+	height:424px;
+	width:33px;
+}
+
+#armory {
+	margin-left:-5px !important;
+}
+
+/* First column in the #ucp_info */
+#ucp_info aside:first-child {
+	border-right:1px solid #0A3748;
+}
+
+#ucp_info aside:nth-child(3) {
+	border-left:1px solid #0A3748;
+}
+
+
+#ucp_info aside:last-child {
+	border-right:none !important;
+}
+
+/* Second <td> of each row */
+#ucp_info td:nth-child(2) {
+	font-weight:bold;
+}
+
+#ucp_buttons a {
+	border:1px solid #000;
+	
+}
+
+/* UCP: character list, character */
+#ucp_characters a {
+	border:1px solid #000;
+}
+
+
+/* Online players bar and realm bar (used on UCP, profiles) */
+#ucp_characters h1 {
+	background-color:#cfd2d9;
+	background:-webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					color-stop(0, #cfd2d9),
+					color-stop(1, #aaadb4));
+	background:-moz-linear-gradient(
+					center bottom,
+					#cfd2d9 0%,
+					#aaadb4 100%);
+	border:1px solid #000;
+	color:#222222;
+	margin-top:5px !important;
+}
+
+
+#ucp_info td {
+	font-size:11px;
+}
+
+.nice_table2 tr:first-child td {
+	border-bottom:1px solid #0e171e;
+	color:#A07332;
+	font-weight:normal;
+}
+.nice_table2 tr:first-child td a {
+	color:#A07332;
+}
+.nice_table2 td {
+	vertical-align:middle;
+}
+
+/* Characters remaining counter */
+.shout_characters_remaining {
+	color:#999;
+}
+
+
+
+
+#search_results .q1, .q1 a { color:#fff !important }
+#search_results .q2, .q2 a { color:#14a800 !important }
+
+#ucp_buttons {
+	width:690px;
+	margin-left:-8px;
+}
+
+/* Store: item group title */
+.item_group_title, .store_item {
+	text-shadow:1px 1px 0px #000;
+}
+
+.item_group_title {
+	margin-top:20px;
+	margin-bottom:5px;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:13px;
+}
+
+/* Store: item group box */
+.item_group {
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border:1px solid #0A3748;
+	padding:0px;
+}
+
+#sidebox_login input[type="submit"] {
+	width:89%;
+	margin-bottom:10px;
+}

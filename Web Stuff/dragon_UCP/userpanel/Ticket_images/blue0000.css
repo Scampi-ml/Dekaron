@@ -1,0 +1,35 @@
+/* EncoreAdmin - Blue skin */
+
+a { color: #2b5c78; }
+body.withSubnav { background: #fff url(bgTopOpe.gif) repeat-x 0 0; }
+body.withoutSubnav { background: #fff url(bgTopClo.gif) repeat-x 0 0; }
+#top { background: transparent url(bgTopLig.jpg) no-repeat 0 0; }
+#title a { color: #6f95a8; }
+#title span { color: #253a43; }
+.button.tool {
+    background-image: url(btnToolb.gif);
+    color: #cbdb19;
+    border-color: #22353f;   
+}
+p#user a { color: #6f95a8; }
+.button.tool:hover { color: #fff; }
+.sidebox h1 {
+    color: #fff; 
+    background: #2f4653 url(bgSidebo.gif) repeat-x 0 0;    
+}
+#calendar td.today {
+    background: #273a44;
+    color: #fff;
+}
+#calendar td.event { 
+    background: #6f95a8;
+    color: #fff; 
+}
+.mainForm legend {
+    color: #fff;
+    background: transparent url(bgFields.gif) repeat-x 0 0; 
+}
+#footer { background: #243743 url(bgFooter.gif) repeat-x 0 0; }
+#footer a { color: #6f95a8; }
+#login h1 span { color: #6f95a8; }
+#login h2 { background: #2f4653 url(bgSidebo.gif) repeat-x 0 0; }

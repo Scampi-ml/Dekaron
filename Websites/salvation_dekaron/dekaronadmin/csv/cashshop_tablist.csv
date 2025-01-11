@@ -1,0 +1,256 @@
+Tab,Count,ImageIndex,Name,X,Y,String,Deco
+0,4,470,Male Spring,0,0,502,1
+0,,471,Female Spring,0,0,502,1
+0,,472,Boss Spawn Token,0,0,503,1
+0,,175,Forbidden Split,0,0,504,1
+1,9,10,Gemcraft Booster,0,0,10,2
+1,,1,Guild of Glory A Pack,0,0,1,0
+1,,9,Guild of Glory B Pack,0,0,9,0
+1,,286,Guild of Glory C Pack,0,0,1,1
+1,,3,Blacksmith's Talisman,0,0,3,2
+1,,4,Soul of Alchemist,0,0,4,0
+1,,5,Regenerator Series,0,0,5,0
+1,,6,Master's Mistake,0,0,6,0
+1,,175,Forbidden Split,0,0,504,1
+2,7,11,Traveler's Backpack,0,0,11,2
+2,,154,Veterans Amulet 100%,0,0,154,2
+2,,7,Mount Special,0,0,7,0
+2,,176,Special Tiger Mounts,0,0,7,0
+2,,159,Wisegon Baby,0,0,284,0
+2,,163,Hawk,0,0,163,0
+2,,131,Colosseum Horse,0,0,131,0
+3,25,282,Super Epic Health Potion,0,0,282,1
+3,,283,Super Epic Mana Potion,0,0,283,1
+3,,152,Ultra Powder,0,0,152,2
+3,,12,Abaddon Powder,0,0,12,2
+3,,13,Trieste Water,0,0,13,2
+3,,102,Mazoram Health Potion,0,0,96,0
+3,,103,Mazoram Mana Potion,0,0,97,0
+3,,106,Super Mazoram Health \Potion,0,0,98,0
+3,,107,Super Mazoram Mana \Potion,0,0,99,0
+3,,104,Miere Health Potion,0,0,100,0
+3,,105,Miere Mana Potion,0,0,101,0
+3,,108,Super Miere Health Potion,0,0,102,0
+3,,109,Super Miere Mana Potion,0,0,103,0
+3,,21,Super Magic Health Pack,0,0,21,0
+3,,22,Super Magic Mana Pack,0,0,22,0
+3,,23,Super Noble Health Pack,0,0,23,0
+3,,24,Super Noble Mana Pack,0,0,24,0
+3,,25,Super Divine Health Potion,0,0,25,0
+3,,26,Super Divine Mana Potion,0,0,26,0
+3,,31,Magic Health Pack,0,0,31,0
+3,,32,Magic Mana Pack,0,0,32,0
+3,,33,Noble Health Pack,0,0,33,0
+3,,34,Noble Mana Pack,0,0,34,0
+3,,35,Divine Health Potion,0,0,35,0
+3,,36,Divine Mana Potion,0,0,36,0
+4,83,470,Male Spring,0,0,502,1
+4,,471,Female Spring,0,0,502,1
+4,,466,Templar of Light,0,0,500,1
+4,,468,Templar of Light,0,0,500,1
+4,,467,Templar of Blood,0,0,501,1
+4,,469,Templar of Blood,0,0,501,1
+4,,463,Halloween Ghost Costume,0,0,463,1
+4,,464,Halloween Ghost Costume,0,0,464,1
+4,,349,Halloween Costumes!,0,0,349,0
+4,,185,Transformation Suits,0,0,185,0
+4,,343,Azure Yukata,0,0,343,0
+4,,344,Hunter Yukata,0,0,344,0
+4,,345,Magician Yukata,0,0,345,0
+4,,346,Summoner Yukata,0,0,346,0
+4,,347,Segnale Yukata,0,0,347,0
+4,,348,Bagi Yukata,0,0,348,0
+4,,251,Premium Costumes,0,0,251,0
+4,,241,2011 Azure Costume,0,0,241,0
+4,,242,2011 Hunter Costume,0,0,242,0
+4,,243,2011 Mage Costume,0,0,243,0
+4,,244,2011 Summoner Costume,0,0,244,0
+4,,245,2011 Segnale Costume,0,0,245,0
+4,,246,2011 Bagi Costume,0,0,246,0
+4,,155,Beanie (White),0,0,155,0
+4,,156,Beanie (Brown),0,0,156,0
+4,,248,Bunny Ears (Male),0,0,128,0
+4,,249,Bunny Ears (Female),0,0,128,0
+4,,183,Knight Summer Outfit,0,0,183,0
+4,,179,Hunter Summer Outfit,0,0,179,0
+4,,181,Mage Summer Outfit,0,0,181,0
+4,,182,Summoner Summer Outfit,0,0,182,0
+4,,180,Segnale Summer Outfit,0,0,180,0
+4,,184,Bagi Summer Outfit,0,0,184,0
+4,,88,Knight's Adventure Suit,0,0,88,0
+4,,89,Hunter's Adventure Suit,0,0,89,0
+4,,91,Magician's Adventure Suit,0,0,91,0
+4,,90,Summoner's Adventure Suit,0,0,90,0
+4,,87,Segnale's Adventure Suit,0,0,87,0
+4,,92,Bagi's Adventure Suit,0,0,92,0
+4,,41,Knight's Formal Suit,0,0,41,0
+4,,42,Hunter's Formal Outfit,0,0,42,0
+4,,43,Magician's Arcane Robes,0,0,43,0
+4,,44,Summoner's Occasion,0,0,44,0
+4,,45,Segnale Sashay,0,0,45,0
+4,,46,Bagi Compromise,0,0,46,0
+4,,51,Tider Knight Set,0,0,51,0
+4,,52,Floe Hunter Set,0,0,52,0
+4,,53,Fallenbishop Magician Set,0,0,53,0
+4,,54,Agathion Summoner Set,0,0,54,0
+4,,55,Echidna Segnale Set,0,0,55,0
+4,,56,Cetus Bagi Set,0,0,56,0
+4,,61,Viking Hat (male),0,0,61,0
+4,,62,Viking Hat (female),0,0,62,0
+4,,64,Hunter Hat (male),0,0,64,0
+4,,63,Hunter Hat (female),0,0,63,0
+4,,65,Chiwoo Heaven King's Mask,0,0,65,0
+4,,71,Knight Swimming Suit,0,0,71,0
+4,,72,Hunter Swimming Suit,0,0,72,0
+4,,73,Magician Swimming Suit,0,0,73,0
+4,,74,Summoner Swimming Suit,0,0,74,0
+4,,75,Segnale Swimming Suit,0,0,75,0
+4,,76,Bagi Swimming Suit,0,0,76,0
+4,,66,Eagle Chief Hat,0,0,66,0
+4,,81,Blade Knight Set,0,0,81,0
+4,,82,Valkyrie Hunter Set,0,0,82,0
+4,,83,Lasputin Magician Set,0,0,83,0
+4,,84,Desayer Summoner Set,0,0,84,0
+4,,85,Succubus Segnale Set,0,0,85,0
+4,,86,Frizkhan Bagi Warrior Set,0,0,86,0
+4,,197,Knight School Uniform,0,0,197,0
+4,,193,Hunter School Uniform,0,0,193,0
+4,,195,Magician School Uniform,0,0,195,0
+4,,196,Summoner School Uniform,0,0,196,0
+4,,194,Segnale School Uniform,0,0,194,0
+4,,198,Bagi School Uniform,0,0,198,0
+4,,200,Knight Wild Uniform,0,0,200,0
+4,,201,Hunter Wild Uniform,0,0,201,0
+4,,202,Magician Wild Uniform,0,0,202,0
+4,,203,Summoner Wild Uniform,0,0,203,0
+4,,212,Summoner Ghost Rider Uniform,0,0,212,0
+4,,204,Segnale Wild Uniform,0,0,204,0
+4,,205,Bagi Wild Uniform,0,0,205,0
+4,,250,Straw Hats,0,0,277,0
+5,83,370,Azure Christmas Suits,0,0,159,0
+5,,371,Hunter Christmas Suits,0,0,159,0
+5,,372,Magician Christmas Suits,0,0,159,0
+5,,373,Summoner Christmas Suits,0,0,159,0
+5,,374,Segnale Christmas Suits,0,0,159,0
+5,,375,Bagi Warrior Christmas Suits,0,0,159,0
+5,,376,Aloken Christmas Suits,0,0,159,0
+5,,391,Dark Wizard Christmas Suits,0,0,159,0
+5,,406,Concerra Christmas Suits,0,0,159,0
+5,,422,Segeuriper Christmas Suits,0,0,159,0
+5,,438,Half Bagi Christmas Suits,0,0,159,0
+5,,377,Aloken Chief Hat,0,0,159,0
+5,,378,Aloken Demon Mask,0,0,159,0
+5,,379,Aloken Hunter Hat,0,0,159,0
+5,,380,Aloken Beach Suit,0,0,159,0
+5,,381,Aloken China Suit,0,0,159,0
+5,,382,Aloken Cowboy Suit,0,0,159,0
+5,,383,Aloken Beach Suit II,0,0,159,0
+5,,384,Aloken School Uniform,0,0,159,0
+5,,385,Aloken School Uniform II,0,0,159,0
+5,,386,Aloken Royal Suit,0,0,159,0
+5,,387,Aloken Pink Woman Suit,0,0,159,0
+5,,388,Aloken Halloween Suit,0,0,159,0
+5,,389,Aloken Yukata,0,0,159,0
+5,,390,Aloken Trans up Costumes,0,0,159,0
+5,,392,Wizard Eagle Chief Suit,0,0,159,0
+5,,393,Wizard Hunter's Hat,0,0,159,0
+5,,394,Wizard Viking Hat,0,0,159,0
+5,,395,Wizard Demon's Mask,0,0,159,0
+5,,396,Wizard Formal Costume,0,0,159,0
+5,,397,Wizard Beanie [white],0,0,159,0
+5,,398,Wizard Beanie [brown],0,0,159,0
+5,,399,Wizard Bunny Ears,0,0,159,0
+5,,400,Wizard Straw Hat,0,0,159,0
+5,,401,Wizard Helloween Costume ,0,0,159,0
+5,,402,Wizard Royal Costume,0,0,159,0
+5,,403,Wizard Pumpkin Head,0,0,159,0
+5,,404,Wizard Trans Up Costumes,0,0,159,0
+5,,405,Black Wizard Yukata Costumes,0,0,159,0
+5,,407,Concerra Eagle Chief Suit,0,0,159,0
+5,,408,Concerra Demon Mask,0,0,159,0
+5,,409,Concerra Hunter Hat,0,0,159,0
+5,,410,Concerra Viking Hat,0,0,159,0
+5,,411,Concerra Beanie,0,0,159,0
+5,,412,Concerra Beanie [brown],0,0,159,0
+5,,413,Concerra Blue Warrior Suit,0,0,159,0
+5,,414,Concerra Summer Suit,0,0,159,0
+5,,415,Concerra Chinese Suit,0,0,159,0
+5,,416,Concerra Straw Hat,0,0,159,0
+5,,417,Concerra Thief Suit,0,0,159,0
+5,,418,Concerra Fox Suit,0,0,159,0
+5,,419,Concerra School Suit,0,0,159,0
+5,,420,Concerra Trans Up Costumes,0,0,159,0
+5,,421,Concerra Summoner Yukata Costumes,0,0,159,0
+5,,423,Seguriper Eagle Chief Suit,0,0,159,0
+5,,424,Seguriper Hunters Hat,0,0,159,0
+5,,425,Seguriper Viking Hat,0,0,159,0
+5,,426,Seguriper Demon Mask,0,0,159,0
+5,,427,Seguriper Beanie [white],0,0,159,0
+5,,428,Seguriper Beanie [brown],0,0,159,0
+5,,429,Seguriper Vampire Suit,0,0,159,0
+5,,430,Seguriper Summer Suit,0,0,159,0
+5,,431,Seguriper Formal Suit,0,0,159,0
+5,,432,Seguriper Straw Hat,0,0,159,0
+5,,433,Seguriper Guard Suit,0,0,159,0
+5,,434,Seguriper Undead Suit,0,0,159,0
+5,,435,Seguriper School Suit,0,0,159,0
+5,,436,Seguriper TransUp Costumes,0,0,159,0
+5,,437,Seguriper Yukata Costumes,0,0,159,0
+5,,439,Half Bagi Eagle Chief Suit,0,0,159,0
+5,,440,Half Bagi Demon's Mask,0,0,159,0
+5,,441,Half Bagi Hunter's Hat,0,0,159,0
+5,,442,Half Bagi Viking Hat,0,0,159,0
+5,,443,Half Bagi Formal Costume,0,0,159,0
+5,,444,Half Bagi Beanie [white],0,0,159,0
+5,,445,Half Bagi Beanie [brown],0,0,159,0
+5,,446,Half Bagi Bunny Ears,0,0,159,0
+5,,447,Half Bagi Straw Hat,0,0,159,0
+5,,448,Half Bagi Royal Costume,0,0,159,0
+5,,449,Half Bagi Helloween Costume,0,0,159,0
+5,,450,Half Bagi Pumpkin Head,0,0,159,0
+5,,451,Half Bagi Yukata Costumes,0,0,159,0
+5,,452,Half Bagi TransUp Costumes,0,0,159,0
+6,2,472,Boss Spawn Token,0,0,503,1
+6,,465,Halloween Wings,0,0,465,2
+7,42,300,Kitty,0,0,158,0
+7,,301,Ferret,0,0,158,0
+7,,302,Fairy,0,0,158,0
+7,,303,Dark Fairy,0,0,158,0
+7,,304,Lunie,0,0,158,0
+7,,305,Rex,0,0,158,0
+7,,306,Marshmelow,0,0,158,0
+7,,307,Cokie,0,0,158,0
+7,,308,Little Tiger,0,0,158,0
+7,,332,Snowman,0,0,158,0
+7,,352,Halloween,0,0,158,0
+7,,353,Fafnir,0,0,158,0
+7,,354,Deus Marble,0,0,158,0
+7,,355,Ilias,0,0,158,0
+7,,356,Cat,0,0,158,0
+7,,357,Circle,0,0,158,0
+7,,358,Dino,0,0,158,0
+7,,359,Dragon,0,0,158,0
+7,,360,Frog,0,0,158,0
+7,,361,Knight,0,0,158,0
+7,,362,Gigant,0,0,158,0
+7,,363,Mini,0,0,158,0
+7,,364,Aloken Pets C,0,0,158,0
+7,,365,Aloken Pets D,0,0,158,0
+7,,366,Concerra Pets C,0,0,158,0
+7,,367,Concerra Pets D,0,0,158,0
+7,,368,Segeuriper Pets C,0,0,158,0
+7,,369,Segeuriper Pets D,0,0,158,0
+7,,335,Aloken Pets A,0,0,158,0
+7,,336,Aloken Pets B,0,0,158,0
+7,,337,Concerra Pets A,0,0,158,0
+7,,338,Concerra Pets B,0,0,158,0
+7,,339,Segeuriper Pets A,0,0,158,0
+7,,351,Segeuriper Pets B,0,0,158,0
+7,,453,Black Wizard Pets A,0,0,158,0
+7,,454,Black Wizard Pets B,0,0,158,0
+7,,455,Black Wizard Pets C,0,0,158,0
+7,,456,Black Wizard Pets D,0,0,158,0
+7,,457,Half Bagi Pets A,0,0,158,0
+7,,458,Half Bagi Pets B,0,0,158,0
+7,,459,Half Bagi Pets C,0,0,158,0
+7,,460,Half Bagi Pets D,0,0,158,0

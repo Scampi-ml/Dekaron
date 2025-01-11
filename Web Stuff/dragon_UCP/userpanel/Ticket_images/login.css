@@ -1,0 +1,15 @@
+﻿
+
+p {border: 0; margin: 0; padding: 0; vertical-align: baseline; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit;}
+
+
+.msg {
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	border: 1px solid; margin: 80px 40px 15px 40px; padding: 8px 10px 0 10px;
+}
+.msg p {margin: 0 0 8px 0; text-align: center; padding-center: 0px;}
+
+.msg-succes {border-color: #C2C2C2; background: #E7E7E6 url("msg-login.png") repeat-x; color: #00000;}
+
+.succes {color: #EDEDED;}
+

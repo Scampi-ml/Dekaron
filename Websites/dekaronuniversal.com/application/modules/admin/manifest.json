@@ -1,0 +1,242 @@
+{
+	"name": "Admin panel",
+	"description": "Default set of tools and pages for the admin panel",
+	"author": {
+		"name": "DekaronCMS",
+		"website": "http:\/\/janvier123.be\/dekaroncms"
+	},
+
+	"permissions": {
+		"view": { "default": false, "description": "View (log into) the admin panel. Required for all admin-tools." },
+		
+		"viewPermissions": { "default": false, "description": "View the permissions" },
+		"addPermissions": { "default": false, "description": "Add groups, roles and permissions." },
+		"editPermissions": { "default": false, "description": "Edit groups, roles and permissions." },
+		"deletePermissions": { "default": false, "description": "Delete groups, roles and permissions." },
+		
+		"toggleModules": { "default": false, "description": "Enable or disable modules" },
+		"editModuleConfigs": { "default": false, "description": "Edit the config files of modules" },
+		
+		"changeThemeHeader": { "default": false, "description": "Change the theme header image URL" },
+		"changeTheme": { "default": false, "description": "Change the theme" },
+		
+		"viewMenuLinks": { "default": false, "description": "Can view the menu links" },
+		"addMenuLinks": { "default": false, "description": "Add menu links." },
+		"editMenuLinks": { "default": false, "description": "Edit menu links." },
+		"deleteMenuLinks": { "default": false, "description": "Delete menu links." },
+		
+		"viewSideboxes": { "default": false, "description": "Can view the sideboxes" },
+		"addSideboxes": { "default": false, "description": "Add sideboxes." },
+		"editSideboxes": { "default": false, "description": "Edit sideboxes." },
+		"deleteSideboxes": { "default": false, "description": "Delete sideboxes." },
+
+		"viewLanguages": { "default": false, "description": "Can view the languages page" },
+		"changeDefaultLanguage": { "default": false, "description": "Can change the default language" },
+
+		"viewCache": { "default": false, "description": "View the cache manager" },
+		"emptyCache": { "default": false, "description": "Empty the cache" },
+		
+		
+		"viewAccounts": { "default": false, "description": "Can view the account manager" },
+		"editAccounts": { "default": false, "description": "Can edit accounts" },		
+		
+
+		"editSystemSettings": { "default": false, "description": "Can edit system settings and realms" },
+		
+		"editSmtpSettings": { "default": false, "description": "Can edit SMTP settings" }
+	},
+
+	"roles": {
+
+		"view": {
+			"description": "View (log into) the admin panel. <b style='color:red;''>Required for all admin-tools.</b>",
+
+			"permissions": {
+				"view": true
+			}
+		},
+
+		"managePermissions": {
+			"description": "Manage the user groups &amp; permissions. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"viewPermissions": true,
+				"addPermissions": true,
+				"editPermissions": true,
+				"deletePermissions": true
+			}
+		},
+
+		"manageModules": {
+			"description": "Manage the modules. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"toggleModules": true,
+				"editModuleConfigs": true
+			}
+		},
+
+
+		"viewLanguage": {
+			"description": "View the languages. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"viewLanguages": true,
+				"changeDefaultLanguage": true
+			}
+		},
+
+		"manageMenu": {
+			"description": "Manage the menu links. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"viewMenuLinks": true,
+				"addMenuLinks": true,
+				"editMenuLinks": true,
+				"deleteMenuLinks": true
+			}
+		},
+
+		"manageSideboxes": {
+			"description": "Manage the sideboxes. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"viewSideboxes": true,
+				"addSideboxes": true,
+				"editSideboxes": true,
+				"deleteSideboxes": true
+			}
+		},
+		"manageAccounts": {
+			"description": "Manage the accounts. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"viewAccounts": true,
+				"editAccounts": true
+			}
+		},
+
+		"manageCache": {
+			"description": "Manage the website cache. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"viewCache": true,
+				"emptyCache": true
+			}
+		},
+
+		"manageTheme": {
+			"description": "Manage the theme. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"changeThemeHeader": true,
+				"changeTheme": true
+			}
+		},
+
+		"editSystemSettings": {
+			"description": "Manage realms and edit system settings. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"editSystemSettings": true
+			}
+		},
+		
+		"editSmtpSettings": {
+			"description": "Edit SMTP settings. <font style='color:red;'>Admin-tool</font>",
+
+			"permissions": {
+				"editSmtpSettings": true
+			}
+		}
+			
+	},
+
+	"admin": [
+
+		{
+			"text": "Website",
+			"icon": "cursor",
+			"links": [
+				{
+					"text": "Menu links",
+					"icon": "link",
+					"controller": "menu",
+					"requirePermission": "viewMenuLinks"
+				},
+
+				{
+					"text": "Sideboxes",
+					"icon": "database",
+					"controller": "sidebox",
+					"requirePermission": "viewSideboxes"
+				},
+
+
+				{
+					"text": "Manage cache",
+					"icon": "database",
+					"controller": "cachemanager",
+					"requirePermission": "viewCache"
+				},
+
+				{
+					"text": "Languages",
+					"icon": "star",
+					"controller": "languages",
+					"requirePermission": "viewLanguages"
+				},
+				
+				{
+					"text": "Themes",
+					"icon": "star",
+					"controller": "theme",
+					"requirePermission": "changeTheme"
+				},
+				
+				
+				{
+					"text": "Modules",
+					"icon": "star",
+					"controller": "module",
+					"requirePermission": "changeTheme"
+				},
+				
+				{
+					"text": "SMTP",
+					"icon": "star",
+					"controller": "smtp",
+					"requirePermission": "editSmtpSettings"
+				},
+				
+				{
+					"text": "Settings",
+					"icon": "star",
+					"controller": "settings",
+					"requirePermission": "editSystemSettings"
+				},
+				
+				
+				{
+					"text": "User groups &amp; permissions",
+					"icon": "settings",
+					"controller": "aclmanager",
+					"requirePermission": "viewPermissions"
+				},
+				
+				
+				{
+					"text": "Accounts",
+					"icon": "users",
+					"controller": "accounts",
+					"requirePermission": "viewAccounts"
+				}								
+								
+														
+			]
+		}
+
+	],
+
+	"enabled": true
+}

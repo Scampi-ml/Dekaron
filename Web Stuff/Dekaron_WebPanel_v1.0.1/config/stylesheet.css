@@ -1,0 +1,141 @@
+body, td, th, div, span, p, form, input, select, textarea {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;color: #FFFFFF;background: #000000;
+
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background:#000000; 
+}
+
+table {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+}
+h2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a, a:visited, a:active {
+    color: #00688f;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #015475;
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+a.titlelink, a.titlelink:visited, a.titlelink:active {
+    color: #00688f;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.titlelink:hover {
+    color: #015475
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.category, a.category:visited, a.category:active {
+    color: #00688f;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+a.category:hover {
+    color: #333333;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+option, textarea, input, select, file {  
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 10px; 
+    color: #9a9a9a; 
+    background-color: #000000; 
+    border: 1px solid #0b3f52;
+}
+
+h1 {
+	    FONT-SIZE: 10px;
+        COLOR: #FFFFFF;
+        font-weight: bold;
+        background-color: #000000;
+        margin-bottom:10px;
+        margin-top:10px;
+        margin-left:10px;
+        margin-right:10px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:2px;
+        padding-right:2px;
+
+}
+
+h3 {
+	FONT-SIZE: 10px;
+        COLOR: #FFFFFF;
+        font-weight: bold;
+        FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+        padding-left:0px;
+        padding-right:2px;
+        margin-bottom:2px;
+        margin-top:5px;
+
+}
+
+.loggedgm {
+	font-size: 10px;
+	COLOR: #FF0000;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.loggeddev {
+	font-size: 10px;
+	COLOR: #00FFFF;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.loggedopr {
+	font-size: 10px;
+	COLOR: #00FF00;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.loggeduser {
+	font-size: 10px;
+	COLOR: #FFFF00;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.navigate {
+	width:150px;
+	text-align: center;
+	vertical-align:top;
+}
+
+.maintab {
+	width:800px;
+	height:100%;
+}
+
+.innertab {
+	border-style:hidden;
+}

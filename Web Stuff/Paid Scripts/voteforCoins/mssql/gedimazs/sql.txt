@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[USER_VOTES] (
+	[id] [int] IDENTITY(1,1),
+	[account] [varchar] (50) NULL,
+	[ip] [varchar] (50) NULL,
+	[date] [varchar] (50) NULL
+)
+GO

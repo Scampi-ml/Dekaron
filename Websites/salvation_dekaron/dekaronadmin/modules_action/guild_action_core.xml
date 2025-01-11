@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<guild_master>
+
+  <guild_cat title="Guild" group="1">
+  	<guild_option link="index.php?get=module_edit_guild" group="1">Edit Guild</guild_option>
+	<guild_option link="index.php?get=module_edit_guild_permissions" group="1">Edit Guild Permissions</guild_option>
+	<guild_option link="index.php?get=module_edit_guild_permissions_names" group="1">Edit Guild Permissions Names</guild_option>
+  	<guild_option link="index.php?get=module_delete_guild" group="1">Delete guild</guild_option>
+  	<guild_option link="index.php?get=module_view_guild" group="1">View Guild Members</guild_option>
+  </guild_cat>
+  
+</guild_master>

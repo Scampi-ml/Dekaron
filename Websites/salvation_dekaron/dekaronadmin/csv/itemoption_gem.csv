@@ -1,0 +1,74 @@
+Option Index,Description
+1,+ <VALUE> Str
+2,+ <VALUE> Dex
+3,+ <VALUE> Con
+4,+ <VALUE> Spr
+8,+ <VALUE> Max HP
+9,+ <VALUE>% Max HP
+10,+ <VALUE> HP Recovery
+11,+ <VALUE>% HP Recovery Rate
+12,HP_DECREASE_ADD <VALUE>
+13,HP_DECREASERATE_MUL <VALUE>
+16,+ <VALUE> Max MP
+17,+ <VALUE>% Max MP
+18,+ <VALUE> MP Recovery
+19,MP_RECOVERYRATE_MUL <VALUE>
+20,MP_DECREASE_ADD <VALUE>
+21,MP_DECREASERATE_MUL <VALUE>
+24,+ <VALUE>% Fire Resistance
+25,+ <VALUE>% Ice Resistance
+26,+ <VALUE>% Lightning Resistance
+27,+ <VALUE>% Poison Resistance
+28,+ <VALUE>% Curse Resistance
+29,+ <VALUE>% Physical Resistance
+31,+ <VALUE>% All Magic Resistance
+32,+ <VALUE> Increased Damage
+33,+ <VALUE> Max Physical Damage
+34,+ <VALUE>% Damage
+35,+ <VALUE> Increased Magic Damage
+36,+ <VALUE> Max Magic Damage
+37,+ <VALUE>% Magic Damage
+40,+ <VALUE>% Attack Speed
+41,- <VALUE>% Casting Speed
+42,SPEED_COOLTIME_MUL <VALUE>
+43,+ <VALUE>% Movement Speed
+48,RATING_ATTACK_ADD <VALUE>
+49,+ <VALUE>% Critical Rate
+50,+ <VALUE>% Block Rate
+51,+ <VALUE>% Guard Rate
+52,+ <VALUE>% Fishing Casting Success Rate
+53,+ <VALUE>% Abnormality Resistance Rate
+56,+ <VALUE>% Fire Damage
+57,+ <VALUE>% Ice Damage
+58,+ <VALUE>% Lightning Damage
+59,+ <VALUE>% Poison Damage
+60,+ <VALUE>% Curse Damage
+61,+ <VALUE>% Critical Damage
+63,+ <VALUE>% All Magic Resistance
+64,+ <VALUE> Damage Against Small Monsters
+65,+ <VALUE> Damage Against Medium Monsters
+66,+ <VALUE> Damage Against Large Monsters
+67,+ <VALUE> Damage Against Boss Monsters
+68,+ <VALUE> Damage Against Undead Monsters
+72,+ <VALUE> Increase in Defense
+73,+ <VALUE> Max Defense
+74,+ <VALUE>% Defense
+75,+ <VALUE>% Range of Flinch When Attacked
+80,+ <VALUE>% HP Reflection Damage
+81,+ <VALUE> HP Reflection Damage
+82,+ <VALUE>% MP Reflection Damage
+83,+ <VALUE> MP Reflection Damage
+84,SPECIAL_REQUIREMENTRATE_ADD <VALUE>
+88,+ <VALUE> Fire Damage
+89,+ <VALUE> Ice Damage
+90,+ <VALUE> Lightning Damage
+91,+ <VALUE> Poison Damage
+92,+ <VALUE> Curse Damage
+96,+ <VALUE> Max Shield
+97,+ <VALUE>% Max Shield
+98,+ <VALUE> Shield Recovery Rate
+99,+ <VALUE>% Shield Recovery Rate
+100,<VALUE> Decrease in Shield per Second
+101,<VALUE>% Decrease in Shield per Second
+127,+ <VALUE>% Increase in All Resist of Summoned Beast
+151,+ <VALUE>% Increase in All Resist of Summoned Libidos

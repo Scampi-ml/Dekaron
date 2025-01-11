@@ -1,0 +1,139 @@
+function session_pages($page, $session_name)
+{
+	$session_file = "servers/".$_COOKIE["server"]."/".$GLOBALS["admin_name"]."/".$session_name.".pages";
+	
+	if(!file_exists($session_file))
+	{
+		$file = fopen($session_file, 'w');
+		fwrite($file, "-- TIME ---------------------|-- PAGE ----------------------------");
+		fclose($file);
+	}
+	
+	$fh = fopen($session_file, 'a');
+	$time = date(DATE_RFC822);
+	fwrite($fh, "\r\n$time|$page");
+	fclose($fh);
+}
+
+function session_queries($query, $session_name)
+{
+	$session_file = "servers/".$_COOKIE["server"]."/".$GLOBALS["admin_name"]."/".$session_name.".queries";
+	
+	if(!file_exists($session_file))
+	{
+		$file = fopen($session_file, 'w');
+		
+		fwrite($file, "-- TIME --------------------- | -- MSSQL QUERY ----------------------------");
+		fclose($file);
+	}
+	
+	$fh = fopen($session_file, 'a');
+	$time = date(DATE_RFC822);
+	fwrite($fh, "\r\n$time | $query");
+	fclose($fh);
+}
+function page_execution_start()
+{
+   $mtime = microtime();
+   $mtime = explode(" ",$mtime);
+   $mtime = $mtime[1] + $mtime[0];
+   $starttime = $mtime;
+}
+
+function page_execution_end()
+{
+   $mtime = microtime();
+   $mtime = explode(" ",$mtime);
+   $mtime = $mtime[1] + $mtime[0];
+   $endtime = $mtime;
+   $totaltime = ($endtime - $starttime);
+   return "<br>This page was created in ".$totaltime." seconds";
+}
+function isValid($input)
+{	
+	$input = strtolower($input);
+	$bad_strings = array("--","select","union","insert","update","like","delete","1=1","or");
+
+	if (in_array($input,$bad_strings))
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+function new_config_xml($file, $field, $ncfg)
+{
+    $get_xml_config = file_get_contents($file . ".xml");
+    $ncfg           = str_replace("\r\n", " ", $ncfg);
+    $dat_ocfg       = ereg_replace("<" . $field . ">(.*)</" . $field . ">", "<" . $field . ">" . htmlspecialchars(htmlentities($ncfg)) . "</" . $field . ">", $get_xml_config);
+    $o_xml_config   = fopen($file . ".xml", "w");
+    $rw_xml_config  = fwrite($o_xml_config, $dat_ocfg);
+    $c_xml_config   = fclose($o_xml_config);
+    return true;
+}
+
+function delete_variable($file, $line, $id, $explode)
+{
+    $p_file = file($file);
+    $new_db = fopen($file, "w");
+    foreach ($p_file as $new_db_line)
+	{
+        $db_line = explode($explode, $new_db_line);
+        if ($db_line[$line] != $id)
+		{
+            fwrite($new_db, $new_db_line);
+        }
+    }
+    fclose($new_db);
+}
+if (!extension_loaded('mssql'))
+{
+	$error = '
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+		"http://www.w3.org/TR/html4/loose.dtd">
+		<html>
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>PHP Server Error</title>
+		<link rel="stylesheet" type="text/css" href="style/error.css" />
+		</head>
+		<body>
+		<div align="center">
+		  <div class="maintenance" style="margin-top: 40px;">
+			<div class="maintenance_title" align="left">PHP Server Error</div>
+			<div class="maintenance_reason" align="left">You didnt load the <b>php_mssql.dll</b> in the <b>php.ini</b> file!</div>
+		  </div>
+		</div>
+		</body>
+		</html>
+		';	
+		return $error;
+	die();
+}
+
+if (!extension_loaded('gd'))
+{
+	$error = '
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+		"http://www.w3.org/TR/html4/loose.dtd">
+		<html>
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>PHP Server Error</title>
+		<link rel="stylesheet" type="text/css" href="style/error.css" />
+		</head>
+		<body>
+		<div align="center">
+		  <div class="maintenance" style="margin-top: 40px;">
+			<div class="maintenance_title" align="left">PHP Server Error</div>
+			<div class="maintenance_reason" align="left">You didnt load the <b>php_gd2.dll</b> in the <b>php.ini</b> file!</div>
+		  </div>
+		</div>
+		</body>
+		</html>
+		';	
+		return $error;
+	die();
+}

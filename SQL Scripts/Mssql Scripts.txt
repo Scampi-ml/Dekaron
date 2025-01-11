@@ -1,0 +1,123 @@
+UPDATE dbo.user_character SET wRetMapIndex = '182'
+
+
+82.8.227.46
+Add DShop coins by user number
+
+update cash.dbo.user_cash set free_amount = '2' where user_no = '14022700570830'
+
+
+________________________________________________________________________________
+Select from Character NAME
+
+select * from character.dbo.user_character where character_name = '[GM]Zetrey'
+
+
+---------------------------------------------------------------------------------
+
+Look up IP
+
+select dbo.FN_IpBinToStr(user_ip_addr) as ip, user_id from account.dbo.USER_PROFILE where user_id = 'dead'
+
+____________________________________________________________________________________
+Set reset stats back to 0
+
+UPDATE dbo.user_character SET byStatClearCount = '0'
+
+
+-------------------------------------------------------------------------------------
+
+Add Dshop coins
+
+UPDATE cash.dbo.user_cash SET free_amount = free_amount + 20000
+
+
+--------------------------------------------------------------------------------------
+
+Update multiple dshop etc...
+
+update cash.dbo.user_cash set free_amount = '0' where free_amount = 'number'
+
+--------------------------------------------------------------------------------------
+
+Find how much dshop
+
+select * from cash.dbo.user_cash where free_amount = '55001'
+
+--------------------------------------------------------------------------------------
+
+Ban Multiple
+
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022222511710'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022223072849'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022300325311'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022300411492'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022300454133'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022300514028'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022301170071'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022303134705'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022303244808'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022303280106'
+update account.dbo.user_profile set login_tag = 'N' where user_no = '14022304073052'
+
+--------------------------------------------------------------------------------------
+
+Delete something:
+
+DELETE FROM character.dbo.user_storage WHERE wIndex = '6308';
+DELETE FROM character.dbo.user_suit WHERE wIndex = '6310';
+DELETE FROM character.dbo.user_bag WHERE wIndex = '6312';
+
+
+-----------------------------------------------------------------
+
+Wipe exp:
+
+UPDATE character.dbo.user_character set dwexp = '0'
+
+----------------------------------------------------------------
+
+Search for highest level with exp:
+
+SELECT [character_name], [dwExp], [wLevel]
+  FROM [character].[dbo].[user_character]
+  ORDER BY [wLevel]
+
+----------------------------------------------------------------
+
+Search for online accounts:
+
+select * from account.dbo.user_profile where login_flag = '1100'
+
+----------------------------------------------------------------
+
+Ip Ban:
+
+insert into account..c_ip_ban
+( 
+   start_ip, 
+   end_ip, 
+   location,    
+   detail_loc, 
+   ipt_time 
+) VALUES ( 
+   account.dbo.FN_IpStrToBin('STARTIP') , 
+   account.dbo.FN_IpStrToBin('STARTIP') , 
+   'WHATEVERYOUWANT' , 
+   'WHATEVERYOUWANTAGAIN--BANREASONMAYBE' , 
+   getdate() 
+)
+
+----------------------------------------------------------------
+0x70C65A1F
+Ip lookup:   112.198.90.31
+
+select * from character.dbo.user_character where character_name = 'Name'
+
+Look at the USER_IP_ADDR column, copy that (Hexidecaml Number).
+
+http://www.silisoftware.com/tools/ipconverter.php
+
+Place it in the text box and hit convert!
+
+----------------------------------------------------------------

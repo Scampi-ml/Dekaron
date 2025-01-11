@@ -1,0 +1,1106 @@
+**************************************************************
+[Run-time notices] (Undefined index: character).
+Line Number  : 8.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 03:13:02.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Line 1: Incorrect syntax near '='. (severity 15)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 26.02.2012 03:13:03.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 26.02.2012 03:13:03.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 31.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:39:43.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 31.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:39:43.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 31.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:40:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 31.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:40:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 31.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:40:51.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 31.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:40:51.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:30.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:49.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:49.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:41:49.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:42:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:42:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:42:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:42:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:42:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:42:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:43:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:43:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:43:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:43:52.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:43:52.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:43:52.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:44:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:44:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:44:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:44:42.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:44:42.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:44:42.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:45:24.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:45:24.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:45:24.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:45:37.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:45:37.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:45:37.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:46:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:46:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:46:11.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:47:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:47:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:47:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:49:07.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:49:07.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:49:07.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:49:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:49:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:49:20.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:56:07.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:56:07.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 04:56:07.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:10:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:10:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:10:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:10:46.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:10:46.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:10:46.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:09.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:09.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 52.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:09.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 52.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 52.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:11:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:12:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:12:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 52.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:12:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:12:51.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:12:51.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:12:51.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:13:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:13:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:13:01.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:13:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:13:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:13:15.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:15:53.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:15:53.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:15:53.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:17:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:17:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:17:48.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:17:56.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:17:56.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:17:56.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:18:16.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:18:16.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:18:16.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (number_format() expects at least 1 parameter, 0 given).
+Line Number  : 74.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:44.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (number_format() expects at least 1 parameter, 0 given).
+Line Number  : 74.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:19:44.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:05.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:05.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:05.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:32.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:43.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:43.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:20:43.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:21:08.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:21:08.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:21:08.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:21:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:21:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:21:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:23:39.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:23:39.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:23:39.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:24:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:24:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:24:36.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:25:16.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:25:16.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:25:16.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:25:27.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:25:27.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:25:27.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:22.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:22.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:22.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:40.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:56.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:56.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:41:56.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:43:41.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:43:41.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:43:41.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:44:45.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:44:45.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:44:45.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:48:41.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:48:41.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 46.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:48:41.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:50:03.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:50:03.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 47.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:50:03.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:50:24.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:50:24.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 47.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:50:24.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:51:21.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: getGuild).
+Line Number  : 29.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:51:21.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined variable: guildlevel).
+Line Number  : 47.
+File Path : C:\xampp\htdocs\stats\character.php.
+Date : 26.02.2012 05:51:21.
+**************************************************************
+

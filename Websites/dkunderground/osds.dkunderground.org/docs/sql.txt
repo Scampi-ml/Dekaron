@@ -1,0 +1,17 @@
+use [account]
+
+ALTER TABLE [dbo].[USER_PROFILE] 
+	ADD [user_group] [int] NOT NULL DEFAULT(0)
+
+CREATE TABLE [dbo].[user_warning] (
+	[id] [int] IDENTITY (1, 1) NOT NULL ,
+	[user_no] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[from_user_no] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[subject] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[message] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[warning_time] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[warning_time_detail] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[rating] [varchar] (50) COLLATE Chinese_PRC_CI_AS NULL 
+)
+GO
+

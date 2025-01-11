@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="all_business.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="600"
+ height="542"
+ bkcolor="0xFFFFFF"
+ transparent="t"
+ fontcolor="0x000000"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The E-Mail address you entered does not match !"
+ reqmessage="One or More Fields are Required !"
+ invalidemailmsg="is an invalid address, please correct it."
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf;*.html;*.docx;*.xslx"
+>
+
+<hidden
+ name="subject"
+ value=""
+></hidden>
+
+<textinput
+ name="Name"
+ x="110"
+ y="267"
+ w="390"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Email"
+ x="110"
+ y="324"
+ w="390"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<textarea
+ name="Notes"
+ x="110"
+ y="44"
+ w="394"
+ h="118"
+ initvalue=""
+ wordwrap="true"
+ required="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<submitbutton
+ name="Reset Button"
+ x="110"
+ y="479"
+ w="89"
+ h="27"
+ label="Submit"
+ fontname="Arial"
+ fontcolor="0x000000"
+ image="submit-grey.png"
+  fontsize="12"
+></submitbutton>
+
+<combobox
+ name="My Drop-Down 1"
+ x="110"
+ y="207"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ required="true"
+ isemail="false"
+ w="209"
+ h="20">
+  <item name="I need more functions"></item>
+  <item name="I do not need it anymore"></item>
+  <item name="I was just curious about it"></item>
+  <item name="I found bugs and/or was unsatisfied"></item>
+  <item name="I don&apos;t use it very often"></item>
+  <item name="I don&apos;t understand how to use it"></item>
+  <item name="It doesn&apos;t fit my needs"></item>
+  <item name="Server died or closed"></item>
+  <item name="Re-installing windows"></item>
+  <item name="Moving Program to Another PC"></item>
+  <item name="Temporary uninstalling - I&apos;m going to re-install"></item>
+</combobox>
+
+<captcha
+ name="My Captcha 1"
+ x="110"
+ y="357"
+ w="133"
+ h="100"
+ text="Enter Key Here:"
+ fnt="Arial"
+ fntclr="0x000000"
+ fntsize="11"
+ bkbdrcolor="0x000000"
+ bkfillclr="0xFFFFFF"
+ bkdobdr="t"
+ bkbdrsolid="t"
+ bkdobk="t"
+ bkfillalpha="100"
+ message="Incorrect key!"
+></captcha>
+
+<label
+ name="My Text 2"
+ x="5"
+ y="245"
+ w="41"
+ h="16"
+ text="Name"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="5"
+ y="304"
+ w="44"
+ h="16"
+ text="E-mail"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="5"
+ y="263"
+ w="46"
+ h="14"
+ text="Optional"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 8"
+ x="5"
+ y="15"
+ w="211"
+ h="16"
+ text="Recommendations to developes:"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 1"
+ x="5"
+ y="178"
+ w="170"
+ h="16"
+ text="Why are you uninstalling?"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="5"
+ y="321"
+ w="46"
+ h="14"
+ text="Optional"
+  fontname="Arial"
+  fontcolor="0x6B7171"
+  fontsize="11"
+></label>
+
+</form>

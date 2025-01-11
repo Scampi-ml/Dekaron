@@ -1,0 +1,149 @@
+body, td, th, div, span, p {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;color: #FFFFFF;background-image: url('images/bg_main.jpg');
+}
+
+body { 
+background-image: url('images/bg.jpg');
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+line-height: 120%; 
+text-decoration: none  
+}
+
+td { 
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+color: #5A5A5A;
+}
+
+img { 
+border: 0;
+padding: 0px;
+margin: 0px;
+}
+
+table.main {
+background-image: url('images/bg_main.jpg');
+background-repeat: repeat-y;
+padding: 0px;
+width: 785px;
+}
+
+table.toptable {
+background-image: url('images/topnav_bg.jpg');
+background-repeat: repeat-x;
+padding: 0px;
+width: 785px;
+height: 27px;
+}
+
+table.content {
+width: 445px;
+border: 1px solid #000000;
+}
+
+a:link ,a:visited{
+color: #5A5A5A; 
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+}
+a:hover {
+text-decoration: none;  
+font-family:arial, helvetica, sans-serif;  
+font-size: 11px;
+color: #0394CA;
+}
+a.menu:link ,a.menu:visited{
+color: #5A5A5A; 
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+}
+a.menu:hover {
+font-family:arial, helvetica, sans-serif;  
+font-size: 11px;
+color: #0394CA;
+}
+
+input, select, textarea {
+	font-family: arial, helvetica, sans-serif;  
+	font-size: 11px; 
+	border: 1px solid #BEBEBE;
+}
+textarea.opera {
+	font-family: arial, helvetica, sans-serif;  
+	font-size: 11px; 
+	border: 1px solid #BEBEBE;
+}
+h1 {
+	    FONT-SIZE: 10px;
+        COLOR: #FFFFFF;
+        font-weight: bold;
+        background-color: #000000;
+        margin-bottom:10px;
+        margin-top:10px;
+        margin-left:10px;
+        margin-right:10px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:2px;
+        padding-right:2px;
+
+}
+
+h3 {
+	FONT-SIZE: 10px;
+        COLOR: #FFFFFF;
+        font-weight: bold;
+        FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+        padding-left:0px;
+        padding-right:2px;
+        margin-bottom:2px;
+        margin-top:5px;
+
+}
+
+.loggedgm {
+	font-size: 12px;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.loggeddev {
+	font-size: 12px;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.loggedopr {
+	font-size: 12px;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.loggeduser {
+	font-size: 12px;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+.navigate {
+	width:150px;
+	text-align: left;
+	vertical-align:top;
+}
+
+.maintab {
+	width:800px;
+	height:100%;
+}
+
+.innertab {
+	border-style:hidden;
+}
+
+.menu {
+	width:150px;
+	font-size: 12px;
+	text-align: left;
+	vertical-align:top;
+}

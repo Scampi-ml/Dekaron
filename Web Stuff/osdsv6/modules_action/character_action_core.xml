@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character_master>
+  <character_cat title="Account" group="1">
+  	<character_option link="index.php?get=module_edit_account" group="1">Edit Account</character_option>
+  	<character_option link="index.php?get=module_online_accounts" group="1">Delete Account</character_option>
+  	<character_option link="index.php?get=module_ban_accounts" group="1">Ban Account</character_option>
+	<character_option link="index.php?get=module_unban_accounts" group="1">Ban Account</character_option>
+	<character_option link="index.php?get=module_account_logins" group="1">Account Login</character_option>
+	<character_option link="index.php?get=module_account_logouts" group="1">Account Logout</character_option>
+  </character_cat>
+  <character_cat title="Character" group="2">
+  	<character_option link="index.php?get=module_edit_character" group="2">Edit Character</character_option>
+	<character_option link="index.php?get=module_edit_doing_quest" group="2">Edit Doing Quest</character_option>
+	<character_option link="index.php?get=module_edit_done_quest" group="2">Edit Done Quest</character_option>
+  	<character_option link="index.php?get=module_edit_skills" group="2">Edit Skills</character_option>
+	<character_option link="index.php?get=module_edit_skillbar" group="2">Edit Skillbar</character_option>
+	<character_option link="index.php?get=module_edit_inventory" group="2">Edit Inventory</character_option>
+	<character_option link="index.php?get=module_edit_store" group="2">Edit Store</character_option>
+	<character_option link="index.php?get=module_edit_storage" group="2">Edit Storage</character_option>
+	<character_option link="index.php?get=module_edit_suit" group="2">Edit Suit</character_option>
+	<character_option link="index.php?get=module_edit_postbox" group="2">Edit Postbox</character_option>
+	<character_option link="index.php?get=module_delete_character" group="2">Delete Character</character_option>
+	<character_option link="index.php?get=module_view_character_location" group="2">View Character Location</character_option>
+  </character_cat>
+  <character_cat title="Guild" group="3">
+  	<character_option link="index.php?get=module_search_guild" group="3">View Guild</character_option>
+  </character_cat>
+  <character_cat title="Other" group="4">
+  	<character_option link="index.php?get=module_send_message" group="4">Send Message</character_option>
+  </character_cat>
+  
+</character_master>

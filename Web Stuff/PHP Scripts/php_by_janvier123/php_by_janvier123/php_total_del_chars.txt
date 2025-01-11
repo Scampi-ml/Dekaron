@@ -1,0 +1,19 @@
+<?php
+//--------------------------------------
+//      Written by Janvier123
+//      Made for DK servers
+//--------------------------------------
+
+
+
+		$msconnect = mssql_connect("localhost","sa","pass");;
+		$msdb = mssql_select_db("character", $msconnect);
+
+		$q = "SELECT * FROM user_character_secede";
+		$r = mssql_query($q);
+		$sad = mssql_num_rows($r);
+		echo "<div align=left>Total Deleted Characters: $sad";
+
+
+
+?>

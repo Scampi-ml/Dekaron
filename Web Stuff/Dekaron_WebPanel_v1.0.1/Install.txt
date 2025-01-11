@@ -1,0 +1,37 @@
+Dekaron ControlPanel v1.0.1 (v1 = MSSQL / v2 = ODBC)
+
+Written and created by Nicky @ AngelZ-World.de
+English files Translated by silentw ( RageZone Forum )
+
+	
+The copyright must not be removed if from the package.
+
+
+
+Install Description:
+
+1. Install MySQL ( Download on www.mysql.com / designed for MySQL 4.0 and greater than a maximum of 5.1 )
+2. Install your Navicat ( Available on www.MMORPG-Germany.de in the database )
+3. open Navicat , create a new connection to your MySQL server
+4. Create a new database with Navicat ( Right-click on the server -> New Database )
+5. Play the BackUp SQL in the MySQL server (right-click on the database --> Execute Batch file... )
+6. Choose the "controlpanel.sql" file from the folder mysql_backup
+7. Change the config files mssql.conf.php and mysql.conf.php in config folder to your data.
+8. Loading all the data on your web space and you're done.
+
+
+Attention : 
+in other settings can Map.conf.php for GM Teleport feature set.
+
+
+Have fun with it so far.
+
+
+Support only on www.MMORPG-Germany.de
+
+	
+If you WebPanel this on a different page than www.MMORPG-Germany.de offer for download have found
+so share this with us, please, with an e-mail to report@mmorpg-germany.de where it is where you get the download found
+searched (URL)
+
+Many thanks.

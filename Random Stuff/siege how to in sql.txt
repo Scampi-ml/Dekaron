@@ -1,0 +1,28 @@
+DECLARE @v_siege_no char(10) 
+DECLARE @guild_code varchar(10) 
+DECLARE @guild_name varchar(30)
+DECLARE @v_strDate varchar(10)
+DECLARE @v_regdate varchar(10)
+DECLARE @v_strChannel varchar(2)
+DECLARE @i_bychannel tinyint 
+DECLARE @o_dwDungeonRegistTime varbinary(4)
+DECLARE @o_DeadFrontTimeInfo varbinary(1000)
+DECLARE @o_sp_rtn int
+DECLARE @o_dwRegistTimeStart varbinary(4)
+DECLARE @o_dwRegistTimeEnd varbinary(4)
+DECLARE @o_dwTaxRegistTime varbinary(4)
+declare @o_dwStartTime varbinary(4)
+declare @o_dwRegistTime varbinary(4)
+DECLARE @v_strDate1 varchar(10)
+DECLARE @i_GetDate datetime
+DECLARE @v_siege_start_date varchar(14)
+DECLARE @v_siege_start_time varbinary(4)
+
+set @i_GetDate=getdate()
+--//默认SELECT @v_siege_start_date  = CONVERT(VARCHAR(10), DATEADD(d, 15-DATEPART(dw, @i_GetDate), @i_GetDate), 112) + '210000'
+--//每周六SELECT @v_siege_start_date  = CONVERT(VARCHAR(10), DATEADD(d, 7-DATEPART(dw, @i_GetDate), @i_GetDate), 112) + '210000'
+--//每周星期天SELECT @v_siege_start_date  = CONVERT(VARCHAR(10), DATEADD(d, 8-DATEPART(dw, @i_GetDate), @i_GetDate), 112) + '210000'
+--//三天一次SELECT @v_siege_start_date= CONVERT(VARCHAR(10),GetDate()+3,112)+'210000'
+--//攻城时间
+SELECT @v_siege_start_date  = CONVERT(VARCHAR(10), DATEADD(d, 15-DATEPART(dw, @i_GetDate), @i_GetDate), 112) + '210000'
+SELECT @v_siege_start_time = SUBSTRING(@v_siege_start_date,4,1) * 100000000  

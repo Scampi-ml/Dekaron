@@ -1,0 +1,4 @@
+1320250757|janvier123|[OSDSV5] Release Today at 8Pm (GMT+1)|OSDS V5 will be released at 8Pm GMT+1 <br />Last minute beta tests and tweaks .. Just hold on!|||||
+1320167850|janvier123|[OSDSV5] Release Date DELAYED|Today we did all of our bug and beta tests, some things need to be fixed!<br />The new release date will be tomorrow if all goes as planed<br /><br />Sorry for the delay!|||||
+1319790442|janvier123|[OSDSV5] Release Date|Release date is set to: 01 November 2011|||||
+1318500858|janvier123|[SITE] MSSQL Config Encode online|Added MSSQL Config encoder<br />|||||

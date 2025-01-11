@@ -1,0 +1,2 @@
+[2014-02-17 06:56 America/Chicago] Can't connect to PayPal to validate IPN message: SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed

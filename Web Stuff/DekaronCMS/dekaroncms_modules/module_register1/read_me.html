@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Module: Register - Read Me</title>
+		<style type="text/css" media="all">
+			html, body, h1, h2, h3, h4, div, p, dl { margin: 0; padding: 0; }
+			body { background: #f3f3f3; color: #555; font-size: 12px; font-family: Verdana, Arial, "Trebuchet MS", "Times New Roman"; width: 800px; margin: auto; }
+			h1, h2, h3, h4 { font-weight: normal; }
+			a { color: #444; text-decoration: none; } a:hover { text-decoration: underline; }
+			#header {padding: 20px 0 20px 0; color: #012351; font-size: 22px; }
+			#fileInfo { background: none repeat scroll 0 0 #ffffff; box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.4); padding: 20px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+			#fileInfo h3 { font-size: 16px; color: #444; padding: 0 0 3px 0; margin: 0 0 3px 0; border-bottom: 1px solid #999; letter-spacing: -0.5px; }
+			#fileInfo dl { color: #444; margin-bottom: 20px; }
+			#fileInfo dt, dd { padding: 3px 0; border-bottom: 1px solid #e1e1e1; }
+			#fileInfo dt { float: left; font-weight: bold; }
+			#fileInfo dd { text-align: right; }
+			#fileInfo p { color: #444; }
+			#content { padding: 20px 0 0 0;}
+			#content h3 { font-size: 16px; padding: 0 0 5px 0; margin: 0 0 5px 0; border-bottom: 1px solid #03283a; color: #012351; font-weight: bold;}
+			#content p { margin: 0 0 40px 0; }
+			#content a { color: #fff; text-decoration: underline; }
+		</style>
+	</head>
+	<body>
+		<div id="header">Register</div>
+		<div id="fileInfo">
+			<h3>Module Information</h3>
+			<dl>
+				<dt>Type</dt>
+				<dd>Module</dd>
+				<dt>Version</dt>
+				<dd>1</dd>
+				<dt>Compatibility</dt>
+				<dd>DekaronCMS 1.1.x</dd>				
+				<dt>SQL Connection</dt>
+				<dd>Yes</dd>
+				<dt>Author</dt>
+				<dd>Janvier123</dd>
+				<dt>Website</dt>
+				<dd><a target="_blank" href="http://www.dekaroncms.com">DekaronCMS</a></dd>
+			</dl>
+			<h3>Description</h3>
+			<p>This module will allow new users to register on your website using the API or Local connection.</p>
+		</div>
+		<div id="content">
+
+			<h3>Step 1</h3>
+			<p>Log in to your Website FTP server via your preferred File Transfer Protocol Client and upload the contents of the <b>/upload_cms/</b> directory to the root of DekaronCMS directory.</p>
+
+			<h3>Step 2 <small>(Optional)</small></h3>
+			<p>If you are using the API, copy the <b>/upload_api/application/controllers/register.php</b> from the <b>api</b> folder to <b>/your_api/application/controllers/</b> folder.</p>
+
+			<h3>Step 3 <small>(Recommended)</small></h3>
+			<p>Please check <b>/upload_cms/application/modules/register/models/register_model.php</b> on line 66 for the correct data matching your database. You may need to do this also for the API file in <b>/upload_api/application/controllers/register.php</b> on line 33.</p>
+
+
+			<h3>Step 4</h3>
+			<p>Setup your API or SQL Server in the <b>Settings -> Website -> Connection Type</b>. Then <b>API</b> or <b>SQL Server</b> tab and fill in your details.</p>
+
+
+			<h3>Step 5</h3>
+			<p>Log in to the Admin panel and visit the <b>Modules</b>. Click the <b>Install</b> button and follow the steps.</p>
+
+			<h3>Step 6</h3>
+			<p>Go to <b>Menu -> Create Link</b>
+				<br>-> <code><b>Title:</b> Register</code>
+				<br>-> <code><b>URL:</b> register</code>
+				<br>-> <code><b>Menu location:</b> Top and/or Side</code>
+				<br>-> <code><b>Visibility mode:</b> Visible to everyone</code>
+				<br>-> <code><b>Internal direct link:</b> No</code>
+				<br>
+				Save Menu
+			</p>
+
+			<h3>Step 7</h3>
+			<p>Go to <b>yourdomain.com/register</b> or clicking the <b>Register</b> button on your website and test your register module. <br>NOTE: <i>If you dont see the register link, refresh your page.</i></p>
+
+		</div>
+	</body>
+</html>

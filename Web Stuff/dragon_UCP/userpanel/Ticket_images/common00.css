@@ -1,0 +1,1340 @@
+/******TABLE OF CONTENTS:******
+	GLOBAL SETTINGS
+	01) RESET
+	02) MAIN CONTAINERS
+	03) COMMON DEFAULTS
+		-Headings
+		-General
+		-Images
+		-Links
+		-Paragraphs
+		-Forms
+		-Horizontal Line Breaks
+		-Un-Ordered Lists
+		-Nested (Unordered Lists)
+		-Gem List
+		-Ordered Lists
+		-Nested (Ordered Lists)
+		-Definition Lists
+		-Blockquotes
+		-Tables
+		-Messages Error/Info
+	05) BREADCRUMB
+	06) SINGLE COLUMN
+	07) TWO COLUMN LEFT
+	08) TWO COLUMN RIGHT (SIDEBAR)
+		-Bucket Headers & Footers
+		-Buckets
+		-Newsletter Form
+		-Accordion
+	09) CONTENT TOP
+		-Content Navigation
+		-Drop Down
+	10) CONTENT AREA
+		-Content Header
+		-Content Container
+		-Shaded Rows
+	11) PAGINATION
+
+	SITE COMPONENTS
+	13) BUTTONS
+		-All buttons
+		-End cap on right
+		-End cap on left
+		-Button span tags
+	14) LIGHTBOX
+		-Download Dialog Box
+		-Share This Dialog Box
+	15) SHARE THIS
+		-Rows of Links
+		-Embed and URL Section
+		-Footer
+
+	SITE SECTIONS AND PAGES
+	16) FRONT PAGE
+	17) MEDIA SECTION
+	18) ACCOUNT SERVICES PAGE
+	19) ABOUT SECTION
+		-Sub Nav
+		-Landing Page Banner
+		-Sub Nav in Landing Page Banner
+		-New To Aion
+		-Gameplay
+		-Factions
+	20) ABOUT: SERVER STATISTICS PAGES
+		-Server Statistics Detail
+		-Stat Tabs
+		-Stat Container (with decorated corners)
+		-Player Statistics
+		-Bar Chart
+		-Slider
+		-Abyss Status
+		-Leaderboards
+		-Pagination
+	21) ABOUT: CLASSES PAGE
+	22) ABOUT: CLASS DETAILS PAGES
+	23) FANSITE PAGE
+	24) SEARCH RESULTS PAGE
+		-Character and Legion Search Results
+		-Search Results (No Results)
+	25) SITEMAP
+	26) ACCOUNT LOG IN
+	27) SERVICES SECTION
+		-Shadow Court Archive
+		-Store
+		-Overview
+		-Support
+		-Refer a Friend
+		-Security
+		-Veteran's Rewards
+	28) ERROR PAGES
+******************************/
+
+
+/********************************************
+  ** 1) Reset
+/********************************************/
+div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, input, td {margin: 0; padding: 0; border: 0}
+
+
+/********************************************
+  ** 1) Common Defaults
+/********************************************/
+/***  Headings  ***/
+h2, h3, h4, h5, h6 {font-weight: normal;font-family:CartoGothicProBold, Arial, Helvetica, sans-serif}
+h1 {padding: 11px 0; color: #0c3d51; font-family: AdelonMedium, "Times New Roman", Times, serif; font-size: 22px;font-weight: normal; text-transform: uppercase; text-shadow: 0 1px 0 #e9e9e9}
+h1 a:hover {color: #06506e; border-bottom: none}
+h1 a:active {color: #06506e}
+h1 span.sub-title {color: #3c474c}
+h2 {padding: 0 10px 0 0; font-size: 20px; color: #0c3d51; font-weight: normal}
+h2 a{color: #0c3d51}
+h2 span.sub-title {color: #717171}
+h3 {padding: 10px 0; font-size: 16px; padding: 5px 0}
+h3 span.sub-title {color: #717171}
+h4 {padding: 10px 0; font-size: 14px; text-transform: uppercase}
+h4 span.sub-title {color: #717171}
+h5 {padding: 10px 0; font-size: 14px; color: #333}
+h5 span.sub-title {color: #717171}
+h6 {padding: 5px 0; font-size: 12px; font-weight: bold}
+h6 span.sub-title {color: #717171}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {font-weight: bold}
+/***  General  ***/
+.floatRight {float: right}
+.floatLeft {float: left}
+.displayNone {display: none}
+.clear {clear: both}
+.clear-fix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+/***  Images  ***/
+img {border: none}
+img.floatRight {margin: 10px 10px 10px 15px}
+img.floatLeft {margin: 10px 15px 10px 0}
+img.dbl-border-thick {padding: 2px; background: #fff; border: 2px solid #5f5f5f}
+img.dbl-border-thin {padding: 1px; background: #fff; border: 1px solid #5f5f5f}
+/***  Links  ***/
+a {color: #2B6C8C; text-decoration: none; outline:0}
+.extLink-small{padding-right: 14px;background: url("ext_link.png") no-repeat 100% 3px}
+.extLink-small:hover { background-position: 100% -27px }
+.extLink-large{padding-right: 20px;background:url("ext_link.png") no-repeat 100% 0}
+.extLink-large:hover{background-position: 100% -32px}
+a[href$='.pdf']{display: inline-block; padding-right: 20px;background: transparent url('pdf_icon.png') no-repeat scroll 100% 0}
+/***  Paragraphs  ***/
+p {padding: 5px 0; font-family: CartoGothicProBook, Arial, Helvetica, sans-serif; font-size: 13px; color: #333; line-height: 20px}
+p span.highlight {font-weight: bold}
+p span.drop-cap {font-family: AdelonMedium, "Times New Roman", Times, serif; text-transform: uppercase; float: left; color: #0c3d51; font-size: 75px; line-height: 60px; padding-right: 3px}
+p.text-indent {text-indent: 20px}
+abbr {border-bottom: 1px dotted #333; color: #333; cursor: help}
+/***  Forms  ***/
+
+#twoCol-left div.break-one {margin: 0 0 5px -1px; width: 738px; height: 20px; position: relative; background: url(hr_10000.png) no-repeat; border: 0 none; z-index: 105}
+#twoCol-left div.break-one-last {margin-top: -33px}
+#twoCol-left div.break-two {margin: 0 0 5px -1px; width: 736px; height: 19px; position: relative; background: url(hr_40000.png) no-repeat; border: 0 none; z-index: 105}
+#twoCol-left div.break-two-last {margin-top: -10px}
+#twoCol-left div.break-six {margin: 5px 0; height: 2px; background: url(hr_60000.png) no-repeat}
+#oneCol div.break-one {border: medium none; height: 19px; margin-left: -3px; position: relative; width: 989px; z-index: 105; background: url("hr_30000.png") no-repeat scroll 0 0 transparent; clear: both}
+#oneCol div.break-one-last {margin-top: -33px}
+#oneCol div.break-two {border: medium none; height: 19px; margin: 0 0 20px -33px; position: relative; width: 989px; z-index: 105; background: url("hr_20000.png") no-repeat scroll 0 0 transparent; clear: both}
+#oneCol div.break-six {margin: 5px 0; height: 2px; background: url(hr_60000.png) no-repeat}
+#oneCol div.break-seven {margin-bottom: 1px; height: 2px; background: url("hr_70000.png") no-repeat scroll 50% 0 }
+#oneCol div.break-nine {height: 2px; background: transparent url("hr_90000.png") no-repeat scroll 50% 0}
+#twoCol-left div.break-news{height:4px;margin:1em 0;background:transparent url('hr_news0.png') no-repeat}
+div.break-one hr,
+div.break-two hr,
+div.break-four hr,
+div.break-six hr,
+div.break-seven hr,
+div.break-nine hr,
+div.break-news hr{display: none}
+/***  Un-Ordered Lists  ***/
+ul {margin: 7px 0 7px 10px; padding-left: 0; list-style: none; font-family: CartoGothicProBook, Arial, Helvetica, sans-serif; font-size: 13px; color: #333; line-height: 20px}
+ul li {padding: 0 0 3px 10px}
+ul li span {display: inline-block; margin-top: 3px; color: #717171}
+ul li a {}
+/*******  Nested  ***/
+ul ul {margin: 2px 0 7px}
+ul li li {padding-bottom: 0px; line-height: 18px; font-size: 12px; margin-left: 10px; padding-left: 0; list-style-type: disc; background: none}
+/*******  Gem List  ***/
+	ul.gem li {padding-left: 20px; background-image: url(bullet_g.png); background-repeat: no-repeat; background-position: 0 3px}
+	ul.gem li li {padding-left: 0px; background: none}
+/***  Ordered Lists  ***/
+ol {margin: 7px 7px 7px 31px; font-family: CartoGothicProBook, Arial, Helvetica, sans-serif; font-size: 13px; color: #333; line-height: 30px}
+ol li {line-height: 24px}
+ol li a {}
+/*******  Nested  ***/
+ol ol {margin: 0 0 5px 0!important}
+ol li li {line-height: 18px; font-size: 12px; margin-left: 10px; padding-left: 0 !important; list-style-type: disc; background: none !important}
+/***  Definition Lists  ***/
+dl {font-family: CartoGothicProBook, Arial, Helvetica, sans-serif; font-size: 14px; color: #333; line-height: 30px}
+dl dt {}
+dl dd {}
+/***  Blockquotes  ***/
+blockquote {padding: 7px 0; font-family: CartoGothicProBoldItalic, Arial, Helvetica, sans-serif; font-size: 16px; color: #333; line-height: 21px}
+blockquote span {font-family: Georgia, "Times New Roman", Times, san-serif; font-size: 44px; font-weight: bold; vertical-align: middle}
+/***  Tables  ***/
+.ncCommunity table {font-size: 12px; text-align: center; border-collapse: collapse; border-spacing: 0}
+.ncCommunity table tbody {}
+.ncCommunity table a {}
+.ncCommunity table a:hover {}
+.ncCommunity table a:visited {}
+.ncCommunity table tr {}
+.ncCommunity table tr th {background: #E4E4E4; border: 1px solid #C6C6C6; border-width: 1px 1px 0}
+.ncCommunity table tr td {padding: 10px 0/*; width: 150px*/}
+.ncCommunity table tr td:first-child {width: 150px; background: #E4E4E4; border: 1px solid #C6C6C6; border-width: 1px 1px 0}
+/***  Messages Error/Info  ***/
+.custom-msg {margin: 30px }
+.custom-msg p {padding: 10px 10px 10px 15px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px}
+.custom-error {margin: 0px 20px 0px 20px}
+.custom-error p {color: #CC0000; border: 1px solid #FE7B7A; padding: 2px 2px 2px 10px; background: #FEECEE 6px 6px no-repeat}
+.custom-sucess {margin: 0px 20px 0px 20px}
+.custom-sucess p {color: #127517; border: 1px solid #0D7412; padding: 2px 2px 2px 10px; background: #C2F7C4 6px 6px no-repeat}
+
+.custom-info {}
+.custom-info p {color: #0055BB; background: #D8E5F8; border: 1px solid #629DE3}
+.custom-warn {}
+.custom-warn p {color: #B79000; background: #FEF6D8; border: 1px solid #FDE179}
+
+
+
+/********************************************
+  ** 1) Breadcrumb
+/********************************************/
+#breadcrumb{margin: 0 15px -163px 12px;padding: 4px 0 0 12px;height: 162px;font-size: 12px;color: #fff;background: url(breadcru.png) repeat-x}
+#breadcrumb a{color: #fff}
+
+
+/********************************************
+  ** 1) Single Column
+/********************************************/
+#oneCol {margin-top: 15px; width: 990px; float: left}
+#oneCol a:hover {text-decoration: underline}
+#oneCol .content-top {padding:22px 32px 0; height: 40px;position: relative; z-index: 105; background: url(top_bg1_.png) no-repeat}
+#oneCol .content-top h1 {padding:0}
+#oneCol .content-container {margin: 0 18px 25px 12px; padding: 20px 0 20px 20px; min-height: 380px; position: relative; background: url(bg_25per.png)}
+#oneCol .twoSubCol {width: 446px; float: left; padding-left: 28px}
+#oneCol .twoSubCol:first-child {padding-left: 0}
+
+
+/********************************************
+  ** 1) Two Column Left
+/********************************************/
+#twoCol-left {margin-top: 15px; width: 737px; float: left}
+#twoCol-left a:hover {text-decoration: underline}
+#twoCol-left .content-top {padding: 21px 32px 0; height: 39px; position: relative; z-index: 105; background: url(top_bg10.png) no-repeat}
+#twoCol-left .content-top2 {padding: 20px 32px 0; height: 44px; position: relative; z-index: 105; text-align:center; background: url(top_bg20.png) no-repeat}
+#twoCol-left .content-top2 h2 {padding: 3px 0 0;font-family: AdelonMedium, "Times New Roman", Times, serif;font-weight: normal;text-shadow: 1px 1px 0 #E9E9E9}
+#twoCol-left .content-top h1 {padding: 0}
+#twoCol-left .cat-entry {margin: -15px 13px -10px 12px; padding: 20px 0 35px; position: relative; background: url(bg_fadeo.png) no-repeat}
+#twoCol-left .cat-bg2 {background: url(bg_fadep.png) no-repeat}
+#twoCol-left .cat-bg3 {padding-bottom: 30px;border-left: 1px solid #717171;border-right: 1px solid #717171;background: url(bg_25per.png) repeat}
+#twoCol-left .cat-entry h2 {padding: 0 0 5px;line-height: 26px}
+#twoCol-left .content-top + .cat-entry {margin-top: -9px;padding-top: 24px}
+#twoCol-left .cat-entry .content {margin-right: 17px;width: 573px; float: right}
+#twoCol-left .cat-entry .content .btn-right-1 {margin: 8px 0 0 -1px}
+#twoCol-left .cat-entry .content .social-btns-right {float: right}
+#twoCol-left .cat-entry .content .social-btns-right a {margin-left:7px}
+#twoCol-left .cat-entry .content .post-data {margin: 15px 0 5px; font-size: 12px; line-height: 12px}
+#twoCol-left .cat-entry .content .post-data li {padding: 0 7px; display: inline-block; border-left: 1px solid #666666}
+#twoCol-left .cat-entry .content .post-data li:first-child {padding-left: 0; border-left: none}
+#twoCol-left .cat-entry .entry-date {margin: 0 0 0 25px; padding: 0;width:75px; background:url(entrydat.png) no-repeat} 
+#twoCol-left .cat-entry .entry-date .day {margin: 0 0 0 -1px;padding-top: 3px;display: block;text-align:center;font: normal 36px AdelonBook, "Times New Roman", Times, serif; text-shadow: 0 1px 0 #e9e9e9;color: #0c3d51;}
+#twoCol-left .cat-entry .entry-date .month {margin-top: 1px;display: block;text-align:center; color:#333; font-size:12px} 
+#twoCol-left .cat-entry img {max-width: 100%}
+#twoCol-left .cat-entry .news-comment{text-align: left}
+#twoCol-left .cat-entry .news-comment a{background: none;font-weight: normal;padding: 1px 2px 2px 3px}
+#twoCol-left .cat-entry-footer-links {margin-top: -7px;float:right}
+#twoCol-left .category-listing-footer {padding: 35px 13px 0 12px;text-align: center}
+#twoCol-left .category-listing-footer a.btn-right-1 {margin-right: 45px}
+
+
+/********************************************
+  ** 1) Two Column Right (Sidebar)
+/********************************************/
+#twoCol-right {margin-top: 15px; padding: 7px 0 0 3px; width: 244px; float: left}
+#twoCol-right p {font-size: 12px; line-height: 14px}
+#twoCol-right h3 {font-size: 14px; font-family: AdelonMedium, "Times New Roman", Times, serif; color: #4d4d4d; text-shadow: 1px 1px 0 #e9e9e9; font-weight: normal}
+#twoCol-right .center-button {display: block;clear: both;text-align: center}
+/***  Bucket Headers & Footers  ***/
+#twoCol-right .bucket .bucket-top-one {margin-top: -1px;padding-top: 10px; height: 43px; background: url(top10000.png) no-repeat; outline: 0}
+#twoCol-right .bucket .bucket-top-one h3 {padding-top: 6px;font-size: 18px;text-transform: uppercase}
+#twoCol-right .bucket .bucket-top-two {padding-top: 4px;height: 36px; background: url(top20000.png) no-repeat}
+#twoCol-right .bucket .bucket-top-three {height: 32px; background: url(top30000.png) no-repeat; border-bottom: 1px solid #717171}
+#twoCol-right .bucket .bucket-top-three h3 {padding-top: 8px;font-size: 16px;text-transform: uppercase}
+#twoCol-right .bucket .bucket-bottom-one {background: url("bottom10.png") no-repeat left bottom transparent; height: 5px}
+/***  Buckets  ***/
+#twoCol-right .bucket {margin-top: 15px; width: 230px; background: #ebebeb; border: 1px solid #717171}
+#twoCol-right .bucket:first-child {margin-top: 0px}
+#twoCol-right .bucket h3 {margin-left: 10px; padding: 9px 0 0 3px; color: #0c3d51}
+#twoCol-right .bucket img {display: block}
+#twoCol-right .bucket .content {padding: 10px 12px}
+#twoCol-right .bucket .content p {}
+#twoCol-right .bucket .content a {}
+#twoCol-right .content ul.gem {margin-left: 0}
+#twoCol-right .content li {font-size: 12px; line-height: 14px; margin-top: 10px}
+#twoCol-right .content li:first-child {margin-top: 0}
+#twoCol-right .content ul li span {margin: 0;display: block;word-wrap: break-word;font-size: 11px}
+#twoCol-right .bucket .highlight-rows {padding: 0px;text-align: left}
+#twoCol-right .bucket .highlight-rows ul {margin: 0}
+#twoCol-right .bucket .highlight-rows ul li {margin: 0;padding: 0}
+#twoCol-right .bucket .highlight-rows a {padding: 8px 15px;display: block;font-size: 14px;background: url("categori.png") no-repeat 0 0}
+#twoCol-right .bucket .highlight-rows a.active,
+#twoCol-right .bucket .highlight-rows a:hover {background-color: #dcddde}
+#twoCol-right .bucket .highlight-rows ul li:first-child a {background-image: none}
+#twoCol-right .bucket .content a.subscribe-rss {background: url("subscrib.png") no-repeat 0 0 transparent; display: block; font-size: 12px; height: 16px; padding: 1px 0 0 25px; margin-top: 4px}
+#twoCol-right .bucket .content a.subscribe-rss:hover {background-position: 0 -17px}
+#twoCol-right .fansites .content {padding-bottom: 205px;background: url("bucket_f.png") no-repeat 55px 100%}
+#twoCol-right .fansites .content ul {margin-left: 3px}
+#twoCol-right .fansites .content li {padding: 0;font-size: 13px}
+#twoCol-right .bucket .fansite-kit ul.gem li {margin-top: 3px;background-position: 0 1px}
+#twoCol-right .bucket .fansite-kit ul.gem {margin-left: 10px}
+#twoCol-right .bucket .fansite-kit .center-button {margin: 10px 0 6px}
+#twoCol-right .bucket .follow-us {margin-bottom: -1px}
+#twoCol-right .bucket .follow-us h3{padding-top: 8px;font-size: 16px}
+#twoCol-right .bucket .follow-us ul {margin: 0}
+#twoCol-right .bucket .follow-us ul li {margin-right: 3px;padding: 0;float: right}
+#twoCol-right .bucket .upcoming-events p span {display: block}
+#twoCol-right .bucket .upcoming-events p span.type {color: #717171}
+#twoCol-right .bucket .upcoming-events .center-button {margin: 5px 0}
+#twoCol-right .bucket .updated-articles h3 {font-size: 15px}
+#twoCol-right .bucket .updated-articles ul.gem li {background-position: 0 0}
+#twoCol-right .bucket-img {border:0}
+#twoCol-right .bucket-img img {padding: 1px; background: none #FFF; border: 1px solid #717171}
+/***  Newsletter Form  ***/
+#newsletter-signup {padding-top: 6px; position: relative}
+#newsletter-signup label {position: absolute; top: 12px; left: 10px; display: none; color: #8a8a8a; font-size: 11px}
+#newsletter-signup #newsletter-email {padding: 4px 3px; width: 190px; font-size: 11px; margin-bottom: 13px}
+#newsletter-signup button {margin: 0;padding: 0;display: inline-block;width: 130px;height: 35px;border: 0 none;font-size: 14px;background: url("btn_subs.jpg") no-repeat;cursor: pointer}
+#newsletter-signup button:hover {background-position: 0 -35px}
+/***  Accordion ***/
+#twoCol-right .accordion .header h3 {margin-left: 10px; padding: 8px 0 0 38px; height: 26px;font-size: 18px;text-transform: uppercase}
+#twoCol-right .accordion .ui-state-default h3{color: #4d4d4d}
+#twoCol-right .accordion .ui-state-hover h3{color: #0C3D51}
+#twoCol-right .accordion .header .twitter {background: url(twitter_.png) no-repeat 0 2px}
+#twoCol-right .accordion .header .facebook {background: url(facebook.png) no-repeat 0 2px}
+#twoCol-right .accordion .header .youtube {background: url(youtube_.png) no-repeat 0 2px}
+#twoCol-right .accordion .content {padding: 0;height: 330px }
+#twoCol-right .accordion .content ul.gem {margin: 0px; padding:10px; height:268px;overflow-y:auto; overflow-x:hidden;}
+#twoCol-right .accordion .content ul.gem li {padding-top: 2px;word-wrap: break-word}
+#twoCol-right .accordion .content ul.gem li:first-child {margin-top: 1px}
+#twoCol-right .accordion .content ul.gem li span {margin-top: 3px;display: block;font-size: 11px;line-height: 12px}
+#twoCol-right .accordion .content .extLink-large {margin: 17px 8px 0 0;font-size: 11px;text-transform: uppercase;line-height: 14px;background-position: 100% -32px}
+#twoCol-right .accordion div.youtube {overflow: hidden}
+#twoCol-right .accordion .youtube .column {margin-left: 8px;float: left}
+#twoCol-right .accordion .youtube .column img {margin: 1px 0 9px}
+#twoCol-right .accordion .youtube ul { margin: 10px 0 0 1px; padding: 0px;height:260px; }
+#twoCol-right .accordion .youtube a.extLink-large { margin-top: 25px }
+#twoCol-right .accordion .youtube-feed li {margin: 5px;padding:1px;position:relative;float:left;width:100px }
+#twoCol-right .accordion .youtube-feed .youtube-overlay { display: none;position:absolute; top: 1px;left: 1px; width:102px; height:77px;border: 1px solid #000;background: url(bg_50per.png) }
+#twoCol-right .accordion .youtube-feed .youtube-overlay-link {padding: 3px;display: block;position: relative;text-decoration:none; font-size: 10px; text-align:center; text-decoration:none; color: #fff }
+#twoCol-right .accordion .youtube-feed .youtube-overlay-selected { display: block }
+#twoCol-right .accordion .bucket-top-one {padding: 0;height: 6px}
+#twoCol-right .accordion .bucket-top-two {height: 41px;cursor: pointer; outline: 0; border-bottom: 1px solid #8c8d8d}
+#twoCol-right .accordion .bucket-bottom-one {height: 4px}
+
+
+/********************************************
+  ** 1) Content Top
+/********************************************/
+/*** Content Navigation ***/
+.content-top ul.nav {margin:0}
+.content-top ul.nav li {padding: 4px 15px 0;float: left;background: url("top_nav_.png") no-repeat 0 0}
+.content-top ul.nav a {padding-bottom: 28px; z-index: 110; position:relative;font-family: AdelonMedium, "Times New Roman", Times, serif; font-size: 18px;font-weight: normal;text-transform: uppercase;text-shadow: 0 1px 0 #E9E9E9;color: #3c474c}
+.content-top ul.nav a.active {text-decoration: none !important;color: #2b6c8c;background: url("top_nav_.png") no-repeat center 30px transparent}
+
+.content-top ul.nav a:hover {text-decoration: none !important;color: #2b6c8c;}
+
+
+.content-top ul.nav li.media-nav-viewall {background: url(common00.css);}
+
+#twoCol-left .content-top ul.nav a.active,
+#twoCol-left .content-top ul.nav a:hover {background-position: center 28px}
+.content-top ul.left {float: left}
+.content-top ul.right {float: right}
+.content-top ul.left li {background-position: 100% 0}
+/*** Drop Down ***/
+.content-top ul.nav {margin:0}
+#twoCol-left .content-top ul.prev-next{margin-top: -2px;float: right}
+#twoCol-left .content-top ul.prev-next > li{padding: 5px 0 0 11px;float: left;height: 28px}
+#twoCol-left .content-top ul.prev-next > li:first-child{padding-right: 11px;background: url(top_next.png) 100% 0 no-repeat}
+#twoCol-left .content-top ul.prev-next > li > a{color: #3c474c;font-family: AdelonMedium, "Times New Roman", Times, serif;font-size: 16px;font-weight: normal;text-shadow: 0 1px 0 #E9E9E9;text-transform: uppercase}
+#twoCol-left .content-top ul.prev-next > li > a:hover{color: #0C3D51; text-decoration: none;}
+#twoCol-left .content-top ul.prev-next .prev-next-disabled{color: #797B80; font-family: AdelonMedium, "Times New Roman", Times, serif;font-size: 16px;font-weight: normal;text-shadow: 0 1px 0 #E9E9E9;text-transform: uppercase; margin-top: 0;}
+#twoCol-left .content-top .dropdown{position: absolute;right: 30px}
+#twoCol-left .content-top .dropdown .btn-square-7{}
+.dropdown ul{margin: -4px 0 0;border: 1px solid #bbb;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 13px;text-shadow: 0 1px 0 #fff;color: #000;background: url(dropdown.jpg) repeat}
+.dropdown ul > li{border-top: 1px solid #bbb;padding: 0}
+.dropdown ul > li:first-child{padding-top: 1px}
+.dropdown ul > li a{border-top: 1px solid #fff;border-left: 1px solid #fff;padding: 1px 13px;display: block;color: inherit}
+.dropdown ul > li a:first-child{}
+.dropdown ul > li a:hover, .dropdown ul > li.active a{background: url(dropdown.png) repeat-x}
+
+
+/********************************************
+  ** 1) Content Area
+/********************************************/
+.content-container span.button-right{display: block; text-align: right}
+.content-container span.button-right a.btn-right-2{padding-right: 35px;width: auto;line-height: 26px;color: #06506e;text-shadow: none}
+.content-container span.button-right a.btn-right-2:hover{}
+/*** Content Header ***/
+#twoCol-left .content-header{margin: 0 13px 0 12px;padding: 20px;position: relative}
+#twoCol-left .content-header h2{padding: 0}
+#twoCol-left .content-header h2 ~ h2{font-size: 18px}
+#twoCol-left .content-header p{padding-top: 0}
+/*** Content Container ***/
+#twoCol-left .content-container{margin: 0 13px 25px 12px}
+#twoCol-left .content-container .break-one{left: -32px;top: 35px}
+/*** Shaded Rows ***/
+.content-container .shaded-row{padding: 20px;position: relative;border-top: 1px solid #fff}
+.content-container .shaded-row:first-child{border: none}
+.content-container .dark-row{background: url(bg_50per.png) repeat transparent}
+.content-container .light-row{background: url(bg_35per.png) repeat transparent}
+
+
+/********************************************
+  ** 1) Pagination
+/********************************************/
+.pagination {margin: 0 13px -15px 12px;text-align: center; z-index: 105;}
+#oneCol .pagination {margin-right: 18px}
+.pagination ul {margin-left: 0;display: inline-block}
+.pagination li {padding-right: 5px;padding-left: 5px;display: block;float: left}
+.pagination li a{color:#4d4d4d}
+#onCol .pagination li a:hover,
+#twoCol-left .pagination li a:hover{color: #2b6c8c;text-decoration: none}
+.pagination li.current a,.pagination li.active a{font-family:CartoGothicProBold, Arial, Helvetica, sans-serif;color: #2b6c8c}
+.pagination li a.btn-left-2,
+.pagination li a.btn-right-2 {margin-top: -3px}
+.pagination li.unavailable a.btn-left-2,
+.pagination li.unavailable a.btn-right-2 {background-position: 0 -54px !important;cursor: default}
+
+/********************************************
+  ** 1) Next/Previous Buttons
+/********************************************/
+a.btn-more-results,
+a.btn-back-to-top {margin-top:4px;padding-right: 13px;font-size: 12px;text-transform: uppercase;background: transparent url(btn_arro.png) no-repeat scroll 100% -47px}
+#twoCol-left a.btn-more-results:hover,
+#twoCol-left a.btn-back-to-top:hover,
+#oneCol a.btn-more-results:hover,
+#oneCol a.btn-back-to-top:hover {text-decoration: none}
+a.btn-more-results {left:0}
+a.btn-back-to-top{right:0;background-position: 100% 4px}
+#twoCol-left .next-prev-btns {margin: 0 13px 0 12px;position: relative;text-transform: uppercase;font-size: 12px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif}
+.next-prev-btns a.btn-more-results,
+.next-prev-btns a.btn-back-to-top {position: absolute}
+
+/*.next-prev-btns a {margin: 0 10px}
+.next-prev-btns .btn-right-1 span {padding-left: 20px;padding-right: 10px}*/
+
+
+/********************************************
+  ** 1) BUTTONS
+/********************************************/
+/***  All buttons  ***/
+a.btn-square-1,
+a.btn-square-2,
+a.btn-square-3,
+a.btn-square-4,
+a.btn-square-5,
+a.btn-square-6,
+a.btn-square-7,
+a.btn-square-9,
+a.btn-right-1,
+a.btn-right-2,
+a.btn-left-1,
+a.btn-left-2,
+a.btn-decor-1,
+button.btn-decor-1,
+a.btn-decor-2,
+a.btn-social-1,
+a.btn-social-2,
+a.btn-social-3 { display: inline-block;font:13px/18px CartoGothicProBook, Arial, Helvetica, sans-serif; color: #000; text-shadow: 0px 1px 0 #fff; }
+/***  End cap on right  ***/
+a.btn-square-1:hover,
+a.btn-square-5:hover,
+a.btn-square-6:hover,
+a.btn-square-7:hover,
+a.btn-square-9:hover,
+a.btn-right-1:hover,
+a.btn-decor-1:hover,
+a.btn-decor-2:hover,
+a.btn-square-2:hover span,
+a.btn-square-3:hover span,
+a.btn-square-4:hover span,
+a.btn-left-1:hover span,
+a.btn-social-1:hover span,
+a.btn-social-2:hover span,
+a.btn-social-3:hover span { background-position: right bottom !important; text-shadow: none; color: #06506e; cursor: pointer; text-decoration: none !important; }
+/*** End cap on left  ***/
+a.btn-square-1:hover span,
+a.btn-square-5:hover span,
+a.btn-square-6:hover span,
+a.btn-square-7:hover span,
+a.btn-square-9:hover span,
+a.btn-right-1:hover span,
+a.btn-decor-1:hover span,
+a.btn-decor-2:hover span,
+a.btn-square-2:hover,
+a.btn-square-3:hover,
+a.btn-square-4:hover,
+a.btn-left-1:hover,
+a.btn-social-1:hover,
+a.btn-social-2:hover,
+a.btn-social-3:hover {background-position: left bottom !important; text-shadow: none; color: #06506e; cursor: pointer; text-decoration: none !important; }
+/***  Button span tags  ***/
+
+a.btn-square-1 span,
+a.btn-square-2 span,
+a.btn-square-3 span,
+a.btn-square-4 span,
+a.btn-square-5 span,
+a.btn-square-6 span,
+a.btn-square-7 span,
+a.btn-square-9 span { display: inline-block; height: 21px }
+a.btn-square-8 { display: inline-block; font-family: CartoGothicProBook, Arial, Helvetica, sans-serif; font-size: 18px; color: #06506e; text-shadow: 0px 1px 0 #fff }
+a.btn-square-8:hover { background-position: right bottom !important; cursor: pointer; text-decoration: none !important }
+a.btn-square-8:hover span { background-position: left bottom !important; text-decoration: none !important; cursor: pointer }
+a.btn-square-1 { background: url("btn_squa.png") no-repeat right top transparent }
+a.btn-square-2 { background: url("btn_squb.png") no-repeat left top transparent }
+a.btn-square-3 { background: url("btn_squc.png") no-repeat left top transparent }
+a.btn-square-4 { background: url("btn_squc.png") no-repeat left top transparent }
+a.btn-square-5 { background: url("btn_squc.png") no-repeat right top transparent }
+a.btn-square-6 { background: url("btn_squc.png") no-repeat right top transparent }
+a.btn-square-7 { background: url("btn_squc.png") no-repeat right top transparent }
+a.btn-square-8 { background: url("btn_squc.png") no-repeat right top transparent }
+a.btn-square-9 { background: url("btn_squc.png") no-repeat right top transparent }
+a.btn-right-1 { background: url("btn_righ.png") no-repeat right top transparent }
+a.btn-right-2 { height: 27px; width: 27px; background: url("btn_rigi.png") no-repeat right top transparent }
+a.btn-left-1 { background: url("btn_left.png") no-repeat 0 0 transparent }
+a.btn-left-2 { height: 27px; width: 27px; background: url("btn_left.png") no-repeat 0 0 transparent }
+a.btn-right-2:hover{background-position: 100% -27px}
+a.btn-left-2:hover{background-position: 0 -27px}
+a.btn-decor-1{ background: url("btn_deco.png") no-repeat right top transparent }
+a.btn-decor-2 { background: url("btn_deco.png") no-repeat right top transparent }
+a.btn-social-1 { background: url("btn_soci.png") no-repeat left top transparent }
+a.btn-social-2 { background: url("btn_socj.png") no-repeat left top transparent }
+a.btn-social-3 { background: url("btn_sock.png") no-repeat left top transparent }
+a.btn-square-1 span { background: url("btn_squc.png") no-repeat left top transparent; margin: 0 4px 0 0; padding: 3px 8px 0 14px }
+a.btn-square-2 span { background: url("btn_squd.png") no-repeat right top transparent; margin: 0 0 0 19px; padding: 3px 8px 0 5px }
+a.btn-square-3 span { background: url("btn_squd.png") no-repeat right top transparent; margin: 0 0 0 24px; padding: 3px 10px 0 4px }
+a.btn-square-4 span { background: url("btn_squd.png") no-repeat right top transparent; margin: 0 0 0 61px; padding: 3px 7px 0 4px }
+a.btn-square-5 span { background: url("btn_squc.png") no-repeat left top transparent; margin:0 21px 0 0; padding: 2px 6px 1px 10px }
+a.btn-square-6 span { background: url("btn_squc.png") no-repeat left top transparent; margin: 0 21px 0 0; padding: 3px 6px 0 14px }
+a.btn-square-7 span { background: url("btn_squc.png") no-repeat left top transparent; margin: 0 22px 0 0; padding: 3px 6px 0 11px }
+a.btn-square-9 span { background: url("btn_squc.png") no-repeat left top transparent; margin: 0 31px 0 0; padding: 3px 7px 0 18px }
+a.btn-square-8 span { background: url("btn_sque.png") no-repeat left top transparent; margin: 0 11px 0 0; padding: 10px 0 8px 11px; display: inline-block }
+a.btn-right-1 span { background: url("btn_rigi.png") no-repeat left top transparent; display: inline-block; height: 21px; margin: 0 20px 0 0; padding: 3px 0 0 10px }
+a.btn-left-1 span { background: url("btn_left.png") no-repeat right top transparent; display: inline-block; height: 21px; margin: 0 0 0 20px; padding: 3px 10px 0 0 }
+a.btn-decor-1 span{ background: url("btn_deco.png") no-repeat left top transparent; display: inline-block; height: 25px; margin: 0 28px 0 0; padding: 9px 0 0 28px }
+a.btn-decor-2 span { background: url("btn_deco.png") no-repeat left top transparent; display: inline-block; height: 23px; margin: 0 20px 0 0; padding: 4px 7px 0 27px }
+a.btn-social-1 span { background: url("btn_socl.png") no-repeat right top transparent; display: inline-block; height: 22px; margin: 0 0 0 25px; padding: 6px 10px 0 4px }
+a.btn-social-2 span { background: url("btn_socl.png") no-repeat right top transparent; display: inline-block; height: 22px; margin: 0 0 0 25px; padding: 6px 10px 0 4px }
+a.btn-social-3 span { background: url("btn_socl.png") no-repeat right top transparent; display: inline-block; height: 22px; margin: 0 0 0 25px; padding: 6px 10px 0 4px }
+
+
+a.btn-social-4 { background: url("facebook.png") no-repeat left top transparent }
+a.btn-social-5 { background: url("twitter_.png") no-repeat left top transparent }
+a.btn-social-6 { background: url("youtube_.png") no-repeat left top transparent }
+a.btn-social-4,
+a.btn-social-5,
+a.btn-social-6 { display: block; height: 34px; width: 34px }
+a.btn-social-4:hover,
+a.btn-social-5:hover,
+a.btn-social-6:hover { background-position:left bottom }
+
+
+/********************************************
+  ** 1) Lightbox
+********************************************/
+.ncLightBox-overlay {position:fixed;top:0;left:0;height:100%;width:100%;background:#000;z-index:199;display:none;}
+.lightbox{display:none;min-width:210px;position:absolute;left:0px;top:0px;z-index:200;position:fixed;}
+.lightbox .left-aligned{float:left}
+.lightbox .logo{margin-bottom:10px}
+.lightbox .lightbox-count{color:#0c3d51;font-family:AdelonBook, "Times New Roman", Times, serif;font-size:20px;margin:0;padding:0;text-transform:uppercase;text-shadow:0 1px 0 #e9e9e9; left:0px; position:absolute;left:30px;}
+.lightbox .header{position:relative;background:url("lightbox.png") left top repeat transparent;height:6px;z-index:1;}
+.lightbox .header .left{width:44px;height:18px;background:url("lightbox.png") left top no-repeat transparent;position:absolute;left:-12px;top:-6px}
+.lightbox .header .right{width:44px;height:18px;background:url("lightbox.png") left top no-repeat transparent;position:absolute;right:-12px;top:-6px}
+
+
+.lightbox .main .loading >img{ position:absolute; top:45%; left:45%; }
+.lightbox .main{padding:12px 30px;position:relative;border: 1px solid #fff;background:url("lightbox.png") left top repeat }
+.lightbox .main > ul{margin:0;float:right}
+.lightbox .main > ul li{float:left}
+.lightbox .main > ul li a span{color:inherit}
+.lightbox .content{margin: 15px auto;min-width:218px;position:relative; }
+.lightbox .content .media {padding:1px;  background:#000;height:380px; width:640px;border:2px solid #333;} 
+.lightbox .content .dialog-box{z-index:165;position:absolute;left: 0;bottom: 0;width:100%;min-height:125px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size:14px;color:#fff;background:url("black_90.png") repeat}
+.lightbox .content .dialog-box .dialog-box-header{padding:4px 10px 4px 16px;border-top:1px solid #2a2a2c;border-bottom:1px solid #2a2a2c;background:url("black_90.png") repeat}
+.lightbox .content .dialog-box .dialog-box-header h3{font-size:14px;font-weight:normal;}
+.lightbox .content .dialog-box .dialog-box-header a.dialog-close{background:url("lightbox.png") no-repeat top left;cursor:pointer;display:block;float:right;height:24px;width:23px;}
+.lightbox .content .dialog-box .dialog-box-body{margin:0 auto;padding:22px 16px 0;line-height:22px}
+.lightbox .content .dialog-box .dialog-box-body p{color:#fff}
+.lightbox .content .dialog-box .dialog-box-body ul{margin:0 auto;position:relative;float:none;color:inherit}
+.lightbox .content .dialog-box .dialog-box-body ul li{margin:0;padding:0}
+#ncLB-video{background:#000;display:block;height:380px;width:640px;}
+.video-rating { position: absolute; width: 100%; top: 0; bottom: 0; z-index: 160; background-color: #000; text-align: center; padding-top: 15%; }
+/*** Next/Previous ***/
+.lightbox a.lightbox-prev,
+.lightbox a.lightbox-next{background:url("lightbox.png") no-repeat;cursor:pointer;display:block;height:23px;margin-top:-15px;position:absolute;top:50%;width:22px;}
+.lightbox a.lightbox-prev{background-position:0 0;left:4px;}
+.lightbox a.lightbox-prev:hover{background-position:0 -23px;}
+.lightbox a.lightbox-next{background-position:-22px 0;right:4px;}
+.lightbox a.lightbox-next:hover{background-position:-22px -23px;}
+/*** Download Dialog Box ***/
+.lightbox .dialog-box-body .dialog-download{text-align:center;font-size:12px;padding-bottom:22px;}
+.lightbox .dialog-box-body .dialog-download div.links{padding-left:32px;display:inline-block;text-align:left}
+.lightbox .dialog-box-body .dialog-download div.links:first-child{margin-right:40px}
+.lightbox .dialog-box-body .dialog-download div.quicktime{background:url("quicktim.png") no-repeat}
+.lightbox .dialog-box-body .dialog-download div.media-player{background:url("windowsm.png") no-repeat}
+.lightbox .dialog-box-body .dialog-download h4{padding:0 0 4px 0;font-size:inherit;font-weight:inherit}
+.lightbox .dialog-box-body .dialog-download ul{font-size:inherit}
+.lightbox .dialog-box-body .dialog-download ul li{margin-bottom:4px;float:none;list-style-type:none}
+.lightbox .dialog-box-body .dialog-download ul li a{color:#fff}
+.lightbox .dialog-box-body .dialog-download ul li a:hover{color:#66CDFF;}
+.lightbox .dialog-box-body .dialog-download ul li a span{margin:0;color:#555}
+.lightbox .dialog-box-body .dialog-download .wallpapers{display:block;margin:0 auto;padding:0;text-align:center;width:400px;}
+.lightbox .dialog-box-body .dialog-download .wallpapers ul li{display:inline;font-size:13px;margin:0 15px 5px;}
+.lightbox .dialog-box-body .dialog-download .wallpapers ul li a{display:inline-block}
+/*** Share This Dialog Box ***/
+.lightbox .dialog-box .dialog-box-body .dialog-share{margin:0 auto;padding-bottom:9px;width:490px}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul{font-size:12px}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul li{margin-bottom:13px;padding:0}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social{float:left;width:260px}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li{float:left;width:130px;text-align: left}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a,
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.links li a{padding:2px 0 0 31px;display:inline-block;height:21px;font-size:12px;color:#fff}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a:hover,
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.links li a:hover{color:#66CDFF;}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a.twitter{background:url("twitter0.png") no-repeat left top transparent}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a.facebook{background:url("facebool.png") no-repeat left top transparent}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a.myspace{background:url("myspace0.png") no-repeat left top transparent}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a.digg{background:url("digg0000.png") no-repeat left top transparent}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a.reddit{background:url("reddit00.png") no-repeat left top transparent}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.social li a.delicious{background:url("deliciou.png") no-repeat left top transparent}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.links li a.email{margin-left:18px;padding-left:39px;background:url("mail_ico.png") no-repeat left top transparent}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.links{float:left;width:230px}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.links li > span{margin:0;display:inline-block;width:55px;color:#fff}
+.lightbox .dialog-box .dialog-box-body .dialog-share ul.links li textarea{margin:0;padding:0;width:170px;height:16px}
+.mc-poster{overflow:hidden; margin: 00px 0px 150px 0px; padding: 0px;}
+/*** Share This pop up ***/
+.share-this {position: relative}
+.share-this-container {display: block;position: absolute;bottom: 11px;right: -13px;z-index: 130;width: 290px;text-align: left;color: #fff;text-shadow: none}
+.share-this-container .share-this-top {height: 17px;background: url("top_bg00.png") no-repeat}
+.share-this-container .share-this-content {padding: 6px 10px 12px;width: 270px;position: relative;background: url("content_.png") repeat-y}
+.share-this-container .share-this-content a:hover {color: #66cdff}
+.share-this-container .share-this-bottom {height: 38px;background: url("bottom_b.png") no-repeat}
+.share-this-container .share-this-close {float: right;border-top: 1px solid #fff;border-bottom: 1px solid #fff;color: #000;background: #e6e7e8}
+.share-this-container .share-this-close span{margin-left: -9px;padding: 0 6px 0 9px;display: block;height: 23px;line-height: 23px;font-size: 12px;background: url("close_ca.png") no-repeat}
+.share-this-container h3 {padding: 0 20px 21px;color: #fff; font-size: 18px}
+.share-this-container .share-this-links {margin: 0;border-top: 1px solid #30343f}
+.share-this-container .share-this-links li {padding: 5px 0 5px 20px;float: left;width: 115px;border-bottom: 1px solid #30343f}
+.share-this-container .share-this-links a {padding: 3px 0 4px 30px;color: #fff}
+.share-this-container .share-this-links a.twitter {background: url("twitter0.png") no-repeat left top transparent}
+.share-this-container .share-this-links a.facebook {background: url("facebool.png") no-repeat left top transparent}
+.share-this-container .share-this-links a.myspace {background: url("myspace0.png") no-repeat left top transparent}
+.share-this-container .share-this-links a.digg {background: url("digg0000.png") no-repeat left top transparent}
+.share-this-container .share-this-links a.reddit {background: url("reddit00.png") no-repeat left top transparent}
+.share-this-container .share-this-links a.delicious {background: url("deliciou.png") no-repeat left top transparent}
+.share-this-container .share-this-urls {margin: 0 0 12px;padding: 20px 0 13px 20px;clear: both;border-bottom: 1px solid #30343f}
+.share-this-container .share-this-urls li {padding: 0 0 3px}
+.share-this-container .share-this-urls .label {display: inline-block;width: 54px;color: #fff;font-size: 12px}
+.share-this-container .share-this-urls textarea {padding: 4px;width: 166px;height: 15px}
+.share-this-container .share-this-email {margin-left: 20px;padding: 3px 0 0 30px;display: block;height: 16px;color: #fff;background: url("mail_ico.png") no-repeat left top transparent}
+
+/********************************************
+  ** 1) Front Page
+/********************************************/
+#fp-banner {margin-left: 12px; width: 958px; position: relative; border-right: 1px solid #333;border-bottom: 1px solid #333;border-left: 1px solid #333}
+#fp-banner .vertical-end-top {height: 28px; background: url(fp_banne.png) no-repeat}
+#fp-banner .vertical-end-btm {height: 28px; background: url(fp_bannf.png) no-repeat}
+#fp-banner .banner-right {margin-right: 2px; padding-left: 5px; width: 228px; float: right; background: url(fp_banng.png) no-repeat top left}
+#fp-banner .banner-right .bucket {padding: 8px 1px 1px; width: 228px; background: #fff url(fp_bannh.png) no-repeat top right}
+#fp-banner .banner-right .bucket:first-child {padding: 1px; background: #fff none}
+#fp-banner .banner-right .bucket img {display: block}
+#fp-banner .banner-left {width: 723px; height: 408px; border: none}
+#fp-banner #panels {position: relative;/*background: url(http://static.aiononline.com/includes/images/template-items/fp_banner_bg.png) no-repeat*/ background: #000 none}
+#fp-banner #panels div.panel-item{display: none}
+#fp-banner #panels div.panel-item:first-child{display: block}
+#fp-banner #panels div.panel-item img{border: 1px solid #fff}
+#fp-banner #pager {position: absolute; bottom: 6px; left: 10px}
+#fp-banner #pager .page {margin-right: 5px; width: 15px; height: 15px; display: block; float: left; background: url(fp_banni.png) no-repeat top left; text-indent: -5000px; cursor: pointer}
+#fp-banner #pager .page:hover {background-position: bottom left}
+
+
+/********************************************
+  ** 1) Media Section
+/********************************************/
+.media-row {clear: both;margin-left: 2px}
+.media-row h2 {margin-bottom: 10px}
+.media-row btn-right-1 {margin-left: -3px}
+.media-row-left{float: left;width: 780px}
+.media-row-right{float: right;width: 780px}
+.media-row .media-item {margin: 0 18px 20px 0; position: relative;width: 138px;height: 148px; float: left;overflow: hidden}
+.media-row .media-item .description {font-family: CartoGothicProBold, Arial, Helvetica, sans-serif; font-size: 12px; line-height:14px; display: block;color: #2b6c8c}
+.media-row .media-item .type {font-size: 11px; display: block;color: #333}
+.media-row .media-item a {display: block}
+.media-row .media-item a .media-item-hover {display: none;position: absolute;left: 2px;top: 2px;width: 130px;height: 98px;background: url("media_it.png") no-repeat left top transparent}
+.media-row .media-item a:hover .media-item-hover {display: block}
+
+
+
+/********************************************
+  ** 1) Account Services Page
+/********************************************/
+#oneCol #account-services {padding: 0;background: none}
+#account-services .shaded-row h2{padding: 0}
+#account-services .shaded-row img{margin: -20px 20px -20px -20px;float: left}
+#account-services .shaded-row ul.buttons{margin: 2px 0 0 20px;float: right}
+#account-services .shaded-row ul.buttons li{padding-left: 8px;display: inline}
+#account-services .shaded-row ul.buttons li a{display: inline-block}
+#account-services .shaded-row ul.buttons li a span{color: #000}
+#account-services .shaded-row p + ol{margin: -7px 7px 7px 38px}
+#account-services .shaded-row p + ol li{line-height: 20px}
+#account-services .shaded-row span.button{display: block; text-align: right}
+#account-services .shaded-row p strong{font-size: 13px}
+#account-services #faq-general-account-services-faq{margin-top: 20px}
+
+
+/********************************************
+  ** 1) About Section
+/********************************************/
+#twoCol-left .about-content .about-entry p{padding-top: 0;font-size: 16px}
+#twoCol-left .about-content .about-entry h2{padding-bottom: 0}
+#twoCol-left .about-content .about-entry h3{padding: 0 0 2px;font-weight: normal;color: #0C3D51;font-size: 18px; text-shadow:0 1px 0 #E9E9E9}
+/*** Sub Nav ***/
+#about-subnav {margin: 0;padding-bottom: 6px;display: block;background: url(about_su.png) no-repeat 0 100% transparent}
+#about-subnav li{padding: 0;display: block}
+#about-subnav li a.btn{display: block;width: 230px;height: 69px;text-decoration: none;background: url(about_su.jpg) no-repeat}
+#about-subnav li a.btn span{margin: 28px 0 0 78px;color: #07516e;font-family: AdelonMedium, "Times New Roman", Times, serif;font-size: 18px;text-shadow: 0 1px 0 #fff;text-transform: uppercase;font-weight: normal}
+#about-subnav li a.btn:hover{padding: 0;border: none}
+#about-subnav li a.btn:hover span{text-decoration: none;color: #3c474c}
+#about-subnav li a.new-to-aion{background-position: 0 0}
+#about-subnav li a.new-to-aion:hover, #about-subnav li.active a.new-to-aion{background-position: 0 -69px}
+#about-subnav li a.gameplay{background-position: -230px 0}
+#about-subnav li a.gameplay:hover, #about-subnav li.active a.gameplay{background-position: -230px -69px}
+#about-subnav li a.classes{background-position: -460px 0}
+#about-subnav li a.classes:hover, #about-subnav li.active a.classes{background-position: -460px -69px}
+#about-subnav li a.factions{background-position: -690px 0}
+#about-subnav li a.factions:hover, #about-subnav li.active a.factions{background-position: -690px -69px}
+#about-subnav li a.servers{background-position: -920px 0}
+#about-subnav li a.servers:hover, #about-subnav li.active a.servers{background-position: -920px -69px}
+#about-subnav li a.buy-aion{background-position: -1150px 0}
+#about-subnav li a.buy-aion:hover, #about-subnav li.active a.buy-aion{background-position: -1150px -69px}
+/*** Landing Page Banner ***/
+#about-panels{padding: 1px 1px 1px 6px;width: 723px;height: 406px; background: url(about_pa.png) no-repeat #fff}
+#about-panels ul{margin:0;position:relative}
+#about-panels ul li{padding:0;position:absolute;display: none}
+#about-panels ul li:first-child{display: block}
+#about-panels ul li > a{display: block;width: 723px;height: 406px}
+#about-panels ul li > a.about-panel-newto{background: url(about_pa.jpg) no-repeat}
+#about-panels ul li > a.about-panel-gameplay{background: url(about_pa.jpg) no-repeat}
+#about-panels ul li > a.about-panel-classes{background: url(about_pa.jpg) no-repeat}
+#about-panels ul li > a.about-panel-factions{background: url(about_pa.jpg) no-repeat}
+#about-panels ul li > a.about-panel-servers{background: url(about_pa.jpg) no-repeat}
+#about-panels ul li > a.about-panel-buyaion{background: url(about_pa.jpg) no-repeat}
+/*** Sub Nav in Landing Page Banner ***/
+#oneCol .content-top-bg4 {background: url("top_bg4_.png") no-repeat scroll 0 0 transparent;}
+#about-banner{margin: 0 18px 0 12px}
+#about-banner .vertical-end-btm{clear: both;background: url("fp_bannf.png") no-repeat scroll 0 0 transparent;height: 28px;}
+#about-banner #about-subnav{float: right; padding-bottom: 0;}
+#about-banner #about-subnav li a.new-to-aion {background-position: 0 -6px;height: 63px}
+#about-banner #about-subnav li a.new-to-aion:hover, #about-banner #about-subnav li.active a.new-to-aion {background-position: 0 -75px;height: 63px}
+#about-banner #about-subnav li a.new-to-aion span {margin: 22px 0 0 78px}
+/*** New To Aion ***/
+#twoCol-left #about-newto{min-height: 375px;background: url("about_ne.jpg") no-repeat 0 100%}
+#twoCol-left #about-newto p,
+#twoCol-left #about-newto li{font-size: 16px}
+#twoCol-left #about-newto li{background-position: 0 5px}
+#twoCol-left #about-newto p + h2{padding-top: 8px}
+#twoCol-left #about-newto .copy{position: relative;z-index: 107;width: 398px}
+#twoCol-left #about-newto img.hero{position: absolute;z-index: 106; right: 0; bottom: -14px}
+/*** Gameplay ***/
+#twoCol-left #about-gameplay .shaded-row{padding-bottom: 47px}
+#twoCol-left #about-gameplay .shaded-row img.preview{margin: -20px 0 -47px -19px;float: left}
+#twoCol-left #about-gameplay .shaded-row h2{padding: 0;font-size: 18px}
+#twoCol-left #about-gameplay .shaded-row p{margin-left: 211px;font-size: 16px}
+#twoCol-left #about-gameplay .shaded-row span.button-right{position: absolute;right: 20px;bottom: 18px}
+/*** Factions ***/
+#twoCol-left #factions-header{padding: 0 0 51px;border-bottom: 1px solid #fff;background-color: #ccd6db}
+#twoCol-left #factions-header p{padding: 10px 20px 0;font-size: 16px}
+#twoCol-left #factions-header div.character-container{position: relative;height: 440px;background: url("about_fa.jpg") no-repeat}
+#twoCol-left #factions-header div.asmodian{position: absolute;left: 0;top: 50px;width: 288px;height: 381px;background: url("factions.png") no-repeat 0 0}
+#twoCol-left #factions-header div.balaur{position: absolute;left: 180px;top: -10px;width: 379px;height: 411px;background: url("factions.png") no-repeat 0 0}
+#twoCol-left #factions-header div.elyos{position: absolute;left: 445px;top: 50px;width: 274px;height: 390px;background: url("factions.png") no-repeat 0 0}
+#twoCol-left #factions-header div.asmodian-active{background-position: -288px 0}
+#twoCol-left #factions-header div.balaur-active{background-position: -379px 0}
+#twoCol-left #factions-header div.elyos-active{background-position: -274px 0}
+#twoCol-left #factions-tabs ul.tabs{margin: -52px auto 0;position: relative;height: 51px;text-align: center}
+#twoCol-left #factions-tabs ul.tabs li{margin-left: 4px;padding: 0;display: inline-block}
+#twoCol-left #factions-tabs ul.tabs li:first-child{margin-left: 0}
+#twoCol-left #factions-tabs ul.tabs li a{display: block;width: 217px;height: 51px;line-height: 50px;text-align: center;color: #7b7e80;font-family: AdelonMedium, "Times New Roman", Times, serif;font-size:26px;text-shadow: 0 1px 0 #E9E9E9; text-transform:uppercase;background: url("factions.png") no-repeat;outline: none}
+#twoCol-left #factions-tabs ul.tabs li a:hover,
+#twoCol-left #factions-tabs ul.tabs li.ui-tabs-selected a{color: #0c3d51;background-position: -217px 0;text-decoration: none}
+#twoCol-left #factions-tabs .ui-tabs-hide{display: none}
+
+
+/********************************************
+  ** 1) About: Server Statistics Pages
+/********************************************/
+#about-servers .shaded-row{padding: 25px 20px;font-size: 13px}
+#about-servers .shaded-row:first-child{padding: 13px 20px;font-family: CartoGothicProBold, Arial, Helvetica, sans-serif }
+#about-servers .shaded-row .cell-1{padding-top: 10px;float: left;width: 140px}
+#about-servers .shaded-row:first-child .cell-1{padding-top: 0}
+#about-servers .shaded-row .cell-1 a.big-button{padding-top: 10px;display: block;width: 112px;height: 32px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 18px;text-align: center;color: #06506e;text-shadow: 0px 1px 0 #fff;background: url(big_butt.png) no-repeat 0 0}
+#about-servers .shaded-row .cell-1 a.big-button:hover{background-position: 0 -42px;text-decoration: none}
+#about-servers .shaded-row .cell-2{padding: 12px 10px 0 0;float: left;width: 140px}
+#about-servers .shaded-row:first-child .cell-2{padding-top: 0}
+#about-servers .shaded-row .cell-3{float: left;width: 380px}
+#about-servers .shaded-row .control-ratio{padding: 12px 16px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;color: #717171;background: #fff;-webkit-box-shadow: 0px 2px 3px #b0b0b0 inset;-moz-box-shadow: 0px 2px 3px #b0b0b0 inset;box-shadow: 0px 2px 3px #b0b0b0 inset;}
+#about-servers .shaded-row .control-ratio .slider{margin: 0 0 15px;height: 20px}
+#about-servers .shaded-row .control-ratio .slider .asmo,
+#about-servers .shaded-row .control-ratio .slider .balaur,
+#about-servers .shaded-row .control-ratio .slider .elyos{float:left;height: 24px;border-bottom: 1px solid #fff}
+#about-servers .shaded-row .control-ratio .slider .asmo{-webkit-box-shadow: 0px 2px 6px #212f38 inset;-moz-box-shadow: 0px 2px 6px #212f38 inset;box-shadow: 0px 2px 6px #212f38 inset}
+#about-servers .shaded-row .control-ratio .slider .balaur{-webkit-box-shadow: 0px 2px 6px #872021 inset;-moz-box-shadow: 0px 2px 6px #872021 inset;box-shadow: 0px 2px 6px #872021 inset}
+#about-servers .shaded-row .control-ratio .slider .elyos{-webkit-box-shadow: 0px 2px 6px #2C5229 inset;-moz-box-shadow: 0px 2px 6px #2C5229 inset;box-shadow: 0px 2px 6px #2C5229 inset}
+#about-servers .shaded-row .control-ratio .slider .asmo{width: 33.3%;-webkit-border-top-right-radius: 5px;-webkit-border-bottom-right-radius: 5px;-moz-border-radius-topright: 5px;-moz-border-radius-bottomright: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;text-align: right;background-color: #397184}
+#about-servers .shaded-row .control-ratio .slider .balaur{width: 33.3%;text-align: center;background-color: #e17572}
+#about-servers .shaded-row .control-ratio .slider .elyos{width: 33.3%;-webkit-border-top-left-radius: 5px;-webkit-border-bottom-left-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-bottomleft: 5px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;text-align: left;background-color: #5ca858}
+#about-servers .shaded-row .control-ratio .slider span.field-value{margin-top: 27px;display: block;text-align: center}
+/*** Server Statistics Detail ***/
+#about-servers-detail{padding: 15px}
+#about-servers-detail h2{padding: 0;font-family: AdelonMedium, "Times New Roman", Times, serif;font-size: 18px;font-weight: normal;text-transform: uppercase}
+/*** Stat Tabs ***/
+#about-servers-detail ul.stat-tabs{margin: 0;position: absolute;top: -27px;color: #000}
+#about-servers-detail ul.stat-tabs > li{margin-left: 4px;padding: 0;float: left}
+#about-servers-detail ul.stat-tabs > li:first-child{margin-left: 7px}
+#about-servers-detail ul.stat-tabs > li a{padding: 3px 10px 0;display: block;height: 23px;min-width: 65px;border-color: #fff;border-style: solid; border-width: 1px 1px 0;text-align: center}
+#about-servers-detail ul.stat-tabs > li.active a,
+#about-servers-detail ul.stat-tabs > li a:hover{height: 22px;color: #267FAC;text-decoration: none;background: url(tabs_bg0.png) repeat-x}
+#about-servers-detail ul.stat-tabs > li.active a{height: 23px}
+/*** Stat Container (with decorated corners) ***/
+#about-servers-detail .stats-container{margin-bottom: 20px;padding: 18px 13px;position: relative;border: 1px solid #b8b4b4;background: #fff}
+#about-servers-detail .stats-container .decor-top-left, #about-servers-detail .stats-container .decor-top-right,
+#about-servers-detail .stats-container .decor-bottom-left, #about-servers-detail .stats-container .decor-bottom-right
+{position: absolute;width: 13px;height: 13px;background: url(stats_co.png) no-repeat 0 0}
+#about-servers-detail .stats-container .decor-top-left{top: -4px;left: -4px;}
+#about-servers-detail .stats-container .decor-top-right{top: -4px;right: -4px;background-position: -13px 0}
+#about-servers-detail .stats-container .decor-bottom-left{bottom: -4px;left: -4px;background-position: -26px 0}
+#about-servers-detail .stats-container .decor-bottom-right{bottom: -4px;right: -4px;background-position: -39px 0}
+#about-servers-detail .stats-container .spinner {position: absolute; top: 10px; bottom: 10px; left: 1px; right: 1px;background: #FFF url(loading0.gif) no-repeat scroll 50% 50%;}
+
+/*** Player Statistics ***/
+#about-servers-detail #player-stats-container{padding: 1px;margin-top:53px}
+#stats-race,#stats-class,#stats-level{position: relative;height: 334px;background: url(player_s.png) repeat-x}
+#stats-race .slider-elyos{position: relative;top: 149px;left: 152px;width: 368px;height: 30px;background: url(ratio_sl.png)}
+#stats-race .slider-asmo{width: 50%;height: 30px;background: url(ratio_sl.png) repeat-x}
+#stats-race .ratio-chrome{position: absolute;left: 106px;top: 113px;width: 463px;height: 103px;background: url(ratio_ch.png) no-repeat 0 0}
+#stats-race .char-left{position: absolute;left: 4px;top: 14px;width: 156px;height: 321px;background: url(ratio_ch.png) no-repeat 0 0}
+#stats-race .char-right{position: absolute;left: 500px;top: 14px;width: 171px;height: 321px;background: url(ratio_ch.png) no-repeat -156px 0}
+#stats-race .slider-asmo-text{position: absolute;top: 155px;left: 175px;text-align: left;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;color: #fff}
+#stats-race .slider-elyos-text{position: absolute;top: 155px; right: 178px;text-align: right;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;color: #fff}
+#stats-race ul.ratio-switch{margin: 0;position: absolute;top: 245px;left: 265px}
+#stats-race ul.ratio-switch > li{padding: 0 0 0 4px;float: left}
+.stats-container li.active a.btn-square-1{ background-position: right bottom !important}
+.stats-container li.active a.btn-square-1 span{color: #267FAC;text-shadow: none;background-position: left bottom !important}
+/*** Bar Chart ***/
+.stats-container .barchart{position: absolute;top: 6px;left: 32px;width: 611px;height: 251px}
+.stats-container .barchart .bar{position: absolute;bottom: 0px;display: inline-block;bottom: 47px;width: 59px;}
+.stats-container .barchart .bar span{margin: -16px 3px 0 0;display: block;text-align: center;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;text-shadow: 0 1px 0 #e9e9e9; color: #0c3d51}
+.stats-container .barchart .light-green{background: url(barchart.png) no-repeat 50% 0}
+.stats-container .barchart .dark-green{background: url(barchart.png) no-repeat 50% -331px}
+.stats-container .barchart .light-blue{background: url(barchart.png) no-repeat 50% -662px}
+.stats-container .barchart .dark-blue{background: url(barchart.png) no-repeat 50% -993px}
+.stats-container .barchart .light-red{background: url(barchart.png) no-repeat 50% -1324px}
+.stats-container .barchart .dark-red{background: url(barchart.png) no-repeat 50% -1654px}
+.stats-container .barchart #bc-bar01{left: 60px;height: 14%}
+.stats-container .barchart #bc-bar02{left: 122px;height: 14%}
+.stats-container .barchart #bc-bar03{left: 184px;height: 14%}
+.stats-container .barchart #bc-bar04{left: 247px;height: 14%}
+.stats-container .barchart #bc-bar05{left: 309px;height: 14%}
+.stats-container .barchart #bc-bar06{left: 371px;height: 14%}
+.stats-container .barchart #bc-bar07{left: 432px;height: 14%}
+.stats-container .barchart #bc-bar08{left: 494px;height: 14%}
+.stats-container .barchart .chrome{position: absolute;left: 0px;bottom: 0px;width: 611px;height: 51px;background: url(barchart.png) no-repeat 0 0}
+.stats-container .barchart .bar-labels{position: absolute;left: 58px;bottom: 19px;width: 496px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;text-shadow: 0 1px 0 #e9e9e9; color: #0c3d51}
+.stats-container .barchart .bar-labels span{padding-top: 45px;display: inline-block;width: 59px;text-align: center;background: url(barchart.png) no-repeat}
+.stats-container .barchart .bar-labels span.gladiator{background-position: 50% 0}
+.stats-container .barchart .bar-labels span.templar{background-position: 50% -95px}
+.stats-container .barchart .bar-labels span.ranger{background-position: 50% -193px}
+.stats-container .barchart .bar-labels span.assassin{background-position: 50% -286px}
+.stats-container .barchart .bar-labels span.sorcerer{background-position: 50% -381px}
+.stats-container .barchart .bar-labels span.spiritmaster{background-position: 50% -479px}
+.stats-container .barchart .bar-labels span.cleric{background-position: 50% -575px}
+.stats-container .barchart .bar-labels span.chanter{background-position: 50% -671px}
+#stats-level .barchart .bar-labels span{background: none}
+#stats-level ul.class-switch{margin: 0;position: absolute;top: 18px;right: 15px}
+#stats-level ul.class-switch > li{padding: 0 0 0 4px;float: left}
+/*** Slider ***/
+#about-servers .shaded-row .cell-3 ul.legend,
+#abyss-status-container .control-ratio ul.legend{margin: 0;float: right;font: 12px AdelonMedium, "Times New Roman", Times, serif;text-transform: uppercase;line-height: inherit}
+#about-servers .shaded-row .cell-3 ul.legend > li,
+#abyss-status-container .control-ratio ul.legend > li{margin-left: 10px;padding: 0 0 0 15px;float: left;height: 14px;background: url(abyss_co.png) no-repeat}
+#about-servers .shaded-row .cell-3 ul.legend > li.asmo,
+#abyss-status-container .control-ratio ul.legend > li.asmo{background-position: 0 1px}
+#about-servers .shaded-row .cell-3 ul.legend > li.balaur,
+#abyss-status-container .control-ratio ul.legend > li.balaur{background-position: 0 -24px}
+#about-servers .shaded-row .cell-3 ul.legend > li.elyos,
+#abyss-status-container .control-ratio ul.legend > li.elyos{background-position: 0 -49px}
+#abyss-status-container .control-ratio .slider{margin: 7px 0 6px;height: 24px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px}
+#abyss-status-container .control-ratio .slider .asmo,
+#abyss-status-container .control-ratio .slider .balaur,
+#abyss-status-container .control-ratio .slider .elyos{float:left;width: 33.3%;height: 24px;border-bottom: 1px solid #fff}
+#abyss-status-container .control-ratio .slider .elyos{-webkit-border-top-left-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-bottomleft: 3px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;background-color: #5ca858;-webkit-box-shadow: 0px 2px 6px #2C5229 inset;-moz-box-shadow: 0px 2px 6px #2C5229 inset;box-shadow: 0px 2px 6px #2C5229 inset}
+#abyss-status-container .control-ratio .slider .balaur{background-color: #e17572;-webkit-box-shadow: 0px 2px 6px #872021 inset;-moz-box-shadow: 0px 2px 6px #872021 inset;box-shadow: 0px 2px 6px #872021 inset}
+#abyss-status-container .control-ratio .slider .asmo{-webkit-border-top-right-radius: 3px;-webkit-border-bottom-right-radius: 3px;-moz-border-radius-topright: 3px;-moz-border-radius-bottomright: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;background-color: #397184;-webkit-box-shadow: 0px 2px 6px #212F38 inset;-moz-box-shadow: 0px 2px 6px #212F38 inset;box-shadow: 0px 2px 6px #212F38 inset}
+#abyss-status-container .control-ratio ul.percentages{margin: 0;height: 8px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;color: inherit;line-height: inherit}
+#abyss-status-container .control-ratio ul.percentages li{padding: 0px;float: left}
+#abyss-status-container .control-ratio ul.percentages li span.field-value{margin: 0;display: block;text-align: center}
+/*** Abyss Status ***/
+#about-servers-detail #abyss-status-container {margin-top: 19px}
+#abyss-status-container .control-ratio{margin-bottom: 22px;width: 300px;float: left}
+#abyss-status-container .rounded-shadowed{padding: 12px 16px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;color: #000;background: #cdd7dc;-webkit-box-shadow: 0px 2px 3px #aeb7bb inset;-moz-box-shadow: 0px 2px 3px #aeb7bb inset;box-shadow: 0px 2px 3px #aeb7bb inset;}
+#abyss-status-container .economy-asmo,
+#abyss-status-container .economy-elyos{padding: 11px 13px;clear: right;float: right;width: 276px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 12px;color: #fff;-webkit-box-shadow: 0px 2px 3px #333 inset;-moz-box-shadow: 0px 2px 3px #333 inset;box-shadow: 0px 2px 3px #333 inset;}
+#abyss-status-container .economy-asmo{margin-bottom: 17px;background-color: #485d62}
+#abyss-status-container .economy-elyos{background-color: #4b6248}
+#abyss-status-container .fortresses{padding-top: 10px;padding-bottom: 10px;clear: both}
+#abyss-status-container .fortresses p{padding: 3px;font-size: 12px;line-height: 16px}
+#abyss-status-container .fortresses .abyss-map{margin:7px 61px;float: right;position: relative;width: 146px;height: 76px;background: url(abyss_ma.png) no-repeat}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1211{position: absolute;top: 3px;left: 29px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1221{position: absolute;top: 3px;left: 48px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1231{position: absolute;top: 3px;left: 67px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1241{position: absolute;top: 3px;left: 86px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1251{position: absolute;top: 3px;left: 105px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1011{position: absolute;top: 30px;left: 67px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1131{position: absolute;top: 57px;left: 50px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1132{position: absolute;top: 57px;left: 67px}
+#abyss-status-container .fortresses .abyss-map #abyss-icon-1141{position: absolute;top: 57px;left: 86px}
+#abyss-status-container .fortresses .abyss-map .asmo,
+#abyss-status-container .fortresses .abyss-map .balaur,
+#abyss-status-container .fortresses .abyss-map .elyos{width: 11px;height: 12px;background: url(abyss_co.png) no-repeat}
+#abyss-status-container .fortresses .abyss-map .asmo{background-position: 0 0}
+#abyss-status-container .fortresses .abyss-map .balaur{background-position: 0 -25px}
+#abyss-status-container .fortresses .abyss-map .elyos{background-position: 0 -50px}
+#about-servers-detail #fortress-flash{margin-bottom: 20px; min-height: 480px}
+/*** Leaderboards ***/
+#about-servers-detail #leaderboards-container{padding: 16px 1px 6px;min-height: 48px}
+#about-servers-detail #leaderboards-container table.leaderboard{table-layout:fixed;margin-bottom: 6px;width: 100%;text-align: left;font-size: 12px;color: #255361}
+#about-servers-detail #leaderboards-container table.leaderboard a:hover{text-decoration: underline}
+#about-servers-detail #leaderboards-container table.leaderboard th{border: none;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;text-align: left;font-size: 12px;color: #fff;background: #1a2327;font-weight:normal}
+#about-servers-detail #leaderboards-container table.leaderboard td{padding: 4px 4px 2px;vertical-align:middle}
+#about-servers-detail #leaderboards-container table.leaderboard td img{vertical-align: text-bottom}
+#about-servers-detail #leaderboards-container table.leaderboard tbody td{border-width: 1px 0 0; border-top: solid 1px #dfdfdf;background: none}
+#about-servers-detail #leaderboards-container table.leaderboard thead tr{border-top: 1px solid #dfdfdf}
+#about-servers-detail #leaderboards-container table.leaderboard tr:first-child{border-top: none}
+#about-servers-detail #leaderboards-container table.leaderboard tr.dark-bg{background-color: #f3f4f4}
+#about-servers-detail #leaderboards-container table.leaderboard th{padding: 2px}
+#about-servers-detail #leaderboards-container table.leaderboard th.rank{width: 10%;text-align: center}
+#about-servers-detail #leaderboards-container table.leaderboard td.rank{text-align: center;font-family: CartoGothicProBold, Arial, Helvetica, sans-serif;color: #a04e05}
+#about-servers-detail #leaderboards-container table.leaderboard th.character,
+#about-servers-detail #leaderboards-container table.leaderboard td.character{padding-left: 15px}
+#about-servers-detail #leaderboards-container table.leaderboard th.legion,
+#about-servers-detail #leaderboards-container table.leaderboard td.legion{padding-left: 15px}
+#about-servers-detail #leaderboards-container table.leaderboard td.character a,
+#about-servers-detail #leaderboards-container table.leaderboard td.legion a{overflow: hidden;word-wrap:break-word;display:block;font-family: CartoGothicProBold, Arial, Helvetica, sans-serif}
+#about-servers-detail #leaderboards-container table.leaderboard th.level,
+#about-servers-detail #leaderboards-container table.leaderboard td.level{width: 33px;text-align: center}
+#about-servers-detail #leaderboards-container table.leaderboard td.level{font-family: CartoGothicProBold, Arial, Helvetica, sans-serif;color: #a04e05}
+#about-servers-detail #leaderboards-container table.leaderboard th.class,
+#about-servers-detail #leaderboards-container table.leaderboard td.class{padding-left: 27px}
+#about-servers-detail #leaderboards-container table.leaderboard th.personel,
+#about-servers-detail #leaderboards-container table.leaderboard td.personel{padding-left: 27px}
+#about-servers-detail #leaderboards-container table.leaderboard th.point,
+#about-servers-detail #leaderboards-container table.leaderboard td.point{padding-right: 20px;width: 104px;text-align: right}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-elyos{padding: 2px 0 2px 21px;background: url(icon_ely.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-asmo{padding: 2px 0 2px 21px;background: url(icon_asm.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-gladiator{padding: 2px 0 2px 21px;background: url(icon_gla.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-templar{padding: 2px 0 2px 21px;background: url(icon_tem.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-assassin{padding: 2px 0 2px 21px;background: url(icon_ass.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-ranger{padding: 2px 0 2px 21px;background: url(icon_ran.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-sorcerer{padding: 2px 0 2px 21px;background: url(icon_sor.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-spiritmaster{padding: 2px 0 2px 21px;background: url(icon_spi.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-chanter{padding: 2px 0 2px 21px;background: url(icon_cha.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard td .icon-cleric{padding: 2px 0 2px 21px;background: url(icon_cle.gif) no-repeat}
+#about-servers-detail #leaderboards-container table.leaderboard + span{display: block;text-align: center;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 10px;color: #717171;margin-bottom: 5px}
+#about-servers-detail #leaderboards-container table.leaderboard .icons-class { padding: 2px 0 2px 21px; border: 0 none}
+
+/*** Server Details Controls ***/
+.server-details-controls {margin: 1.6em 0 0.5em}
+.server-details-controls .flat-list {float: right}
+.server-details-controls .flat-list li {float: left;color: #333;padding: 0;margin-left: 6px}
+.server-details-controls .flat-list li.active {font-family: CartoGothicProBold, Arial, Helvetica, sans-serif}
+.server-details-controls .flat-list li.active a {color: #06506E}
+.server-details-controls .flat-list li a {border-left: solid 1px #333;padding: 0 7px;color: #333}
+.server-details-controls .flat-list li:first-child a {border-left-width: 0;padding: 0}
+.server-details-controls .dropdown {float: left;margin-right: 8px;position: relative}
+.server-details-controls .dropdown a {position: relative;z-index: 11}
+.server-details-controls .dropdown ul {position: absolute;z-index: 10}
+.server-details-controls #server-list-2 > a > span {min-width: 40px}
+.server-details-controls #race-list > a > span {min-width: 53px}
+.server-details-controls #type-list > a > span {min-width: 47px}
+/*** Header with breadcrumbs ***/
+.header-n-crumbs h2, .header-n-crumbs ul, .header-n-crumbs li {float: left}
+.header-n-crumbs ul {margin: 0.33em 0 0;color: #333;font-size: 14px;line-height: 1}
+.header-n-crumbs li {padding: 0 0 3px 10px}
+.header-n-crumbs span {display: inline;color: #333;margin: 0}
+
+
+/********************************************
+  ** 1) About: Classes Page
+/********************************************/
+#classes-overview{background: #C7D0D4; padding: 0px 0}
+#classes-overview p{padding: 0 0px 0px}
+
+#classes-overview .classes-container{background: url("platform.png") no-repeat 0 275px; display: block; height: 500px; position: relative; width: 350px}
+#classes-overview .classes-container div.character-left, div.classes-container div.character-right{display: block; height: 340px; position: absolute; top: 15px; width: 250px}
+#classes-overview .classes-container div.classes-nav{background: url("nav_bg00.png") no-repeat center center; display: block; height: 90px; left: 20px; position: absolute; top: 330px; width: 310px}
+#classes-overview .classes-nav a{color: #333; display: block; font-size: 14px; position: absolute; text-align: center; text-decoration: none; text-transform: uppercase; top: 33px; width: 105px}
+#classes-overview .classes-nav a:hover{color: #06506E}
+#classes-overview .classes-nav a.name-left{left: 20px}
+#classes-overview .classes-nav a.name-right{right: 20px}
+#classes-overview .classes-nav h2{padding: 0;position: relative;top: 108px;text-align: center;font-family: AdelonMedium, "Times New Roman", Times, serif;font-size: 20px;font-weight: normal;text-shadow: 0 1px 0 #E9E9E9;text-transform: uppercase;color: #0C3D51}
+#classes-overview .classes-container div.coin{display: block; height: 60px; left: 50%; margin: -30px 0 0 -29px; position: absolute; top: 50%; width: 60px}
+
+#warrior{float: left}
+#warrior #gladiator{background: url("gladiato.png") no-repeat -25px 0; left: 0}
+#warrior #templar{background: url("templar0.png") no-repeat 25px 0; right: 0}
+#warrior div.coin{background: url("coin_war.png") no-repeat 0 0}
+#scout{float: right}
+#scout #ranger{background: url("ranger00.png") no-repeat -25px 0; left: 0}
+#scout #assassin{background: url("assassin.png") no-repeat 25px 0; right: 0}
+#scout div.coin{background: url("coin_sco.png") no-repeat 0 0}
+#mage{float: left}
+#mage #spiritmaster{background: url("spiritma.png") no-repeat -25px 0; left: 0}
+#mage #sorcerer{background: url("sorcerer.png") no-repeat 25px 0; right: 0}
+#mage div.coin{background: url("coin_mag.png") no-repeat 0 0}
+#priest{float: right}
+#priest #cleric{background: url("cleric00.png") no-repeat -22px 0; left: 0}
+#priest #chanter{background: url("chanter0.png") no-repeat 25px 0; right: 0}
+#priest div.coin{background: url("coin_pri.png") no-repeat 0 0}
+
+
+/********************************************
+  ** 1) About: Class Details Pages
+/********************************************/
+#video-container{padding: 14px 0 0 18px;position: absolute;display: block;top: 15px;right: 10px;height:229px; width:406px;background: url("videoFra.png") no-repeat 50% 50%; z-index:1;}
+#video-container div.class-nav{margin-top: 90px;text-align: center}
+#video-container div.class-nav a{margin: 0 3px}
+#video-player-small{height:217px; width:386px }
+
+div.classes-detail{padding: 470px 20px 22px;position: relative;background: #CDD7DC url("classes_.jpg") no-repeat top center}
+div.classes-detail p {font-size: 16px}
+div.classes-detail div.character-detail{ display: block; height: 325px; left: 0; position: absolute; top: 50px; width: 310px; z-index: 90; }
+div.character-detail div.character{bottom: 0px; display: block; height: 325px; left: 0; position: absolute; width: 300px;}
+
+div.classes-detail div.class-name{float: left; margin: 0 30px 0 0}
+div.classes-detail div.class-name h2{color: #0C3D51; font-family: AdelonMedium, "Times New Roman", Times, serif; font-size: 20px;font-weight: normal; margin: 0 0 60px; padding: 7px 0; text-shadow: #E9E9E9 0px 1px 0px; text-transform: uppercase}
+#character-detail-platform{background: url("platform.png") no-repeat left bottom; display: block; height: 165px; left: 0; position: absolute; top: 275px; width: 355px; z-index: 1; }
+#character-detail-platform ul.gender-nav{bottom: 0; left: 50%; list-style: none; margin: 0 0 0 -175px; overflow: hidden; position: absolute; text-align: center; width: 350px;}
+
+ul.gender-nav li{display: inline; margin: 0 -5px; padding: 0}
+ul.gender-nav li a{background: url("classes_.png") no-repeat; display: inline-block; height: 44px; width: 44px}
+ul.gender-nav li a span{margin-left: -9999px}
+ul.gender-nav li.male a{background-position: 0 0;outline: none}
+ul.gender-nav li.female a{background-position: -44px 0;outline: none}
+ul.gender-nav li.male a:hover{background-position: 0 -44px}
+ul.gender-nav li.female a:hover{background-position: -44px -44px}
+ul.gender-nav li.male a.active:hover{background-position: 0 0;cursor: default}
+ul.gender-nav li.female a.active:hover{background-position: -44px 0;cursor: default}
+
+#gladiator-detail div.character{background: url("gladiato.png") no-repeat 0 0; background-position:-375px; }
+#gladiator-detail div.class-name{background: url("gladiato.png") no-repeat center bottom}
+#templar-detail div.character{background: url("templar_.png") no-repeat 0 0}
+#templar-detail div.class-name{background: url("templar_.png") no-repeat center bottom}
+#ranger-detail div.character{background: url("ranger_d.png") no-repeat 0 0}
+#ranger-detail div.class-name{background: url("ranger_i.png") no-repeat center bottom}
+#assassin-detail div.character{background: url("assassin.png") no-repeat 0 0}
+#assassin-detail div.class-name{background: url("assassin.png") no-repeat center bottom}
+#spiritmaster-detail div.character{background: url("spiritma.png") no-repeat 0 0}
+#spiritmaster-detail div.class-name{background: url("spiritma.png") no-repeat center bottom}
+#sorcerer-detail div.character{background: url("sorcerer.png") no-repeat 0 0}
+#sorcerer-detail div.class-name{background: url("sorcerer.png") no-repeat center bottom}
+#cleric-detail div.character{height: 370px;background: url("cleric_d.png") no-repeat 0 0}
+#cleric-detail div.class-name{background: url("cleric_i.png") no-repeat center bottom}
+#chanter-detail div.character{height: 370px;background: url("chanter_.png") no-repeat 0 0}
+#chanter-detail div.class-name{background: url("chanter_.png") no-repeat center bottom}
+
+
+/********************************************
+  ** 1) Fansite Page
+/********************************************/
+#fansites .content-top3 {margin-top: 17px; padding-top: 7px; height: 26px; background: url(top_bg30.png) no-repeat transparent !important} 
+#fansites .content-top3 h1 {padding: 0; font-size: 16px}
+#fansites {margin-left: 12px}
+#fansites .row {margin-bottom: 3px; clear: both; width: 710px; background: url(bg_25per.png) repeat; color:#333333;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size:15px;line-height:18px;}
+#fansites .cell-1 {padding: 0 14px; float: left; width: 112px}
+#fansites .cell-2 {padding: 0 14px; float: left; width: 162px}
+#fansites .cell-3 {padding: 0 14px; float: left; width: 352px}
+#fansites .row .cell-1, #fansites .row .cell-2, #fansites .row .cell-3 {padding: 8px 14px}
+#fansites .divider {margin-top: -3px; width: 710px; height: 6px; background: url(hr_50000.png) no-repeat}
+
+
+/********************************************
+  ** 1) Search Results Page
+/********************************************/
+#search-results .shaded-row{padding: 20px 20px 17px}
+#search-results h2{padding: 0 4px 5px 0;display: inline-block}
+#search-results h3{padding: 0;font-size: 15px;color: #0C3D51}
+#search-results h3 a{color: inherit}
+#search-results h3 a:hover{text-decoration: underline}
+#search-results p{padding: 0 0 4px;line-height: 17px;font-size: 13px}
+#search-results span.results-count{font-size: 12px}
+#search-results span.results-data{padding: 0 0 10px;display: block;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;font-size: 11px;color: #717171}
+#search-results a.btn-back-to-top{float: right}
+/*** Character and Legion Search Results ***/
+#search-results .char-legion-result {margin-bottom: 7px;padding: 7px;font: 12px CartoGothicProBook, Arial, Helvetica, sans-serif;color: #fff;background-color: #131b1e}
+#search-results .characters,
+#search-results .legions{margin-bottom: 16px}
+#search-results .characters .hr,
+#search-results .legions .hr{margin: 6px 0 4px;height: 1px;background: url(search_r.png) no-repeat 100% 0}
+#search-results .char-legion-result .thumbnail{width: 82px;height: 82px;margin-right: 17px;float: left;border: 1px solid #7487a0}
+#search-results .char-legion-result .level{float: right}
+#search-results .char-legion-result .level,
+#search-results .char-legion-result a.name{font-family: AdelonMedium, "Times New Roman", Times, serif;font-size: 19px;color: #FFF}
+#search-results .char-legion-result a.name:hover{text-decoration: underline}
+#search-results .characters .char-legion-result .cell-1{float: left;width: 210px}
+#search-results .characters .char-legion-result .cell-2{float: left;width: 180px}
+#search-results .characters .char-legion-result .cell-3{float: right;width: 150px}
+#search-results .characters .char-legion-result .cell-4{float: left;width: 380px}
+#search-results .legions .char-legion-result .cell-1{float: left;width: 280px}
+#search-results .legions .char-legion-result .cell-2{float: left;width: 140px}
+#search-results .legions .char-legion-result .cell-3{float: right;width: 135px}
+#search-results .legions .char-legion-result .cell-4{float: left;width: 380px}
+#search-results .char-legion-result .details{padding-top: 2px;display: block}
+#search-results .char-legion-result .details:first-child{padding-top: 0}
+#search-results .char-legion-result .details span{color: #c9eeff}
+#search-results .char-legion-result .details-commander{width: 560px}
+#search-results .search{margin: 10px auto 15px;display: block;position: relative;width: 320px;height: 33px;border: 1px solid #878787;background: url(search_b.png) no-repeat transparent}
+#search-results .search .input_border{position: absolute;width: 308px;height: 23px;left: 5px; top: 5px;border: 1px solid #707070;background:none #f7f7f7}
+#search-results .search #search_page_input{padding: 3px 2px 2px;position: absolute;left: 6px;top: 6px;width: 150px;height: 18px;border: none; -moz-border-radius: 0;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif; font-size: 12px; color: #656363;background:none #f7f7f7}
+#search-results .search #search_page_area{margin: 0;padding: 1px;position: absolute;left: 161px; top: 7px;width: 130px;height: 21px;border: 1px solid #E4E4E4;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif; font-size: 12px; color: #323030;background: #c9c9c9}
+#search-results .search #search_page_submit{margin: 1px;position: absolute;z-index: 106;left: 291px; top: 6px;width: 21px; height: 21px; border: none; -moz-border-radius: 0;background: url(search_s.png) no-repeat transparent;cursor: pointer}
+/*** Search Results (No Results) ***/
+#search-results .no-results-message{margin: 70px auto 140px;width: 320px;}
+#search-results .no-results-message h2{display: block;text-align: center;font-size: 16px;}
+#search-results .no-results-message .search {margin: 19px auto 20px}
+#search-results .no-results-message strong { color: #0c3d51; }
+#search-results .no-results-message ul{margin: 0}
+#search-results .no-results-message ul > li{padding: 0;line-height: 17px}
+/*** Search Results Icons ***/
+.icon-class, .icon-class-elem {
+    background: transparent url('icon-cla.png') no-repeat scroll 0 0;
+    padding-left: 26px;display: inline-block;min-height: 18px;
+}
+.icon-class-elem {
+    padding: 0;
+    margin-right: 8px;
+    height: 18px;
+    width: 18px;
+    background-color: #7487A0;
+    border: solid 1px #7487A0;
+    float: left;
+}
+.icon-Assassin, .icon-4 	{ background-position: 0  -36px; }
+.icon-Chanter, .icon-11 	{ background-position: 0  -72px; }
+.icon-Cleric, .icon-10 		{ background-position: 0 -108px; }
+.icon-Gladiator, .icon-1 	{ background-position: 0 -144px; }
+.icon-Mage, .icon-6			{ background-position: 0 -180px; }
+.icon-Priest, .icon-9 		{ background-position: 0 -216px; }
+.icon-Ranger, .icon-5 		{ background-position: 0 -252px; }
+.icon-Scout, .icon-3 		{ background-position: 0 -288px; }
+.icon-Sorcerer, .icon-7		{ background-position: 0 -324px; }
+.icon-Spiritmaster, .icon-8	{ background-position: 0 -360px; }
+.icon-Templar, .icon-2 		{ background-position: 0 -396px; }
+.icon-Warrior, .icon-0 		{ background-position: 0 -432px; }
+
+
+/********************************************
+  ** 1) Site Map
+/********************************************/
+#oneCol #site-map { padding: 0}
+#site-map .site-map-bg { background: transparent url('site_map.png') no-repeat scroll 50% 100%; padding: 20px 0 20px 20px; }
+#site-map .site-map-content { background: transparent url('site_map.png') no-repeat scroll 0 50%; padding-left: 210px; }
+#site-map .site-map-col { width: 215px; float: left; padding-left: 25px; }
+#site-map .site-map-col:first-child { padding-left: 0; }
+#site-map h2 { padding-bottom: 0.15em;font-family: AdelonBook, "Times New Roman", Times, serif;text-transform: uppercase; }
+#site-map h2 a {color: inherit}
+#site-map ul { margin: 0 0 0.7em 0;font-size: 13px }
+#site-map ul li { padding: 0; }
+#site-map a { color: #333; }
+#site-map a:hover { color: #246787; text-decoration: none !important; }
+
+
+/********************************************
+  ** 1) Account Log In
+/********************************************/
+#account-login{margin: 0 auto;padding: 80px 0 140px;width: 300px}
+#account-login label{display: block;font: 12px CartoGothicProBook, Arial, Helvetica, sans-serif;text-transform: uppercase}
+#account-login #cookie-label{padding-top: 5px;float: right;text-transform: none}
+#account-login #cookie-label input{position: relative;top: 2px}
+#account-login #user,
+#account-login #pass{margin: 3px 0 13px;padding: 2px 2px 2px 4px;width: 292px;height: 26px;border: 1px solid #717171;line-height: 26px; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0}
+#account-login #pass{margin-bottom: 20px}
+#account-login ul{margin: 20px 0 0;font-size: 12px}
+#account-login ul li{padding: 0;line-height: 17px}
+#account-login ul li a{color: #000}
+#account-login #login-submit{padding: 2px 10px;border:1px solid #fff;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;font-family: CartoGothicProBook, Arial, Helvetica, sans-serif;color:#fff;background:url(btn_logi.png) repeat-x 0 0 #0F181B;-webkit-box-shadow: 0 0 3px #666;-moz-box-shadow: 0 0 3px #666;box-shadow: 0 0 3px #666;cursor: pointer}
+#account-login #login-submit:hover{background-position: 0 100%;background-color: #142932}
+#unauthorized .custom-error{margin: -80px 0 20px}
+#unauthorized .custom-error p{padding: 15px 15px 15px 60px;background:url(error_ic.png) no-repeat 11px 14px #FFD6D6;-moz-box-shadow: 0 1px 4px #000000;-webkit-box-shadow: 0 1px 4px #000000;box-shadow: 0 1px 4px #000000}
+#unauthorized #account-login #user,
+#unauthorized #account-login #pass{border-color: #ff0000}
+/********************************************
+  ** 1) Services Section
+/********************************************/
+/*** Shadow Court Archive ***/
+#shadow-court-archives { padding-top: 0 !important; padding-left: 0 !important; }
+#shadow-court-archives h3 { color: #027B92 }
+#shadow-court-archives .shadow-court-archives-bg { background: transparent url('content_.jpg') no-repeat 0 0; padding-top: 20px; padding-left: 20px; }
+#shadow-court-archives .container-gradient { background: transparent url('containe.png') no-repeat scroll 0 0; padding: 10px 22px 0 16px; margin-left: 10px; }
+#shadow-court-archives .container-gradient .break-six {margin: 12px 0}
+#shadow-court-archives .shadow-court-archives-content { padding: 10px 212px 0 0; position: relative; }
+#shadow-court-archives .shadow-court-archives-content .shadow-court-top { margin: 0 90px 0 8px }
+#shadow-court-archives .shadow-court-archive-char { position: absolute; height: 566px; width: 312px; top: -93px; right: 0; z-index: 110; display: block; overflow: visible;background: url('char0000.png') no-repeat }
+#shadow-court-archives .shadow-court-archives-form { margin-bottom: 1.5em; position: relative; z-index: 115; }
+#shadow-court-archives .shadow-court-archives-form input,
+#shadow-court-archives .shadow-court-archives-form select { border: solid 1px #717171; -moz-border-radius: 0; width: 81px; padding-left: 2px; margin-right: 6px; height: 1.6em; line-height: 1.6em; }
+#shadow-court-archives .shadow-court-archives-form select { width: 133px; }
+#shadow-court-archives .shadow-court-archives-form input.outline { border: solid 2px #20313A; width: 173px; }
+#shadow-court-archives .shadow-court-archives-form input[type=submit] { background: transparent url('submit_b.png') no-repeat scroll center center; color: #FFF; text-align: center; width: 75px; height: 28px; border: none; padding: 0; }
+#shadow-court-archives .shadow-court-archives-form label { font-size: 13px; }
+#shadow-court-archives .panel-simple { margin-bottom: 10px; padding: 9px 0 11px 17px; background-color: #FFF; border: solid 1px #787878}
+/*** Shadow Court Archive Tables ***/
+#shadow-court-archives table.character-search-results { width: 100%;border: none; font-size: 11px; text-align: left;background-color: #FFF}
+#shadow-court-archives table.character-search-results thead th { background: #1A2428 url('thead_bg.png') repeat-x 0 0; color: #fff; font-family: CartoGothicProBold, Arial, Helvetica, sans-serif; border-top-width: 0; }
+#shadow-court-archives table.character-search-results th,
+#shadow-court-archives table.character-search-results td { padding: 4px 8px; background-color: transparent; border: solid 1px #B4B4B4; }
+#shadow-court-archives .container-gradient .pagination {margin: 0;text-align: left}
+#shadow-court-archives .container-gradient .pagination a.btn-back-to-top {margin-top: 24px}
+#shadow-court-archives .container-gradient .pagination ul {padding-top: 16px}
+#shadow-court-archives .container-gradient .pagination ul li:first-child{padding-left: 0}
+#shadow-court-archives .shadow-court-instructions { font-family: CartoGothicProBold,Arial,Helvetica,sans-serif; color: #027B92; background-color: #FFFFFF; border: 1px solid #787878; padding: 0 0 0 12px;  margin: 0 8px; height: 28px;}
+#shadow-court-archives .shadow-court-instructions LI { display: inline-block; height: 28px }
+#shadow-court-archives .shadow-court-instructions LI DIV { padding-top: 3px; }
+#shadow-court-archives .shadow-court-instructions .shadow-court-has-next { padding: 0 20px 0 0; background: url('shadow-c.png') no-repeat center right }
+/*** Store ***/
+#oneCol #store-wrapper {padding: 0;background: none #cdd7dc }
+#store-wrapper a.btn-back-to-top{margin: 11px 40px 0 0; float: right }
+#store-wrapper a.extLink-small{padding-top: 2px }
+#store-wrapper .assault { background:url('assault_.jpg') no-repeat; height:353px; }
+#store-wrapper .assault .assault-desc { width:400px; position:relative; margin:0 0 0 232px; top:48px; text-align: center }
+#store-wrapper .assault .assault-desc h2 { font-size: 18px; text-transform:uppercase; padding:0; color:#027b92; text-align: left }
+#store-wrapper .assault .assault-desc p { font-size:13px; padding-top:0px; line-height:1.4; text-align: left }
+#store-wrapper .assault .assault-desc .btn-square-9 { margin: 13px 5px 0 }
+#store-wrapper #weapon-skins .skin-item h2 span { color:#7b7c7c; font-size:12px; text-transform:uppercase; padding:0 0 0 6px; }
+#store-wrapper .store-nav { background:url('item_nav.jpg') repeat-x left top; height:37px; }
+#store-wrapper .store-nav ul.list-standard { margin: 0 0 0 14px }
+#store-wrapper .store-nav ul.list-standard li { padding:14px 10px; position:relative; float:left; top:-4px; background:url('item_sep.png') no-repeat 0 6px}
+#store-wrapper .store-nav ul.list-standard li:first-child {background: none}
+#store-wrapper .store-nav ul.list-standard li a { text-transform:uppercase; font: normal 16px AdelonMedium, "Times New Roman", Times, serif; text-decoration: none; text-shadow: 0 1px 0 #E9E9E9; color:#908f8f }
+#store-wrapper .store-nav ul.list-standard li a:hover,
+#store-wrapper .store-nav ul.list-standard li a.active { color:#0c3d51 }
+#store-wrapper #pets,
+#store-wrapper #weapon-skins,
+#store-wrapper #merchandise { position:relative; text-align:center; }
+#store-wrapper #pets,
+#store-wrapper #weapon-skins { margin-bottom:48px; }
+#store-wrapper #merchandise { padding-bottom:40px; }
+#store-wrapper .pet-item,
+#store-wrapper .skin-item,
+#store-wrapper .merch-item { position:relative; width:306px; display:inline-block;vertical-align: top;text-align:center; }
+#store-wrapper .pet-item h2,
+#store-wrapper .skin-item h2,
+#store-wrapper .merch-item h2 { margin-top:-16px;margin-bottom: 3px;padding: 0;position:relative;color:#027b92; text-transform:uppercase; font-size:16px; text-shadow: 0 1px 0 #E9E9E9 }
+#store-wrapper .pet-item p,
+#store-wrapper .skin-item p,
+#store-wrapper .merch-item p { margin:0 0 6px;padding: 0;text-align: center; color:#333333; font:12px/1.2 CartoGothicProBold, Arial, Helvetica, sans-serif }
+#store-wrapper .pet-item a,
+#store-wrapper .skin-item a,
+#store-wrapper .merch-item a { color:#2b6c8c; font-family:CartoGothicProBold, Arial, Helvetica, sans-serif; font-size:12px }
+#store-wrapper .cat-desc { padding-top:12px; text-align:center; }
+/*** Overview ***/
+#services-overview .support-services{height:186px;background:url('overview.jpg') no-repeat}
+#services-overview .aion-store{height:186px;background:url('overview.jpg') no-repeat}
+#services-overview .acc-services{height:186px;background:url('overview.jpg') no-repeat}
+#services-overview .refer-a-friend-services{height:186px;background:url('overview.jpg') no-repeat}
+#services-overview .veteran-rewards-services{height:186px;background:url('overview.jpg') no-repeat}
+
+#services-overview  h2{font: 33px AdelonMedium, "Times New Roman", Times, serif;letter-spacing: -1px;text-transform: uppercase;}
+#services-overview a.btn-right-1 {position: absolute;right: 20px;bottom: 20px}
+#services-overview .services-desc{margin-top: 7px;width:290px}
+#services-overview .services-small-desc p {width:248px}
+/*** Support ***/
+#support-services .twoSubCol h2 {padding-bottom: 1px; padding-top: 0}
+#support-services .twoSubCol h3 {padding: 3px 0 0; font-size: 15px;}
+#support-services .twoSubCol h3,
+#support-services a { color: #2b6c8c}
+#support-services .twoSubCol p {padding-top: 0; padding-bottom: 17px;}
+#support-services .twoSubCol ul {margin-bottom: 14px}
+#support-services .twoSubCol p + ul {margin-top: -12px}
+/*** Refer A Friend ***/
+#refer-friend ol + h2,
+#refer-friend p + h2{padding: 20px 0 5px}
+#refer-friend .content-header{padding: 60px 20px 0 415px;height: 197px;background:url('refer_fr.jpg') no-repeat}
+#refer-friend .content-header,
+#services-security .content-header,
+#veterans-rewards .content-header{margin: 0 0 10px;border-bottom: 1px solid #fff}
+#refer-friend .content-header p,
+#services-security .content-header p,
+#veterans-rewards .content-header p{font: normal 23px AdelonMedium, "Times New Roman", Times, serif;color: #0C3D51;text-transform: uppercase}
+#refer-friend .content-header span{padding-top: 17px;display: block}
+/*** Security ***/
+#services-security p + h2{padding: 20px 0 5px}
+#services-security .content-header{padding: 80px 20px 0 440px;height: 177px;background:url('security.jpg') no-repeat}
+/*** Veterans Rewards ***/
+#veterans-rewards ul.gem li{color: #2b6c8c}
+#veterans-rewards span.button-right{margin-top: 15px}
+#veterans-rewards .content-header{padding: 60px 40px 0 415px;height: 197px;background:url('vet_rewa.jpg') no-repeat}
+#veterans-rewards .content-header p{margin-top:-15px}
+
+/********************************************
+  ** 1) Error Pages
+/********************************************/
+#oneCol #error-404 { position: relative;background:url('error_40.jpg') no-repeat 1px 0 #cad5d9 }
+#oneCol #error-404 div.character { background:url('drakan00.png') no-repeat left top; position: absolute; top: 6px; left: 86px; height: 538px; width: 474px; z-index:100; }
+#twoCol-left #error-404 { position: relative;background:url('error_40.jpg') no-repeat #cad5d9 }
+#twoCol-left #error-404 div.character { background:url('drakan_t.png') no-repeat left top; position: absolute; top: 20px; left: 10px; height: 396px; width: 360px; z-index:100; }
+#oneCol #error-500{ position: relative;background:url('error_50.jpg') no-repeat 1px 0 #cad5d9 }
+#oneCol #error-500 div.character { background:url('daeva000.png') no-repeat left top; position: absolute; top: 136px; left: 46px; height: 538px; width: 530px; z-index:100; }
+#twoCol-left #error-500 { position: relative;background:url('error_50.jpg') no-repeat #cad5d9 }
+#twoCol-left #error-500 div.character { background:url('daeva_tw.png') no-repeat left top; position: absolute; top: 66px; left: 0; height: 297px; width: 345px; z-index:100; }
+#oneCol #maintenance {margin: -15px 0 0;height: 614px;position: relative;background:url('maintena.jpg') no-repeat}
+#oneCol .error-page { height: 535px;padding: 0 }
+#oneCol .error-page .message,
+#twoCol-left .error-page .message { background: url(message_.png) no-repeat; padding: 30px 20px 20px; position: absolute; top: 82px; left: 508px; min-height: 410px; width: 324px; }
+#twoCol-left .error-page {height: 495px}
+#twoCol-left .error-page .message { top: 70px; left: 300px }
+.error-page .message p { padding:7px 18px 7px 12px;font-size: 16px }
+.error-page .message .message-top { background: url(message_.png) no-repeat; position: absolute; top: -10px; left: -24px; width: 412px; height: 18px; }
+.error-page .message .message-separator { background: url(message_.png) no-repeat 50% 0; margin-bottom: 15px; height: 2px; }
+.error-page .message h1 { padding-bottom: 15px;font: normal 36px/36px AdelonBook, "Times New Roman", Times, serif; text-align: center }
+.error-page .message ul.buttons { margin-top: 24px; text-align: center; background: url(message_.png) no-repeat 50% 50%; }
+.error-page .message ul.buttons li { padding: 0 4px; display: inline; }
+.error-page .message ul.buttons li span { color: inherit; }
+.error-page .message ul.buttons li a { display: inline-block; text-transform: uppercase }
+
+/***userMessage display area ***/
+.userMessage-container {display:none;background-color:#FFECEE;color:#A53C45;height:27px; width:100%;z-index:1000;border:solid 1px #A53C45;padding:3px;}
+.userMessage-container .message-icon {width:22px;height:22px;float:left;}
+.userMessage-container .error-icon {background: url("wrngShie.png") no-repeat;}
+.userMessage-container .message-text {float:left;font-size:12px; font-weight:bold;padding:3px 0px 0px 10px;}
+.userMessage-container .close-button {background: url("btn-clos.jpg") no-repeat top left;width:20px;height:20px;float:right;padding-right:3px;}
+.userMessage-container .close-button:hover {background: url("btn-clos.jpg") no-repeat 0px -20px;}
+

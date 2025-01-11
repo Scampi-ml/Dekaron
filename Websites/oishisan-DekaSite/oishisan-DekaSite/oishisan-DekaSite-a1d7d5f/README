@@ -1,0 +1,34 @@
+-------------------------------
+DekaSite end user documentation
+-------------------------------
+This is a small and basic website for Dekaron private servers released 
+exclusively on http://dkunderground.org .
+
+Requirements
+------------
+Apache with .htaccess files allowed, MSSQL exension enabled, and PHP enabled.
+
+Installation
+------------
+1. Copy contents to your webserver's public folder.
+2. Read and Edit config/config.ini
+
+Adding extras features
+----------------------
+1. Create a database with the same name specified by extrasDB setting in 
+config.ini. The specified user also needs to be able to have same privileges as 
+the other dekaron tables require.
+2. Uncomment (remove ;) from the update tables page in the white list.
+3. Visit build tables page in browser and follow directions from there.
+4. Remember, each time you update your DekaSite pages from the GitRepo, update your tables after.
+
+Issues
+------
+If you have problems setting this up, feel free to post or PM me on 
+http://dkunderground.org . My username is Oishi there. Also, if the problem is 
+because your webserver does not meet the requirements, I will not help you 
+because you can google the answer. However, I will let you know that's what the 
+problem is.
+
+All other bugs/glitches/etc can be reported here via GitHub's issue ticket 
+system.

@@ -1,0 +1,1 @@
+<img src="images/intro_1_auction.png" >

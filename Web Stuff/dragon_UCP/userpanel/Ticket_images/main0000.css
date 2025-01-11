@@ -1,0 +1,262 @@
+/*
+File: main.css
+
+Description:
+	Contains CSS for the background, header, footer and main containers. Does NOT contain site-wide tag defaults other than BODY or HTML.
+	
+Used:
+	Aion Online
+	Game Guide
+	Forums
+
+***** Table of Contents ******
+Search for "##)" to find corresponding area
+
+AA)	Default
+AB)	Main Containers
+AC)	Header
+	-Search
+AD)	Top Navigation
+	-Nav bar buttons
+	-Positioning
+	-Nav Dropdown Menu
+	-Expand Section
+	-News Menu
+	-About Menu
+	-Game Guide Menu
+	-Fixes to MainNav
+	-Media Menu
+	-Media and Service Menus
+	-Forum Menu
+	-Service Menu
+	-Quick Links
+AE)	Footer
+
+
+
+/********************************************
+  ** AA) Default
+/********************************************/
+body, html {margin: 0; padding: 0;}
+body { font-size: 80.5%; color: #333; font-family: 'CartoGothicProBook',Arial, Helvetica, sans-serif; text-align: center; background-color: #b1c2c9;}
+a[href$=".pdf"] {
+    background: url("pdf_icon.png") no-repeat scroll 100% 0 transparent;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/********************************************
+  ** AB) Main Containers
+/********************************************/
+#outer-container {width: 100%}
+.inner-container {margin: 0 auto; width: 987px; text-align: left}
+#aion-footer-container { height: 42px; background: url(footer_b.png) repeat-x}
+.show-bg{position: relative; margin-top: -500px; left: 0; bottom: 0; height: 500px; width: 100%; z-index: -1; background: url(body_bot.jpg) no-repeat 50% 100% #b1c2c9}
+body #bg{position: absolute;z-index: -1;top: 0;left: 0;width: 100%;height: 900px;background: url(body_bg2.1) no-repeat 50% 0}
+body#fp #bg{width: 100%;height: 900px;background: url(body_bg0.jpg) no-repeat 50% 0}
+body#fp #bg #flash-background {margin: 0 0 0 -500px;position: absolute;top: 10px;left: 50%;width: 1000px;}
+
+/********************************************
+  ** AC) Header
+/********************************************/
+#aion-header {margin-left: 12px; position: relative;width: 960px; height: 282px; text-align: left;}
+#aion-header #main-logo {position: absolute;display: block;top: 49px;left: 329px;width: 267px;height: 96px;outline: none}
+#aion-header P, #aion-header UL, #aion-header LI, #aion-header H1, #aion-header H2, #aion-header H3, #aion-header H4, #aion-header H5, #aion-header H6, #aion-header blockquote, #aion-header IMG, #aion-header DIV { margin: 0; padding: 0; border: 0 none;}
+#aion-header H4 { text-transform: uppercase; }
+#aion-header UL, #aion-header H4, #aion-header H5 { color: #333; }
+#aion-header A { color: #06506E; }
+#aion-header UL LI SPAN { color: #717171; }
+body#fp #aion-header {margin-left: 12px; position: relative; width: 960px; height: 370px}
+body#fp #aion-header #main-logo {display: none}
+
+/*** Search ***/
+#aion-header .search{position: absolute;bottom: 48px;right: 0;width: 320px;height: 33px;border: 1px solid #878787;background: url(search_b.png) no-repeat}
+#aion-header .search .input_border{position: absolute;width: 308px;height: 23px;left: 5px; top: 5px;border: 1px solid #707070;background:none #f7f7f7}
+#aion-header .search #search_input{padding: 3px 2px 2px;position: absolute;left: 6px;top: 6px;width: 150px;height: 18px;border: none; -moz-border-radius: 0;font-family: 'CartoGothicProBook'; font-size: 12px; color: #656363;background:none #f7f7f7}
+#aion-header .search #search_area{margin: 0;padding: 1px;position: absolute;left: 161px; top: 7px;width: 130px;height: 21px;border: 1px solid #E4E4E4;font-family: 'CartoGothicProBook'; font-size: 12px; color: #323030;background: #c9c9c9}
+#aion-header .search #search_submit{margin: 1px;position: absolute;z-index: 106;left: 291px; top: 6px;width: 21px; height: 21px; border: none; -moz-border-radius: 0;background: url(search_s.png) no-repeat transparent;cursor: pointer}
+
+
+/********************************************
+  ** AD) Top Navigation
+/********************************************/
+#aion-nav-bar {margin: 0;display: block; position: absolute; bottom: 0; width: 960px; height: 48px; background: url(nav_bar0.png) no-repeat}
+#aion-nav-bar ul {margin: 0; padding: 0; display: block}
+#aion-nav-bar li {list-style: none}
+#aion-nav-bar ul li.nav-bar-button {padding: 0; display: block; position: relative; height: 48px; float: left}
+#aion-nav-bar a.menu-button {display: block; height: 48px; outline: none; background: url(nav_bar0.png) no-repeat}
+#aion-nav-bar a.menu-button span {margin: 0; position: relative; left: -5000em}
+#aion-nav-bar .right li.nav-bar-button {margin-left: 1px}
+#aion-nav-bar .left li.nav-bar-button {margin-right: 1px}
+#aion-nav-bar ul.left {float: left}
+#aion-nav-bar ul.right {float: right}
+
+/*** Nav bar buttons ***/
+#aion-nav-bar-news {width: 107px}
+#aion-nav-bar-news a.menu-button {background-position: 0 0;} /*background-position: 0 0*/
+#aion-nav-bar-news > a.active {background-position: 0 -96px}
+#aion-nav-bar-news a.menu-button:hover,
+#aion-nav-bar-news > a.hover {background-position: 0 -48px;} 
+#aion-nav-bar-about {width: 147px}
+#aion-nav-bar-about a.menu-button {background-position: -108px 0}
+#aion-nav-bar-about > a.active {background-position: -108px -96px}
+#aion-nav-bar-about a.menu-button:hover,
+#aion-nav-bar-about > a.hover {background-position: -108px -48px}
+#aion-nav-bar-guide {width: 160px}
+#aion-nav-bar-guide a.menu-button {background-position: -256px 0}
+#aion-nav-bar-guide > a.active {background-position: -256px -96px}
+#aion-nav-bar-guide a.menu-button:hover,
+#aion-nav-bar-guide > a.hover {background-position: -256px -48px}
+#aion-nav-bar-media {width: 148px}
+#aion-nav-bar-media a.menu-button {background-position: -541px 0}
+#aion-nav-bar-media > a.active {background-position: -541px -96px}
+#aion-nav-bar-media a.menu-button:hover,
+#aion-nav-bar-media > a.hover {background-position: -541px -48px}
+#aion-nav-bar-forums {width: 125px}
+#aion-nav-bar-forums a.menu-button {background-position: -690px 0}
+#aion-nav-bar-forums > a.active {background-position: -690px -96px}
+#aion-nav-bar-forums a.menu-button:hover,
+#aion-nav-bar-forums > a.hover {background-position: -690px -48px}
+#aion-nav-bar-services {width: 144px}
+#aion-nav-bar-services a.menu-button {background-position: -816px 0}
+#aion-nav-bar-services > a.active {background-position: -816px -96px}
+#aion-nav-bar-services a.menu-button:hover,
+#aion-nav-bar-services > a.hover {background-position: -816px -48px}
+
+/*** Positioning ***/
+.nav-bar-left {z-index: 105; width: 73px; height: 173px; position: absolute; top: -38px; left: -53px; background: url(nav_left.png) no-repeat transparent}
+.nav-bar-right {z-index: 105; width: 73px; height: 173px; position: absolute; top: -38px; right: -53px; background: url(nav_righ.png) no-repeat transparent}
+.nav-bar-center-top {position: absolute; z-index: 105;top: -97px; left: 296px; width: 368px; height: 106px; background: url(nav_cent.png) no-repeat transparent}
+.nav-bar-center-bottom {position: absolute; z-index: 109; top: 9px; left: 383px; width: 194px; height: 54px; background: url(nav_cent.png) no-repeat -87px -106px transparent}
+.nav-bar-center-bottom a.btn-decor-3 {display: inline-block; position: absolute; top: -11px; left: 15px; width: 164px; height: 53px; background: url(btn_my_a.png) no-repeat; outline: none}
+.nav-bar-center-bottom a.btn-decor-3 span {margin: 0; position: relative; left: -5000em}
+.nav-bar-center-bottom a.btn-decor-3:hover {background-position: 0 -53px}
+
+/*** Nav Dropdown Menu ***/
+#aion-nav-bar .nav-menu {display: none; position: relative; z-index: 200; top: 0; width: 185px; overflow:hidden; height: 260px; border-right: 1px solid #525252; border-bottom: 1px solid #525252; border-left: 1px solid #525252; background: url(nav_menu.png) repeat-x #e3e3e3;-moz-box-shadow: 0 4px 5px #555;-webkit-box-shadow: 0 4px 5px #555;box-shadow: 0 4px 5px #555} 
+#aion-nav-bar .right .nav-menu {float: right}
+#aion-nav-bar .nav-menu a.expand-menu{display: block; position: relative; z-index: 116; width: 19px; height: 100%; outline: 0 none;}
+#aion-nav-bar .left .nav-menu a.expand-menu{float: right; background: url(nav_expa.png) -45px 50% no-repeat transparent}
+#aion-nav-bar .right .nav-menu a.expand-menu{float: left; background: url(nav_expb.png) -45px 50% no-repeat transparent}
+#aion-nav-bar .nav-menu a.expand-menu:hover{background-position: -26px 50%}
+#aion-nav-bar .left .nav-menu a.expand-menu-expand-link,
+#aion-nav-bar .right .nav-menu a.expand-menu-expand-link{width: 13px;background-position: -13px 50%}
+#aion-nav-bar .left .nav-menu a.expand-menu-expand-link:hover,
+#aion-nav-bar .right .nav-menu a.expand-menu-expand-link:hover{background-position: 0 50%}
+#aion-nav-bar .left .nav-menu ul.nav-menu-items{float: left}
+#aion-nav-bar .right .nav-menu ul.nav-menu-items{float: right}
+#aion-nav-bar .nav-menu ul.nav-menu-items{padding: 12px 14px 0; width: 140px; height: 248px;border-right : 1px solid #b3b3b3; border-left :1px solid #b3b3b3}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li {margin-left: 3px;padding: 7px 0 5px; background:url(nav_menv.png) no-repeat center top transparent}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li {font-family:'AdelonMedium';font-size:15px;font-weight: normal;text-shadow:0 1px 0 #fff;text-transform:uppercase;}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li:first-child {background:none}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li a {color: #3c474c}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li a:visited {color: #3c474c}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li a:hover {color: #2b6c8c}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li a.extLink-large {padding-left: 20px;padding-right: 0;background-position: 0 0}
+#aion-nav-bar .nav-menu ul.nav-menu-items > li a.extLink-large:hover {background-position: 0 -32px}
+#aion-nav-bar .nav-menu UL LI { font-family: CartoGothicProBook,Arial,Helvetica,sans-serif; font-size: 12px; line-height: 18px;}
+
+/*** Expand Section ***/
+#aion-nav-bar .expand-section {padding: 17px 10px 17px 27px; float: left;width: 233px;}
+#aion-nav-bar .left .expand-section {}
+#navnav-bar-about-collapsed-bar .right .expand-section {padding: 17px 27px 17px 12px}
+#aion-nav-bar .expand-section h3 {padding: 0 0 2px; font-size: 14px; line-height: 14px; color: #0c3d51}
+#aion-nav-bar .expand-section h4, #aion-nav-bar .expand-section-guide h4 {padding: 0 0 2px;font-family: 'CartoGothicProBold'; font-size: 13px; font-weight: normal}
+#aion-nav-bar .expand-section span + h4 {margin-top: 15px}
+#aion-nav-bar .expand-section h5 {padding: 0;font: normal 13px/15px 'CartoGothicProBook'}
+#aion-nav-bar #aion-nav-bar-about .expand-section h5 {letter-spacing: 0.3px}
+#aion-nav-bar .expand-section h5 + span {margin: 0 0 8px;padding: 0;display: block;font-weight: normal;line-height: 11px}
+#aion-nav-bar #aion-nav-bar-about .expand-section h5 + span,
+#aion-nav-bar #aion-nav-bar-media .expand-section h5 + span,
+#aion-nav-bar #aion-nav-bar-services .expand-section h5 + span {color: #333}
+#aion-nav-bar .expand-section span {margin-bottom: 6px;font-size: 11px; line-height:13px}
+#aion-nav-bar .expand-section span a {font-size: 13px}
+#aion-nav-bar .expand-section img.white-border {border: 2px solid #fff}
+#aion-nav-bar .expand-section img.double-border {padding: 1px;border: 1px solid #9d9d9d;background-color: #fff}
+
+/*** News Menu ***/
+#aion-nav-bar #aion-nav-bar-news .nav-menu {width:460px;} /** Set width of menu expanded**/
+
+/*** About Menu ***/
+#aion-nav-bar #aion-nav-bar-about .nav-menu {margin-left: -12px; width:460px;}
+#aion-nav-bar #aion-nav-bar-about .expand-section img {margin: 0 0 4px}
+#aion-nav-bar #aion-nav-bar-about .expand-section a.learn-more {display: block;font-size: 11px;line-height: 10px}
+
+/*** Game Guide Menu ***/
+#aion-nav-bar #aion-nav-bar-guide .nav-menu {margin-left: -5px;width: 640px;}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu  .expand-section ul { width: 190px; }
+.nav-bar-guide-expand-section-loading {margin:50px auto;width:48px;height:48px;background:url("loading0.gif") no-repeat;}
+#aion-nav-bar #aion-nav-bar-guide .menu-nav-icon-plus { display: inline-block; width: 9px; height: 9px; background:url("arrows_n.png") no-repeat; padding-right: 3px; }
+#aion-nav-bar #aion-nav-bar-guide .menu-nav-icon-minus {  display: inline-block; width: 9px; height: 9px; background:url("arrows_n.png") no-repeat 0 -14px; padding-right: 3px; }
+#aion-nav-bar #aion-nav-bar-guide .nav-menu .expand-section {padding: 17px 0 0; width: 470px}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu .expand-section ul {margin: -18px 10px 0 0;padding: 19px 21px 0;float: left;height: 246px;}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu .expand-section ul li {margin: 0;line-height: 145%}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu .expand-section ul li a {color: #485357}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu .expand-section ul li a:hover {color: #2b6c8c}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu ul.nav-menu-items {width: 122px;}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu ul.nav-menu-items li.menu-item {margin: -6px 0 0;padding: 2px 0 0;background-position: center 3px}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu ul.nav-menu-items li.menu-item > a {margin-left: -14px;padding: 8px 0 3px 17px;display: block;width: 151px;height:23px;}
+#aion-nav-bar #aion-nav-bar-guide .nav-menu ul.nav-menu-items li.nav-bar-guide-menu-item-active > a {color: #fff; text-shadow: none;background:url("nav_menw.png") no-repeat}
+#aion-nav-bar #menu-guide-listing { width:175px; left:160px; top:0px; padding:15px 5px; position:absolute;height:100%; }
+#aion-nav-bar #menu-guide-listing h5 { padding-top: 5px; cursor: pointer; outline: 0 none; font: normal 13px/15px 'CartoGothicProBold' }
+#aion-nav-bar #menu-guide-listing li, #aion-nav-bar #menu-guide-listing h5 { position:relative; left:10px; }
+#aion-nav-bar #guide-collapse-me { width:255px }
+#aion-nav-bar .expand-section-guide { padding:17px 10px 0; width:270px;height: 100%;top:0px; right:0px; position:absolute; border-left : 1px solid #b3b3b3}
+#aion-nav-bar .expand-section-guide h5{padding: 0;font: normal 13px/15px 'CartoGothicProBook'}
+#aion-nav-bar .expand-section-guide h5 + span {margin: 0 0 8px;padding: 0;display: block;font-weight: normal;line-height: 11px}
+#aion-nav-bar .expand-section-guide span {margin-bottom: 6px;font-size: 11px; line-height:13px}
+#aion-nav-bar .expand-section-guide span a {font-size: 13px}
+#aion-nav-bar .expand-section-guide img.white-border {border: 2px solid #fff}
+#aion-nav-bar .expand-section-guide img.double-border {padding: 1px;border: 1px solid #9d9d9d;background-color: #fff;}
+
+
+
+/*** Media Menu ***/
+#aion-nav-bar #aion-nav-bar-media .nav-menu {margin-right: -23px; margin-left: 0px;  width:460Px; }
+
+/*** Media and Service Menus ***/
+#aion-nav-bar #aion-nav-bar-media .expand-section {padding: 0px;float:none; position: static;left: 0; width: 291px; height: 100%;}
+#aion-nav-bar #aion-nav-bar-services .expand-section {padding: 0px;float:none; position: static;left: 0; width: 305px; height: 100%}
+#aion-nav-bar #aion-nav-bar-media .expand-section h5,
+#aion-nav-bar #aion-nav-bar-services .expand-section h5 {margin-bottom: 3px;line-height: 13px}
+#aion-nav-bar #aion-nav-bar-media .expand-section ul li,
+#aion-nav-bar #aion-nav-bar-services .expand-section ul li {margin-left: 0;padding: 12px 27px 0; height: 75px;background: url("nav_expc.png") 0 100% repeat-x}
+#aion-nav-bar #aion-nav-bar-media .expand-section ul li:first-child,
+#aion-nav-bar #aion-nav-bar-services .expand-section ul li:first-child {border-top: none}
+#aion-nav-bar #aion-nav-bar-media .expand-section ul li img,
+#aion-nav-bar #aion-nav-bar-services .expand-section ul li img {margin: 2px 9px 13px 0;float: left}
+
+/*** Forum Menu ***/
+#aion-nav-bar #aion-nav-bar-forums .nav-menu {margin-right: -41px; margin-left: 0px; width:460px;  }
+#aion-nav-bar #aion-nav-bar-forums ul.nav-menu-items {width: 175px}
+#aion-nav-bar #aion-nav-bar-forums .expand-section {padding-left: 10px;width: 198px}
+
+/*** Service Menu ***/
+#aion-nav-bar #aion-nav-bar-services .nav-menu {width:490px; margin-left: 0px;}
+#aion-nav-bar #aion-nav-bar-services .nav-menu ul.nav-menu-items {width: 156px}
+#aion-nav-bar #aion-nav-bar-services .nav-menu ul.nav-menu-items li li {margin: 0; padding: 2px 0; font-weight: normal; text-transform: none}
+
+/*** Quick Links ***/
+.quick-links {display: none}
+#aion-nav-bar .left .nav-menu .quick-links {left: 17px}
+#aion-nav-bar .right .nav-menu .quick-links {right: 28px}
+#aion-nav-bar .nav-menu .quick-links {position: absolute;bottom: 12px; width: 122px; font-size: 12px;line-height:18px}
+#aion-nav-bar .nav-menu .quick-links h4 {padding: 0;font-family: 'CartoGothicProBold';font-size: 12px;font-weight: normal; color: #777}
+#aion-nav-bar .nav-menu .quick-links a {display: block; color: #000}
+#aion-nav-bar .nav-menu .quick-links a:hover {color: #2b6c8c}
+
+/********************************************
+  ** AE) Footer
+/********************************************/
+#aion-footer {padding-right: 24px; color: #333;}
+#aion-footer A { color: #06506E; }
+#aion-footer .social {margin: 8px 0 0 15px; float: right}
+#aion-footer ul.footer-nav {padding-top: 5px}
+#aion-footer ul.footer-nav li {padding: 0 10px; height: 35px; display: inline-block; background: url(footer_n.png) no-repeat top left}
+#aion-footer ul.footer-nav li a {margin-top: 7px; padding: 0 3px; display: block; font-family: 'CartoGothicProBook'; font-size: 12px; color: #333; text-decoration: none}
+#aion-footer ul.footer-nav li a:hover {color: #06506e}
+#aion-footer ul.footer-nav li:first-child {background: none}
+#aion-footer .footer-bottom {margin-top: 26px; width: 100%; text-align: center}
+#aion-footer .footer-bottom .logos {margin: 0 55px}
+#aion-footer .footer-bottom .aion {padding-right: 46px}
+#aion-footer p {margin: 0 152px; padding-top: 30px; font-size: 12px; line-height: 16px; color: #333;}

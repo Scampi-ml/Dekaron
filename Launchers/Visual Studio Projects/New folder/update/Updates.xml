@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<theupdates>
+
+  <update>
+    <version>1.0</version>
+    <file>1-0.zip</file>
+  </update>
+
+  <update>
+    <version>3.7</version>
+    <file>3-7.zip</file>
+  </update>
+
+  <update>
+    <version>3.8</version>
+    <file>3-8.zip</file>
+  </update>
+
+  <update>
+    <version>3.9</version>
+    <file>3-9.zip</file>
+  </update>
+
+  <update>
+    <version>4.0</version>
+    <file>4-0.zip</file>
+  </update>
+
+  <update>
+    <version>4.1</version>
+    <file>4-1.zip</file>
+  </update>
+
+  <update>
+    <version>4.2</version>
+    <file>4-2.zip</file>
+  </update>
+
+  <update>
+    <version>4.3</version>
+    <file>4-3.zip</file>
+  </update>
+
+  <update>
+    <version>4.4</version>
+    <file>4-4.zip</file>
+  </update>
+
+  <update>
+    <version>4.5</version>
+    <file>4-5.zip</file>
+  </update>
+
+  <update>
+    <version>4.6</version>
+    <file>4-6.zip</file>
+  </update>
+
+  <update>
+    <version>4.7</version>
+    <file>4-7.zip</file>
+  </update>
+
+  <update>
+    <version>4.8</version>
+    <file>4-8.zip</file>
+  </update>
+
+  <update>
+    <version>4.9</version>
+    <file>4-9.zip</file>
+  </update>
+
+  <update>
+    <version>5.0</version>
+    <file>5-0.zip</file>
+  </update>
+
+  <update>
+    <version>5.1</version>
+    <file>5-1.zip</file>
+  </update>
+
+  <update>
+    <version>5.2</version>
+    <file>5-2.zip</file>
+  </update>
+
+  <update>
+    <version>5.3</version>
+    <file>5-3.zip</file>
+  </update>
+
+  <update>
+    <version>5.4</version>
+    <file>5-4.zip</file>
+  </update>
+
+
+</theupdates>

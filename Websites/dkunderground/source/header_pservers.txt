@@ -1,0 +1,25 @@
+        <?php 
+		if ($html_title == 'Private Servers')
+		{
+		?>
+		<style type="text/css" title="currentStyle">
+			@import "js/DataTables-1.9.0/media/css/demo_page.css";
+			@import "js/DataTables-1.9.0/media/css/demo_table.css";
+		</style>
+		<script type="text/javascript" language="javascript" src="js/DataTables-1.9.0/media/js/jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="js/DataTables-1.9.0/media/js/jquery.dataTables.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				$('#servers').dataTable( {
+					"bPaginate": false
+				
+				
+				} );
+			} );
+		</script>
+        <?php
+		}
+		?>
+
+
+ <?php if ($html_title == 'Private Servers') { echo 'class="full"'; }?>

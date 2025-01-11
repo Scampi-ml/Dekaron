@@ -1,0 +1,22 @@
+
+
+
+.tb_type1 {clear:both; border-collapse:collapse; width:655px; margin:10px 0 0 0; padding:0; table-layout:fixed;}
+.tb_type1 {border-bottom:3px solid #cbbea9; background:url("tb_head0.gif") no-repeat left top;}
+.tb_type1 thead th {height:31px; padding:0; text-align:center; font-size:12px; color:#0b0a08;}
+.tb_type1 thead th.last {background:none;}
+.tb_type1 tr {background:none;}
+.tb_type1 tr.last td {background:none;}
+.tb_type1 tr.current .subject {font-weight:bold;}
+.tb_type1 tbody td {padding:6px 0 7px 0; line-height:1; color:#4d3b26; border-bottom:1px solid #e8e8e8; text-align:center;}
+.tb_type1 tbody td img {vertical-align:middle; margin:-4px 0 -4px 0;}
+.tb_type1 tbody td input {vertical-align:middle; margin:-5px 0 -4px 0;}
+.tb_type1 tbody td a:link, .tb_type1 tbody td a:active, .tb_type1 tbody td a:visited {color:#4d3b26;}
+.tb_type1 tbody td a:hover {text-decoration:underline;}
+.tb_type1 tbody td.none_article {height:140px; padding:0; font-weight:bold; letter-spacing:-1px; line-height:1.2; background:#ffffff; text-align:center;}
+.tb_type1 tbody td.date {font-family:verdana; font-size:9px; letter-spacing:-0.1em;}
+.tb_type1 tbody td.views {font-family:verdana; font-size:9px; letter-spacing:-0.1em;}
+.tb_type1 tbody td.subject {padding-left:25px; text-align:left; vertical-align:top; background:url("bul_2000.gif") no-repeat 14px 12px;}
+.tb_type1 tbody td.subject img {vertical-align:middle;}
+.pager_info {background:none; border:0;}
+

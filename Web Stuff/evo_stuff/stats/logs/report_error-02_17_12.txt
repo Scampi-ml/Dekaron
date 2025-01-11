@@ -1,0 +1,259 @@
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Incorrect syntax near the keyword 'WHERE'. (severity 15)).
+Line Number  : 238.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:04:42.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 238.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:04:42.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Incorrect syntax near the keyword 'WHERE'. (severity 15)).
+Line Number  : 238.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:11:45.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 238.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:11:45.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:22.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:24.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:24.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:28.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:28.
+**************************************************************
+
+**************************************************************
+[Run-time notices] (Undefined index: character).
+Line Number  : 19.
+File Path : C:\xampp\htdocs\userpanel\friends.php.
+Date : 17.02.2012 04:41:30.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:32.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:32.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:34.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:34.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:38.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:41:38.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:42:39.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:42:39.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:42:53.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:42:53.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:42:56.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:42:56.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:00.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:00.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:02.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:02.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:04.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:04.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:59.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:43:59.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:44:00.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:44:00.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:44:03.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:44:03.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: message: Login failed for user 'sa'. (severity 14)).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:47:01.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_pconnect() [function.mssql-pconnect]: Unable to connect to server: localhost).
+Line Number  : 231.
+File Path : C:\xampp\htdocs\userpanel\class_dekaron.php.
+Date : 17.02.2012 04:47:01.
+**************************************************************
+

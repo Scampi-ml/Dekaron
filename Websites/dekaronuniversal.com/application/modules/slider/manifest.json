@@ -1,0 +1,76 @@
+{
+	"name":"Slider",
+	"description":"Slider Images",
+	"author":
+	{
+		"name":"DekaronCMS",
+		"website":"http:\/\/janvier123.be\/dekaroncms"
+	},
+	"admin":
+	[
+		
+		{
+			"text":"Website",
+			"icon":"cursor",
+			"links":
+			[
+				
+				{
+					"text":"Manage slider",
+					"icon":"windows",
+					"controller":"slider",
+					"requirePermission":"viewSlider"
+				}
+			]
+			
+		}
+	]
+	,
+	"permissions":
+	{
+		"viewSlider":
+		{
+			"default":false,
+			"description":"Can view the slider images"
+		},
+		"addSlider":
+		{
+			"default":false,
+			"description":"Add slider images."
+		},
+		"editSlider":
+		{
+			"default":false,
+			"description":"Edit slider images."
+		},
+		"deleteSlider":
+		{
+			"default":false,
+			"description":"Delete slider images."
+		}
+	},
+	"roles":
+	{
+		"view":
+		{
+			"description":"View the log in page",
+			"permissions":
+			{
+				"view":true
+			}
+		},
+		"manageSlider":
+		{
+			"description":"Manage the image slider. <font style='color:red;'>Admin-tool<\/font>",
+			"dangerLevel":2,
+			"permissions":
+			{
+				"viewSlider":true,
+				"addSlider":true,
+				"editSlider":true,
+				"deleteSlider":true
+			}
+		}
+	},
+	"enabled":true
+}

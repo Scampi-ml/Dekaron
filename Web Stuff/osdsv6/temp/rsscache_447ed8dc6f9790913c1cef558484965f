@@ -1,0 +1,27 @@
+a:6:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:12:"Annoucements";s:4:"link";s:35:"http://www.dkunderground.org/forums";s:13:"lastBuildDate";s:8:"Thursday";s:5:"items";a:3:{i:0;a:5:{s:5:"title";s:13:"We Are Back !";s:4:"link";s:58:"http://www.dkunderground.org/forums/topic/854-we-are-back/";s:11:"description";s:192:"Hey all,<br />
+<br />
+<br />
+<br />
+We are back online, new site, new forums, downloads still didnt change but ill get to it<br />
+let me know if you find any issues<br />
+<br />
+<br />
+Greetz";s:4:"guid";s:58:"http://www.dkunderground.org/forums/topic/854-we-are-back/";s:7:"pubDate";s:29:"Sat, 09 Jun 12 08:09:37 +0200";}i:1;a:5:{s:5:"title";s:22:"Server Change (Again!)";s:4:"link";s:66:"http://www.dkunderground.org/forums/topic/837-server-change-again/";s:11:"description";s:492:"Hi,<br />
+<br />
+<br />
+we are changing servers again, GoDaddy is not that good as expected, slow and un-responsive site, slow,...<br />
+This last week the FTP is down (the whole week)<br />
+timeouts, connection errors, ...<br />
+Even phpmyadmin is slow as hell<br />
+<br />
+Eiher way i need to change the forums again to a better host that doesnt suck<br />
+and with a new bonus, mssql, odbc, pdo support<br />
+<br />
+<br />
+Ill let you know when the move will take place<br />
+<br />
+Greetz";s:4:"guid";s:66:"http://www.dkunderground.org/forums/topic/837-server-change-again/";s:7:"pubDate";s:29:"Sat, 19 May 12 14:04:02 +0200";}i:2;a:5:{s:5:"title";s:48:"99% Chance On A Windows Hosting Instead Of Linux";s:4:"link";s:94:"http://www.dkunderground.org/forums/topic/819-99-chance-on-a-windows-hosting-instead-of-linux/";s:11:"description";s:202:"Hi all,<br />
+<br />
+there will be a change to a windows hosting instead of a linux hosting<br />
+i will be able to use and run MSSQL stuff<br />
+including databases and custom scripts that run on mssql";s:4:"guid";s:94:"http://www.dkunderground.org/forums/topic/819-99-chance-on-a-windows-hosting-instead-of-linux/";s:7:"pubDate";s:29:"Tue, 01 May 12 19:35:41 +0200";}}s:11:"items_count";i:3;}

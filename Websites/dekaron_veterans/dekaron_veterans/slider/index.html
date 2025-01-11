@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Slider</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/prototype-1.6.0.2.js?v=1466655446&amp;l=english"></script>
+        <script type="text/javascript" src="js/scriptaculous.js?v=202614527&amp;l=english&amp;load=effects,controls,slider"></script>
+        <script type="text/javascript" src="js/scriptaculous/effects.js"></script>
+        <script type="text/javascript" src="js/scriptaculous/controls.js"></script>
+        <script type="text/javascript" src="js/scriptaculous/slider.js"></script>
+        <script type="text/javascript" src="js/main.js?v=910671783&amp;l=english"></script>
+        <script type="text/javascript" src="js/cluster.js?v=4033443305&amp;l=english"></script>
+	</head>
+    <body>
+        <div id="slider_box">
+            <div id="home_main_cluster">
+                <div class="main_cluster_content">
+                    <div id="main_cluster_scroll" class="cluster_scroll_area" style="width: 9300px; left: 0px; ">
+                            <a class="cluster_capsule" href="#">
+                                <img class="cluster_capsule_image" id="1" src="images/1.jpg" >
+                                <div class="main_cap_desc">
+                                    <div class="desc_overlay"></div>
+                                    <div class="main_cap_content">
+                                        <h1>Lorem ipsum</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus molestie gravida. Etiam rhoncus dapibus nisi.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="cluster_capsule" href="#">
+                                <img class="cluster_capsule_image" id="2" src="images/2.jpg" >
+                                <div class="main_cap_desc">
+                                    <div class="desc_overlay"></div>
+                                    <div class="main_cap_content">
+                                        <h1>Lorem ipsum</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus molestie gravida. Etiam rhoncus dapibus nisi.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="cluster_capsule" href="#">
+                                <img class="cluster_capsule_image" id="3" src="images/3.jpg" >
+                                <div class="main_cap_desc">
+                                    <div class="desc_overlay"></div>
+                                    <div class="main_cap_content">
+                                        <h1>Lorem ipsum</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus molestie gravida. Etiam rhoncus dapibus nisi.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="cluster_capsule" href="#">
+                                <img class="cluster_capsule_image" id="4" src="images/4.jpg" >
+                                <div class="main_cap_desc">
+                                    <div class="desc_overlay"></div>
+                                    <div class="main_cap_content">
+                                        <h1>Lorem ipsum</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus molestie gravida. Etiam rhoncus dapibus nisi.</p>
+                                    </div>
+                                </div>
+                            </a>
+            
+                        <div style="clear: left;"></div>
+                        <script type="text/javascript">
+                            var rgImageURLs = {
+                                '1': 'images/1.jpg',
+                                '2': 'images/2.jpg',
+                                '3': 'images/3.jpg',
+                                '4': 'images/4.jpg'
+                            }
+                        </script>
+                    </div>
+                    <div class="cluster_control_left" style="display: none; ">
+                        <h5><img src="images/arrow_blue_left.gif">&nbsp;&nbsp;Prev</h5>
+                    </div>
+                    <div class="cluster_control_right" style="display: none; ">
+                        <h5>Next&nbsp;&nbsp;<img src="images/arrow_blue_right.gif"></h5>
+                    </div>
+                </div>
+                <div id="main_cluster_control_ctn">
+                  <div class="slider" id="main_cluster_control">
+                        <div class="images/slider_bg"></div>
+                        <div class="handle selected" style="left: 0px; "></div>
+                    </div>
+                </div>
+                    <script type="text/javascript">
+                        var ClusterHandler = new Cluster( {
+                            cCapCount: 3, 
+                            nCapWidth: 616 + 4,
+                            elClusterArea: $('home_main_cluster'),
+                            elSlider: $('main_cluster_control'),
+                            rgImageURLs: rgImageURLs
+                        } );
+                    </script>
+                </div>
+            </div>
+        </div>                     
+    </body>
+</html>

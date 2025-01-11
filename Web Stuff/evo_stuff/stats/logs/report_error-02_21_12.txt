@@ -1,0 +1,28 @@
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Invalid object name 'character_2.dbo.user_character'. (severity 16)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 21.02.2012 02:16:27.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 21.02.2012 02:16:27.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: message: Invalid object name 'character_2.dbo.user_character'. (severity 16)).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 21.02.2012 02:46:47.
+**************************************************************
+
+**************************************************************
+[Run-time warnings] (mssql_query() [function.mssql-query]: Query failed).
+Line Number  : 183.
+File Path : C:\xampp\htdocs\stats\class_dekaron.php.
+Date : 21.02.2012 02:46:47.
+**************************************************************
+
