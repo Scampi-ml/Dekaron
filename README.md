@@ -2,7 +2,7 @@
 
 Hello, everyone.
 
-I was known as Janvier123; you may have heard of me. I was happy to work on projects such as: Beyond Dekaron (Beyond DK), Dekaron Veterans, DKunderground, Salvation Dekaron, Dekaron Evolution, Dekaron9, devdekaron, dead-dekaron, and Dead Dekaron.
+I was known as Janvier123; you may have heard of me. I was happy to work on projects such as: Beyond Dekaron (Beyond DK), Dekaron Veterans, DKunderground, Salvation Dekaron, Dekaron Evolution, Dekaron9, devdekaron, and Dead Dekaron.
 
 This is my final upload. After over a decade of collecting dust, every file I’ve ever worked on during my Dekaron "career" is now gathered in this repository for its final resting place. I cannot upload Dekaron files as they would be taken down for copyright reasons. Additionally, I want to protect any database files as they contain sensitive information such as passwords, emails, usernames, IPs, and more.
 
