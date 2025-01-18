@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="../css/guide.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="../spiritual.html">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="adept" href="../spiritual.html"></a>
+                    <a class="principle" href="./principle.html"></a>
+                    <a class="harmony current" href="./harmony.html"></a>
+                    <a class="discord" href="./discord.html"></a>
+                    <a class="coalescence" href="./coalescence.html"></a>
+                    <a class="transcendant" href="./transcendant.html"></a>
+                    <a class="enlightenedone" href="./enlightenedone.html"></a>
+                    <a class="vacuity" href="./vacuity.html"></a>
+                    <a class="sage" href="./sage.html"></a>
+                    <a class="demon" href="./demon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Principle</h1>
+						<div class="big-words"></div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Aware of Harmony - Level 21</h3></div>
+                        <div class="gcontent"><div class="sprite-harmony human"></div>
+							<p>1. Talk to the Mangmang the Taoist in the City of the Plume</p>
+							<p>2. Kill Carapest Terrors (287 472) east of Scorpion Valley to get the Celestial Sprite</p>
+							<p>3. Find the Hidden Celestial Sprite near the Cave of the Vicious (292 445)</p>
+							<p>4. Return to Guard Seven</p>
+                            <p>5. Talk to General Summer</p>
+                            <p>6. Kill 15 Heartles Wolves and 15 Treeline Wolfkin at the Mines west of Archosaur</p>
+                            <p>7. Return to General Summer</p>
+                            <p>8. Kill 25 Tectonic Rhinodrakes at Broken Bow Bluff</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Aware of Harmony - Level 24</h3></div>
+                        <div class="gcontent"><div class="sprite-harmony elves1"></div>
+                            <p>9. Talk to General Summer</p>
+                            <p>10. Kill 15 Pyrogolth Apprentices and 15 Quillhog Enchanters at Broken Bow Bluff</p>
+                            <p>11. Return to General Summer</p>
+                            <p>12. Kill 15 Pyrogolth Bandits and 15 Quillhog Maguses at Broken Bow Bluff</p>
+                            <p>13. Return to General Summer</p>
+                            <p>14. Kill 15 Shanlang Cutlasses, 15 Dustwraith Sentinels, and Charr the Growling west of Broken Bow Bluff</p>
+                            <p>15. Return to General Summer</p>
+                            <p>16. Talk to the Elder of Archosaur</p>
+                            <p>17. Talk to Fang the Scholar at Orchid Temple</p>
+                            <p>18. Kill 15 Ossein Merchants and 15 Skeleranc Artisans at the Tomb of Heroes</p>
+                            <p>19. Return to Fang the Scholar</p>
+                            <p>20. Kill Tauroc Slaves northeast of Orchid Temple for the Bloodjade Grail</p>
+                            <div class="sprite-harmony elves2"></div>
+                            <p>21. Return to Fang the Scholar</p>
+                            <p>22. Kill Adalwolf Archers in the Shining Tidewood for the Core Soulgem</p>
+                            <p>23. Return to Fang the Scholar</p>
+                            <p>24. Kill Dustwraither Archers north of the Tomb of Heroes for the Cyan Wand</p>
+                            <p>25. Return to Fang the Scholar</p>
+                            <p>26. Talk to the Elder of Archosaur</p>
+                            <p>27. Kill 2 Devilroot Dryads and 2 Adalwolf Sharpshooters in the Valley of the Hidden Orchid</p>
+                            <p>28. Talk to the Psychic Seer at the Silver Pool</p>
+                            <p>29. Kill Tauroc Sentinels southwest of the Great Lake for 15 Tauroc Pendants</p>
+                            <p>30. Return to the Psychic Seer</p>
+                            <p>31. Kill Torgirn Warriors east of the Stairway to Heaven for 15 Torgirn Pendants</p>
+                            <p>32. Return to the Psychic Seer</p>
+                            <p>33. Kill Florafang west of the Stairway to Heaven</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Aware of Harmony - Level 29</h3></div>
+                        <div class="gcontent"><div class="sprite-harmony elves3"></div>
+                            <p>34. Talk to Puhui the Taoist in Archosaur</p>
+                            <p>35. Kill Longlegged Toxicons southeast of the Great Lake for 6 Spider Stingers</p>
+                            <p>36. Return to Puhui the Taoist</p>
+                            <p>37. Kill Farng at the Tomb of Heroes</p>
+                            <p>38. Return to Puhui the Taoist</p>
+                            <p>39. Talk to the Psychic Seer at the Silver Pool</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.hidden-guide {
+	display:none;
+}
+ul.guide-menu {
+	display:block;
+	float:left;
+}
+ul.guide-menu li {
+	float:left;
+	padding:5px;
+	background:#254660;
+	margin:5px;
+}
+.selected  {
+	background:#152633;
+}
+.first-link {
+	display:block;
+}
+.sprite-adept  	{ background: url('../images/sprite-adept.jpg') no-repeat; }
+.sprite-adept.human		{ background-position: left top; height: 380px; width: 400px; float:left;}
+.sprite-adept.elves		{ background-position: right -20px; height: 360px; width: 400px; float:right;}
+.sprite-adept.untamed	{ background-position: left bottom; height: 380px; width: 400px; float:left;}
+
+.sprite-principle  	{ background: url('../images/sprite-principle.jpg') no-repeat; }
+.sprite-principle.human		{ background-position: left top; height: 380px; width: 410px; float:left;}
+.sprite-principle.elves		{ background-position: right -20px; height: 380px; width: 400px; float:right;}
+.sprite-principle.untamed	{ background-position: left bottom; height: 390px; width: 410px; float:left;}
+
+.sprite-harmony  	{ background: url('../images/sprite-harmony.jpg') no-repeat; }
+.sprite-harmony.human		{ background-position: left top; height: 380px; width: 380px; float:left;}
+.sprite-harmony.elves1		{ background-position: right top; height: 370px; width: 400px; float:right;}
+.sprite-harmony.elves2		{ background-position: left bottom; height: 384px; width: 400px; float:left;}
+.sprite-harmony.elves3		{ background-position: right bottom; height: 395px; width: 400px; float:right;}
+
+.sprite-discord  	{ background: url('../images/sprite-discord.jpg') no-repeat; }
+.sprite-discord.krixx		{ background-position: left top; height: 380px; width: 400px; float:left;}
+.sprite-discord.elder		{ background-position: right top; height: 400px; width: 400px; float:right;}
+	
+.sprite-coalescence  	{ background: url('../images/sprite-coalescence.jpg') no-repeat; }
+.sprite-coalescence.gouf		{ background-position: left top; height: 380px; width: 400px; float:left;}
+.sprite-coalescence.kashu		{ background-position: right top; height: 400px; width: 400px; float:right;}
+	
+.sprite-transcendant  	{ background: url('../images/sprite-transcendant.jpg') no-repeat; }
+.sprite-transcendant.elder		{ background-position: left top; height: 380px; width: 400px; float:left;}
+.sprite-transcendant.zimo		{ background-position: right top; height: 400px; width: 400px; float:right;}
+
+.sprite-enlightened  	{ background: url('../images/sprite-enlightened.jpg') no-repeat; }
+.sprite-enlightened.elder		{ background-position: left top; height: 380px; width: 400px; float:left;}
+.sprite-enlightened.noxious		{ background-position: right top; height: 400px; width: 400px; float:right;}
+.sprite-enlightened.hsuan		{ background-position: left bottom; height: 375px; width: 400px; float:left;}
+
+.sprite-vacuity  	{ background: url('../images/sprite-vacuity.jpg') no-repeat; }
+.sprite-vacuity.smythe		{ background-position: left top; height: 450px; width: 400px; float:right;}
+.sprite-vacuity.ruci		{ background-position: right top; height: 400px; width: 400px; float:left;}

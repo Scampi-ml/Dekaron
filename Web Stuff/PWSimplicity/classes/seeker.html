@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="../classes.html"></a>
+                    <a class="assassin" href="./assassin.html"></a>
+                    <a class="barbarian" href="./barbarian.html"></a>
+                    <a class="blademaster" href="./blademaster.html"></a>
+                    <a class="cleric" href="./cleric.html"></a>
+                    <a class="mystic" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker current" href="./seeker.html"></a>
+                    <a class="venomancer" href="./venomancer.html"></a>
+                    <a class="wizzard" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+							<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/seeker/jianling-seeker.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/seeker/jianling-seeker.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Seeker</h1>
+                        <p class="class-words">A dominant warrior who deftly manipulates a colossal blade; his sword skills are a sight to behold.</p>
+						<p>Seekers have a long, vicious history with Wraithkind, so much so that their abilities have been honed not for self-improvement, but out of necessity. The burden of their race's survival falls squarely on their broad shoulders, for these are the warriors who occupy the brutal front lines in battle. Though disciplined and methodical on the battlefield, a restless power-mongering nature often compels these earthen champions away from wherever they currently are, and into the world of the unknown.</p>
+                        <p><strong>Type:</strong></p>
+                        <p>Melee Physical Damage Dealer</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Swords</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-seeker">
+                            <div class="skilltree-bg">
+                                <div class="seeker-skilltree popupskill">
+									<!-- col 1 skills -->
+									<a class="r1c1"><div><h3>Northern Sky Waltz</h3><p>While active, each successful strike on the target has a chance to inflict the "Eye of Northern Sky" status effect.</p><p>If Staggering Strike is used on a target with the Eye of Northern Sky status, the target will receive extra damage, become immobilized, and have reduced Defense.</p></div></a>
+									<a class="r2c1"><div><h3>Bladed Fervor</h3><p>Focuses the spiritual energies of this world to enhance your fighting ability.</p></div></a>
+									<a class="r3c1"><div><h3>Parchedblade Dance</h3><p>While active, each successful strike on the target has a chance to inflict the "Bloodlet" status effect.</p><p>If Stalagstrike is used on a target with the Bloodlet status, the target will receive extra damage and become stunned. </p></div></a>
+									<a class="r4c1"><div><h3>Saber Rattle</h3><p>Rallies the spirits of the Earth.</p><p>Increases the Attack and Defense of yourself and any squad members within 15 meters.</p></div></a>
+									<a class="r5c1"><div><h3>Soulsever Minuet</h3><p>While active, each successful strike on the target has a chance to cause the "Spirit Bore" status effect.</p><p>If Gemini Slash is used on a target with the Spirit Bore status, that target will receive extra Metal damage and have its Attack and Defense reduced.</p></div></a>
+									<a class="r6c1"><div><h3>Krav Maga</h3><p>Channels the spiritual force of this world.</p><p>Increases the Defense of you and your teammates within 15 meters.</p></div></a>
+									<a class="r7c1"><div><h3>Blade and Sword Mastery</h3><p>Increases all blade and sword weapon damage.</p></div></a>
+									
+									<!-- col 2 skills -->
+									<a class="r3c2"><div><h3>Heart Shatter</h3><p>Casts a debuff on the target that lowers their Metal and Physical resistance.</p></div></a>
+									<a class="r5c2"><div><h3>Mind Shatter</h3><p>Casts a debuff on the target that lowers their Wood and Water resistance and increases the critical strike rate on Wood and Water skills.</p></div></a>
+									<a class="r7c2"><div><h3>Soul Shatter</h3><p>Casts a debuff on the target that lowers their Fire and Earth resistance and increase the critical strike rate and damage for Fire and Earth skills.</p></div></a>
+									
+									<!-- col 3 skills -->
+									<a class="r4c3"><div><h3>Ion Spike</h3><p>A sword strike that calls upon the powers of lightning.</p><p>Has a chance to reduce the target's Metal resistance.</p></div></a>
+									<a class="r5c3"><div><h3>Heartseeker</h3><p>An attack that goes straight for the heart!</p><p>Deals large amounts of Metal damage and has a chance to immobilize the target.</p></div></a>
+									<a class="r7c3"><div><h3>Edged Blur</h3><p>A continuous strike made possible by a burst of speed. Deals large amounts of Metal damage to targets around you.</p></div></a>
+									
+									<!-- col 4 skills -->
+									<a class="r1c4"><div><h3>Rock Splitting Cleave</h3><p>A sword slash capable of splitting the hardest of rocks. Deals large amounts of damage. </p></div></a>
+									<a class="r2c4"><div><h3>Staggering Strike</h3><p>A ranged sword strike that deals Physical damage to the target.</p><p>Use on a target with the "Eye of Northern Sky" status to deal additional damage, immobilize the target, and reduce the target's Defense.</p></div></a>
+									<a class="r3c4"><div><h3>Battousai</h3><p>A ranged blade strike that is so fast, it sends a wave of cutting winds towards the target.</p><p>Deals Metal damage to the target.</p></div></a>
+
+									<!-- col 5 skills -->
+									<a class="r4c5"><div><h3>Stalagstrike</h3><p>A whirling sword attack that rips the target to ribbons.</p><p>Deals large amounts of Physical damage to targets around you.</p><p>Can be used in tandem with Parchedblade Dance to deal additional damage and stun enemies.</p></div></a>
+									<a class="r5c5"><div><h3>Darkcloud Bolt</h3><p>Uses your sword like a lightning rod and calls down a powerful electric bolt.</p><p>Deals a large amount of area of effect damage.</p></div></a>
+									<a class="r6c5"><div><h3>Gemini Slash</h3><p>A ranged sword strike that is so fast, it makes it seem as if there are multiple attackers.</p><p>Can be used on a target with the Spirit Bore status to deal extra Metal damage and have its Attack and Defense reduced.</p></div></a>
+									<a class="r7c5"><div><h3>Yataghan Vortex</h3><p>Deals a large amount of Physical damage every 3 seconds to targets around you.</p><p>Spell channels until it is canceled or you run out of Chi.</p></div></a>
+
+									<!-- col 6 skills -->
+									<a class="r2c6"><div><h3>Unfetter</h3><p>Increases movement speed.</p></div></a>
+									<a class="r3c6"><div><h3>Blade Affinity</h3><p>Binds your soul to the spirit of your blade.</p><p>Temporarily reduces Channeling time.</p></div></a>
+									<a class="r4c6"><div><h3>Adrenal Numbness</h3><p>An adrenaline-induced trance that increases your Defense.</p></div></a>
+									<a class="r5c6"><div><h3>Voidstep</h3><p>Envelopes you in the spiritual energies that allow you to traverse the void for short distances.</p><p>Instantly warps you to your target, stunning them.</p></div></a>
+									<a class="r7c6"><div><h3>Quid Pro Quo</h3><p>Allows your soul to pass through the void to transfer debuffs onto your target.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-seeker-1.png"></li>
+                                <li><img src="../images/thumb-seeker-2.png"></li>
+                                <li><img src="../images/thumb-seeker-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

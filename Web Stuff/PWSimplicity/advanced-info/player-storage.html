@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css">
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage" href="./marriage.html"></a>
+                    <a class="mounts" href="./mounts.html"></a>
+                    <a class="pets" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage current" href="./player-storage.html"></a>
+                    <a class="pvp" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Player Storage</h1>
+                        <p class="big-words">You may store extra items you have at the bank. These banks can be accessed through the banker NPCs. When you speak to a banker, you will be able to perform several actions.</p>
+                        <p>Safe service - You can access your safety box and deposit/withdraw items and/or coins.</p>
+
+                        <p>Change safe code - You can change the code used to access your safety box here.</p>
+
+                        <p>Quest - The banker offers two quests which will allow you to increase your safety box and inventory size upon completion of the quests.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Player Bank Storage</h3></div>
+                        <div class="gcontent">
+                            <div class="player-storage npc left"></div>
+                            <p>This is the safety deposit box interface.</p>
+                            <p>1. Amount of stored coins. Click on the coin icon in your inventory to deposit coins. Click on the coin icon in the safety box to withdraw stored coins.</p>
+                            <p>2. Item slots. Drag and drop items to and from your inventory to the item slots in the safety box to deposit/withdraw items. The number of item slots available may increase on completion of the banker quests.</p>
+                            <p>3. Withdraw gold from your bank to your inventory.</p>
+                            <p>5. Coming Soon.</p>
+                            <p>6. Coming Soon.</p>
+                            <p>7. Coming Soon.</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Bank Extension</h3></div>
+                        <div class="gcontent">
+                            <p>First part of the quest will allow you to extend your current bank to 24 slots. It requires 5 of each the following:</p>
+                            <ul class="row-odd banking">
+                                <li>
+                                    <div class="sprite player-storage mysticalmeat"></div>
+                                    <p>Mystical Meat</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage disguiseskin"></div>
+                                    <p>Disguise Skin</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage elementaldust"></div>
+                                    <p>Elemental Dust</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage softfur"></div>
+                                    <p>Soft Fur</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage antenna"></div>
+                                    <p>Antenna</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage rhinohorn"></div>
+                                    <p>Rhino Horn</p>
+                                </li>
+                            </ul>
+                            <p>First part of the quest will allow you to extend your current bank to 32 slots. It requires 10 of each the following:</p>
+                            <ul class="row-odd banking">
+                                <li>
+                                    <div class="sprite player-storage mysticalclaw"></div>
+                                    <p>Mystical Claw</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage completesack"></div>
+                                    <p>Complete Sack</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage elementalfragment"></div>
+                                    <p>Elemental Fragment</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage honeyjuice"></div>
+                                    <p>Honey Juice</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage dewofherbs"></div>
+                                    <p>Dev of Herbs</p>
+                                </li>
+                                <li>
+                                    <div class="sprite player-storage dullclaw"></div>
+                                    <p>Dull Claw</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Boutique - Storage Extension</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div clas="row">
+                                    <div class="sprite player-storage inventoryextension"></div>
+                                    <b>Inventory Extension Stone</b>
+                                    <p>Take it the banker and he will extend your inventory's capacity.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div clas="row">
+                                    <div class="sprite player-storage safeextension"></div>
+                                    <b>Safe Extension Stone</b>
+                                    <p>Take it the banker and he will extend your safe's capacity.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div clas="row">
+                                    <div class="sprite player-storage inventoryextension"></div>
+                                    <b>Super Inventory Extension</b>
+                                    <p>Like a normal inventory stone... only SUPER! Use it at the Inventory Master to extend your safe to the maxmimum capacity of 64.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div clas="row">
+                                    <div class="sprite player-storage safeextension"></div>
+                                    <b>Super Safe Extension</b>
+                                    <p>Like a normal safe stone... only SUPER! Use it at the Inventory Master to extend your safe to the maxmimum capacity of 80.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

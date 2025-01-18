@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="../css/guide.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="../spiritual.html">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="adept" href="../spiritual.html"></a>
+                    <a class="principle" href="./principle.html"></a>
+                    <a class="harmony" href="./harmony.html"></a>
+                    <a class="discord" href="./discord.html"></a>
+                    <a class="coalescence" href="./coalescence.html"></a>
+                    <a class="transcendant" href="./transcendant.html"></a>
+                    <a class="enlightenedone current" href="./enlightenedone.html"></a>
+                    <a class="vacuity" href="./vacuity.html"></a>
+                    <a class="sage" href="./sage.html"></a>
+                    <a class="demon" href="./demon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Enlightened One</h1>
+						<div class="big-words"></div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Once you achieve Transcendant</h3></div>
+                        <div class="gcontent"><div class="sprite-enlightened elder"></div>
+                            <p>1. Talk to the Elder of Archosaur</p>
+                            <p>2. Kill the Quillhog King east of Tusk Town</p>
+                            <p>3. Return to the Elder of Archosaur</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Enlightened One - Level 65</h3></div>
+                        <div class="gcontent"><div class="sprite-enlightened noxious"></div>
+                            <p>4. Talk to Tough Man Tiehi in the Village of the Dreaming Cloud</p>
+                            <p>5. Investigate the Swamp of the Wraiths (546,399)</p>
+                            <p>6. Return to Tough Man Tiehi</p>
+                            <p>7. Talk to Elder Huo at Whetstone Keep</p>
+                            <p>8. Kill the Noxious Philistine southwest of Whetstone Keep</p>
+                            <p>9. Return to Elder Huo</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Enlightened One - Level 69</h3></div>
+                        <div class="gcontent"><div class="sprite-enlightened hsuan"></div>
+                            <p>10. Talk to Elder Huo at Whetstone Keep</p>
+                            <p>11. Talk to the Celestial Elder at the City of Buddha</p>
+                            <p>12. Kill Demon Hsuanling and Celestial One Chiuying at the Altar of Disbelief</p>
+                            <p>13. Return to the Celestial Elder</p>
+                            <p>14. Kill the Resentful Pyreostasis in the Wraithgate</p>
+                            <p>15. Search the Altar of Deicide in the Wraithgate</p>
+                            <p>16. Talk to the Celestial Elder at the City of Buddha</p>
+                            <p>17. Open the Mysterious Chest in the Forest of Haze (676,466)</p>
+                            <p>18. Talk to Hsu Hsiako in the Village of Hidden Orchid</p>
+                            <p>19. Talk to Hsu Hsiako's Wife north of the Walled Stronghold</p>
+                            <p>20. Return to Hsu Hsiako</p>
+                            <p>21. Return to the Celestial Elder</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

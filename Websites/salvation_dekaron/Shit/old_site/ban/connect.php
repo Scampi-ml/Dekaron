@@ -1,8 +1,8 @@
 <?php
     /*The connection page by Zombe.*/
     $MSSQLserverIP = '37.59.180.41'; // IP goes here
-    $MSSQLusername = 'SaBaker1893'; // MSSQL username goes here
-    $MSSQLpassword = 'ImPP8pL0h'; // MSSQL password goes here
+    $MSSQLusername = '0100000'; // MSSQL username goes here
+    $MSSQLpassword = '000000'; // MSSQL password goes here
 	
     $link = mssql_connect ("$MSSQLserverIP", "$MSSQLusername", "$MSSQLpassword");
     if(!$link)

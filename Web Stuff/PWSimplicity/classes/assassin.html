@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="../classes.html"></a>
+                    <a class="assassin current" href="./assassin.html"></a>
+                    <a class="barbarian" href="./barbarian.html"></a>
+                    <a class="blademaster" href="./blademaster.html"></a>
+                    <a class="cleric" href="./cleric.html"></a>
+                    <a class="mystic" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker" href="./seeker.html"></a>
+                    <a class="venomancer" href="./venomancer.html"></a>
+                    <a class="wizzard" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/assassin/wushi-assassin.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/assassin/wushi-assassin.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Asssassin</h1>
+                        <p class="class-words">Assassins are skillful melee combatants, though much faster than Blademasters or Barbarians.</p>
+                        <p>Daggers are their weapons of choice. In Critical Hit form, they can deal more damage than other classes in most circumstances. With their vital ability to stealth in addition to their damage, Assassins are a terrifying addition to any battlefield.</p>
+                        <p><strong>Type:</strong></p>
+                        <p>Melee Psychical Damage Dealer, Stealth</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Daggers</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-assassin">
+                            <div class="skilltree-bg">
+                                <div class="assassin-skilltree popupskill">
+                                    <!-- col 1 skills -->
+                                    <a class="r8c1"><div><h3>Subsea Strike</h3><p>An advanced assassin technique.</p><p>Deals Physical damage to all targets within 8 meters.</p><p>Causes an increasing damage effect.</p></div></a>
+                                    <a class="r9c1"><div><h3>Dagger Devotion</h3><p>Increases all damage with daggers.</p></div></a>
+                                    
+                                    <!-- col 2 skills -->
+                                    <a class="r1c2"><div><h3>Twin Strike</h3><p>A swift strike with both daggers.</p><p>Deals a great amount of Physical damage.</p></div></a>
+                                    <a class="r2c2"><div><h3>Slipstream Strike</h3><p>A superb assassin skill.</p><p>Deals a great amount of Physical damage to the target.</p></div></a>
+                                    <a class="r3c2"><div><h3>Raving Slash</h3><p>Deals Physical damage to the target and slows its movement speed.</p></div></a>
+                                    <a class="r4c2"><div><h3>Deep Sting</h3><p>A bloody assassin skill.</p><p>Deals a great amount of Physical damage and has a chance to put the target to sleep.</p></div></a>
+                                    <a class="r5c2"><div><h3>Rib Strike</h3><p>Deals Physical damage to the target, and reduces its attack speed.</p></div></a>
+                                    <a class="r6c2"><div><h3>Throatcut</h3><p>A swift throat cut. </p><p>Deals high damage and has a high chance to silence the target.</p></div></a>
+                                    <a class="r7c2"><div><h3>Earthen Rift</h3><p>Detonate the ground under the enemy.</p><p>Deals great Physical damage to all enemy units around you.</p></div></a>
+                                    <a class="r8c2"><div><h3>Headhunt</h3><p>A swift blow to the head.</p><p>Deals Physical damage and stuns the target.</p></div></a>
+                                    <a class="r9c2"><div><h3>Sharp Observer</h3><p>Increases your Awareness level.</p></div></a>
+                                    
+                                    <!-- col 3 skills -->
+                                    <a class="r5midc3"><div><h3>Shadow Escape</h3><p>Force yourself into stealth.</p><p>Dispel all negative status.</p><p>Enemies with an Awareness Level lower than your Stealth Level can not see you.</p><p>Increases own Chi.</p></div></a>
+                                    <a class="r8c3"><div><h3>Power Dash</h3><p>Dash into the enemy formation with a death determination.</p><p>Deals Physical damage and increases own Critstrike rate.</p></div></a>
+                                    <a class="r9c3"><div><h3>Cat-Like Tread</h3><p>Increases your Stealth level.</p></div></a>
+                                    
+                                    <!-- col 4 skills -->
+                                    <a class="r3c4"><div><h3>Shadow Walk</h3><p>The Assassins can hide themselves from enemies.</p><p>Enemies with an Awareness Level lower than your Stealth Level can't see you.</p><p>Only usable outside of combat.</p></div></a>
+                                    <a class="r4c4"><div><h3>Focused Mind</h3><p>Temporarily increases your chance to avoid enemy skills.</p></div></a>
+                                    <a class="r5midc4"><div><h3>Bloodpaint</h3><p>Allows friendly units within range to recover some HP each time they use a Physical attack.</p>This skill only works on Blademasters, Barbarians, and Assassins.<p></p></div></a>
+                                    <a class="r6c4"><div><h3>Deaden Nerves</h3><p>The secret technique of Tideborn Assassins.</p><p>Avoid one attack that would otherwise kill you.</p><p>Recovers some HP upon avoiding death.</p></div></a>
+                                    <a class="r8c4"><div><h3>Tidal Protection</h3><p>Temporarily increases your chance to avoid negative status effects.</p></div></a>
+                                    <a class="r9c4"><div><h3>Healing Trance</h3><p>Weaves an aura of healing around you, and heals you quickly.</p></div></a>
+
+                                    <!-- col 5 skills -->
+                                    <a class="r9midc5"><div><h3>Condensed Thorn</h3><p>Condenses cold water into a thorn of frost. Fortifies yourself while hurting the enemy.</p></div></a>
+
+                                    <!-- col 6 skills -->
+                                    <a class="r1c6"><div><h3>Puncture Wound</h3><p>Deals a great amount of damage and causes a bleed effect.</p></div></a>
+                                    <a class="r3c6"><div><h3>Wolf Emblem</h3><p>Temporarily increases your critical strike damage.</p></div></a>
+                                    <a class="r4c6"><div><h3>Knife Throw</h3><p>Throw your daggers toward the target.</p><p>Deals a great amount of damage and has a chance to interrupt channeling.</p></div></a>
+                                    <a class="r5c6"><div><h3>Tackling Slash</h3><p>A tackling skill for Assassins.</p><p>Deals Physical damage and immobilizes the target.</p><p>Increases own Chi.</p></div></a>
+                                    <a class="r6c6"><div><h3>Chill of the Deep</h3><p>Focus on the chill of the ocean depths.</p><p>Reduces attack speed but increases attack level.</p></div></a>
+                                    <a class="r7c6"><div><h3>Rising Dragon Strike</h3><p>An advanced Assassin technique.</p><p>Deals a great amount of damage to the target, and increases your Chi.</p><p>Perfect accuracy.</p></div></a>
+                                    <a class="r8c6"><div><h3>Inner Harmony</h3><p>Greatly increases your own Chi.</p></div></a>
+                                    <a class="r9midc6"><div><h3>Spell Cutter</h3><p>Interrupts enemy channeling with a flashing attack.</p></div></a>
+
+                                    <!-- col 7 skills -->
+                                    <a class="r1c7"><div><h3>Tide Form</h3><p>Transform into a fish.</p><p>Increases Defense Level and Swimming Speed.</p><p>Only available in water.</p></div></a>
+                                    <a class="r3c7"><div><h3>Windpush</h3><p>Increases own movement speed.</p></div></a>
+                                    <a class="r5c7"><div><h3>Shadow Jump</h3><p>Instantly move to the target's location.</p></div></a>
+                                    <a class="r6c7"><div><h3>Maze Steps</h3><p>A special movement of Tideborn Assassins.</p><p>Increase movement speed, and become immune to stuns and immobilization.</p></div></a>
+                                    <a class="r8c7"><div><h3>Shadow Teleport</h3><p>The Assassin can focus on the ground and swiftly dash to the target.</p><p>Instantly move to the target's location, and Stun the target.</p></div></a>
+                                    <a class="r9c7"><div><h3>Blood Frenzy</h3><p>When an Assassin is in a critical situation, they can rampage and enter this Blood Frenzy status.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-assassin-1.png"></li>
+                                <li><img src="../images/thumb-assassin-2.png"></li>
+                                <li><img src="../images/thumb-assassin-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

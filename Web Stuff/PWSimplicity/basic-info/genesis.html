@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="Stylesheet" href="../css/bjqs.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../js/bjqs-1.3.min.js"></script>
+    <script>
+        // Javascript originally by Patrick Griffiths and Dan Webb.
+        // http://htmldog.com/articles/suckerfish/dropdowns/
+        sfHover = function() {
+        var sfEls = document.getElementById("menu").getElementsByTagName("li");
+        for (var i=0; i<sfEls.length; i++) {
+           sfEls[i].onmouseover=function() {
+              this.className+=" hover";
+           }
+           sfEls[i].onmouseout=function() {
+              this.className=this.className.replace(new RegExp(" hover\\b"), "");
+           }
+        }
+        }
+        if (window.attachEvent) window.attachEvent("onload", sfHover);
+    </script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="pwi" href="../game-info.html"></a>
+                    <a class="lost-empire" href="./lost-empire.html"></a>
+                    <a class="age-of-spirits" href="./ageofspirits.html"></a>
+                    <a class="rising-tide" href="./rising-tide.html"></a>
+                    <a class="genesis current" href="./genesis.html"></a>
+                    <!--<a class="descent" href="#"></a> #Disabled , because Private Servers has not yet reached this far-->
+                    <!--<a class="sirens-of-war" href="#"></a> #Disabled , because Private Servers has not yet reached this far-->
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1>Gensis</h1>
+                        <p class="big-words">An ancient Pan'Gu prophecy has foretold the destruction of Perfect World. There will be a time where the beautiful world would cease to exist as we know it today.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Post Apocalyptic World</h3></div>
+                        <div class="gcontent"><img class="imgleft" src="../images/pw-apocalypse.png" width="300" height="228"><p>The land of Perfect World will suffer destruction the likes of which none of the races have ever seen. The world will be torn apart, leaving massive crevasses across the land. The oceans will rage with turmoil and the tides will swallow everything in their path. All of the races of the world are in chaos as they do not understand what is happening with their beautiful world.</p><p>The time of the prophecy, has come.</p><p>Within the depths of the underground, an ancient race of people with arcane powers and innate psychic abilities has foreseen the coming of this post-apocalyptic world. In knowing the future, they have dedicated their lives to prepare for such a day. The day has now come for them to rise up from the underground and join the other races of Perfect World, and warn them of the coming disaster.</p></div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>New Challenges</h3></div>
+                        <div class="gcontent"><img class="imgright" src="../images/pw-new-world.png" width="300" height="225"><p>Players will be able to participate in helping to restore the world back to its Perfect state. What changes has the destruction brought upon our Perfect World? What new challenges await you? Prepare yourself, for Genesis!</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

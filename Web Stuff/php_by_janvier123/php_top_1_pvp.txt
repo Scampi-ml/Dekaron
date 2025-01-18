@@ -1,0 +1,18 @@
+<?php
+//--------------------------------------
+//      Written by Janvier123
+//      Made for DK servers
+//--------------------------------------
+
+	$msconnect = mssql_connect("localhost","sa","pass");
+	$msdb = mssql_select_db("character", $msconnect);
+	$plist = "SELECT TOP 1 character_name, dwPVPpoint FROM [user_character] WHERE dwPVPpoint > '0'order by dwPVPpoint desc";
+	$pplist = mssql_query($plist);
+
+	while($list = mssql_fetch_array($pplist)){
+	if($list[''] == "0"){
+	$char = "";
+	}
+	echo $list['character_name'];
+	}
+?>

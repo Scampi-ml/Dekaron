@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="../classes.html"></a>
+                    <a class="assassin" href="./assassin.html"></a>
+                    <a class="barbarian" href="./barbarian.html"></a>
+                    <a class="blademaster current" href="./blademaster.html"></a>
+                    <a class="cleric" href="./cleric.html"></a>
+                    <a class="mystic" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker" href="./seeker.html"></a>
+                    <a class="venomancer" href="./venomancer.html"></a>
+                    <a class="wizzard" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/blademaster/wuxia-blademaster.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/blademaster/wuxia-blademaster.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Blademaster</h1>
+                        <p class="class-words">Specializing in melee combat, these damage-dealers come from a long line of seasoned warriors. They are also famous for being a strong solo class after level 60. Finally, Blademasters are the kings of status effects, specifically in terms of stuns.</p>
+                        <p>They are also famous for being a strong solo class after level 60. Finally, Blademasters are the kings of status effects, specifically in terms of stuns. There are two primary stat builds that players use with Blademasters: Heavy strength build in order to wear heavy armor, or a mix between strength and dexterity while wearing light armor which has a better mix of magical and physical defense.</p>
+                        <p><strong>Type:</strong></p>
+                        <p>Tank, Melee Psychical Damage Dealer</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Dual Swords, Dual Blades, Blades, Swords, Scythes, Spears, Clubs, Poleaxes, Sledgehammers, Dual Hand Axe, Dual Hammers, Fist Weapons</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-blademaster">
+                            <div class="skilltree-bg">
+                                <div class="blademaster-skilltree popupskill">
+                                    <!-- col 1 skills -->
+                                    <a class="r5c1"><div><h3>Mage Bane</h3><p>A ray of brilliance wounds the enemy and inflicts Physical damage, slowing the target's spell casting speed for a short time.</p></div></a>
+                                    <a class="r6c1"><div><h3>Spirit Chaser</h3><p>Summon shadow blades to rapidly strike at the enemy.</p><p>Inflicts Physical damage.</p></div></a>
+                                    <a class="r7c1"><div><h3>Atmos Strike</h3><p>A strike of incredible force. Able to knock the target back.</p></div></a>
+                                    <a class="r8c1"><div><h3>Myriad Sword Stance</h3><p>Gather one's vigor into an immense sword that strikes down the enemy. Target and surrounding enemies suffer Physical damage and have their Physical and magical attack damage reduced.</p></div></a>
+                                    <a class="r9c1"><div><h3>Blade and Sword Mastery</h3><p>Increases all blade and sword weapon damage.</p></div></a>
+                                    
+                                    <!-- col 2 skills -->
+                                    <a class="r1c2"><div><h3>Tiger Maw</h3><p>A single focused strike that causes the enemy to suffer greater Physical damage.</p></div></a>
+                                    <a class="r2c2"><div><h3>Draw Blood</h3><p>Attack the enemy and cause it to bleed.</p></div></a>
+                                    <a class="r3c2"><div><h3>Stream Strike</h3><p>A violent strike that deals Physical damage to the enemy and causes greater threat.</p></div></a>
+                                    <a class="r4c2"><div><h3>Aeolian Blade</h3><p>Leap up and slam the enemy. Inflict basic Physical damage and has a chance to stun the target for 3 seconds.</p></div></a>
+                                    <a class="r5c2"><div><h3>Piercing Winds</h3><p>Inflicts Physical damage on all the enemies in a straight line and cause them to bleed.</p></div></a>
+                                    <a class="r6c2"><div><h3>Farstrike</h3><p>Use one's weapon to stab a far away enemy causing them to suffer basic Physical damage.</p></div></a>
+                                    <a class="r7c2"><div><h3>Meteor Rush</h3><p>Emit a lucent beam causing all enemies in a straight line to suffer Physical damage and be knocked back a distance.</p></div></a>
+                                    <a class="r8c2"><div><h3>Glacial Spike</h3><p>All the surrounding enemies suffer Physical damage and have their Physical Defense and Magic Defense reduced.</p></div></a>
+                                    <a class="r9c2"><div><h3>Polearm Mastery</h3><p>Increase all polearm weapon (poleblade, pike, and club) damage.</p></div></a>
+
+                                    <!-- col 3 skills -->
+                                    <a class="r4c3"><div><h3>Tiger Leap</h3><p>Instantly leap forward.</p></div></a>
+                                    <a class="r5c3"><div><h3>Drake Bash</h3><p>Brandish your weapon menacingly to smash the opponent, inflicts basic Physical damage, stuns target.</p></div></a>
+                                    <a class="r6c3"><div><h3>Highland Cleave</h3><p>Wields the force of the mountain to inflict Physical damage to all the enemies in range.</p></div></a>
+                                    <a class="r7c3"><div><h3>Fissure</h3><p>Focus full strength and stomp the ground. All enemies in the area of effect suffer Physical damage and are slowed.</p></div></a>
+                                    <a class="r8c3"><div><h3>Heaven's Flame</h3><p>Leap onto the opponent using your mana to summon a blazing fire dragon. All enemies within the the targeted area suffer Physical damage and for a short duration thereafter all damage is amplified.</p></div></a>
+                                    <a class="r9c3"><div><h3>Axe and Hammer Mastery</h3><p>Increases all axe and mace weapon damage.</p></div></a>
+                                    
+                                    <!-- col 4 skills -->
+                                    <a class="r2c4"><div><h3>Aura of the Golden Bell</h3><p>With a tremendous roar, all the party members in range gain extra Physical Defense.</p></div></a>
+                                    <a class="r3c4"><div><h3>Roar of the Pride</h3><p>A raging roar stuns all enemies in range.</p></div></a>
+                                    <a class="r4c4"><div><h3>Leap Back</h3><p>Instantly perform a backwards leap out of harm's way.</p></div></a>
+                                    <a class="r5c4"><div><h3>Vacuous Palm</h3><p>Using ancient techniques hit the enemy in pressure points to reduce their movement speed.</p></div></a>
+                                    <a class="r6c4"><div><h3>Shadowless Kick</h3><p>With a lightning-fast kick, you deal Physical damage to your target and interrupt their current spellcast.</p></div></a>
+                                    <a class="r7c4"><div><h3>Cyclone Heel</h3><p>Leap from the ground and perform a sweeping kick, inflicting Physical damage to every enemy in range.</p></div></a>
+                                    <a class="r8c4"><div><h3>Drake's Breath Bash</h3><p>Concentrate all vigor in both fists and release. Enemies in front of you suffer Physical damage and adds Fire damage to attack.</p></div></a>
+                                    <a class="r9c4"><div><h3>Fist Weapon Mastery</h3><p>Increase all fist weapon attack damage.</p></div></a>
+
+                                    <!-- col 5 skills -->
+                                    <a class="r2c5"><div><h3>Drake's Ray</h3><p>A swift psionic blade is cast up into the air to attack a far off enemy, inflicting Physical damage.</p></div></a>
+                                    <a class="r3c5"><div><h3>Ocean's Edge</h3><p>Slash the opponent with your mana filled weapon inflicting Physical damage. Has a chance to decrease target's speed.</p></div></a>
+                                    <a class="r5c5"><div><h3>Fan of Flames</h3><p>Bash opponents with the force of an enraged dragon inflicting Physical damage to all enemies in a fanlike spray.</p></div></a>
+                                    <a class="r7c5"><div><h3>Drake Sweep</h3><p>Uses all of one's strength for a sideswiping cleave. Inflicts Physical damage to the enemies in radius.</p></div></a>
+                                    <a class="r8c5"><div><h3>Smack</h3><p>Deals base Physical damage to a single target in a range of 18 meters and temporarily seals it.</p></div></a>
+                                    <a class="r9c5"><div><h3>Flash</h3><p>Deals great damage to targets. Damage dealt increases depending on how badly the caster is wounded.</p></div></a>
+
+                                    <!-- col 6 skills -->
+                                    <a class="r2c6"><div><h3>Alter Marrow Magical</h3><p>Increase one's Magic Defense at the cost of a reduction to Physical Defense.</p></div></a>
+                                    <a class="r4c6"><div><h3>Alter Marrow Physical</h3><p>Increase one's Physical Defense at the cost of a reduction to Magical Defense.</p></div></a>
+                                    <a class="r5c6"><div><h3>Diamond Sutra</h3><p>Uses ancient knowledge to heal oneself.</p></div></a>
+                                    <a class="r6c6"><div><h3>Buddha's Guard</h3><p>Summons the power of Sutra to protect the squad against Physical damage and heal the caster.</p></div></a>
+                                    <a class="r9c6"><div><h3>Bolt of Tyreseus</h3><p>Deals awesome damage to all enemies in range and reduces their movement speed and attack rate.</p><p>Freezes targets and the caster.</p></div></a>
+
+                                    <!-- col 7 skills -->
+                                    <a class="r2c7"><div><h3>Cloud Sprint</h3><p>Drastically increases movement speed for several seconds.</p></div></a>
+                                    <a class="r8c7"><div><h3>Will of the Bodhisattva</h3><p>Focus vigor underfoot to move as graceful as a dragon in flight.</p><p>Greatly increases movement speed, and prevents movement impairing effects such as stun or paralyze.</p></div></a>
+                                    <a class="r9c7"><div><h3>Dragon Bane</h3><p>A temporary burst of massive energy. Reduces attack power to increase critical hit rate.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-blademaster-1.png"></li>
+                                <li><img src="../images/thumb-blademaster-2.png"></li>
+                                <li><img src="../images/thumb-blademaster-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

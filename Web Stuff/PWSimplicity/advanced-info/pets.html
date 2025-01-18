@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css">
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage" href="./marriage.html"></a>
+                    <a class="mounts" href="./mounts.html"></a>
+                    <a class="pets current" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage" href="./player-storage.html"></a>
+                    <a class="pvp" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Pets</h1>
+                        <p class="big-words">Pets can range from decorative pets, to mounts, to combat pets. You can access the Pet Menu by pressing Alt+P.</p>
+                        <p>Pet managers are scattered around the world in various cities. They serve a variety of functions such as hatching pet eggs, renaming pets, and even learning new pet skills.</p>
+
+                        <p>The following is a list of Pet manager functions and what each does:</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Pet Skills Window</h3></div>
+                        <div class="gcontent">
+                            <p>Hatch Pet Egg: Hatch a Pet or Mount into a usable form.</p>
+
+                            <p>Restore Pet/Revert Pet: After a pet is hatched and you no longer wish to have it you can revert the pet back to an egg.</p>
+
+                            <p>Rename Pet: Gives the user the ability to rename their pets.</p>
+
+                            <p>Forget Pets Skills: Every pet has a limited number of active skills it can have at any given time. If you wish to change around those skills simply click it select it here and your pet will unlearn that skill leaving a slot open. Before learning or forgetting skills, you must summon your pet.</p>
+
+                            <p>About Pet: Knowledge Base for pet related information</p>
+
+                            <p>Tame Pet: Learn Skills related to pet management</p>
+
+                            <p>Learn Pet Skills: Every unique pet in the game has its own set of skills. In this menu, you can teach your pet new skills. The pet you wish to learn skills for must be summoned.</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Pet Bag - Extension Quest</h3></div>
+                        <div class="gcontent">
+                            <p>To start the quest talk to any Pet Skill Trainer/Pet Manager around the world.</p>
+
+                            <p>They will ask you to gather the following:</p>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite hay"></div>
+                                    <b>Hay</b>
+                                    <p>Quest to expand current pet bag space to 2. Must turn in 20 Hay in order to complete quest.
+                                    Note: Hay can be found by killing Highlands Tortoises in the river east of Broken Bridge Village, Antelope Pups near the Silver Pool, Megalith Rhinodrake south west of Archosaur, and other select mobs around the world.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite fruit"></div>
+                                    <b>Fruit</b>
+                                    <p>Quest to expand current pet bag space to 3. Must turn in 50 Fruit in order to complete quest.
+                                    Note: Can be found from flying mobs such as Cloudmedling Vipion in the skies southwest of Etherblade, Native Vipion near Heaven's Tear, Seaview Chisler in the Shattered Jade Shore, and other select mobs around the world.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite fungus"></div>
+                                    <b>Fungus</b>
+                                    <p>Quest to expand current pet bag space to 4. Must turn in 100 Funguses in order to complete quest.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite wildginseng"></div>
+                                    <b>Wild Ginseng</b>
+                                    <p>Quest to expand current pet bag space to 5. Must turn in 150 Wild Ginsengs in order to complete quest.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite cage"></div>
+                                    <b>Cage</b>
+                                    <p>Quest to expand current bag space by 1.
+                                    Available from either a player or the boutique. Cannot be found anywhere else in the game.</p>
+                                </div>
+                            </div>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Boutique - Pet Items</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite arcanebook"></div>
+                                    <b>Arcane Book:Pets</b>
+                                    <p>Equip this book and your pet will never go hungry. Note: 7day duration.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite battlepack"></div>
+                                    <b>Battle Pet Pack</b>
+                                    <p>Contains 10 to 50 Phoenix Feathers or Source of Force. Used to create the Blazing Phoenix of Hercules Battle Pets. Take these to Mrs. Zoologist in Archosaur.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite cage"></div>
+                                    <b>Cage</b>
+                                    <p>Take it the pet trainer and she will extend your pet bag.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite phoenixfeather"></div>
+                                    <b>Phoenix Feathers</b>
+                                    <p>Item can be only be obtained through the Battle Pet Pack.
+                                    Require 9,999 of this item to purchase a Blazing Phoenix from Mrs. Zoologist in Archosaur.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite sourceofforce"></div>
+                                    <b>Source of Force</b>
+                                    <p>Item can be only be obtained through the Battle Pet Pack.
+                                    Require 9,999 of this item to purchase a Hercules from Mrs. Zoologist in Archosaur.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite cage"></div>
+                                    <b>Super Cage</b>
+                                    <p>Like a normal cage... only SUPER! Use it at the Inventory Master to extend your safe to the maxmimum capacity of 10.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Boutique - Pet Items</h3></div>
+                        <div class="gcontent">
+                            <p>You can purchase the following item at Mrs. Zoologist <strong>(586 620)</strong> located in South Archosaur.</p>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite petcollar"></div>
+                                    <b>Pet Collar</b>
+                                    <p>Name your pet with this collar.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite forgetscroll"></div>
+                                    <b>Forget Scroll</b>
+                                    <p>Make a Pet forget a skill it has already mastered.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite tamebook"></div>
+                                    <b>Tame Book</b>
+                                    <p>Upgrade one pet skill by one level.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Rare Pets</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite frogling"></div>
+                                    <b>Frogling</b>
+                                    <p>Contains the skill: Toxic Mist (Lv1), Shriek (Lv1), Boost (Lv1)</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite snowhare"></div>
+                                    <b>Snow Hare</b>
+                                    <p>Contains the skill: Sandblow (Lv1), Pierce (Lv1), Shriek (Lv1), Boost (Lv1)</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite shaoducub"></div>
+                                    <b>Shaodu Cub</b>
+                                    <p>Contains the skill: Flesh Ream (Lv1), Pierce (Lv1), Pounce (Lv1), Tough (Lv1)</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite tabbyplumdrop"></div>
+                                    <b>Tabby Plumdrop</b>
+                                    <p>Contains the skill: Flesh Ream (Lv1), Howl (Lv1), Pierce (Lv1), Slow (Lv1)</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite windwalkingpig"></div>
+                                    <b>Windwalking Pig</b>
+                                    <p>Contains the skill: Bash (Lv1), Howl (Lv1), Tough (Lv2), Boost (Lv1)</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite cuddlypup"></div>
+                                    <b>Cuddly Pup</b>
+                                    <p>Contains the skill: Bash (Lv1), Flesh Ream (Lv2), Threaten (Lv1), Slow (Lv2)</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite kowlin"></div>
+                                    <b>Kowlin</b>
+                                    <p>Contains the skill: Bash (Lv1), Flesh Ream (Lv4), Pierce (Lv2), Howl (Lv1)</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite armoredbear"></div>
+                                    <b>Armored Bear</b>
+                                    <p>Contains the skill: Bash (Lv1), Threaten (Lv2), Pounce (Lv2), Toughen (Lv5)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Baby Pets</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite shaoducub"></div>
+                                    <b>Baby Bear</b>
+                                    <p>Requires: [2x] Shaodu Cub Pet Egg, [2x] Armored Bear Pet Egg, 100,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite windwalkingpig"></div>
+                                    <b>Baby Windwalking Piggy</b>
+                                    <p>Requires: [5x] Windwalking Piggy Pet Egg, 100,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite snowhare"></div>
+                                    <b>Baby Snow Hare</b>
+                                    <p>Requires: [5x] Snow Hare Pet Egg, 100,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite frogling"></div>
+                                    <b>Baby Froggy Pet</b>
+                                    <p>Requires: [8x] Treefrog Pet Egg, 100,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite cuddlypup"></div>
+                                    <b>Baby Cuddly Puppy</b>
+                                    <p>Requires: [5x] Cuddly Pup Pet Egg, 100,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite tabbyplumdrop"></div>
+                                    <b>Baby Tabby Plumdrop</b>
+                                    <p>Requires: [5x] Tabby Plumdrop Pet Egg, 100,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite babyantelope"></div>
+                                    <b>Baby Antelope</b>
+                                    <p>Requires: [3x] Antelope Pup Pet Egg, [2x] Frost Antelope Pup Pet Egg, [1x] Proud Antelope Pet Egg, [1x] Soulchaser Antelope Pet Egg, 1x Antelope Sage Pet Egg, 200,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite babybutterfly"></div>
+                                    <b>Baby Butterfly Fairy</b>
+                                    <p>Requires: [10x] Mothran Dazzlewing Pet Egg, 200,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite babyhuggyhare"></div>
+                                    <b>Baby Huggy Hare</b>
+                                    <p>Requires: [10x] Huggy Hare Pet Egg, 200,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite babyfoxwing"></div>
+                                    <b>Baby Foxwing</b>
+                                    <p>Requires: [3x] Snatchfoot Foxwing Pet Egg, [3x] Foxwing of the Void Pet Egg, [3x] Foxwing Supreme Pet Egg, 200,000 coins.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pet-sprite babyfirefairy"></div>
+                                    <b>Baby Fire Fairy</b>
+                                    <p>Requires: [10x] Infernal Eidolon Pet Egg, 200,000 coins</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pet-sprite babyelysiumfowl"></div>
+                                    <b>Baby Elysium Fowl</b>
+                                    <p>Requires: [10x] Elysium Fowl Pet Egg, 200,000 coins</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

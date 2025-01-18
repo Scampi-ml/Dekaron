@@ -1,0 +1,101 @@
+body { 
+background-image: url('../pages/images/bg.jpg');
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+color: #000000;
+line-height: 120%; 
+text-decoration: none  
+}
+
+
+
+td { 
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+color: #5A5A5A;
+}
+
+img { 
+border: 0;
+padding: 0px;
+margin: 0px;
+}
+
+table.main {
+background-image: url('../pages/images/bg_main.jpg');
+background-repeat: repeat-y;
+padding: 0px;
+width: 785px;
+}
+
+table.toptable {
+background-image: url('../pages/images/topnav_bg.jpg');
+background-repeat: repeat-x;
+padding: 0px;
+width: 785px;
+height: 27px;
+}
+
+table.content {
+background-image: url('../pages/images/bg_content.jpg');
+width: 445px;
+border: 1px solid #000000;
+}
+
+a:link ,a:visited{
+color: #5A5A5A; 
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+text-decoration: underline;
+}
+a:hover {
+text-decoration: none;  
+font-family:arial, helvetica, sans-serif;  
+font-size: 11px;
+color: #0394CA;
+text-decoration: none;
+}
+a.menu:link ,a.menu:visited{
+color: #5A5A5A; 
+font-family: arial, helvetica, sans-serif;  
+font-size: 11px; 
+text-decoration: none;
+}
+a.menu:hover {
+text-decoration: none;  
+font-family:arial, helvetica, sans-serif;  
+font-size: 11px;
+color: #0394CA;
+text-decoration: none;
+}
+
+input, select, textarea {
+	background-color: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;  
+	font-size: 11px; 
+	color: #5A5A5A;
+	border: 1px solid #BEBEBE;
+}
+textarea.opera {
+	background-color: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;  
+	font-size: 11px; 
+	color: #5A5A5A;
+	border: 1px solid #BEBEBE;
+}
+#login {
+	POSITION: relative; MARGIN: 15% auto 0px; WIDTH: 389px; BACKGROUND: url(/forums/admin/skin_cp/_newimages/acp_login.png) no-repeat; HEIGHT: 274px
+}
+#login_controls {
+	POSITION: absolute; MARGIN: 0px auto; WIDTH: 100%; FONT-SIZE: 16px; TOP: 130px
+}
+}
+#login_submit INPUT {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+#login_controls LABEL {
+	TEXT-ALIGN: right; WIDTH: 35%; PADDING-RIGHT: 15px; DISPLAY: block; MARGIN-BOTTOM: 12px; FLOAT: left; COLOR: #fff; CLEAR: both
+}
+.innertab {
+	border-style:hidden;
+}

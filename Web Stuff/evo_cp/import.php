@@ -7,12 +7,11 @@ if (!defined('imported'))
 	define('imported',1);
 	echo "<font color=white>";
 	echo "<body bgcolor='#101010'>";
-	$mssql = array('host' => "127.0.0.1",'user' => "sa",'pass' => "password");
+	$mssql = array('host' => "localhost",'user' => "sa",'pass' => "uber");
 	$con = mssql_connect($mssql['host'],$mssql['user'],$mssql['pass']);
 	function createsessions($username,$password)
 	{
 		//Add additional member to Session array as per requirement
-		session_register();
 		$_SESSION["gdusername"] = $username;
 		$_SESSION["gdpassword"] = $password;		
 		if(isset($_POST['remme']))

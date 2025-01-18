@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<nav_master>
+
+  <nav_cat title="Account Management" group="1">
+  	<nav_option link="index.php?get=module_search_account" group="1">Search Account</nav_option>
+  	<nav_option link="index.php?get=module_online_accounts" group="1">Online Accounts</nav_option>
+  	<nav_option link="index.php?get=module_banned_accounts" group="1">Banned Accounts</nav_option>
+	<nav_option link="index.php?get=module_account_logins" group="1">Account Login</nav_option>
+	<nav_option link="index.php?get=module_account_logouts" group="1">Account Logout</nav_option>
+  </nav_cat>
+  
+  <nav_cat title="Character Management" group="2">
+  	<nav_option link="index.php?get=module_search_character" group="2">Search Character</nav_option>
+	<nav_option link="index.php?get=module_deleted_characters" group="2">Deleted Characters</nav_option>
+  </nav_cat>
+  
+  <nav_cat title="Guild Management" group="3">
+  	<nav_option link="index.php?get=module_search_guild" group="3">Search Guild</nav_option>
+  </nav_cat>
+
+  <nav_cat title="Coins Management" group="4">
+  	<nav_option link="index.php?get=module_coins_log" group="4">Coins Log</nav_option>
+  </nav_cat>
+
+  <nav_cat title="Statistics / Info" group="5">
+  	<nav_option link="index.php?get=module_game_stats" group="5">Game Statistics</nav_option>
+	<nav_option link="index.php?get=module_today" group="5">Today Statistics</nav_option>
+	<nav_option link="index.php?get=module_server_info" group="5">Server Info</nav_option>
+	<nav_option link="index.php?get=module_databaseinfo" group="5">Database Info</nav_option>	
+	<nav_option link="index.php?get=module_game_server_status" group="5">Game Server Status</nav_option>	
+  </nav_cat>
+  
+  <nav_cat title="Settings Management" group="8">
+  	<nav_option link="index.php?get=module_settings" group="8">Settings</nav_option>
+  </nav_cat>
+  
+  <nav_cat title="Admin Management" group="10">
+  	<nav_option link="index.php?get=module_admins" group="10">Admins</nav_option>
+	<nav_option link="index.php?get=module_mssql_jobs" group="10">MsSQL Jobs</nav_option>
+	<nav_option link="index.php?get=module_ip_ban" group="10">Ip ban</nav_option>
+	<nav_option link="index.php?get=module_edit_versionini" group="10">version.ini</nav_option>
+	<nav_option link="index.php?get=module_edit_formulaini" group="10">formula.ini</nav_option>
+  </nav_cat>
+  
+</nav_master>

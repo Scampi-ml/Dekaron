@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css" />
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie current" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage" href="./marriage.html"></a>
+                    <a class="mounts" href="./mounts.html"></a>
+                    <a class="pets" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage" href="./player-storage.html"></a>
+                    <a class="pvp" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Genie</h1>
+                        <p class="big-words">Before the worlds were created, the universe was in chaos, there were no elements, no creatures, no feeling and no thought. As billions of years passed, things began to evolve.</p>
+						<p>After the creation of Perfect World, creatures with intelligence appeared. At the same time, the five elements, developed thoughts and wills of their own, and finally evolved into a mystic beings known as Genies.</p>
+						<p>Genies are the children of the five elements. They know how to use elemental skills innately and have a basic instinct to maintain the balance between all of the worlds. Genies mainly live in the Elemental World, seldom of them can be seen in Perfect World. However, things are changing.</p>
+						<p>In the endless war between the denizens of Perfect World and the Wraiths, the balance of the world has been tipped. The Gods have been absent, Wraiths have been endlessly attacking, and the armies of the Underworld have been rising. The Genies have risen to save Perfect World and begin the return to balance.</p>
+						<p>Genies are skilled with the elements, and wield mighty power in Elemental World. However, once in Perfect World, their ability to control elements will be diminished. In order to improve Genie's ability, you will need to upgrade them by infusing your EXP or letting them eat EXP Pill.</p>
+						<p>Notice: All the concept and proper names are just temporarily given.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>How can I get a genie?</h3></div>
+                        <div class="gcontent"><p>Players can attain Genies through the following methods:</p>
+						<ol>
+							<li>Via Quest from the Watcher of the Earth. Location near the Elder of every major city.</li>
+							<li>Via Production with the Watcher of the Earth.</li>
+							<li>Via Trade from other players.</li>
+						</ol>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>How do I level my Genie</h3></div>
+                        <div class="gcontent"><img class="imgright" src="../images/genieinfo.png" width="307" height="436"><p>In order to get the most out of your Genie, you'll need to level it up. Naturally, Genies require EXP to level up.</p>
+						<p>The amount of EXP required to level up a genie is a fraction of the EXP required for players to level up. There are two primary methods for providing Genies with EXP:</p>
+						<ol>
+							<li>Infusing your own EXP/Spirit into the Genie.</li>
+							<li>EXP Cubes, which are primarily attained via quests.</li>
+						</ol>
+						<p>The maximum level a Genie can attain is currently 105.</p>
+						<img src="../images/fusegenie.jpg" width="305" height="267">
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>How to Infuse EXP Pill's Exp into a Genie</h3></div>
+                        <div class="gcontent"><p>EXP Infusion Restrictions:</p>
+						<p>When Genie reaches LV100, it will not lose EXP during EXP infusion.</p>
+						<p>When using EXP Cubes to upgrade a Genie, you can choose how much EXP you want to infuse.</p>
+						<p>Note: Simply right click on your Genie Avatar to access this menu.</p>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Genie Attributes</h3></div>
+                        <div class="gcontent">
+						<img class="imgleft" src="../images/genieattributes.png" width="258" height="118">
+						<p>Genie's have several attributes that affect the skills they use. Right click on Genie icon to open the Attribute Interface.</p>
+						<p>Lucky Points: For every 10 levels, your Genie will be rewarded with extra Attribute points. The amount of extra Attribute points ranges from 1~10. The amount received is determined by your Growth.</p>
+						<p>In order to reset your Genie's attributes, talk to the new NPC Watcher of the Earth in the five main cities, and choose Reset</p>
+						<p>Attribute to call up Attribute Reset Interface.</p>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Affinity Points</h3></div>
+                        <div class="gcontent">
+						<img class="imgright" src="../images/genieaffinity.png" width="306" height="436">
+						<p>As your Genie develops, it will earn Elemental Affinity points which you can distribute as you see fit. All Genie skills require a certain number of Affinity Points, some even requiring points in more than one element.</p>
+						<p>Genies start with 1 Affinity Point, and will gain an additional Affinity Point every 5 levels. When a Genie reaches Level 100, it will gain 1 Affinity Point every level. Genies can attain a maximum of 26 Affinity Points.</p>
+						<p>There are 5 types of Affinities: Metal, Wood, Water, Fire, and Earth. The number of points required to master an Affinity is 8.</p>
+						<p>Similar to Genie attributes, Affinity Points can also be reset. Talk to the Watcher of the Earth in one of the five main cities and choose Affinity Reset to access the reset interface.</p>
+						<div class="row-odd"><div class="row"><div class="sprite genie-icon affinity-metal"></div><p>Affinity:Metal</p></div></div>
+						<div class="row-even"><div class="row"><div class="sprite genie-icon affinity-fire"></div><p>Affinity:Fire</p></div></div>
+						<div class="row-odd"><div class="row"><div class="sprite genie-icon affinity-wood"></div><p>Affinity:Wood</p></div></div>
+						<div class="row-even"><div class="row"><div class="sprite genie-icon affinity-water"></div><p>Affinity:Water</p></div></div>
+						<div class="row-odd"><div class="row"><div class="sprite genie-icon affinity-earth"></div><p>Affinity:Earth</p></div></div>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Genie Skills</h3></div>
+                        <div class="gcontent"><p>Genie skills are attained via the Watcher of the Earth. Once your Genie meets the required Affinity Points, speak with the Watcher of the Earth and select "Learn Genie Skills". Learning skills will require a combination of Spirit and Money, and in some cases a Skill Scroll will be needed.</p>
+						<p>By default, a Genie can learn a maximum of 3 skills. You can increase the maximum number of skills your Genie can learn by increasing the INT (Intellect) attribute. Genie abilities will consume your Genie's Energy and Stamina.</p>
+						<p>Genie's can forget skills via the Watcher of the Earth at no cost.</p>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Trading Genies</h3></div>
+                        <div class="gcontent"><p>Genies can be traded amongst players after they have been converted into TRADE READY state. Click the Trade State button in the Genie interface menu in order to access this feature. It will take 7 days to convert your Genie into to TRADE READY state. By default, a Genie is set to NO-Trade state. In this state, the Genie cannot be traded, sold, or discarded.</p>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Genie Equipment</h3></div>
+                        <div class="gcontent"><p>Players can buy equipment for their Genies from the Watcher of the Earth. Genie Equipment includes Jades, Mirrors, Orbs, and Charms. Once equipped, Genie equipment can no longer be de-equipped; it can only be destroyed or replaced. Destroying and replacing Genie equipment is also done through the Watcher of the Earth.</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

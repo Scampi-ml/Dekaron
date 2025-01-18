@@ -1,0 +1,221 @@
+/* ================ ALLGEMEIN =============== */
+
+
+body
+{margin-top: 0px;  margin-left: 0px; margin-right: 0px;margin-bottom: 0px;
+background-color: #333333; padding:0px;
+width:100%;background-image:url(images/back_main.jpg);background-repeat:repeat-y;
+background-position:center top;
+
+
+}
+/* hinweis: die schrift für den inhaltsbereich ändern sie weiter unten bei #inbox */
+
+
+/* scrolleiste internet explorer ab vers.5.5 */
+body
+{scrollbar-arrow-color: #A8A8A8; scrollbar-base-color: #F2F2F2;
+scrollbar-highlight-color : #A8A8A8; scrollbar-shadow-color : #f9f9f9;
+SCROLLBAR-TRACK-COLOR: #F9F9F9;}
+
+
+#main {text-align:center;border:solid 0px #000;margin:0px;width:100%;
+background-position:center top;}
+
+
+
+
+/* ================ KOPFBEREICH ================ */
+
+#main_top{width:0px;width:100%;
+background-image:url(images/header_beispiel.jpg);background-repeat:no-repeat;
+background-position:center top;
+}
+
+
+
+
+#top {
+height:54px;
+text-align:right;
+padding-right:20px;
+}
+
+
+#top1 {
+height:228px;
+vertical-align:middle;
+text-align:center;
+color:#fff;
+padding-top:12px;
+
+}
+
+
+
+#top2 {
+width:900px;
+height:54px;
+text-align:center;
+vertical-align:middle;
+color:#000;
+font-size:14px;
+border-bottom:solid 1px #525252;
+border-top:solid 1px #525252;
+background-color:#;
+}
+
+
+
+
+#hpname {letter-spacing:-1px;font-size:38px;
+font-family: georgia,arial, helvetica, verdana, tahoma, sans-serif;
+color:#fff;
+font-weight:bold;
+
+}
+
+#hpname2 {
+color:#F5F5F5;
+letter-spacing:-1px;font-size:38px;
+font-family: georgia,arial, helvetica, verdana, tahoma, sans-serif;
+}
+
+
+
+
+/* ================ INHALTSBEREICH ================ */
+
+
+#main_inhalt{
+width:100%;
+height:1000px;
+background-image:url(images/back_main.jpg);background-repeat:repeat-y;
+background-position:center top;
+}
+
+#inhalt{width:899px;
+height:100%;
+}
+
+
+
+#inbox {height:900px;
+color:#949494;
+padding-top: 60px; padding-bottom: 40px;
+padding-left: 60px;padding-right:60px;
+letter-spacing:0px;
+width:100%;
+vertical-align:top;
+text-align:justify;
+font-size: 17px;line-height: 19px;
+font-family: arial, helvetica, tahoma ,verdana,  sans-serif;
+}
+
+
+
+/* überschriften */
+h2{  font-family: georgia,tahoma,arial, helvetica, tahoma ,verdana, sans-serif;
+color:#BEBEBE;
+margin-bottom:25px;letter-spacing:2px;font-size: 18pt;
+border-bottom:solid 0px #2D2D2D;
+padding-bottom:4px;font-style:normal;
+
+}
+
+
+/* =============== FUSSBEREICH =============== */
+
+#main_fuss{width:0px;width:100%;
+}
+
+#fuss {width:100%;
+font-family: georgia,arial, helvetica, tahoma ,verdana, sans-serif;
+font-size:16px;
+color: #888888;
+height:235px;
+text-align:center;
+vertical-align:middle;
+letter-spacing:3px;
+background-color:#;
+background-image:url(images/fuss.jpg);background-repeat:no-repeat;
+background-position:center top;
+
+}
+
+#fuss2 {width:100%;
+font-family: georgia,arial, helvetica, tahoma ,verdana, sans-serif;
+font-size:12px;
+color:#fff;
+height:88px;
+text-align:center;
+vertical-align:middle;
+vertical-align:middle;
+background-color:#333333;
+background-image:url(images/fuss2.jpg);background-repeat:no-repeat;
+background-position:center top;
+}
+
+
+
+/* =============== NAVIGATION =============== */
+
+/* menue im logo-bereich */
+
+#menuhorizontal a, #menuhorizontal a:visited , #menuhorizontal a:active {display: block;
+color:#D2D2D2;
+font-weight:normal;
+text-decoration:none ;font-family:georgia,verdana, sans-serif; font-size: 15px;
+padding-left: 0px;padding-right: 0px; padding-bottom: 0px; padding-top:0px;
+margin-left: 0px;margin-right: 0px;
+border:solid 0px #fff;
+height:54px;
+line-height:54px;
+text-align:center;font-weight:bold;
+background:transparent;
+background-image:url(images/nav_back.jpg);background-repeat:repeat-x;
+background-position:center top;
+
+
+}
+
+#menuhorizontal a:hover {background-color:#; text-decoration:none ;
+color:#840000;
+text-decoration:none ;
+border-left:solid 0px #fff;background-image:url(images/nav2.jpg);background-repeat:repeat-x;
+background-position:center top;
+}
+
+
+
+
+/* allgemeine links im text */
+
+a:link, a:visited, a:active{ font-size: 17px;line-height: 19px;
+font-family: arial, helvetica, tahoma ,verdana,  sans-serif;color:#fff     ;text-decoration:underline;background-color:#;}
+
+a:hover{
+color:#000;background-color:#fff;text-decoration:none}
+
+
+
+/* ==== zweites menue ganz oben  ==== */
+
+.trenn {width:1px;color:#818181}
+
+#menu a, #menu a:visited , #menu a:active {display: block;
+color:#CDCDCD;
+text-decoration:none ;
+font-family: georgia,arial, helvetica, tahoma ,verdana,  sans-serif; font-size: 14px;
+padding-left: 10px;padding-right: 10px; padding-bottom: 0px; padding-top:0px;
+margin-left: 0px;margin-right: 0px;
+height:34px;
+line-height:34px;
+text-align:center;
+background:transparent;
+letter-spacing:1px
+}
+
+#menu a:hover {color:#E10000; text-decoration:underline ;
+background:transparent;}
+}

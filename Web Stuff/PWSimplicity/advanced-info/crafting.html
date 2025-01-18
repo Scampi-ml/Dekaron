@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css" />
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting current" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+            	    <a class="marriage" href="./marriage.html"></a>
+            	    <a class="mounts" href="./mounts.html"></a>
+            	    <a class="pets" href="./pets.html"></a>
+            	    <a class="player-shop" href="./player-shop.html"></a>
+            	    <a class="player-storage" href="./player-storage.html"></a>
+            	    <a class="pvp" href="./pvp.html"></a>
+            	    <a class="refining" href="./refining.html"></a>
+            	    <a class="teleportation" href="./teleportation.html"></a>
+            	    <a class="territory-war" href="./territory-war.html"></a>
+            	    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Crafting</h1>
+                        <p class="big-words">In Perfect World International weapons, armor, and accessories can be created by the players. These manufacturing skills or professions are called Apothecary, Blacksmith, Armorsmith, and Craftsman.</p>
+						<p>Upon reaching level 5 these trade skills become available. Simply speak witd the Elder of your city and he will assist you.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Manufacturing Skills</h3></div>
+                        <div class="gcontent">
+							<div class="row-odd"><div class="row"><div class="sprite crafting-icon blacksmith"></div><b>Blacksmith:</b><p>Able to manufacture all kinds of weapons including blades, swords, axes, hammers, bows, and more. </p></div></div>
+							<div class="row-even"><div class="row"><div class="sprite crafting-icon tailoring"></div><b>Tailoring:</b><p>Able to manufacture all kinds of armor and defensive equipment. </p></div></div>
+							<div class="row-odd"><div class="row"><div class="sprite crafting-icon jeweler"></div><b>Jeweler:</b><p>Able to manufacture all kinds of accessories including necklaces, belts and rings.  </p></div></div>
+							<div class="row-even"><div class="row"><div class="sprite crafting-icon apothecary"></div><b>Apothecary:</b><p>Able to manufacture all kinds of remedies and charms. </p></div></div>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Manufacturing</h3></div>
+                        <div class="gcontent"><p>To advance in your manufacturing skills, please visit tde corresponding NPC of that profession. As you advance in rank you will need to complete additional quests or aquire books.</p>
+						<p>As you level up your trade skill you will need to create items of your grade. So if you are level 2 you will need to craft level 2 items in order to advance.</p>
+						<p>Higher level skill grades require that you attain a certain level before advancing to them.</p>
+						</div>
+                    </div>
+					<div class="ginnerwrapper">
+                        <div class="gheader"><h3>Crafting Materials</h3></div>
+                        <div class="gcontent">
+							<ul class="row-odd craftingul">
+								<li>
+									<div class="sprite crafting-icon logs"></div>
+									<p>Logs</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon roughlumber"></div>
+									<p>Rough Lumber</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon finelumber"></div>
+									<p>Fine Lumber</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon highgradelumber"></div>
+									<p>High Grade Lumber</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon lumberessence"></div>
+									<p>Lumber Essence</p>
+								</li>
+							</ul>
+							<ul class="row-even craftingul">
+								<li>
+									<div class="sprite crafting-icon pigiron"></div>
+									<p>Pig Iron</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon highcarbonsteel"></div>
+									<p>High Carbon Steel</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon refinedsteel"></div>
+									<p>Refined Stell</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon steelalloy"></div>
+									<p>Steel Alloy</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon highalloysteel"></div>
+									<p>High Alloy Steel</p>
+								</li>
+							</ul>
+							<ul class="row-odd craftingul">
+								<li>
+									<div class="sprite crafting-icon sandstone"></div>
+									<p>Sandstone</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon gravel"></div>
+									<p>Gravel</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon rubstonepowder"></div>
+									<p>Rubstone Powder</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon corundumpowder"></div>
+									<p>Corundum Powder</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon granite"></div>
+									<p>Granite</p>
+								</li>
+							</ul>
+							<ul class="row-even craftingul">
+								<li>
+									<div class="sprite crafting-icon coaldust"></div>
+									<p>Coal Dust</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon charcoal"></div>
+									<p>Charcoal</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon anthracite"></div>
+									<p>Anthracite</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon charcoal"></div>
+									<p>Charcoal</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon extrudedcharcoal"></div>
+									<p>Extruded Charcoal</p>
+								</li>
+							</ul>
+							<ul class="row-odd craftingul">
+								<li>
+									<div class="sprite crafting-icon cottonthread"></div>
+									<p>Cotton Thread</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon silkthread"></div>
+									<p>Silk Thread</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon compoundthread"></div>
+									<p>Compound Thread</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon azurewormsilk"></div>
+									<p>Azureworm Silk<p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon vegastring"></div>
+									<p>Vega String</p>
+								</li>
+							</ul>
+							<ul class="row-even craftingul">
+								<li>
+									<div class="sprite crafting-icon organicglue"></div>
+									<p>Organic Glue</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon concentratedglue"></div>
+									<p>Concentrated Glue</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon strongglue"></div>
+									<p>Strong Glue</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon coloredglue"></div>
+									<p>Colored Glue</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon superglue"></div>
+									<p>Super Glue</p>
+								</li>
+							</ul>
+							<ul class="row-odd craftingul">
+								<li>
+									<div class="sprite crafting-icon grease"></div>
+									<p>Grease</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon purifiedoil"></div>
+									<p>Purified Oil</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon compoundoil"></div>
+									<p>Compound Oil</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon glaze"></div>
+									<p>Glaze</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon compactedglaze"></div>
+									<p>Compacted Glaze</p>
+								</li>
+							</ul>
+							<ul class="row-even craftingul">
+								<li>
+									<div class="sprite crafting-icon animalfur"></div>
+									<p>Animal Fur</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon roughfur"></div>
+									<p>Rough Fur</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon leather"></div>
+									<p>Leather</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon reinforcedleather"></div>
+									<p>Reinforced Leather</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon superiorleather"></div>
+									<p>Superior Leather</p>
+								</li>
+							</ul>
+						</div>
+                    </div>
+					<div class="ginnerwrapper">
+                        <div class="gheader"><h3>Apothecary Materials</h3></div>
+                        <div class="gcontent">
+							<ul class="row-odd craftingul">
+								<li>
+									<div class="sprite crafting-icon ageratum"></div>
+									<p>Ageratum</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon goldenherb"></div>
+									<p>Golden Herb</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon salviaroot"></div>
+									<p>Salvia Root</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon nectar"></div>
+									<p>Nectar</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon elderwood"></div>
+									<p>Elderwood</p>
+								</li>
+							</ul>
+							<ul class="row-even craftingul">
+								<li>
+									<div class="sprite crafting-icon tuckahoe"></div>
+									<p>Tuckahoe</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon raelgar"></div>
+									<p>Raelgar</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon craneherb"></div>
+									<p>Crane Herb</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon tranquilliaherb"></div>
+									<p>Tranquillia Herb</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon elecampane"></div>
+									<p>Elecampane</p>
+								</li>
+							</ul>
+							<ul class="row-odd craftingul">
+								<li>
+									<div class="sprite crafting-icon greenberry"></div>
+									<p>Green Berry</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon fleeceflowerroot"></div>
+									<p>Fleece-flower Root</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon blackhenbane"></div>
+									<p>Black Henbane</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon valdiaroot"></div>
+									<p>Valdia Root</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon ligumaloeswood"></div>
+									<p>Ligumaloes Wood</p>
+								</li>
+							</ul>
+							<ul class="row-even craftingul">
+								<li>
+									<div class="sprite crafting-icon oxbezoar"></div>
+									<p>Ox Bezoar</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon serpentineherb"></div>
+									<p>Serpentine Herb</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon tulip"></div>
+									<p>Tulip</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon butterflyherb"></div>
+									<p>Butterfly Herb</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon tigerearherb"></div>
+									<p>Tiger-ear Herb</p>
+								</li>
+							</ul>
+							<ul class="row-odd craftingul">
+								<li>
+									<div class="sprite crafting-icon wormsprouts"></div>
+									<p>Worm Sprouts</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon redberry"></div>
+									<p>Red Berry</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon perfumedewherb"></div>
+									<p>Perfumedew Herb</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon logenherb"></div>
+									<p>Logen Herb<p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon teiryherb"></div>
+									<p>Teiry Herb</p>
+								</li>
+							</ul>
+							<ul class="row-even craftingul">
+								<li>
+									<div class="sprite crafting-icon devilwood"></div>
+									<p>Devilwood</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon whiteberry"></div>
+									<p>White Berry</p>
+								</li>
+								<li>
+									<div class="sprite crafting-icon scentedfungus"></div>
+									<p>Scented Fungus</p>
+								</li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

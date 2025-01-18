@@ -1,1 +1,0 @@
-GPS Plugin - http://www.birdwingfx.com/jQuery_gps/license.html

@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css" />
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue current" href="./imbue.html"></a>
+            	    <a class="marriage" href="./marriage.html"></a>
+            	    <a class="mounts" href="./mounts.html"></a>
+            	    <a class="pets" href="./pets.html"></a>
+            	    <a class="player-shop" href="./player-shop.html"></a>
+            	    <a class="player-storage" href="./player-storage.html"></a>
+            	    <a class="pvp" href="./pvp.html"></a>
+            	    <a class="refining" href="./refining.html"></a>
+            	    <a class="teleportation" href="./teleportation.html"></a>
+            	    <a class="territory-war" href="./territory-war.html"></a>
+            	    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Imbue</h1>
+                        <p class="big-words">Weapons and armors may come with sockets, which can be imbued with gems. Imbuing a weapon/armor would bring great benefits to your character. Different Gems is empowered with different attributes.</p>
+												<p>For example it can raise your physical attack, magicial attack, physical defense, magic defense, accuracy, evasion, etc. imbuing your weapon can also bring unique glow effects to your weapon/armor. To refine your Gems to a more higher level you can visit the Jewels craftsman located in every town.</p>
+												<p>Below is a list of gems that can be crafted, dropped from monsters, rewarded from quests or 'Lucky items'.</p>
+												<p>Each weapon can be equipped with 2 sockets and armor can be equipped with 4 sockets. Different level or type of weapon or armor may require more socket stones.</p>
+												<p>Below here are the steps and item needed to socket your weapon/armor.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+						<div class="gheader"><h3>Boutique - Socket</h3></div>
+						<div class="gcontent">
+						    <div class="row-odd">
+							<div class="row">
+							    <div class="sprite imbue-icon socketstone"></div>
+							    <b>Socket Stone</b>
+							    <p>A stone being collected by PW Boutique Agents. Lets you add sockets to gears.</p>
+							</div>
+						    </div>
+						</div>
+                    </div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 1 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Shabby Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 3</p>
+						    		<p>To armor: Physical Defense + 5</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Shabby Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 3</p>
+						    		<p>To armor: Physical Defense + 5</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Shabby Amber Shard</b>
+								    <p>To a weapon: Accuracy + 10</p>
+								    <p>To armor: Evasion + 5</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Shabby Turqoise Shard</b>
+								    <p>To a weapon: Mana + 8</p>
+								    <p>To armor: Mana + 8</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Shabby Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 8</p>
+								    <p>To armor: Hit Point + 8</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Shabby Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 6</p>
+								    <p>To armor: Metal Defense + 8</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Shabby Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 6</p>
+								    <p>To armor: Wood Defense + 8</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Shabby Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 6</p>
+						    		<p>To armor: Fire Defense + 8</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Shabby Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 6</p>
+									<p>To armor: Water Defense + 8</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Shabby Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 6</p>
+									<p>To armor: Earth Defense + 8</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv1 to be able to imbue with a Shabby Shard.</p>
+							<p>Note: It takes 3 Shabby Shards to make a Lv2 Rough Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 2 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Rough Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 6</p>
+						    		<p>To armor: Physical Defense + 10</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Rough Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 6</p>
+						    		<p>To armor: Magical Defense + 8</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Rough Amber Shard</b>
+								    <p>To a weapon: Accuracy + 20</p>
+								    <p>To armor: Evasion + 10</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Rough Turqoise Shard</b>
+								    <p>To a weapon: Mana + 16</p>
+								    <p>To armor: Mana + 16</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Rough Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 10</p>
+								    <p>To armor: Hit Point + 10</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Rough Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 12</p>
+								    <p>To armor: Metal Defense + 16</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Rough Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 12</p>
+								    <p>To armor: Wood Defense + 16</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Rough Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 12</p>
+						    		<p>To armor: Fire Defense + 16</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Rough Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 12</p>
+									<p>To armor: Water Defense + 16</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Rough Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 12</p>
+									<p>To armor: Earth Defense + 16</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv2 to be able to imbue with a Shabby Shard.</p>
+							<p>Note: It takes 3 Rough Shards to make a Lv3 Blemished Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 3 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Blemished Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 9</p>
+						    		<p>To armor: Physical Defense + 15</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Blemished Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 9</p>
+						    		<p>To armor: Magical Defense + 12</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Blemished Amber Shard</b>
+								    <p>To a weapon: Accuracy + 30</p>
+								    <p>To armor: Evasion + 15</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Blemished Turqoise Shard</b>
+								    <p>To a weapon: Mana + 24</p>
+								    <p>To armor: Mana + 24</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Blemished Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 15</p>
+								    <p>To armor: Hit Point + 15</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Blemished Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 18</p>
+								    <p>To armor: Metal Defense + 24</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Blemished Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 18</p>
+								    <p>To armor: Wood Defense + 24</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Blemished Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 18</p>
+						    		<p>To armor: Fire Defense + 24</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Blemished Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 18</p>
+									<p>To armor: Water Defense + 24</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Blemished Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 18</p>
+									<p>To armor: Earth Defense + 24</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv3 to be able to imbue with a Blemished Shard.</p>
+							<p>Note: It takes 3 Blemished Shards to make a Lv4 Common Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 4 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Common Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 12</p>
+						    		<p>To armor: Physical Defense + 20</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Common Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 12</p>
+						    		<p>To armor: Magical Defense + 26</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Common Amber Shard</b>
+								    <p>To a weapon: Accuracy + 40</p>
+								    <p>To armor: Evasion + 20</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Common Turqoise Shard</b>
+								    <p>To a weapon: Mana + 32</p>
+								    <p>To armor: Mana + 32</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Common Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 20</p>
+								    <p>To armor: Hit Point + 20</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Common Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 24</p>
+								    <p>To armor: Metal Defense + 32</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Common Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 24</p>
+								    <p>To armor: Wood Defense + 32</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Common Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 24</p>
+						    		<p>To armor: Fire Defense + 32</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Common Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 24</p>
+									<p>To armor: Water Defense + 32</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Common Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 24</p>
+									<p>To armor: Earth Defense + 32</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv4 to be able to imbue with a Common Shard.</p>
+							<p>Note: It takes 4 Common Shards to make a Lv5 Average Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 5 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Average Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 16</p>
+						    		<p>To armor: Physical Defense + 26</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Average Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 16</p>
+						    		<p>To armor: Magical Defense + 21</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Average Amber Shard</b>
+								    <p>To a weapon: Accuracy + 50</p>
+								    <p>To armor: Evasion + 26</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Average Turqoise Shard</b>
+								    <p>To a weapon: Mana + 40</p>
+								    <p>To armor: Mana + 40</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Average Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 25</p>
+								    <p>To armor: Hit Point + 25</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Average Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 32</p>
+								    <p>To armor: Metal Defense + 42</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Average Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 32</p>
+								    <p>To armor: Wood Defense + 42</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Average Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 32</p>
+						    		<p>To armor: Fire Defense + 42</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Average Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 32</p>
+									<p>To armor: Water Defense + 42</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Average Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 32</p>
+									<p>To armor: Earth Defense + 42</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv5 to be able to imbue with a Average Shard.</p>
+							<p>Note: It takes 4 Average Shards to make a Lv6 Beautiful Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 6 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Beautiful Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 20</p>
+						    		<p>To armor: Physical Defense + 33</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Beautiful Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 20</p>
+						    		<p>To armor: Magical Defense + 23</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Beautiful Amber Shard</b>
+								    <p>To a weapon: Accuracy + 65</p>
+								    <p>To armor: Evasion + 33</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Beautiful Turqoise Shard</b>
+								    <p>To a weapon: Mana + 52</p>
+								    <p>To armor: Mana + 52</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Beautiful Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 32</p>
+								    <p>To armor: Hit Point + 32</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Beautiful Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 40</p>
+								    <p>To armor: Metal Defense + 52</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Beautiful Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 40</p>
+								    <p>To armor: Wood Defense + 52</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Beautiful Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 40</p>
+						    		<p>To armor: Fire Defense + 52</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Beautiful Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 40</p>
+									<p>To armor: Water Defense + 52</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Beautiful Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 40</p>
+									<p>To armor: Earth Defense + 52</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv6 to be able to imbue with a Beautiful Shard.</p>
+							<p>Note: It takes 4 Average Shards to make a Lv7 Flawless Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 7 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Flawless Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 25</p>
+						    		<p>To armor: Physical Defense + 41</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Flawless Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 25</p>
+						    		<p>To armor: Magical Defense + 33</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Flawless Amber Shard</b>
+								    <p>To a weapon: Accuracy + 80</p>
+								    <p>To armor: Evasion + 41</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Flawless Turqoise Shard</b>
+								    <p>To a weapon: Mana + 64</p>
+								    <p>To armor: Mana + 64</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Flawless Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 40</p>
+								    <p>To armor: Hit Point + 40</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Flawless Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 50</p>
+								    <p>To armor: Metal Defense + 66</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Flawless Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 50</p>
+								    <p>To armor: Wood Defense + 66</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Flawless Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 50</p>
+						    		<p>To armor: Fire Defense + 66</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Flawless Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 50</p>
+									<p>To armor: Water Defense + 66</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Flawless Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 50</p>
+									<p>To armor: Earth Defense + 66</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv7 to be able to imbue with a Flawless Shard.</p>
+							<p>Note: It takes 5 Flawless Shards to make a Lv8 Immaculate Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 8 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Immaculate Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 32</p>
+						    		<p>To armor: Physical Defense + 53</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Immaculate Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 32</p>
+						    		<p>To armor: Magical Defense + 42</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Immaculate Amber Shard</b>
+								    <p>To a weapon: Accuracy + 100</p>
+								    <p>To armor: Evasion + 53</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Immaculate Turqoise Shard</b>
+								    <p>To a weapon: Mana + 80</p>
+								    <p>To armor: Mana + 80</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Immaculate Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 50</p>
+								    <p>To armor: Hit Point + 50</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Immaculate Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 64</p>
+								    <p>To armor: Metal Defense + 84</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Immaculate Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 64</p>
+								    <p>To armor: Wood Defense + 84</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Immaculate Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 64</p>
+						    		<p>To armor: Fire Defense + 84</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Immaculate Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 64</p>
+									<p>To armor: Water Defense + 84</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Immaculate Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 64</p>
+									<p>To armor: Earth Defense + 84</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv8 to be able to imbue with a Immaculate Shard.</p>
+							<p>Note: It takes 5 Immaculate Shards to make a Lv9 Perfect Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 9 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Perfect Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 40</p>
+						    		<p>To armor: Physical Defense + 66</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Perfect Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 40</p>
+						    		<p>To armor: Magical Defense + 53</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Perfect Amber Shard</b>
+								    <p>To a weapon: Accuracy + 125</p>
+								    <p>To armor: Evasion + 66</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Perfect Turqoise Shard</b>
+								    <p>To a weapon: Mana + 100</p>
+								    <p>To armor: Mana + 100</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Perfect Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 62</p>
+								    <p>To armor: Hit Point + 62</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Perfect Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 80</p>
+								    <p>To armor: Metal Defense + 106</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Perfect Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 80</p>
+								    <p>To armor: Wood Defense + 106</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Perfect Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 80</p>
+						    		<p>To armor: Fire Defense + 106</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Perfect Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 80</p>
+									<p>To armor: Water Defense + 106</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Perfect Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 64</p>
+									<p>To armor: Earth Defense + 106</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv9 to be able to imbue with a Perfect Shard.</p>
+							<p>Note: It takes 5 Perfect Shards to make a Lv10 Incomparable Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 10 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon shard"></div>
+						    		<b>Incomparable Garnet Shard</b>
+						    		<p>To a weapon: Physical Attack + 50</p>
+						    		<p>To armor: Physical Defense + 85</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphire"></div>
+						    		<b>Incomparable Sapphire Shard</b>
+						    		<p>To a weapon: Magical Attack + 50</p>
+						    		<p>To armor: Magical Defense + 70</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon amber"></div>
+								    <b>Incomparable Amber Shard</b>
+								    <p>To a weapon: Accuracy + 150</p>
+								    <p>To armor: Evasion + 85</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoise"></div>
+								    <b>Incomparable Turqoise Shard</b>
+								    <p>To a weapon: Mana + 120</p>
+								    <p>To armor: Mana + 120</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrine"></div>
+								    <b>Incomparable Citrine Shard</b>
+								    <p>To a weapon: Hit Point + 75</p>
+								    <p>To armor: Hit Point + 75</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Incomparable Alabaster Shard</b>
+								    <p>To a weapon: Metal Attack + 100</p>
+								    <p>To armor: Metal Defense + 140</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Incomparable Aquamarine Shard</b>
+								    <p>To a weapon: Wood Attack + 100</p>
+								    <p>To armor: Wood Defense + 140</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Incomparable Ruby Shard</b>
+						    		<p>To a weapon: Fire Attack + 100</p>
+						    		<p>To armor: Fire Defense + 140</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Incomparable Amethyst Shard</b>
+									<p>To a weapon: Water Attack + 100</p>
+									<p>To armor: Water Defense + 140</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Incomparable Topaz Shard</b>
+									<p>To a weapon: Earth Attack + 100</p>
+									<p>To armor: Earth Defense + 140</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv10 to be able to imbue with a Incomparable Shard.</p>
+							<p>Note: It takes 6 Incomparable Shards to make a Lv11 Gem Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 11 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon garnetgem"></div>
+						    		<b>Garnet Gem Shard</b>
+						    		<p>To a weapon: Physical Attack + 75</p>
+						    		<p>To armor: Physical Defense + 125</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon sapphiregem"></div>
+						    		<b>Sapphire Gem Shard</b>
+						    		<p>To a weapon: Magical Attack + 75</p>
+						    		<p>To armor: Magical Defense + 105</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon ambergem"></div>
+								    <b>Amber Gem Shard</b>
+								    <p>To a weapon: Accuracy + 225</p>
+								    <p>To armor: Evasion + 125</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon turqoisegem"></div>
+								    <b>Turqoise Gem Shard</b>
+								    <p>To a weapon: Mana + 180</p>
+								    <p>To armor: Mana + 180</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon citrinegem"></div>
+								    <b>Citrine Gem Shard</b>
+								    <p>To a weapon: Hit Point + 115</p>
+								    <p>To armor: Hit Point + 115</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Alabaster Gem Shard</b>
+								    <p>To a weapon: Metal Attack + 150</p>
+								    <p>To armor: Metal Defense + 200</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Aquamarine Gem Shard</b>
+								    <p>To a weapon: Wood Attack + 150</p>
+								    <p>To armor: Wood Defense + 200</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Ruby Gem Shard</b>
+						    		<p>To a weapon: Fire Attack + 150</p>
+						    		<p>To armor: Fire Defense + 200</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Amethyst Gem Shard</b>
+									<p>To a weapon: Water Attack + 150</p>
+									<p>To armor: Water Defense + 200</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Topaz Gem Shard</b>
+									<p>To a weapon: Earth Attack + 150</p>
+									<p>To armor: Earth Defense + 200</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv11 to be able to imbue with a Gem Shard.</p>
+							<p>Note: It takes 6 Incomparable Shards to make a Lv12 Shard.</p>
+                    	</div>
+               		</div>
+    		        <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Level 12 Shard</h3></div>
+                        <div class="gcontent">
+						    <div class="row-odd">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon drakeflame"></div>
+						    		<b>Drakeflame Stone</b>
+						    		<p>To a weapon: Physical Attack + 100</p>
+						    		<p>To armor: Physical Defense + 175</p>
+						    	</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon icebourne"></div>
+						    		<b>Icebourne Stone</b>
+						    		<p>To a weapon: Magical Attack + 100</p>
+						    		<p>To armor: Magical Defense + 135</p>
+						    	</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon goldensoulgem"></div>
+								    <b>Golden Soulgem</b>
+								    <p>To a weapon: Accuracy + 300</p>
+								    <p>To armor: Evasion + 170</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon dryadspirit"></div>
+								    <b>Dryad's Spiritstone</b>
+								    <p>To a weapon: Mana + 240</p>
+								    <p>To armor: Mana + 240</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon stoneofgaea"></div>
+								    <b>Stone of Gaea</b>
+								    <p>To a weapon: Hit Point + 150</p>
+								    <p>To armor: Hit Point + 150</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+								<div class="row">
+								    <div class="sprite imbue-icon alabaster"></div>
+								    <b>Snowflake Stone</b>
+								    <p>To a weapon: Metal Attack + 200</p>
+								    <p>To armor: Metal Defense + 270</p>
+								</div>
+						    </div>
+						    <div class="row-odd">
+								<div class="row">
+								    <div class="sprite imbue-icon aquamarine"></div>
+								    <b>Rainshower Shard</b>
+								    <p>To a weapon: Wood Attack + 200</p>
+								    <p>To armor: Wood Defense + 270</p>
+								</div>
+						    </div>
+						    <div class="row-even">
+						    	<div class="row">
+						    		<div class="sprite imbue-icon ruby"></div>
+						    		<b>Darkseer Shard</b>
+						    		<p>To a weapon: Fire Attack + 200</p>
+						    		<p>To armor: Fire Defense + 270</p>
+						    	</div>
+							</div>
+							<div class="row-odd">
+								<div class="row">
+									<div class="sprite imbue-icon amethyst"></div>
+									<b>Stone of Reverence</b>
+									<p>To a weapon: Water Attack + 200</p>
+									<p>To armor: Water Defense + 270</p>
+								</div>
+							</div>
+							<div class="row-even">
+								<div class="row">
+									<div class="sprite imbue-icon topaz"></div>
+									<b>Lion's Eye Carbuncle</b>
+									<p>To a weapon: Earth Attack + 200</p>
+									<p>To armor: Earth Defense + 270</p>
+								</div>
+							</div>
+							<p>Note: Your weapon/armor must be at Least Lv12 to be able to imbue with a Gem Shard.</p>
+                    	</div>
+               		</div>
+               	</div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="./index.html">Terms of Service</a> /
+            <a href="./index.html">Privacy Policy</a> /
+            <a href="./index.html">About Us</a> /
+            <a href="./index.html">Contact Us</a> /
+            <a href="./index.html">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

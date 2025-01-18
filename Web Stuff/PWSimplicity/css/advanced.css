@@ -1,0 +1,738 @@
+
+
+ul.banking li {
+    float:left;
+    width:92px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.player-storage {
+    background:url('../images/sprite-playerstorage.jpg')no-repeat scroll 0 0 transparent;
+}
+.npc {
+    background-position:right top;
+    width:240px;
+    height:240px;
+    border:1px solid #334b5f;
+    margin-right:15px;
+}
+.mysticalmeat     { background-position: -318px -240px; }
+.disguiseskin     { background-position: -347px -240px; }
+.elementaldust    { background-position: -375px -240px; }
+.softfur          { background-position: -403px -240px; }
+.antenna          { background-position: -431px -240px; }
+.rhinohorn        { background-position: -459px -240px; }
+
+.mysticalclaw     { background-position: -318px -268px; }
+.completesack     { background-position: -347px -268px; }
+.elementalfragment{ background-position: -375px -268px; }
+.honeyjuice       { background-position: -403px -268px; }
+.dewofherbs       { background-position: -431px -268px; }
+.dullclaw         { background-position: -459px -268px; }
+
+.inventoryextension  { background-position: -318px -297px; }
+.safeextension    { background-position: -318px -324px; }
+.inventoryextension  { background-position: -318px -297px; }
+.safeextension    { background-position: -318px -324px; }
+ul.deathpenalty li {
+    width:142px;
+    float:left;
+    padding:5px;
+}
+.pvp {
+    background:url('../images/sprite-pvp.jpg')no-repeat scroll 0 0 transparent;
+}
+.guardianangel          { background-position: left 0; }
+.bindingcharms          { background-position: left -28px; }
+.goldguardiancharms { background-position: left -56px; }
+.goldspiritcharms       { background-position: left -56px; }
+.silverguardiancharms   { background-position: left -85px; }
+.silverspiritcharms { background-position: left -112px; }
+.bronzeguardiancharms   { background-position: left -141px; }
+.bronzespiritcharms { background-position: left -169px; }
+
+.refining {
+    background:url('../images/sprite-refining.jpg')no-repeat scroll 0 0 transparent;
+}
+
+.bonuses               { background-position: -32px top; height: 256px; width: 296px; margin-bottom: 90px; border: 1px solid #334b5f; }
+.equipment             { background-position: -340px top; height: 461px; width: 335px; border: 1px solid #334b5f; }
+
+.celestonefragment     { background-position: left 0px; }
+.celestoneofheaven     { background-position: left -28px; }
+.celestoneofhuman      { background-position: left -56px; }
+.celestoneofearth      { background-position: left -85px; }
+.goldenegg             { background-position: left -112px; }
+.tienkangstone         { background-position: left -141px; }
+.tishastone            { background-position: left -169px; }
+.dragonorb1star        { background-position: left -197px; }
+.dragonorb2star        { background-position: left -197px; }
+.dragonorb3star        { background-position: left -224px; }
+.dragonorb4star        { background-position: left -252px; }
+.dragonorb5star        { background-position: left -280px; }
+.dragonorb6star        { background-position: left -308px; }
+.dragonorb7star        { background-position: left -336px; }
+.dragonorb8star        { background-position: left -365px; }
+.dragonorb9star        { background-position: left -392px; }
+.dragonorbocean        { background-position: left -420px; }
+.dragonorbmirage       { background-position: left -448px; }
+.dragonorbflame        { background-position: left -476px; }
+
+.teleportation {
+    background:url('../images/sprite-teleportation.jpg')no-repeat scroll 0 0 transparent;
+}
+
+.map  { background-position: right top;  height: 293px; width: 604px;  border: 1px solid #334b5f; margin:0 auto;}
+.teleportincense  { background-position: left 0; }
+.teleportstone    { background-position: left -28px; }
+.geographicmap    { background-position: left -56px; }
+ul.teleul li{
+    float:left;
+    width:205px;
+    padding:5px 0;
+}
+ul.bidding li {
+    float:left;
+    width:140px;
+    padding:5px 0;
+}
+ul.bidding li p {
+    padding:0;
+    margin:0;
+}
+ul.ultimate {
+    overflow:hidden;
+    padding:10px;
+}
+ul.ultimate li{
+    float:left;
+    width:90px;
+    padding:5px;
+}
+ul.ultimate li p {
+    padding:0;
+    margin:0;
+}
+.ultimate-weapon {
+    background:url('../images/sprite-ultimateweapon.jpg') no-repeat;
+}
+.ancientserpentsorb		{ background-position: left 0; }
+.fengssteelarmor    		{ background-position: left -28px; }
+.evilminionsshell     	{ background-position: left -28px; }
+.giantbeastsshell   		{ background-position: left -28px; }
+.empiresbackimage     	{ background-position: left 0; }
+.ghostlordsprotection	{ background-position: left -56px; }
+.giantapestail    		{ background-position: left -85px; }
+.ancientdevilssoul		{ background-position: left -28px; }
+.astralstone		     	{ background-position: left -112px; }
+.giantbeastsarmor		{ background-position: left -28px; }
+.tsusghostmask	     	{ background-position: left -139px; }
+
+.fragmentcrystal   		{ background-position: left -169px; }
+.transparentcrystal  	{ background-position: left -196px; }
+.essencecrystal  		{ background-position: left -225px; }
+.unknowntinder	     	{ background-position: left -252px; }
+.chromatictinder     	{ background-position: left -281px; }
+.ancienttinder     		{ background-position: left -308px; }
+
+.blazingphoenixtailfeather{ background-position: left -337px; }
+.seelenol		     	{ background-position: left -364px; }
+.froststamprightpart  	{ background-position: left -393px; }
+.aeolianol     			{ background-position: left -420px; }
+.froststampleftpart 		{ background-position: left -448px; }
+.blizzardfragment		{ background-position: left -560px; }
+.blizzardstamp   		{ background-position: left -476px; }
+.blizzardheart	     	{ background-position: left -504px; }
+.glacialsealfragment		{ background-position: left -532px; }
+.warsoul			     	{ background-position: left -588px; }
+.lightofwarsoul	     	{ background-position: left -616px; }
+.mysticaltomefragment	{ background-position: left -141px; }
+.purifiedperfectstone	{ background-position: left -644px; }
+.perfectstone     		{ background-position: left -672px; }
+.mysteriouschip     		{ background-position: left -700px; }
+.genie-icon {
+    background:url('../images/affinity.png') no-repeat scroll;
+}
+.affinity-metal {
+    background-position:0 0px;
+}
+.affinity-fire {
+    background-position:0px -28px;
+}
+.affinity-wood {
+    background-position:0px -56px;
+}
+.affinity-water {
+    background-position:0px -84px;
+}
+.affinity-earth {
+    background-position:0px -112px;
+}
+.imbue-icon {
+    background:url('../images/sprite-imbue.jpg') no-repeat scroll;
+}
+.socketstone {
+    background-position:left 0;
+}
+.shard {
+    background-position: left -28px;
+}
+.sapphire {
+    background-position: left -56px;
+}
+.amber {
+    background-position: left -84px;
+}
+.turqoise {
+    background-position: left -112px;
+}
+.citrine {
+    background-position:left -140px;
+}
+.alabaster {
+    background-position:left -168px;
+}
+.aquamarine {
+    background-position:left -196px;
+}
+.ruby {
+    background-position:left -224px;
+}
+.amethyst {
+    background-position: left -252px;
+}
+.topaz {
+    background-position: left -279px;
+}
+.garnetgem {
+    background-position:left -310px;
+}
+.sapphiregem {
+    background-position:left -338px;
+}
+.ambergem {
+    background-position: left -366px;
+}
+.turqoisegem {
+    background-position: left -393px;
+}
+.citrinegem {
+    background-position: left -422px;
+}
+.drakeflame {
+    background-position:left -449px;
+}
+.icebourne {
+    background-position:left -478px;
+}
+.goldensoulgem {
+    background-position: left -506px;
+}
+.dryadspirit {
+    background-position:left -534px;
+}
+.stoneofgaea {
+    background-position:left -564px;
+}
+.marriage-icon {
+    background:url('../images/sprite-marriage.jpg') no-repeat scroll;
+}
+.bridepack {
+    background-position:left 0;
+}
+.bridedress {
+    background-position:left -28px;
+}
+.brideshoes {
+    background-position:left -55px;
+}
+.silkofeternity {
+    background-position:left -83px;
+}
+.groompack {
+    background-position:left -111px;
+}
+.groomsuit {
+    background-position:left -138px;
+}
+.groompants {
+    background-position:left -167px;
+}
+.groomshoes {
+    background-position:left -196px;
+}
+.stampofeternity {
+    background-position:left -223px;
+}
+.giftpouch {
+    background-position:left -251px;
+}
+.weddingcandy {
+    background-position:left -280px;
+}
+.triumphmoney {
+    background-position:left -308px;
+}
+.weddingwine {
+    background-position:left -335px;
+}
+.osmanthuswine {
+    background-position:left -364px;
+}
+.bamboowine {
+    background-position:left -392px;
+}
+.daughterswine {
+    background-position:left -419px;
+}
+.frangranceswine {
+    background-position:left -447px;
+}
+.chiennanspringwine {
+    background-position:left -475px;
+}
+.ancientwellwine {
+    background-position:left -503px;
+}
+.afterglowwine {
+    background-position:left -531px;
+}
+.tukangswine {
+    background-position:left -559px;
+}
+.wineofeverlastingsorrow {
+    background-position:left -587px;
+}
+.header {
+    background:#0d161d;
+}
+ul.header {
+    overflow:hidden;
+    padding:0px;
+}
+li.thumbs {
+    width:30px;
+    float:left;
+    padding:10px;
+}
+li.item {
+    width:110px;
+    float:left;
+    padding:10px;
+}
+li.amount {
+    width:40px;
+    float:left;
+    text-align:center;
+    padding:10px;
+}
+li.name {
+    width:250px;
+    float:left;
+    padding:10px;
+}
+li.results {
+    width:30px;
+    float:left;
+    padding:10px;
+}
+.mounts {
+    overflow:hidden;
+    width:660px;
+    margin:0px auto;
+}
+.mounts div {
+    width:208px;
+    height:147px;
+    float:left;
+    margin:5px;
+    border:solid 1px #334b5f;
+}
+ul.craftingul li {
+    width:113px;
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+}
+.gallery-mounts {
+    background:url('../images/sprite-mounts.jpg') no-repeat scroll 0 0 transparent;
+}
+.wings {
+    background-position:-30px top;
+}
+.riding {
+    background-position:-236px top;
+}
+.human {
+    background-position:-443px top;
+}
+.untamed {
+    background-position:-30px -147px;
+}
+.flying {
+    background-position:-236px -147px;
+}
+.riding2 {
+    background-position:-443px -147px;
+}
+.windwidget {
+    background-position:left 0px;
+}
+.spursofalacrity {
+    background-position:left -28px;
+}
+.galewindspurs {
+    background-position:left -56px;
+}
+.yiyuanstone {
+    background-position:left -85px;
+}
+.lyangyistone {
+    background-position:left -112px;
+}
+.santsaistone {
+    background-position:left -141px;
+}
+.sshushiangstone {
+    background-position:left -169px;
+}
+.wushingstone {
+    background-position:left -197px;
+}
+.liuhostone {
+    background-position:left -224px;
+}
+.chishingstone {
+    background-position:left -252px;
+}
+.pakuastone {
+    background-position:left -280px;
+}
+.chiukungstone {
+    background-position:left -308px;
+}
+.perfectstonea {
+    background-position:left -336px;
+}
+.pet-sprite {
+    background:url('../images/sprite-pets.jpg')no-repeat scroll 0 0 transparent;
+}
+.hay {
+    background-position:left 0px;
+}
+.fruit {
+    background-position:left -28px;
+}
+.fungus {
+    background-position:left -56px;
+}
+.wildginseng {
+    background-position:left -85px;
+}
+.fruit {
+    background-position:left -28px;
+}
+.cage {
+    background-position:left -112px;
+}
+.arcanebook {
+    background-position:left -141px;
+}
+.battlepack {
+    background-position:left -169px;
+}
+.phoenixfeather {
+    background-position:left -197px;
+}
+.sourceofforce {
+    background-position:left -224px;
+}
+.petcollar {
+    background-position:left -252px;
+}
+.forgetscroll {
+    background-position:left -280px;
+}
+.tamebook {
+    background-position:left -308px;
+}
+.frogling {
+    background-position:left -336px;
+}
+.snowhare {
+    background-position:left -365px;
+}
+.shaoducub {
+    background-position:left -392px;
+}
+.tabbyplumdrop {
+    background-position:left -420px;
+}
+.windwalkingpig {
+    background-position:left -448px;
+}
+.cuddlypup {
+    background-position:left -476px;
+}
+.kowlin {
+    background-position:left -504px;
+}
+.armoredbear {
+    background-position:left -533px;
+}
+.babyantelope {
+    background-position:left -560px;
+}
+.babybutterfly {
+    background-position:left -588px;
+}
+.babyhuggyhare {
+    background-position:left -616px;
+}
+.babyfoxwing {
+    background-position:left -644px;
+}
+.babyfirefairy {
+    background-position:left -672px;
+}
+.babyelysiumfowl {
+    background-position:left -700px;
+}
+.crafting-icon {
+    background:url('../images/sprite-crafting.jpg') no-repeat scroll;
+}
+.blacksmith {
+    background-position:left 0px;
+}
+.tailoring {
+    background-position:center -28px;
+}
+.jeweler {
+    background-position:center -57px;
+}
+.apothecary {
+    background-position:center -84px;
+}
+.roughlumber {
+    background-position:-28px 0px;
+}
+.finelumber {
+    background-position:-57px 0px;
+}
+.highgradelumber {
+    background-position:-84px 0px;
+}
+.lumberessence {
+    background-position:-112px 0px;
+}
+.pigiron {
+    background-position:0px -27px;
+}
+.highcarbonsteel {
+    background-position:-28px -27px;
+}
+.refinedsteel {
+    background-position:-57px -27px;
+}
+.steelalloy {
+    background-position:-84px -27px;
+}
+.highalloysteel {
+    background-position:-112px -27px;
+}
+.logs {
+    background-position:0 0;
+}
+.roughlumber {
+    background-position:-28px 0;
+}
+.finelumber {
+    background-position:-57px 0px;
+}
+.highgradelumber {
+    background-position:-84px 0px;
+}
+.lumberessence {
+    background-position:-112px 0px;
+}
+.sandstone {
+    background-position:0 -56px;
+}
+.gravel {
+    background-position:-28px -56px;
+}
+.rubstonepowder {
+    background-position:-57px -56px;
+}
+.corundumpowder {
+    background-position:-84px -56px;
+}
+.granite {
+    background-position:-112px -56px;
+}
+.coaldust {
+    background-position:0 -84px;
+}
+.charcoal {
+    background-position:-28px -84px;
+}
+.anthracite {
+    background-position:-57px -84px;
+}
+.extrudedcharcoal {
+    background-position:-112px -84px;
+}
+.cottonthread {
+    background-position:0 -113px;
+}
+.silkthread {
+    background-position:-28px -113px;
+}
+.compoundthread {
+    background-position:-57px -113px;
+}
+.azurewormsilk {
+    background-position:-84px -113px;
+}
+.vegastring {
+    background-position:-112px -113px;
+}
+.organicglue {
+    background-position:0 -140px;
+}
+.concentratedglue {
+    background-position:-28px -140px;
+}
+.strongglue {
+    background-position:-57px -140px;
+}
+.coloredglue {
+    background-position:-84px -140px;
+}
+.superglue {
+    background-position:-112px -140px;
+}
+.grease {
+    background-position:0 -168px;
+}
+.purifiedoil {
+    background-position:-28px -168px;
+}
+.compoundoil {
+    background-position:-57px -168px;
+}
+.glaze {
+    background-position:-84px -168px;
+}
+.compactedglaze {
+    background-position:-112px -168px;
+}
+.animalfur {
+    background-position:0 -196px;
+}
+.roughfur {
+    background-position:-28px -196px;
+}
+.leather {
+    background-position:-57px -196px;
+}
+.reinforcedleather {
+    background-position:-84px -196px;
+}
+.superiorleather {
+    background-position:-112px -196px;
+}
+.ageratum {
+    background-position:-168px -0;
+}
+.goldenherb {
+    background-position:-196px -0;
+}
+.salviaroot {
+    background-position:-224px -0;
+}
+.nectar {
+    background-position:-252px -0;
+}
+.elderwood {
+    background-position:-279px -0;
+}
+.tuckahoe {
+    background-position:-168px -27px;
+}
+.raelgar {
+    background-position:-196px -27px;
+}
+.craneherb {
+    background-position:-224px -27px;
+}
+.tranquilliaherb {
+    background-position:-252px -27px;
+}
+.elecampane {
+    background-position:-279px -27px;
+}
+.greenberry {
+    background-position:-168px -56px;
+}
+.fleeceflowerroot {
+    background-position:-196px -56px;
+}
+.blackhenbane {
+    background-position:-224px -56px;
+}
+.valdiaroot {
+    background-position:-252px -56px;
+}
+.ligumaloeswood {
+    background-position:-279px -56px;
+}
+.oxbezoar {
+    background-position:-168px -84px;
+}
+.serpentineherb {
+    background-position:-196px -84px;
+}
+.tulip {
+    background-position:-224px -84px;
+}
+.butterflyherb {
+    background-position:-252px -84px;
+}
+.tigerearherb {
+    background-position:-279px -84px;
+}
+.wormsprouts {
+    background-position:-168px -113px;
+}
+.redberry {
+    background-position:-196px -113px;
+}
+.perfumedewherb {
+    background-position:-224px -113px;
+}
+.logenherb {
+    background-position:-252px -113px;
+}
+.teiryherb {
+    background-position:-279px -113px;
+}
+.devilwood {
+    background-position:-168px -140px;
+}
+.whiteberry {
+    background-position:-196px -140px;
+}
+.scentedfungus {
+    background-position:-224px -140px;
+}
+.sprite {
+    width:28px;
+    height:28px;
+    border:1px solid #334b5f;
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5px;
+}

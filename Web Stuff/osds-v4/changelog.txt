@@ -1,0 +1,68 @@
+##########################################
+           Changelog OSDS V4
+
+http://code.google.com/p/osds/source/list
+http://www.dkunderground.org
+##########################################
+
+--------------- R5 ---------------
+- Updated links
+- Fixed view_map
+- Fixed ret_map
+- Fixed Settings
+- Removed Cports => http://www.dkunderground.org/forums/topic/194-cports-a-virus/
+ -- > Cports was causing problems with some anti-virus programs, you need to download ityourself if you wish to use it
+ -- > Download links added
+- Added "basic" register page, but its NOT WORKING yet !
+- Updated header
+- Added "Emblem Generator"
+- Added Support links for OSDS
+- Added "Report a bug" 
+- Added PHP Error logs
+- Renamed "view_query_log.php" to "view_log.php"
+- Added "Send Item" (BASIC)
+
+--------------- R4 ---------------
+- Fixed Online Accounts
+- Fixed unlink in index
+- Fixed edit_account
+- Fixed edit_character
+
+
+--------------- R3 ---------------
+- Typo in header
+- Typo in edit_account
+- Default selected "character" on quick search
+- Fixed Online Account not finding members
+- Fixed edit_character showing ip as 0.0.0.0
+- Fixed view_map and return_map for errors
+- Fixed Inbox => not reading the right DB
+- Added Check Messages on Inbox
+- Added Create New on Inbox
+- Added Create new message page
+- Fixed view_message => not reading the right DB
+- Added "delete" function on view_message
+- Added conformation message on delete
+- Added Total Message in inbox settings
+- Added edit_inventory (BETA!)
+
+
+--------------- R2 ---------------
+- Fixed Recent Logins
+- Added Logout Conformation
+- Fixed Sessions on login page
+- Added Conformation boxes on login
+- Fixed Login
+- Improved security
+- Tested login page for SQL injections => None found!
+- Fixed Inbox reading from the wrong DB
+- Updated Installer => SQL Query will be run for you !
+- Updated Installer => Folder removed, just a single file
+- Protected "/images" folder
+- Added "Patch" Support
+- Updated "OSDS CORE"
+- Added "changelog.txt"
+
+
+--------------- R1 ---------------
+- Official Release

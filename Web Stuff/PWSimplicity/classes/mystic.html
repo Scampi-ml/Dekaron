@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="../classes.html"></a>
+                    <a class="assassin" href="./assassin.html"></a>
+                    <a class="barbarian" href="./barbarian.html"></a>
+                    <a class="blademaster" href="./blademaster.html"></a>
+                    <a class="cleric" href="./cleric.html"></a>
+                    <a class="mystic current" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker" href="./seeker.html"></a>
+                    <a class="venomancer" href="./venomancer.html"></a>
+                    <a class="wizzard" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/mystic/meiling-mystic.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/mystic/meiling-mystic.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Mystic</h1>
+                        <p class="class-words">An intelligent and versatile protector of the planet, this poised-magic user absorbs surrounding energies and unleashes them in a manner to her liking, whether it be a warm, healing glow, or a vicious kinetic bolt</p>
+                        <p>If the Seeker is the backbone of the Earthguard army, then the Mystic is the bundle of muscle and nerves that keeps it protected and flexible. Proficient in several fields of magic, Mystics are comfortable serving many roles in and around the battlefield from dealing direct ranged damage, to providing tactical heals, to dishing out powerful status effects.</p>
+                        <p>
+                        <p><strong>Type:</strong></p>
+                        <p>Ranged Magic Damage Dealer, Support</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Wands, Patakas</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-mystic">
+                            <div class="skilltree-bg">
+                                <div class="mystic-skilltree popupskill">
+                                    <!-- col 1 skills -->
+                                    <a class="r1c1"><div><h3>Nature's Vengeance</h3><p>Razor-sharp thorns paint your target green and red.</p><p>Deals high Wood damage to the target and reduces its Speed.</p><p>Also causes a special status, under which Absorb Soul deals double damage.</p></div></a>
+                                    <a class="r2c1"><div><h3>Swirling Mist</h3><p>Mists pour in, casting eerie shadows that attack the target.</p><p>If the target's Health is lower than 60%, it takes Wood damage for 9 seconds.</p></div></a>
+                                    <a class="r4c1"><div><h3>Absorb Soul</h3><p>Calling upon the earth, you concentrate all your power and deal large amounts of Physical damage to the target. </p></div></a>
+                                    <a class="r7c1"><div><h3>Gale Force</h3><p>A whirlwind whips around you.</p><p>Deals large amounts of Wood damage to enemies around you.</p><p>Also has a chance to Stun or Freeze the target.</p></div></a>
+                                    <a class="r8c1"><div><h3>Bramble Tornado</h3><p>The wind whips up brambles and thorns to attack your enemies.</p><p>Deals a large amount of Wood damage. Knocks target back 12 meters.</p></div></a>
+                                    <a class="r9c1"><div><h3>Thicket</h3><p>Summons giant plants to attack for you.</p><p>Deals large amounts of damage to the target and has a chance to Stun or Silence them.</p></div></a>
+                                    
+                                    <!-- col 2 skills -->
+                                    <a class="r1c2"><div><h3>Break in the Clouds</h3><p>An invigorating sunbeam illuminates the target.</p><p>Recovers Health.</p></div></a>
+                                    <a class="r3c2"><div><h3>Falling Petals</h3><p>Fuses the target with a magical aura.</p><p>Heals the target when it takes damage.</p></div></a>
+                                    <a class="r4c2"><div><h3>Resurrect</h3><p>Prevents the soul of the dead from escaping, and resurrects the target.</p></div></a>
+                                    <a class="r7c2"><div><h3>Comforting Mist</h3><p>The land breathes life into all its children.</p><p>Heals yourself and all friendly targets around you.</p></div></a>
+                                    
+                                    <!-- col 3 skills -->
+                                    <a class="r2c3"><div><h3>Devil Chihyu</h3><p>Summons a furious demon to aid you in combat with its Physical attacks.</p></div></a>
+                                    <a class="r5c3"><div><h3>Storm Mistress</h3><p>Summons a fierce avatar to aid you in combat.</p><p>Uses Metal skills.</p></div></a>
+                                    <a class="r6c3"><div><h3>Salvation Emerges</h3><p>Summons a guardian with high Defense to aid you in combat.</p></div></a>
+                                    <a class="r9c3"><div><h3>Cragglord</h3><p>Summons a flaming demon to the battlefield.</p><p>The summoned demon attacks with powerful Fire skills.</p></div></a>
+                                    
+                                    <!-- col 4 skills -->
+                                    <a class="r2c4"><div><h3>Heal Summon</h3><p>Heals your summoned follower.</p></div></a>
+                                    <a class="r4c4"><div><h3>Transference</h3><p>Transfers part of your Mana to your summon.</p></div></a>
+                                    <a class="r8c4"><div><h3>Energy Leech</h3><p>Sacrifice your current summon to give yourself a boost.</p></div></a>
+
+                                    <!-- col 5 skills -->
+                                    <a class="r3c5"><div><h3>Punishing Sting</h3><p>Summons a Stinging Nettle to attack the enemy.</p><p>Attacks a single target.</p></div></a>
+                                    <a class="r4c5"><div><h3>Befuddling Creeper</h3><p>Summons a wicked vine that performs AOE curses.</p></div></a>
+                                    <a class="r5c5"><div><h3>Spidervine</h3><p>Summons a tangling thread that causes AOE Slow.</p></div></a>
+                                    <a class="r6c5"><div><h3>Listless Blossom</h3><p>Summons a plant that causes an AOE Sleep effect.</p></div></a>
+                                    <a class="r7c5"><div><h3>Healing Herb</h3><p>Summons an herb that performs AOE healing.</p></div></a>
+                                    <a class="r8c5"><div><h3>Vital Herb</h3><p>Summons an herb that performs powerful AOE healing.</p></div></a>
+
+                                    <!-- col 6 skills -->
+                                    <a class="r3c6"><div><h3>Verdant Shell</h3><p>A devout follower can receive blessings from the natural world.</p><p>Increases Wood and Water resistances and Physical Defense.</p></div></a>
+                                    <a class="r5c6"><div><h3>Lysing</h3><p>Obliterates your summoned plants, dealing damage to nearby targets and causing strange effects. </p></div></a>
+                                    <a class="r7c6"><div><h3>Wood Mastery</h3><p>Increase all Wood damage.</p></div></a>
+                                    <a class="r8c6"><div><h3>Rapid Growth</h3><p>You can feel the spirit of nature flowing within you.</p><p>Reduces Channeling time by 20% and increases Attack.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-mystic-1.png"></li>
+                                <li><img src="../images/thumb-mystic-2.png"></li>
+                                <li><img src="../images/thumb-mystic-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

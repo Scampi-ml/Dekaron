@@ -1,0 +1,18 @@
+<?php
+//--------------------------------------
+//      Written by Janvier123
+//      Made for DK servers
+//--------------------------------------
+
+
+
+		$msconnect = mssql_connect("localhost","sa","pass");;
+		$msdb = mssql_select_db("character", $msconnect);
+
+		$q2 = "SELECT * FROM guild_info";
+		$r2 = mssql_query($q2);
+		$sad2 = mssql_num_rows($r2);
+		echo "<div align=left>Total Guilds: $sad2";
+
+
+?>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="Stylesheet" href="../css/bjqs.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../js/bjqs-1.3.min.js"></script>
+	<script>
+		// Javascript originally by Patrick Griffiths and Dan Webb.
+		// http://htmldog.com/articles/suckerfish/dropdowns/
+		sfHover = function() {
+		var sfEls = document.getElementById("menu").getElementsByTagName("li");
+		for (var i=0; i<sfEls.length; i++) {
+		   sfEls[i].onmouseover=function() {
+			  this.className+=" hover";
+		   }
+		   sfEls[i].onmouseout=function() {
+			  this.className=this.className.replace(new RegExp(" hover\\b"), "");
+		   }
+		}
+		}
+		if (window.attachEvent) window.attachEvent("onload", sfHover);
+    </script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="pwi" href="../game-info.html"></a>
+                    <a class="lost-empire current" href="./lost-empire.html"></a>
+                    <a class="age-of-spirits" href="./ageofspirits.html"></a>
+                    <a class="rising-tide" href="./rising-tide.html"></a>
+                    <a class="genesis" href="./genesis.html"></a>
+                    <!--<a class="descent" href="#"></a> #Disabled , because Private Servers has not yet reached this far-->
+                    <!--<a class="sirens-of-war" href="#"></a> #Disabled , because Private Servers has not yet reached this far-->
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1>Lost Empire</h1>
+                        <p class="big-words">Upon uncovering a strange Wraith Plot, old memories are awakened and ancient mysteries become important. A magic relic, the Chrono Wheel, becomes necessary as it is the only way to travel back 1000 years in the past to investigate the roots of the Wraiths and uncover the truth about the beginning of the Millennium War. The player travels through time visiting various historic events in Perfect World.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>The Millenium War</h3></div>
+                        <div class="gcontent"><p>The Millennium War is one of the main historical periods of Perfect World. Called the Millennium War because it lasted for a thousand years, this conflict between the Winged Elves and Humans only ended when the pressing threat of the Wraiths forced a truce. Understandably, there is still much animosity between the Elves and Humans. The initial cause of the strife and the even that brought tempers to a head leading to all out war, is known as the Massacre of Unicorn Forest. The story goes that the Winged Elves brutally murdered a group of humans, but as it is with history, stories vary.</p></div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>City of the Lost</h3></div>
+                        <div class="gcontent"><img class="imgleft" src="../images/lost-city.png" width="380" height="301"><p>But only by visiting other times of peril for Perfect World can the full truth be known. Another tale tells of the northern Savagians who invaded the western Human countries. Led by the dark lord Wanyi, they advanced rapidly to the Valley of the Scarred, where the City of the Lost is now located. The whole West Land fought the Savagians at the Valley of the Scarred. In the early days of the war, the allied force was almost wiped out. The West Land was in danger, until a defender came with help from an unlikely ally and saved Perfect World. Who was this powerful friend?</p></div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>..fate of the present.</h3></div>
+                        <div class="gcontent"><img class="imgright" src="../images/princess.png" width="314" height="253"><p>Answering this question ultimately leads to even more intriguing mysteries, namely the situation surrounding the fall of the Twilight Empire. The player must research the real story behind Chungyun and the Princess of Moonlight. As the saga unfolds, the player will fight through Nimbustian Guards and have a chance to meet this couple of legend, ultimately making a choice that will change the fate of the present.</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

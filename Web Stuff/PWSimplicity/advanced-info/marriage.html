@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css" />
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage current" href="./marriage.html"></a>
+                    <a class="mounts" href="./mounts.html"></a>
+                    <a class="pets" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage" href="./player-storage.html"></a>
+                    <a class="pvp" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Marriage</h1>
+                        <p class="big-words">Within the Perfect World marriage system, users have the unique opportunity to become married to one another. In this marriage both users will have their significant other displayed above their own name as the wife or husband of the other partner. </p>
+                        <p>All other users who come across these two characters will know that they are a couple. In addition to this title, married couples will receive a bundle of gifts in celebration of their union.</p>
+                        <p>To complete this operation both users must meet the following conditions:</p>
+                        <p>The couple must be composed of a Male and Female character.</p>
+                        <p>Both characters must be at least level 20 in order to be given the quest. </p>
+                        <p>The male character will need to open the Bridegroom Pack and the female character will need to open the Bride Pack from the Boutique. </p>
+                        <p>Note: Please have at least 5 inventory slots available when opening the packages to obtain all the items.</p>
+                        <p>The couple must be in a squad together with no additional members. Any other users present in the squad will disqualify you from the marriage process.</p>
+                        <p>Now that both users are ready to get married, simply click on the Eldest Matchmaker NPC located at (522 655) in Archosaur and select "Quest Related". Each user will need to complete the "Matrimony" quest. For males they will need to turn in the "Stamp of Eternity" and the females will need to turn in "Silk of Eternity". These items are provided in your associated marriage packs.</p>
+                        <p>Once both sides have completed the quest the current squad leader will then proceed to finalize the union by speaking to the Eldest Matchmaker one more time. The final part of the quest is also called "Matrimony" so at this point all you need to do is complete it is to have the Squad Leader accept the "I Do" option.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Boutique Marriage</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite marriage-icon bridepack"></div>
+                                    <b>Bride Pack</b>
+                                    <p>A necessary item item for newlyweds. Contain things for a bride.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite marriage-icon bridedress"></div>
+                                    <b>Bride Dress</b>
+                                    <p>Gender Requirement: Female</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite marriage-icon brideshoes"></div>
+                                    <b>Bride Shoes</b>
+                                    <p>Gender Require: Female</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite marriage-icon silkofeternity"></div>
+                                    <b>Silk of Eternity</b>
+                                    <p>Squad up with your true love and speak to the Eldest Matchmaker in Archosaur</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite marriage-icon groompack"></div>
+                                    <b>Groom Pack</b>
+                                    <p>A necessary item item for newlyweds. Contain things for a groom.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite marriage-icon groomsuit"></div>
+                                    <b>Groom Suit</b>
+                                    <p>Gender Require: Male</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite marriage-icon groompants"></div>
+                                    <b>Groom Pants</b>
+                                    <p>Gender Requirement: Male</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite marriage-icon groomshoes"></div>
+                                    <b>Groom Shoes</b>
+                                    <p>Gender Requirement: Male</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite marriage-icon stampofeternity"></div>
+                                    <b>Stamp of Eternity</b>
+                                    <p>Squad up with your true love and speak to the Eldest Matchmaker in Archosaur</p>
+                                </div>
+                            </div>
+                            <p>Congratulations! You are now married and as a special surprise the Eldest Matchmaker will give you 10 wedding gifts (explained later) and announce your marriage as well. An example is provided below.</p>
+                            <p>System Message: Tom and Sue are now husband and Wife. Let us all wish them a lifetime of happiness!</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Wedding Gifts</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite marriage-icon giftpouch"></div>
+                                    <b>Gift Pouch</b>
+                                    <p>Right click to use.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite marriage-icon weddingcandy"></div>
+                                    <b>Wedding Candy</b>
+                                    <p>Reward: 20 reputation.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite marriage-icon triumphmoney"></div>
+                                    <b>Triumph Money</b>
+                                    <p>Reward 99,999 money.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                    <b>Wedding Wine</b>
+                                    <p>Your can trade this for wines from the Eldest Matchmaker</p>
+                                </div>
+                            </div>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Wedding Wine Trades</h3></div>
+                        <div class="gcontent">
+                            <p>Wedding Wine = Used to turn into the Eldest Matchmaker to acquire the following types of wine:</p>
+                            <ul class="header marriage">
+                                <li class="thumbs"></li>
+                                <li class="item">Items</li>
+                                <li class="amount">Ammount</li>
+                                <li class="name">Name</li>
+                                <li class="results">Results</li>
+                            </ul>
+                            <ul class="row-odd marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>1</p></li>
+                                <li class="name">
+                                    <b>Osmanthus Wine</b>
+                                    <p>Used for Call of Duty: Level 19</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon osmanthuswine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-even marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>1</p></li>
+                                <li class="name">
+                                    <b>Bamboo Wine</b>
+                                    <p>Used for Call of Duty: Level 29</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon bamboowine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-odd marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>2</p></li>
+                                <li class="name">
+                                    <b>Daughters Wine</b>
+                                    <p>Used for Call of Duty: Level 39</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon daughterswine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-even marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>2</p></li>
+                                <li class="name">
+                                    <b>Frangrance's Wine</b>
+                                    <p>Used for Call of Duty: Level 49</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon fragranceswine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-odd marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>2</p></li>
+                                <li class="name">
+                                    <b>Chiennans Wine</b>
+                                    <p>Used for Call of Duty: Level 59</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon chiennanspringwine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-even marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>3</p></li>
+                                <li class="name">
+                                    <b>Ancientwell Wine</b>
+                                    <p>Used for Call of Duty: Level 69</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon ancientwellwine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-odd marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>4</p></li>
+                                <li class="name">
+                                    <b>Afterglow Wine</b>
+                                    <p>Used for Call of Duty: Level 79</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon afterglowwine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-even marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>6</p></li>
+                                <li class="name">
+                                    <b>Tukang's Wine</b>
+                                    <p>Used for Call of Duty: Level 89</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon tukangswine"></div>
+                                </li>
+                            </ul>
+                            <ul class="row-odd marriage">
+                                <li class="thumbs">
+                                    <div class="sprite marriage-icon weddingwine"></div>
+                                </li>
+                                <li class="item"><p>Wedding Wine</p></li>
+                                <li class="amount"><p>8</p></li>
+                                <li class="name">
+                                    <b>Wine of ever lasting sorrow</b>
+                                    <p>Used for Call of Duty: Level 99</p>
+                                </li>
+                                <li class="results">
+                                    <div class="sprite marriage-icon wineofeverlastingsorrow"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Divorce</h3></div>
+                        <div class="gcontent">
+                            <p>If the couple in question no longer wishes to be together and counseling has not helped then the only other option is the dissolution of the marriage. In order to complete this action, one of the married individuals can go to the Eldest Matchmaker and pay 2,000,000 coins to end the marriage. The one who confirms the divorce is the only one who will have to pay this amount.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

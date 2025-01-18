@@ -1,0 +1,1131 @@
+/* Website developed by Mucski Arts / Mucski Inc.
+ * 2013 Copyright , All Rights Reserved
+ * Browser compatibility :
+ * Maxthon (Any version , operates on Chrome source code)
+ * Google Chrome (Any version)
+ * Internet Explorer (v7 and up)
+ * Firefox (Any version)
+ * Saffari (Not tested)
+ * Opera (Any version | Not tested)
+ */
+@import url(reset.css);
+/*Part of the CSS Reset needed for cross-browser compatibility.*/
+body {
+    font-family:arial, sans-serif;
+    font-size:11px;
+    color:#82a0a8;
+    background:url('../images/top-bg.jpg') no-repeat top center #000;
+}
+p {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+ul {
+    padding-left:2em;
+}
+a:link {
+    color:inherit;
+    text-decoration:none;
+}
+a:hover {
+    color:inherit;
+    text-decoration:underline;
+}
+a:visited {
+    color:inherit;
+}
+.clear {
+    clear:both;
+}
+.wrapper {
+    width:960px;
+    margin:0 auto;
+    clear:both;
+}
+.news-content {
+    width:720px;
+    float:left;
+    min-height:800px;
+    background-color:#080d11;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin:500px 0px 0px;
+    overflow:hidden;
+    clear:both;
+}
+.news-content-full {
+    width:960px;
+    min-height:300px;
+    background-color:#080d11;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    margin:42em 0px 0px;
+    overflow:hidden;
+    clear:both;
+}
+.news-wrapper {
+    width:700px;
+    margin:0 auto;
+    overflow:hidden;
+    clear:both;
+}
+.news-wrapper-full {
+    width:940px;
+    margin:0 auto;
+}
+.sd-bar {
+    width:240px;
+    float:right;
+    min-height:200px;
+    background-color:#0a1620;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin:44em 0px 0px;
+}
+/*THIS IS THE MENU , AND PART OF THE MENU*/
+ul#menu {
+    width:960px;
+    height:59px;
+    position:absolute;
+    margin:0 auto;
+    padding:0;
+    top:17px;
+}
+ul#menu li {
+    height:59px;
+    display:block;
+    float:left;
+    background:url('../images/menu-bg.png');
+    background-repeat:no-repeat;
+}
+ul#menu li a {
+    display:block;
+    height:59px;
+    width:160px;
+}
+ul#menu li.home {
+    width:160px;
+    background-position:0px 0px;
+}
+ul#menu li.home:hover {
+    background-position:0px -59px;
+}
+ul#menu li.game {
+    width:160px;
+    background-position:-160px 0px;
+}
+ul#menu li.game:hover {
+    background-position:-160px -59px;
+}
+ul#menu li.community {
+    width:160px;
+    background-position:-320px 0px;
+}
+ul#menu li.community:hover {
+    background-position:-320px -59px;
+}
+ul#menu li.download {
+    width:160px;
+    background-position:-480px 0px;
+}
+ul#menu li.download:hover {
+    background-position:-480px -59px;
+}
+ul#menu li.media {
+    width:160px;
+    background-position:-640px 0px;
+}
+ul#menu li.media:hover {
+    background-position:-640px -59px;
+}
+ul#menu li.get-zen {
+    width:160px;
+    background-position:-800px 0px;
+}
+ul#menu li.get-zen:hover {
+    background-position:-800px -59px;
+}
+ul#menu li ul {
+    display:none;
+}
+ul#menu li:hover ul {
+    display:block;
+    position:absolute;
+    padding:0;
+    margin:0;
+    z-index:999;
+}
+ul#menu li:hover li {
+    float:none;
+    background:none;
+    height:30px;	
+}
+ul#menu li:hover li a {
+    background-color:#333;
+    background-image:none;
+    width:140px;
+    height:30px;
+    text-align:left;
+    line-height:30px;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration:none;
+    border-top:1px solid #383838;
+    border-left:1px solid #383838;
+    border-right:1px solid #383838;
+}
+ul#menu li:hover li a:hover {
+    background-color: #2b2b2b;
+    -webkit-box-shadow: inset 0px 0px 5px 2px #222222;
+    box-shadow: inset 0px 0px 5px 2px #222222;
+    color:#ccc;
+    text-decoration:none;
+}
+ul#menu li:hover li:last-child a {
+    border-bottom:1px solid #383838;
+}
+ul#menu li:hover li:first-child a:hover {
+    border-bottom:1px solid #383838;
+}
+/*FINISHING MENU LAYOUT AND PART OF THE MENU*/
+.realm {
+    margin:10px auto;
+    width:220px;
+    min-height:50px;
+    background-color:#060e14;
+}
+.realm-header {
+    width:220px;
+    height:27px;
+    background-image:url('../images/realm-header.png');
+    overflow:hidden;
+    zoom:1;
+}
+.realm-body {
+    overflow:hidden;
+    zoom:1;
+}
+.r-name {
+    float:left;
+    line-height:27px;
+    margin:0 10px;
+    padding:0;
+}
+.online {
+    float:right;
+    line-height:27px;
+    margin:0 10px;
+    color:#339933;
+    padding:0;
+}
+.offline {
+    float:right;
+    line-height:27px;
+    margin:0 10px;
+    color:#CC0000;
+    padding:0;
+}
+.text-left {
+    float:left;
+    line-height:27px;
+    margin:0 10px;
+    padding:0;
+}
+.text-right {
+    float:right;
+    line-height:27px;
+    margin:0 10px;
+    padding:0;
+}
+.sd-header {
+    background-image:url('../images/sd-header.gif');
+    width:240px;
+    height:43px;
+    overflow:hidden;
+    zoom:1;
+    margin-bottom:10px;
+}
+.sd-body {
+    min-height:50px;
+    margin-top:-25px;
+    margin-bottom:10px;
+    overflow:hidden;
+    zoom:1;
+}
+.input {
+    background-color:#000506;
+    width:200px;
+    height:31px;
+    outline:0;
+    border:0;
+    display:block;
+    margin:0 auto 10px;
+    color:#1b2d3c;
+    padding-left:10px;
+    padding-right:10px;
+}
+.button {
+    margin:0 auto 5px 10px;
+    outline:0;
+    border:0;
+    background-image:url('../images/login-button.png');
+    background-repeat:no-repeat;
+    background-color:transparent;
+    width:89px;
+    height:32px;
+    color:#82a0a8;
+    float:left;
+    cursor:pointer;
+}
+.button:hover {
+    margin:0 auto 5px 10px;
+    outline:0;
+    border:0;
+    background-position:0px -30px;
+    width:89px;
+    height:32px;
+    color:#82a0a8;
+    float:left;
+}
+a.register {
+    display:block;
+    width:89px;
+    height:32px;
+    background-image:url('../images/register-button.png');
+    background-repeat:no-repeat;
+    float:right;
+    margin-right:7px;
+    text-indent:-999em;
+}
+a.register:hover {
+    display:block;
+    width:89px;
+    height:32px;
+    background-position:0px -30px;
+}
+.progress-label {
+    display:block;
+    overflow:hidden;
+    zoom:1;
+}
+.progress-container {
+    height:11px;
+    width:214px;
+    background-color:#132636;
+    margin:0 auto;
+    padding-top:2px;
+    padding-left:3px;
+    padding-right:3px;
+    display:block;
+}
+ul.pagination {
+    display:block;
+    text-align:center;
+}
+ul.pagination li {
+    float:left;
+    padding:5px;
+    text-align:center;
+}
+.progressbar {
+    display:block;
+}
+.column1 {
+    list-style-type:none;
+    margin:10px;
+    padding:0;
+    float:left;
+}
+.column2 {
+    list-style-type:none;
+    margin:10px;
+    padding:0;
+    float:right;
+}
+.footer {
+    width:960px;
+    height:50px;
+    margin:20px auto 20px;
+}
+.copyright {
+    text-align:center;
+}
+#banner-fade {
+    margin-top:10px;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+.content-divider {
+    background-image:url('../images/content-divider.gif');
+    width:700px;
+    height:2px;
+}
+.thumbnail {
+    width:160px;
+    height:127px;
+    float:left;
+    border:solid 1px #334b5f;
+    margin-right:20px;
+}
+img.thumbnail { 
+    outline:none;
+}
+.content {
+    min-height:127px;
+    margin:15px 0 15px;
+    overflow:auto;
+    zoom:1;
+    clear:both;
+}
+.content img {
+    margin-left:auto;
+    margin-right:auto;
+}
+.content h3 {
+    margin:0 0 15px;
+}
+.submenu {
+    text-align:center;
+    margin:0 auto;
+}
+.read-more {
+    text-align:right;
+    margin:20px 0;
+}
+.download {
+    width:240px;
+    height:66px;
+    background:url('../images/download.png') no-repeat;
+    display:block;
+}
+.download:hover {
+    width:240px;
+    height:66px;
+    background-position:0px -69px;
+    display:block;
+}
+.logo {
+    width:197px;
+    height:145px;
+    display:block;
+    position:absolute;
+    top:18em;
+    background:url('../images/logo.png') no-repeat;
+    border:0;
+}
+.sidebar-full {
+    float:left;
+    width:220px;
+}
+a.lost-empire  {
+    background:url('../images/lost-empire.png') no-repeat;
+    width:220px;
+    height:62px;
+    display:block;
+}
+a.lost-empire:hover {
+    background-position:0px -63px;
+}
+a.pwi {
+    background:url('../images/pwi.png') no-repeat;
+    width:220px;
+    height:62px;
+    display:block;
+    margin-top:10px;
+}
+a.pwi:hover {
+    background-position:0px -63px;
+}
+a.age-of-spirits {
+    background:url('../images/age-of-spirits.png') no-repeat;
+    width:220px;
+    height:62px;
+    display:block;
+}
+a.age-of-spirits:hover {
+    background-position:0px -63px;
+}
+a.rising-tide {
+    background:url('../images/rising-tide.png') no-repeat;
+    width:220px;
+    height:62px;
+    display:block;
+}
+a.rising-tide:hover {
+    background-position:0px -63px;
+}
+a.genesis {
+    background:url('../images/genesis.png') no-repeat;
+    width:220px;
+    height:62px;
+    display:block;
+}
+a.genesis:hover {
+    background-position:0px -63px;
+}
+a.descent {
+    background:url('../images/descent.png') no-repeat;
+    width:220px;
+    height:62px;
+    display:block;
+}
+a.descent:hover {
+    background-position:0px -63px;
+}
+a.sirens-of-war {
+    background:url('../images/sirens-of-war.png') no-repeat;
+    width:220px;
+    height:62px;
+    display:block;
+    margin-bottom:10px;
+}
+a.sirens-of-war:hover{
+    background-position:0px -63px;
+}
+.info-full {
+    width:720px;
+    min-height:392px;
+    background:url('../images/pwi-header.jpg') no-repeat top center;
+    float:right;
+}
+.race-full {
+    width:720px;
+    min-height:563px;
+    float:right;
+}
+.earthguard {
+    background:url('../images/bg-earthguard.jpg') no-repeat top center;
+}
+.winged-elves {
+    background:url('../images/bg-wingedelves.jpg') no-repeat top center;
+}
+.humans {
+    background:url('../images/bg-humans.jpg') no-repeat top center;
+}
+.tideborn {
+    background:url('../images/bg-tideborn.jpg') no-repeat top center;
+}
+.untamed {
+    background:url('../images/bg-untamed.jpg') no-repeat top center;
+}
+.game-info-header {
+    margin:20px;
+}
+.game-info-header h1 {
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight:900;
+    font-size:28px;
+}
+.race-info-header {
+    margin:20px;
+}
+.race-info-header h1 {
+    font-family: 'Source Code Pro' sans-serif;
+    font-weight:900;
+    font-size:28px;
+}
+.race-info-header p{
+    width:350px;
+}
+.big-words p {
+    font-size:20px;
+    font-weight:700;
+}
+.big-words {
+    min-height:90px;
+}
+.race-words {
+    width:350px;
+}
+p.race-words {
+    font-size:20px;
+    font-weight:700;
+}
+.class-info-header {
+    margin:20px;
+    min-height:350px;
+}
+.class-info-header h1 {
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight:900;
+    font-size:28px;
+}
+.class-info-header p {
+    width:350px;
+}
+.class-words {
+    width:350px;
+}
+p.class-words {
+    font-size:20px;
+    font-weight:700;
+}
+.gheader {
+    background:url('../images/game-info-header.png') no-repeat top center;
+    width:700px;
+    height:108px;
+}
+.gheader h3 {
+    padding-top:5px;
+    padding-left:10px;
+}
+.ginnerwrapper {
+    width:700px;
+    float:right;
+    margin-bottom:30px;
+}
+.gcontent {
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:-80px;
+    min-height:70px;
+}
+.imgleft {
+    float:left;
+    padding-top:15px;
+    display:block;
+    margin-right:10px;
+    padding-right:10px;
+}
+.imgright {
+    float:right;
+    padding-top:15px;
+    display:block;
+    margin-left:10px;
+    padding-left:10px;
+}
+#register {
+    display:inline-block;
+    text-align:center;
+    width:698px;
+    overflow:hidden;
+    height:auto !important;
+    border:1px solid #0f181f;
+    margin:0px auto;
+}
+.reginput {
+    display:inline-block;
+    width:210px;
+    height:25px;
+    background:#000506;
+    border:0;
+    text-align:left;
+    margin:5px;
+    color:#162734;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #001a1f;
+    float:left;
+}
+#register label {
+    text-align:left;
+    float:left;
+}
+
+#register_errorloc {
+    color:#e72a2a;
+}
+#countries {
+    display:inline-block;
+    text-align:left;
+    margin:5px;
+    width:300px;
+    height:31px;
+    line-height:31px;
+}
+.submit {
+    margin:5px;
+}
+.pageheader {
+    margin:5px;
+}
+.recent-video {
+    width:220px;
+    margin:0 auto;
+}
+.accountsteps {
+    font-size:15px;
+    font-weight:700;
+    text-align:left;
+    margin:10px;
+    border-bottom:1px dotted #0f181f;
+    padding-left:10px;
+}
+.row2 {
+    background:#162430;
+    width:100%;
+    padding-left:5px;
+    margin:0;
+}
+.userinfo {
+    overflow:hidden;
+    margin:0 10px;
+}
+.row {
+    width:100%;
+    overflow:hidden;
+    margin:5px;
+}
+.form-title{text-align:right;}
+.row-left{float:left; width:345px; line-height:25px;}
+.row-right {float:right; width:345px; line-height:25px;}
+a.auction-house {
+    background:url('../images/auction-house.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+    margin-top:10px;
+}
+a.auction-house:hover {
+    background-position:0 -63px;
+}
+a.crafting {
+    background:url('../images/crafting.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.crafting:hover {
+    background-position:0 -63px;
+}
+a.genie {
+    background:url('../images/genie.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.genie:hover {
+    background-position:0 -63px;
+}
+a.faction {
+    background:url('../images/faction.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.faction:hover {
+    background-position:0 -63px;
+}
+a.imbue {
+    background:url('../images/imbue.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.imbue:hover {
+    background-position:0 -63px;
+}
+a.marriage {
+    background:url('../images/marriage.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.marriage:hover {
+    background-position:0 -63px;
+}
+ul.marriage {
+    overflow:hidden;
+    padding:0;
+}
+ul.marriage li {
+    float:left;
+    width:110px;
+}
+a.mounts {
+    background:url('../images/mounts.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.mounts:hover {
+    background-position:0 -63px;
+}
+a.pets {
+    background:url('../images/pets.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.pets:hover {
+    background-position:0 -63px;
+}
+a.player-shop {
+    background:url('../images/player-shop.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.player-shop:hover {
+    background-position:0 -63px;
+}
+a.player-storage {
+    background:url('../images/player-storage.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.player-storage:hover {
+    background-position:0 -63px;
+}
+a.pvp {
+    background:url('../images/pvp.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.pvp:hover {
+    background-position:0 -63px;
+}
+a.refining {
+    background:url('../images/refining.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.refining:hover {
+    background-position:0 -63px;
+}
+a.teleportation {
+    background:url('../images/teleportation.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.teleportation:hover {
+    background-position:0 -63px;
+}
+a.territory-war {
+    background:url('../images/territory-war.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.territory-war:hover {
+    background-position:0 -63px;
+}
+a.ultimate-weapon {
+    background:url('../images/ultimate-weapon.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+    margin-bottom:10px;
+}
+a.ultimate-weapon:hover {
+    background-position:0 -63px;
+}
+a.earthguard {
+    background:url('../images/earthguard.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+    margin-top:10px;
+}
+a.earthguard:hover {
+    background-position:0 -63px;
+}
+a.winged-elves {
+    background:url('../images/winged-elves.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.winged-elves:hover {
+    background-position:0 -63px;
+}
+a.humans {
+    background:url('../images/humans.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.humans:hover {
+    background-position:0 -63px;
+}
+a.tideborn {
+    background:url('../images/tideborn.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.tideborn:hover {
+    background-position:0 -63px;
+}
+a.untamed {
+    background:url('../images/untamed.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.untamed:hover {
+    background-position:0 -63px;
+}
+a.archer {
+    background:url('../images/archer.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+    margin-top:10px;
+}
+a.archer:hover {
+    background-position:0 -63px;
+}
+a.assassin {
+    background:url('../images/assassin.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.assassin:hover {
+    background-position:0 -63px;
+}
+a.barbarian {
+    background:url('../images/barbarian.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.barbarian:hover {
+    background-position:0 -63px;
+}
+a.blademaster {
+    background:url('../images/blademaster.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.blademaster:hover {
+    background-position:0 -63px;
+}
+a.cleric {
+    background:url('../images/cleric.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.cleric:hover {
+    background-position:0 -63px;
+}a.mystic {
+    background:url('../images/mystic.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.mystic:hover {
+    background-position:0 -63px;
+}
+a.psychic {
+    background:url('../images/psychic.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.psychic:hover {
+    background-position:0 -63px;
+}
+a.seeker {
+    background:url('../images/seeker.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.seeker:hover {
+    background-position:0 -63px;
+}
+a.venomancer {
+    background:url('../images/venomancer.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.venomancer:hover {
+    background-position:0 -63px;
+}
+a.wizzard {
+    background:url('../images/wizzard.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+    margin-bottom:10px;
+}
+a.wizzard:hover {
+    background-position:0 -63px;
+}
+a.adept {
+    background:url('../images/adept.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+	margin-top:10px;
+}
+a.adept:hover {
+    background-position:0 -63px;
+}
+a.principle {
+    background:url('../images/principle.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.principle:hover {
+    background-position:0 -63px;
+}
+a.harmony {
+    background:url('../images/harmony.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.harmony:hover {
+    background-position:0 -63px;
+}
+a.discord {
+    background:url('../images/discord.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.discord:hover {
+    background-position:0 -63px;
+}
+a.coalescence {
+    background:url('../images/coalescence.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.coalescence:hover {
+    background-position:0 -63px;
+}
+a.transcendant {
+    background:url('../images/transcendant.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.transcendant:hover {
+    background-position:0 -63px;
+}
+a.enlightenedone {
+    background:url('../images/enlightenedone.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.enlightenedone:hover {
+    background-position:0 -63px;
+}
+a.vacuity {
+    background:url('../images/vacuity.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.vacuity:hover {
+    background-position:0 -63px;
+}
+a.sage {
+    background:url('../images/sage.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+}
+a.sage:hover {
+    background-position:0 -63px;
+}
+a.demon {
+    background:url('../images/demon.png') no-repeat;
+    display:block;
+    width:220px;
+    height:62px;
+	margin-bottom:10px;
+}
+a.demon:hover {
+    background-position:0 -63px;
+}
+a.current { background-position:0px -63px; }
+.gcontent img {
+    display:block;
+    margin:0 auto;
+    min-width:300px;
+}
+.gcontent ol {
+    list-style:decimal;
+    margin-left:20px;
+}
+.gcontent p {
+    display:block;
+}
+.row-odd {
+    background:#131f29;
+    display:block;
+    overflow:hidden;
+}
+.row-odd  p{
+    margin:5px;
+    display:block;
+}
+.row-even  p{
+    margin:5px;
+    display:block;
+}
+.row-odd  b{
+    margin:5px;
+}
+.row-even  b{
+    margin:5px;
+}
+.row-odd h3 {
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.row-even {
+    background:#0d161d;
+    display:block;
+    overflow:hidden;
+}
+
+.left {
+    float:left;
+    margin-right:15px;
+    margin-top:5px;
+}
+.right {
+    float:right;
+    margin-left:15px;
+    margin-top:5px;
+}
+.race-screenshot li {
+    width:190px;
+    height:110px;
+    float:left;
+    display:block;
+    border:1px solid #334b5f;
+    margin:10px;
+}
+.race-screenshot img {
+    min-width:190px;
+	height:110px;
+	width:190px;
+}
+.download-header {
+	background:url('../images/download-bg.jpg')no-repeat top center;
+	width:700px;
+	height:319px;
+}
+.download-content {
+	border:1px solid #0f181f;
+	min-height:300px;
+}
+.title {
+	float:left;
+	width:200px;
+	text-align:right;
+}
+.info {
+	float:right;
+	width:400px;
+	padding-right:70px;
+}

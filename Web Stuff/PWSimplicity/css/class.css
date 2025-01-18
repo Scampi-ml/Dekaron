@@ -1,0 +1,525 @@
+.model3d {
+    position:absolute;
+    margin-left:200px;
+}
+.class-info li {
+    float:left;
+    width:66px;
+    padding:5px;
+    text-align:center;
+}
+.skilltree-bg {
+    width:300px;
+    height:390px;
+    background-color:#131f29;
+    border:1px solid #334b5f;
+    float:right;
+    margin-right:25px;
+    margin-top:25px;
+}
+.archer-skilltree {
+    background:url('../images/bg-skilltree-archer.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.popupskill a {
+    height:30px;
+    width:30px;
+    position:absolute;
+    cursor:pointer;
+    cursor:hand;
+}
+.popupskill a div {
+    position:absolute;
+    left:-999px;
+    width:300px;
+    display:none;
+    height:auto;
+}
+.popupskill a:hover div {
+    padding:10px;
+    background:#000;
+    border-radius:3px;
+    border:1px solid #334b5f;
+    position:absolute;
+    left:50px;
+    display:block;
+}
+.archer-skilltree a.r2c1 { margin: 56px 0 0 12px; }
+.archer-skilltree a.r3c1 { margin: 94px 0 0 12px; }
+.archer-skilltree a.r4c1 { margin: 132px 0 0 12px; }
+.archer-skilltree a.r6c1 { margin: 207px 0 0 12px; }
+.archer-skilltree a.r7c1 { margin: 247px 0 0 12px; }
+.archer-skilltree a.r8c1 { margin: 285px 0 0 12px; }
+
+.archer-skilltree a.r3c2  { margin: 94px 0 0 66px; }
+.archer-skilltree a.r5c2  { margin: 170px 0 0 66px; }
+.archer-skilltree a.r7c2  { margin: 246px 0 0 66px; }
+.archer-skilltree a.r8c2  { margin: 284px 0 0 66px; }
+.archer-skilltree a.r9c2  { margin: 324px 0 0 66px; }
+
+.archer-skilltree a.r1c3  { margin: 18px 0 0 119px; }
+.archer-skilltree a.r2c3  { margin: 56px 0 0 119px; }
+.archer-skilltree a.r4c3  { margin: 132px 0 0 119px; }
+.archer-skilltree a.r5c3  { margin: 170px 0 0 119px; }
+.archer-skilltree a.r6c3  { margin: 207px 0 0 119px; }
+.archer-skilltree a.r7c3  { margin: 245px 0 0 119px; }
+.archer-skilltree a.r8c3  { margin: 284px 0 0 119px; }
+
+.archer-skilltree a.r3c4  { margin: 94px 0 0 171px; }
+.archer-skilltree a.r5c4  { margin: 170px 0 0 171px; }
+.archer-skilltree a.r6c4  { margin: 207px 0 0 171px; }
+.archer-skilltree a.r8c4  { margin: 284px 0 0 171px; }
+.archer-skilltree a.r9c4  { margin: 324px 0 0 171px; }
+
+.archer-skilltree a.midr1c5  { margin: 38px 0 0 200px; }
+
+.archer-skilltree a.r4c6  { margin: 132px 0 0 226px; }
+.archer-skilltree a.r5c6  { margin: 170px 0 0 226px; }
+.archer-skilltree a.r7c6  { margin: 245px 0 0 226px; }
+.archer-skilltree a.r8c6  { margin: 284px 0 0 226px; }
+.sprite-archer {
+    background:url('../images/sprite-archer.jpg') no-repeat;
+    width:684px;
+    height:515px;
+}
+.assassin-skilltree {
+    background:url('../images/bg-skilltree-assassin.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-assassin {
+    background:url('../images/sprite-assassin.jpg') no-repeat;
+    width:653px;
+    height:538px;
+}
+.assassin-skilltree a.r8c1   { margin: 283px 0 0 4px; }
+.assassin-skilltree a.r9c1   { margin: 317px 0 0 4px; }
+
+.assassin-skilltree a.r1c2   { margin: 6px 0 0 37px; }
+.assassin-skilltree a.r2c2   { margin: 45px 0 0 37px; }
+.assassin-skilltree a.r3c2   { margin: 83px 0 0 37px; }
+.assassin-skilltree a.r4c2  { margin: 124px 0 0 37px; }
+.assassin-skilltree a.r5c2  { margin: 165px 0 0 37px; }
+.assassin-skilltree a.r6c2  { margin: 207px 0 0 37px; }
+.assassin-skilltree a.r7c2  { margin: 247px 0 0 37px; }
+.assassin-skilltree a.r8c2  { margin: 284px 0 0 37px; }
+.assassin-skilltree a.r9c2  { margin: 318px 0 0 37px; }
+
+.assassin-skilltree a.r5midc3  { margin: 165px 0 0 92px; }
+.assassin-skilltree a.r8c3  { margin: 284px 0 0 72px; }
+.assassin-skilltree a.r9c3  { margin: 318px 0 0 72px; }
+
+.assassin-skilltree a.r3c4  { margin: 83px 0 0 110px; }
+.assassin-skilltree a.r4c4  { margin: 124px 0 0 110px; }
+.assassin-skilltree a.r5midc4  { margin: 165px 0 0 128px; }
+.assassin-skilltree a.r6c4  { margin: 207px 0 0 110px; }
+.assassin-skilltree a.r8c4  { margin: 284px 0 0 110px; }
+.assassin-skilltree a.r9c4  { margin: 318px 0 0 110px; }
+
+.assassin-skilltree a.r9midc5  { margin: 318px 0 0 150px; }
+
+.assassin-skilltree a.r1c6  { margin: 6px 0 0 169px; }
+.assassin-skilltree a.r3c6  { margin: 83px 0 0 169px; }
+.assassin-skilltree a.r4c6  { margin: 124px 0 0 169px; }
+.assassin-skilltree a.r5c6  { margin: 165px 0 0 169px; }
+.assassin-skilltree a.r6c6  { margin: 207px 0 0 169px; }
+.assassin-skilltree a.r7c6  { margin: 247px 0 0 169px; }
+.assassin-skilltree a.r8c6  { margin: 284px 0 0 169px; }
+.assassin-skilltree a.r9midc6  { margin: 318px 0 0 185px; }
+
+.assassin-skilltree a.r1c7  { margin: 6px 0 0 220px; }
+.assassin-skilltree a.r3c7  { margin: 83px 0 0 220px; }
+.assassin-skilltree a.r5c7  { margin: 165px 0 0 220px; }
+.assassin-skilltree a.r6c7  { margin: 207px 0 0 220px; }
+.assassin-skilltree a.r8c7  { margin: 284px 0 0 220px; }
+.assassin-skilltree a.r9c7  { margin: 318px 0 0 220px; }
+.barbarian-skilltree {
+    background:url('../images/bg-skilltree-barbarian.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-barbarian {
+    background:url('../images/sprite-barbarian.jpg') no-repeat;
+    width:670px;
+    height:563px;
+}
+.barbarian-skilltree a.r1c1  { margin: 14px 0 0 14px; }
+.barbarian-skilltree a.r2c1  { margin: 52px 0 0 14px; }
+.barbarian-skilltree a.r3c1  { margin: 90px 0 0 14px; }
+.barbarian-skilltree a.r4c1  { margin: 128px 0 0 14px; }
+.barbarian-skilltree a.r7c1  { margin: 242px 0 0 14px; }
+.barbarian-skilltree a.r8c1  { margin: 280px 0 0 14px; }
+.barbarian-skilltree a.r9c1  { margin: 320px 0 0 14px; }
+
+.barbarian-skilltree a.r3c2  { margin: 90px 0 0 63px; }
+.barbarian-skilltree a.r5c2  { margin: 167px 0 0 63px; }
+.barbarian-skilltree a.r6c2  { margin: 205px 0 0 63px; }
+.barbarian-skilltree a.r8c2  { margin: 280px 0 0 63px; }
+.barbarian-skilltree a.r9c2  { margin: 320px 0 0 63px; }
+
+.barbarian-skilltree a.r1c3  { margin: 14px 0 0 110px; }
+.barbarian-skilltree a.r2c3  { margin: 52px 0 0 110px; }
+.barbarian-skilltree a.r3c3  { margin: 90px 0 0 110px; }
+.barbarian-skilltree a.r5c3  { margin: 167px 0 0 110px; }
+.barbarian-skilltree a.r7c3  { margin: 242px 0 0 110px; }
+.barbarian-skilltree a.r8c3  { margin: 280px 0 0 110px; }
+
+.barbarian-skilltree a.r1c4  { margin: 14px 0 0 159px; }
+.barbarian-skilltree a.r2c4  { margin: 52px 0 0 159px; }
+.barbarian-skilltree a.r4c4  { margin: 128px 0 0 159px; } 
+.barbarian-skilltree a.r5c4  { margin: 167px 0 0 159px; }
+.barbarian-skilltree a.r6c4  { margin: 205px 0 0 159px; }
+.barbarian-skilltree a.r8c4  { margin: 280px 0 0 159px; }
+.barbarian-skilltree a.r9c4  { margin: 320px 0 0 159px; }
+
+.barbarian-skilltree a.r3c5  { margin: 90px 0 0 208px; }
+.barbarian-skilltree a.r4c5  { margin: 128px 0 0 208px; }
+.barbarian-skilltree a.r6c5  { margin: 205px 0 0 208px; }
+.barbarian-skilltree a.r7c5  { margin: 242px 0 0 208px; }
+.barbarian-skilltree a.r8c5  { margin: 280px 0 0 208px; }
+.barbarian-skilltree a.r9c5  { margin: 320px 0 0 208px; }
+.blademaster-skilltree {
+    background:url('../images/bg-skilltree-blademaster.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-blademaster {
+    background:url('../images/sprite-blademaster.jpg') no-repeat;
+    width:670px;
+    height:563px;
+}
+
+.blademaster-skilltree a.r5c1    { margin: 170px 0 0 6px; }
+.blademaster-skilltree a.r6c1    { margin: 208px 0 0 6px; }
+.blademaster-skilltree a.r7c1    { margin: 246px 0 0 6px; }
+.blademaster-skilltree a.r8c1    { margin: 283px 0 0 6px; }
+.blademaster-skilltree a.r9c1    { margin: 320px 0 0 6px; }
+
+.blademaster-skilltree a.r1c2    { margin: 10px 0 0 44px; }
+.blademaster-skilltree a.r2c2    { margin: 48px 0 0 44px; }
+.blademaster-skilltree a.r3c2    { margin: 86px 0 0 44px; }
+.blademaster-skilltree a.r4c2    { margin: 125px 0 0 44px; }
+.blademaster-skilltree a.r5c2    { margin: 170px 0 0 44px; }
+.blademaster-skilltree a.r6c2    { margin: 208px 0 0 44px; }
+.blademaster-skilltree a.r7c2    { margin: 246px 0 0 44px; }
+.blademaster-skilltree a.r8c2    { margin: 283px 0 0 44px; }
+.blademaster-skilltree a.r9c2    { margin: 320px 0 0 44px; }
+
+.blademaster-skilltree a.r4c3  { margin: 125px 0 0 81px; }
+.blademaster-skilltree a.r5c3  { margin: 170px 0 0 81px; }
+.blademaster-skilltree a.r6c3  { margin: 208px 0 0 81px; }
+.blademaster-skilltree a.r7c3  { margin: 246px 0 0 81px; }
+.blademaster-skilltree a.r8c3  { margin: 283px 0 0 81px; }
+.blademaster-skilltree a.r9c3  { margin: 320px 0 0 81px; }
+
+.blademaster-skilltree a.r2c4  { margin: 48px 0 0 118px; }
+.blademaster-skilltree a.r3c4  { margin: 86px 0 0 118px; }
+.blademaster-skilltree a.r4c4  { margin: 125px 0 0 118px; }
+.blademaster-skilltree a.r5c4  { margin: 170px 0 0 118px; }
+.blademaster-skilltree a.r6c4  { margin: 208px 0 0 118px; }
+.blademaster-skilltree a.r7c4  { margin: 246px 0 0 118px; }
+.blademaster-skilltree a.r8c4  { margin: 283px 0 0 118px; }
+.blademaster-skilltree a.r9c4  { margin: 320px 0 0 118px; }
+
+.blademaster-skilltree a.r2c5  { margin: 48px 0 0 155px; }
+.blademaster-skilltree a.r3c5  { margin: 68px 0 0 155px; }
+.blademaster-skilltree a.r5c5  { margin: 170px 0 0 155px; }
+.blademaster-skilltree a.r7c5  { margin: 246px 0 0 155px; }
+.blademaster-skilltree a.r8c5  { margin: 283px 0 0 155px; }
+.blademaster-skilltree  a.r9c5  { margin: 320px 0 0 155px; }
+
+.blademaster-skilltree a.r2c6  { margin: 50px 0 0 191px; }
+.blademaster-skilltree a.r4c6  { margin: 125px 0 0 191px; }
+.blademaster-skilltree a.r5c6  { margin: 170px 0 0 191px; }
+.blademaster-skilltree a.r6c6  { margin: 208px 0 0 191px; }
+.blademaster-skilltree a.r9c6  { margin: 320px 0 0 191px; }
+
+.blademaster-skilltree a.r2c7  { margin: 50px 0 0 226px; }
+.blademaster-skilltree a.r8c7  { margin: 283px 0 0 226px; }
+.blademaster-skilltree a.r9c7  { margin: 320px 0 0 226px; }  
+.cleric-skilltree {
+    background:url('../images/bg-skilltree-cleric.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-cleric {
+    background:url('../images/sprite-cleric.jpg') no-repeat;
+    width:690px;
+    height:536px;
+}
+.cleric-skilltree a.r1c1 { margin: 7px 0 0 10px; }
+.cleric-skilltree a.r2c1 { margin: 46px 0 0 10px; }
+.cleric-skilltree a.r3c1 { margin: 84px 0 0 10px; }
+.cleric-skilltree a.r4c1 { margin: 122px 0 0 10px; }
+.cleric-skilltree a.r5c1 { margin: 160px 0 0 10px; }
+.cleric-skilltree a.r6c1 { margin: 198px 0 0 10px; }
+.cleric-skilltree a.r7c1 { margin: 236px 0 0 10px; }
+.cleric-skilltree a.r8c1 { margin: 274px 0 0 10px; }
+
+.cleric-skilltree a.r1c2  { margin: 7px 0 0 48px; }
+.cleric-skilltree a.r5c2  { margin: 160px 0 0 48px; }
+.cleric-skilltree a.r7c2  { margin: 236px 0 0 48px; }
+
+.cleric-skilltree a.r2c3  { margin: 46px 0 0 79px; }
+.cleric-skilltree a.r6c3  { margin: 198px 0 0 79px; }
+.cleric-skilltree a.r8c3  { margin: 274px 0 0 79px; }
+.cleric-skilltree a.r9midc3  { margin: 316px 0 0 96px; }
+
+.cleric-skilltree a.r1midc4  { margin: 28px 0 0 132px; }
+.cleric-skilltree a.r3c4  { margin: 84px 0 0 111px; }
+.cleric-skilltree a.r7c4  { margin: 236px 0 0 111px; }
+
+.cleric-skilltree a.r4c5  { margin: 122px 0 0 144px; }
+.cleric-skilltree a.r8c5  { margin: 274px 0 0 144px; }
+.cleric-skilltree a.r9c5  { margin: 316px 0 0 144px; }
+
+.cleric-skilltree a.r1c6  { margin: 7px 0 0 184px; }    
+.cleric-skilltree a.r2c6  { margin: 46px 0 0 184px; }
+.cleric-skilltree a.r3c6  { margin: 84px 0 0 184px; }
+.cleric-skilltree a.r4c6  { margin: 122px 0 0 184px; }
+.cleric-skilltree a.r5c6  { margin: 160px 0 0 184px; }
+.cleric-skilltree a.r6c6  { margin: 198px 0 0 184px; }
+.cleric-skilltree a.r7c6  { margin: 235px 0 0 184px; }
+.cleric-skilltree a.r8c6  { margin: 274px 0 0 184px; }
+
+.cleric-skilltree a.r1c7  { margin: 7px 0 0 226px; }
+.cleric-skilltree a.r3c7  { margin: 84px 0 0 226px; }
+.cleric-skilltree a.r5c7  { margin: 160px 0 0 226px; }
+.cleric-skilltree a.r6c7  { margin: 198px 0 0 226px; }
+.cleric-skilltree a.r8c7  { margin: 274px 0 0 226px; }
+.cleric-skilltree a.r9c7  { margin: 316px 0 0 226px; }
+.mystic-skilltree {
+    background:url('../images/bg-skilltree-mystic.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-mystic {
+    background:url('../images/sprite-mystic.jpg') no-repeat;
+    width:670px;
+    height:561px;
+}
+.mystic-skilltree a.r1c1  { margin: 14px 0 0 10px; }
+.mystic-skilltree a.r2c1  { margin: 52px 0 0 10px; }
+.mystic-skilltree a.r4c1  { margin: 128px 0 0 10px; }
+.mystic-skilltree a.r7c1  { margin: 241px 0 0 10px; }
+.mystic-skilltree a.r8c1  { margin: 279px 0 0 10px; }
+.mystic-skilltree a.r9c1  { margin: 317px 0 0 10px; }
+
+.mystic-skilltree a.r1c2  { margin: 14px 0 0 53px; }
+.mystic-skilltree a.r3c2  { margin: 90px 0 0 53px; }
+.mystic-skilltree a.r4c2  { margin: 127px 0 0 53px; }
+.mystic-skilltree a.r7c2  { margin: 241px 0 0 53px; }
+
+.mystic-skilltree a.r2c3  { margin: 52px 0 0 96px; }
+.mystic-skilltree a.r5c3  { margin: 166px 0 0 96px; }
+.mystic-skilltree a.r6c3  { margin: 203px 0 0 96px; }
+.mystic-skilltree a.r9c3  { margin: 317px 0 0 96px; }
+
+.mystic-skilltree a.r2c4  { margin: 52px 0 0 138px; }
+.mystic-skilltree a.r4c4  { margin: 128px 0 0 138px; }
+.mystic-skilltree a.r8c4  { margin: 280px 0 0 138px; }
+
+.mystic-skilltree a.r3c5  { margin: 90px 0 0 181px; }
+.mystic-skilltree a.r4c5  { margin: 128px 0 0 181px; }
+.mystic-skilltree a.r5c5  { margin: 166px 0 0 181px; }
+.mystic-skilltree a.r6c5  { margin: 205px 0 0 181px; }
+.mystic-skilltree a.r7c5  { margin: 242px 0 0 181px; }
+.mystic-skilltree a.r8c5  { margin: 280px 0 0 181px; }
+
+.mystic-skilltree a.r3c6  { margin: 90px 0 0 224px; }
+.mystic-skilltree a.r5c6  { margin: 166px 0 0 224px; }
+.mystic-skilltree a.r7c6  { margin: 242px 0 0 224px; }
+.mystic-skilltree a.r8c6  { margin: 280px 0 0 224px; }
+.psychic-skilltree {
+    background:url('../images/bg-skilltree-psychic.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-psychic {
+    background:url('../images/sprite-psychic.jpg') no-repeat;
+    width:695px;
+    height:538px;
+}
+.psychic-skilltree a.r1c1  { margin: 35px 0 0 22px; }
+.psychic-skilltree a.r2c1  { margin: 73px 0 0 22px; }
+.psychic-skilltree a.r3c1  { margin: 111px 0 0 22px; }
+.psychic-skilltree a.r4c1  { margin: 149px 0 0 22px; }
+.psychic-skilltree a.r5c1  { margin: 187px 0 0 22px; }
+.psychic-skilltree a.r6c1  { margin: 225px 0 0 22px; }
+.psychic-skilltree a.r7c1  { margin: 264px 0 0 22px; }
+.psychic-skilltree a.r8c1  { margin: 301px 0 0 22px; }
+
+.psychic-skilltree a.r3c2  { margin: 111px 0 0 63px; }
+.psychic-skilltree a.r5c2  { margin: 187px 0 0 63px; }
+.psychic-skilltree a.r7c2  { margin: 264px 0 0 63px; }
+.psychic-skilltree a.r8c2  { margin: 301px 0 0 63px; }
+
+.psychic-skilltree a.r7c3  { margin: 264px 0 0 97px; }
+.psychic-skilltree a.r8c3  { margin: 301px 0 0 97px; }
+
+.psychic-skilltree a.r1c4  { margin: 35px 0 0 116px; }
+.psychic-skilltree a.r2c4  { margin: 73px 0 0 116px; }
+.psychic-skilltree a.r3c4  { margin: 111px 0 0 116px; }
+.psychic-skilltree a.r4c4  { margin: 149px 0 0 116px; }
+.psychic-skilltree a.r5c4  { margin: 187px 0 0 116px; }
+.psychic-skilltree a.r6c4  { margin: 225px 0 0 116px; }
+.psychic-skilltree a.r7midc4  { margin: 264px 0 0 134px; }
+.psychic-skilltree a.r8midc4  { margin: 301px 0 0 134px; }
+
+.psychic-skilltree a.r4c5  { margin: 149px 0 0 158px; }
+.psychic-skilltree a.r6c5  { margin: 225px 0 0 158px; }
+.psychic-skilltree a.r8midc5  { margin: 301px 0 0 179px; }
+
+.psychic-skilltree a.r2c6  { margin: 73px 0 0 199px; }
+.psychic-skilltree a.r4c6  { margin: 149px 0 0 199px; }
+.psychic-skilltree a.r5c6  { margin: 187px 0 0 199px; }
+.psychic-skilltree a.r7c6  { margin: 264px 0 0 199px; }
+.psychic-skilltree a.r8midc6  { margin: 301px 0 0 222px; }
+.seeker-skilltree {
+    background:url('../images/bg-skilltree-seeker.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-seeker {
+    background:url('../images/sprite-seeker.jpg') no-repeat;
+    width:671px;
+    height:571px;
+}
+.seeker-skilltree .r1c1  { margin: 54px 0 0 15px; }
+.seeker-skilltree .r2c1  { margin: 95px 0 0 15px; }
+.seeker-skilltree .r3c1  { margin: 136px 0 0 15px; }
+.seeker-skilltree .r4c1  { margin: 175px 0 0 15px; }
+.seeker-skilltree .r5c1  { margin: 219px 0 0 15px; }
+.seeker-skilltree .r6c1  { margin: 260px 0 0 15px; }
+.seeker-skilltree .r7c1  { margin: 301px 0 0 15px; }
+ 
+.seeker-skilltree .r3c2  { margin: 136px 0 0 81px; }
+.seeker-skilltree .r5c2  { margin: 219px 0 0 81px; }
+.seeker-skilltree .r7c2  { margin: 301px 0 0 81px; }
+
+.seeker-skilltree .r4c3  { margin: 175px 0 0 133px; }
+.seeker-skilltree .r5c3  { margin: 219px 0 0 133px; }
+.seeker-skilltree .r7c3  { margin: 301px 0 0 133px; }
+
+.seeker-skilltree .r1c4  { margin: 54px 0 0 153px; }
+.seeker-skilltree .r2c4  { margin: 95px 0 0 153px; }
+.seeker-skilltree .r3c4  { margin: 136px 0 0 153px; }
+
+.seeker-skilltree .r4c5  { margin: 175px 0 0 172px; }
+.seeker-skilltree .r5c5  { margin: 219px 0 0 172px; }
+.seeker-skilltree .r6c5  { margin: 260px 0 0 172px; }
+.seeker-skilltree .r7c5  { margin: 301px 0 0 172px; }
+
+.seeker-skilltree .r2c6  { margin: 95px 0 0 220px; }
+.seeker-skilltree .r3c6  { margin: 136px 0 0 220px; }
+.seeker-skilltree .r4c6  { margin: 175px 0 0 220px; }
+.seeker-skilltree .r5c6  { margin: 219px 0 0 220px; }
+.seeker-skilltree .r7c6  { margin: 301px 0 0 220px; }
+.venomancer-skilltree {
+    background:url('../images/bg-skilltree-venomancer.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-venomancer {
+    background:url('../images/sprite-venomancer.jpg') no-repeat;
+    width:671px;
+    height:571px;
+}
+.venomancer-skilltree a.r2c1  { margin: 46px 0 0 17px; }
+.venomancer-skilltree a.r3c1  { margin: 84px 0 0 17px; }
+.venomancer-skilltree a.r4c1  { margin: 122px 0 0 17px; }
+.venomancer-skilltree a.r5c1  { margin: 160px 0 0 17px; }
+.venomancer-skilltree a.r6c1  { margin: 197px 0 0 17px; }
+.venomancer-skilltree a.r7c1  { margin: 235px 0 0 17px; }
+.venomancer-skilltree a.r8c1  { margin: 273px 0 0 17px; }
+.venomancer-skilltree a.r9c1  { margin: 315px 0 0 17px; }
+
+.venomancer-skilltree a.r4c2  { margin: 122px 0 0 63px; }
+.venomancer-skilltree a.r5c2  { margin: 160px 0 0 63px; }
+.venomancer-skilltree a.r6c2  { margin: 197px 0 0 63px; }
+.venomancer-skilltree a.r9c2  { margin: 315px 0 0 63px; }
+
+.venomancer-skilltree a.r3c3  { margin: 84px 0 0 91px; }
+.venomancer-skilltree a.r8c3  { margin: 273px 0 0 91px; }
+
+.venomancer-skilltree a.r1c4  { margin: 8px 0 0 133px; }
+.venomancer-skilltree a.r2c4  { margin: 46px 0 0 133px; }
+.venomancer-skilltree a.r3c4  { margin: 84px 0 0 133px; }
+.venomancer-skilltree a.r5c4  { margin: 160px 0 0 133px; }
+.venomancer-skilltree a.r6c4  { margin: 197px 0 0 133px; }
+.venomancer-skilltree a.r8c4  { margin: 273px 0 0 133px; }
+
+.venomancer-skilltree a.r2c5  { margin: 46px 0 0 173px; }
+.venomancer-skilltree a.r3c5  { margin: 84px 0 0 173px; }
+.venomancer-skilltree a.r4c5  { margin: 122px 0 0 173px; }
+.venomancer-skilltree a.r5c5  { margin: 160px 0 0 173px; }
+.venomancer-skilltree a.r6c5  { margin: 197px 0 0 173px; }
+.venomancer-skilltree a.r7c5  { margin: 235px 0 0 173px; }
+.venomancer-skilltree a.r8c5  { margin: 273px 0 0 173px; }
+.venomancer-skilltree a.r9c5  { margin: 315px 0 0 173px; }
+
+.venomancer-skilltree a.r1c6  { margin: 8px 0 0 219px; }
+.venomancer-skilltree a.r3c6  { margin: 84px 0 0 219px; }
+.venomancer-skilltree a.r4c6  { margin: 122px 0 0 219px; }
+.venomancer-skilltree a.r5c6  { margin: 160px 0 0 219px; }
+.venomancer-skilltree a.r6c6  { margin: 197px 0 0 219px; }
+.venomancer-skilltree a.r7c6  { margin: 235px 0 0 219px; }
+.venomancer-skilltree a.r8c6  { margin: 273px 0 0 219px; }
+.venomancer-skilltree a.r9c6  { margin: 315px 0 0 219px; }
+.wizzard-skilltree {
+    background:url('../images/bg-skilltree-wizard.png')no-repeat;
+    height:366px;
+    margin-left:16px;
+    margin-top:6px;
+}
+.sprite-wizzard {
+    background:url('../images/sprite-wizard.jpg') no-repeat;
+    width:671px;
+    height:571px;
+}
+.wizzard-skilltree a.r1c1  { margin: 10px 0 0 18px; }
+.wizzard-skilltree a.r2c1  { margin: 48px 0 0 18px; }
+.wizzard-skilltree a.r3c1  { margin: 86px 0 0 18px; }
+.wizzard-skilltree a.r4c1  { margin: 124px 0 0 18px; }
+.wizzard-skilltree a.r5c1  { margin: 162px 0 0 18px; }
+.wizzard-skilltree a.r6c1  { margin: 199px 0 0 18px; }
+.wizzard-skilltree a.r7c1  { margin: 237px 0 0 18px; }
+.wizzard-skilltree a.r8c1  { margin: 275px 0 0 18px; }
+.wizzard-skilltree a.r9c1  { margin: 317px 0 0 18px; }
+
+.wizzard-skilltree a.r1c2  { margin: 10px 0 0 74px; }
+.wizzard-skilltree a.r2c2  { margin: 48px 0 0 74px; }
+.wizzard-skilltree a.r4c2  { margin: 124px 0 0 74px; }
+.wizzard-skilltree a.r6c2  { margin: 199px 0 0 74px; }
+.wizzard-skilltree a.r7c2  { margin: 237px 0 0 74px; }
+.wizzard-skilltree a.r8c2  { margin: 275px 0 0 74px; }
+.wizzard-skilltree a.r9c2  { margin: 317px 0 0 74px; }
+
+.wizzard-skilltree a.r3c3  { margin: 86px 0 0 117px; }
+.wizzard-skilltree a.r5c3  { margin: 162px 0 0 117px; }
+.wizzard-skilltree a.r8c3  { margin: 275px 0 0 117px; }
+.wizzard-skilltree a.r9c3  { margin: 317px 0 0 117px; }
+
+.wizzard-skilltree a.r1c4  { margin: 10px 0 0 167px; }
+.wizzard-skilltree a.r2c4  { margin: 48px 0 0 167px; }
+.wizzard-skilltree a.r4c4  { margin: 124px 0 0 167px; }
+.wizzard-skilltree a.r6c4  { margin: 199px 0 0 167px; }
+.wizzard-skilltree a.r7c4  { margin: 237px 0 0 167px; }
+.wizzard-skilltree a.r8c4  { margin: 275px 0 0 167px; }
+.wizzard-skilltree a.r9c4  { margin: 317px 0 0 167px; }
+
+.wizzard-skilltree a.r2c5  { margin: 48px 0 0 215px; }
+.wizzard-skilltree a.r4c5  { margin: 124px 0 0 215px; }
+.wizzard-skilltree a.r5c5  { margin: 162px 0 0 215px; }
+.wizzard-skilltree a.r6c5  { margin: 199px 0 0 215px; }
+.wizzard-skilltree a.r7c5  { margin: 237px 0 0 215px; }

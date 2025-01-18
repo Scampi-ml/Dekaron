@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="../classes.html"></a>
+                    <a class="assassin" href="./assassin.html"></a>
+                    <a class="barbarian" href="./barbarian.html"></a>
+                    <a class="blademaster" href="./blademaster.html"></a>
+                    <a class="cleric current" href="./cleric.html"></a>
+                    <a class="mystic" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker" href="./seeker.html"></a>
+                    <a class="venomancer" href="./venomancer.html"></a>
+                    <a class="wizzard" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/cleric/yuling-cleric.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/cleric/yuling-cleric.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Cleric</h1>
+                        <p class="class-words">As the healers of Perfect World, Clerics are masters of supportive and recovery spells, which makes them invaluable addition to any group or party.</p>
+                        <p>In addition, Clerics specialize in using Metal elemental attacks, and can curse their enemies to reduce their defense, speed, or attack damage. As damage dealers, Clerics are incredibly flexible and versatile. They posses both physical and magical ranged attacks allowing them to take down any target regardless of what type of armor they may be wearing. Clerics are traditionally built with low physical defense, but can also be adjusted statistically to wear light armor and as a result become more durable in the face of physical damage.</p>
+                        <p><strong>Type:</strong></p>
+                        <p>Healer, Support</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Wands, Magic Swords, Patakas, Glaives</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-cleric">
+                            <div class="skilltree-bg">
+                                <div class="cleric-skilltree popupskill">
+                                    <!-- col 1 skills -->
+                                    <a class="r1c1"><div><h3>Blessing of the Purehearted</h3><p>An Elven blessing that restores HP.</p></div></a>
+                                    <a class="r2c1"><div><h3>Ironheart Blessing</h3><p>Bless the target to restore HP over time.</p></div></a>
+                                    <a class="r3c1"><div><h3>Wellspring Surge</h3><p>Rapidly heals the target with a surge of magic.</p></div></a>
+                                    <a class="r4c1"><div><h3>Revive</h3><p>Revive a squad member. Decreases experience loss from death.</p></div></a>
+                                    <a class="r5c1"><div><h3>Purify</h3><p>Remove all negative effect on one friendly target.</p></div></a>
+                                    <a class="r6c1"><div><h3>Chromatic Healing Beam</h3><p>Heals a large amount of health for surrounding party members.</p></div></a>
+                                    <a class="r7c1"><div><h3>Stream of Rejuvenation</h3><p>Instantly heal a large amount of target's hit points.</p><p>Also adds a heal over time to that target.</p></div></a>
+                                    <a class="r8c1"><div><h3>Regeneration Aura</h3><p>Conjure an array of hit point recovery and damage reduction that constantly consumes your mana points.</p><p>Effects all party members.</p></div></a>
+                                    
+                                    <!-- col 2 skills -->
+                                    <a class="r1c2"><div><h3>Vanguard Spirit</h3><p>Grant the target additional Physical Defense.</p></div></a>
+                                    <a class="r5c2"><div><h3>Greater Protective Aura</h3><p>Grant all party members within range an increase to Physical Defense.</p></div></a>
+                                    <a class="r7c2"><div><h3>Guardian Light</h3><p>Temporarily reduces damage taken and increases movement speed.</p></div></a>
+                                    
+                                    <!-- col 3 skills -->
+                                    <a class="r2c3"><div><h3>Magic Shell</h3><p>Grants the target additional Magic Defense.</p></div></a>
+                                    <a class="r6c3"><div><h3>Aegis Spirit</h3><p>Grant all party members within range an increase in Magic Defense.</p></div></a>
+                                    <a class="r8c3"><div><h3>Wings of Protection</h3><p>An improved protective spell. Can be cast on squad members.</p><p>The damage the shield absorbs depends on target's maximum HP.</p></div></a>
+                                    <a class="r9midc3"><div><h3>Heaven's Wrath</h3><p>Use all of your vigor to form a mystical array.</p><p>By consuming mana points Physical and Magic attack damage are both increased.</p></div></a>
+                                    
+                                    <!-- col 4 skills -->
+                                    <a class="r1midc4"><div><h3>Flight Mastery</h3><p>Increase flying speed. Only affects the Natural Elven Wings.</p></div></a>
+                                    <a class="r3c4"><div><h3>Celestial Guardian's Seal</h3><p>Increase the target's HP and Mana regeneration.</p></div></a>
+                                    <a class="r7c4"><div><h3>Exalted Renewal</h3><p>Increase the Health and Mana regeneration rate for all nearby party members.</p></div></a>
+
+
+                                    <!-- col 5 skills -->
+                                    <a class="r4c5"><div><h3>Spirit's Gift</h3><p>Increase the target's magic attack.</p></div></a>
+                                    <a class="r8c5"><div><h3>Arcane Empowerment</h3><p>Grant all party members in range an increase to magical damage.</p></div></a>
+                                    <a class="r9c5"><div><h3>Seal of the God</h3><p>Seals and freezes the target, making it receive less damage from all attacks.</p></div></a>
+
+                                    <!-- col 6 skills -->
+                                    <a class="r1c6"><div><h3>Plume Shot</h3><p>Focus your psychic energy to form a magical arrow to attack the enemy. Inflicts Physical damage.</p></div></a>
+                                    <a class="r2c6"><div><h3>Plume Shell</h3><p>Convert your Mana and Chi into a protective barrier that absorbs incoming Physical damage.</p></div></a>
+                                    <a class="r3c6"><div><h3>Razor Feathers</h3><p>Draw power from your wings to fling dozens of magical quills at your target and all nearby enemies. Inflicts Physical damage.</p></div></a>
+                                    <a class="r4c6"><div><h3>Elemental Seal</h3><p>Manipulate the magic in the air to form an Elemental Seal.</p><p>Reduces your Magic Defense to reduce the enemy's Magic Defense.</p></div></a>
+                                    <a class="r5c6"><div><h3>Dimensional Seal</h3><p>Manipulate the magic in your armor to form a Dimensional Seal.</p><p>Reduces your Physical Defense to reduce the enemy's Physical Defense.</p></div></a>
+                                    <a class="r6c6"><div><h3>Silent Seal</h3><p>Manipulate your energy to form the Seal of Silence.</p><p>Reduce one's own magic attack damage to paralyze the enemy.</p></div></a>
+                                    <a class="r7c6"><div><h3>Chromatic Seal</h3><p>Manipulate your inner-energy to form the Seal of Colors.</p><p>Reduces your movement speed to put an enemy to sleep.</p></div></a>
+                                    <a class="r8c6"><div><h3>Elven Boon</h3><p>Attacks the target with the spirit of wind. Has a chance to temporarily seal the target.</p><p>Also has a chance to heal the caster.</p></div></a>
+                            
+                                    <!-- col 7 skills -->
+                                    <a class="r1c7"><div><h3>Great Cyclone</h3><p>Summon an immense cyclone around the enemy, inflicting Metal damage. Has a chance to reduce the enemy's movement speed.</p></div></a>
+                                    <a class="r3c7"><div><h3>Thunderball</h3><p>Create a sphere of lightning over the enemy's head, dealing Metal damage and causing the enemy to suffer additional Metal damage over time.</p></div></a>
+                                    <a class="r5c7"><div><h3>Siren's Kiss</h3><p>Conjure a sweeping breeze inflicting Metal damage to all nearby enemies. Enemies are also paralyzed for a short time.</p></div></a>
+                                    <a class="r6c7"><div><h3>Wield Thunder</h3><p>Call upon the power of the heavens to cast a chain of lightning at an enemy, dealing massive Metal damage to a single target.</p></div></a>
+                                    <a class="r8c7"><div><h3>Tempest</h3><p>Focus all of your energy to cast down countless thunder bolts causing target and the enemies around it to suffer Metal damage.</p><p>Also has a chance to reduce their movement speed.</p></div></a>
+                                    <a class="r9c7"><div><h3>Metal Mastery</h3><p>Improves all Metal magic damage.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-cleric-1.png"></li>
+                                <li><img src="../images/thumb-cleric-2.png"></li>
+                                <li><img src="../images/thumb-cleric-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

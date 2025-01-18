@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css">
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage" href="./marriage.html"></a>
+                    <a class="mounts" href="./mounts.html"></a>
+                    <a class="pets" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage" href="./player-storage.html"></a>
+                    <a class="pvp" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation current" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Teleportation</h1>
+                        <p class="big-words">You can greatly reduce your travel time by using the waypoint system found in each town or village. This system allows you to teleport instantly from one place to another. You can access these waypoints by speaking to a Teleport Master. Other ways to teleport involve the skill Town Portal and several items from the Boutique shop.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Teleportation Ways</h3></div>
+                        <div class="gcontent">
+							<p>- Explore a town or village and find the Teleport Master. Have fun exploring!</p>
+							<p>- Use a Teleport Stone to travel to any previously found waypoint.</p>
+							<p>- Unlock all the waypoints by purchasing a Geographic Map.</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Teleportation Map</h3></div>
+                        <div class="gcontent"><div class="teleportation map tele-page"></div>
+                            <p>The green dot indicates a discovered waypoint.</p>
+                            <p>The white line reveals possible teleport paths. You might need to speak to 2 or more Teleport Masters until you reach the desired location. However, you can instantly reach any waypoint by using Teleport Incense which is found in the Boutique Shop.</p>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Boutique - Teleportation</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite teleportation teleportincense"></div>
+                                    <b>Geographical Map</b>
+                                    <p>Read to learn every waypoint in Perfect World.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite teleportation teleportstone"></div>
+                                    <b>Teleport Incense</b>
+                                    <p>Teleports you to the nearest city.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite teleportation geographicmap"></div>
+                                    <b>Teleport Stone</b>
+                                    <p>Teleports you to any discovered waypoint.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Teleport Waypoints</h3></div>
+                        <div class="gcontent">
+                            <p>Here is a list of all the teleportation waypoints in Perfect World International. Speak with each Teleport Master in order to gain access to that waypoint, or purchase a global map from the boutique in order to instantly gain access to all of them.</p>
+                            <ul class="teleul row-even">
+                                <li>Town</li>
+                                <li>Npc Name</li>
+                                <li>Coordinates</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Snowy Village</li>
+                                <li>Teleport Master Chi Gang</li>
+                                <li>(146, 961)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Village of Shattered Ice</li>
+                                <li>Teleport Master Zheng Qing</li>
+                                <li>(251, 973)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Avalanche Village</li>
+                                <li>Teleport Master Chan</li>
+                                <li>(325, 972)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Timberfield</li>
+                                <li>Teleport Master Tu Xinran</li>
+                                <li>(499, 966)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>City of Misfortune</li>
+                                <li>Teleport Master Chou</li>
+                                <li>(663, 968)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>North Barrier Village</li>
+                                <li>Teleport Master Lo</li>
+                                <li>(153, 894)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>City of a Thousand Streams</li>
+                                <li>Teleport Master Lu</li>
+                                <li>(117, 859)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>East Barrier Village</li>
+                                <li>Teleport Master Jen Yi</li>
+                                <li>(189, 864)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>South Barrier Village</li>
+                                <li>Teleport Master Ying Ding</li>
+                                <li>(153, 822)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Etherblade</li>
+                                <li>Teleport Master Yao</li>
+                                <li>(447, 874)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Hidden Heroes Village</li>
+                                <li>Teleport Master Tu</li>
+                                <li>(499, 867)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Walled Stronghold</li>
+                                <li>Teleport Master Jen</li>
+                                <li>(566, 875)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Camp of the Intrepid</li>
+                                <li>Teleport Master Mo</li>
+                                <li>(259, 813)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Sumor Camp</li>
+                                <li>Teleport Master Ku</li>
+                                <li>(334, 823)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Angler's Village</li>
+                                <li>Teleport Master Yang</li>
+                                <li>(637, 832)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Immolation Camp</li>
+                                <li>Teleport Master Li Qing</li>
+                                <li>(131, 746)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Sirry Wine Camp</li>
+                                <li>Teleport Master Huang Ling</li>
+                                <li>(238, 774)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Swiftwind Tribe</li>
+                                <li>Teleport Master Liu</li>
+                                <li>(372, 762)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Tradewind Village</li>
+                                <li>Teleport Master Han</li>
+                                <li>(428, 737)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Orchid Temple</li>
+                                <li>Teleport Master Mung</li>
+                                <li>(579, 765)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Allies Camp</li>
+                                <li>Teleport Master Wang</li>
+                                <li>(620, 724)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Town of Arrivals</li>
+                                <li>Teleport Master Wu</li>
+                                <li>(119, 640)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>City of the Lost</li>
+                                <li>Teleport Master Yu</li>
+                                <li>(252, 647)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Wellspring Village</li>
+                                <li>Teleport Master Chu</li>
+                                <li>(427, 647)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Archosaur, West District</li>
+                                <li>Teleport Master Yun</li>
+                                <li>(529, 663)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Archosaur, North District</li>
+                                <li>Teleport Master Ning</li>
+                                <li>(549, 670)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Archosaur, South District</li>
+                                <li>Teleport Master Li</li>
+                                <li>(563, 631)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Sundown Town</li>
+                                <li>Teleport Master Hsu</li>
+                                <li>(126, 590)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Broken Bridge Village</li>
+                                <li>Teleport Master Ying</li>
+                                <li>(231, 560)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Dragon's End</li>
+                                <li>Teleport Master Lin</li>
+                                <li>(281, 567)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>The Silver Pool</li>
+                                <li>Teleport Master Shan</li>
+                                <li>(449, 567)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Hidden Orchid</li>
+                                <li>Teleport Master Chi Er</li>
+                                <li>(587, 565)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Sanctuary</li>
+                                <li>Teleport Master Kao</li>
+                                <li>(645, 561)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>The Village of Naught</li>
+                                <li>Teleport Master Lu</li>
+                                <li>(675, 616)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Sandsong Village</li>
+                                <li>Teleport Master Li Zimu</li>
+                                <li>(178, 469)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Gate of Antiquity</li>
+                                <li>Teleport Master Pan</li>
+                                <li>(386, 520)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Village of Brutes</li>
+                                <li>Teleport Master Yueh</li>
+                                <li>(221, 416)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>City of the Plume</li>
+                                <li>Teleport Master Lo Yu</li>
+                                <li>(325, 415)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Arrowhead Manor</li>
+                                <li>Teleport Master Mu</li>
+                                <li>(432, 460)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>King's Feast</li>
+                                <li>Teleport Master Tse</li>
+                                <li>(463, 431)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Whetstone Keep</li>
+                                <li>Teleport Master Yi</li>
+                                <li>(538, 414)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Village of the Lost</li>
+                                <li>Teleport Master Kuo</li>
+                                <li>(538, 414)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Cromagnon Village</li>
+                                <li>Teleport Master Huai</li>
+                                <li>(114, 314)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Dreaming Stronghold</li>
+                                <li>Teleport Master Ko</li>
+                                <li>(204, 323)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Bamboo Village</li>
+                                <li>Teleport Master Sutu</li>
+                                <li>(370, 351)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Tusk Town</li>
+                                <li>Teleport Master Chi</li>
+                                <li>(446, 336)</li>
+                            </ul>
+                            <ul class="teleul row-odd">
+                                <li>Village of the Dreaming Cloud</li>
+                                <li>Teleport Master Tang</li>
+                                <li>(545, 375)</li>
+                            </ul>
+                            <ul class="teleul row-even">
+                                <li>Dreamweaver Port</li>
+                                <li>Teleport Master Tuan</li>
+                                <li>(667, 371)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

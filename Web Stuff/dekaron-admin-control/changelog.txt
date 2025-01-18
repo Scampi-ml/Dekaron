@@ -1,0 +1,101 @@
+______ __                             __              
+|      |  |--.---.-.-----.-----.-----.|  |.-----.-----.
+|   ---|     |  _  |     |  _  |  -__||  ||  _  |  _  |
+|______|__|__|___._|__|__|___  |_____||__||_____|___  |
+                         |_____|                |_____|
+############################################################
+
+Version 1.0.2.2 [25 July 2012]
+--------------------------------
+- [ADDED] 	/modules/module_databaseinfo.php 			=> For displaying database info and status codes
+- [ADDED] 	/modules/module_today.php 				=> For displaying today's stats
+- [ADDED] 	/modules/module_game_server_status.php			=> For displaying Game Server Status 
+- [ADDED] 	/modules_settings/settings_game_server_status.php	=> Settings for module_game_server_status.php
+- [ADDED] 	/modules/module_mssql_jobs.php				=> For displaying mssql jobs
+- [ADDED] 	/modules/module_mssql_jobs_history.php			=> For displaying mssql jobs history
+- [ADDED] 	/modules/module_ip_ban.php				=> if you want to ban IPs from your server [1]
+- [ADDED] 	/modules/module_unstuck_character.php			=> Unstuck character
+- [ADDED] 	/modules_settings/settings_unstuck_character.php	=> This is where you can set the MAP, POS X & POS Y [3]
+- [ADDED] 	/modules/module_teleport_character.php			=> Lets you teleport (move) a character
+- [ADDED] 	/engine/array_teleport.php				=> Pre-defined locations to move the character to [4]
+- [ADDED] 	/script/export_htaccess.php				=> Lets you download the htaccess file
+- [ADDED] 	/modules/module_edit_versionini.php			=> Lets you edit the version.ini file [5]
+- [ADDED] 	/modules_settings/settings_edit_versionini.php		=> This is where you can set the path to your version.ini
+- [ADDED] 	/modules/module_edit_formulaini.php			=> Lets you edit the formula.ini file [6]
+- [ADDED] 	/modules_settings/settings_edit_formulaini.php		=> This is where you can set the path to your formula.ini
+- [CHANGED] 	/modules_nav/nav_core.xml				=> Updated for modules & new stuff
+- [CHANGED] 	/modules/module_admins.php				=> Updated for full use for mssql accounts [2]
+- [CHANGED] 	/modules_action/character_action_core.xml		=> Updated for unstuck character
+- [CHANGED] 	/modules/module_edit_skillbar.php			=> Added 0x info hex 
+- [CHANGED] 	/modules/module_edit_skills.php				=> Added 0x info hex 
+- [REMOVED] 	/modules/module_add_admin.php				=> Not needed anymore
+- [REMOVED]	/modules_settings/settings_add_admin.php		=> Not needed anymore
+- [REMOVED]	/modules_settings/settings_license_key.php		=> Not needed anymore (May not exist)
+
+PLEASE READ THIS BEFORE USING !
+-------------------------------
+
+[1] 	Note that IP ban only works on .htaccess files, 
+	you still have to upload the files to the server
+[2]	Accounts can be created, edited, deleted by using the mssql "Enterprise Manager", 
+	only permissions are set on dac
+	Note that "sa" and "BUILTIN\Administrators" cannot be edited
+[3]	Please check the values (Settings) before using!
+[4]	Please check the values (Settings) before using!
+[5]	Please check the values (Settings) before using!
+[6]	Please check the values (Settings) before using!
+
+
+Version 1.0.1.2 [23 July 2012]
+--------------------------------
+- [CHANGED] 	/modules/module_edit_character.php			=> Added option to disable A-Z & 0-9 Check
+- [CHANGED] 	/modules_settings/settings_edit_character.php		=> Added option to disable A-Z & 0-9 Check
+
+
+Version 1.0.1.1 [18 July 2012]
+--------------------------------
+- [ADDED] 	/modules/module_view_item.php 				=> Added for displaying item info
+- [ADDED] 	/engine/array_itemoption.php 				=> Added for module_view_item.php
+- [ADDED] 	/csv/ 							=> Added for module_view_item.php
+- [ADDED] 	/style/stickytooltip.css				=> Added for module_view_item.php
+- [CHANGED] 	/modules/global_functions4.php 				=> Updated for module_view_item.php
+- [CHANGED] 	/modules/module_edit_inventory.php 			=> Updated for module_view_item.php
+- [CHANGED] 	/modules/module_edit_store.php				=> Updated for module_view_item.php
+- [CHANGED] 	/modules/module_edit_suit.php				=> Updated for module_view_item.php
+- [CHANGED] 	/modules/module_edit_storage.php			=> Updated for module_view_item.php
+- [CHANGED] 	/modules_settings/settings_dac_settings.php		=> Updated for added CSS file
+
+
+REQUIRED FILES IN 1.0.1.1:
+--------------------------
+Copy and paste all *csv files from /data/share/item/ to the /csv/ folder of DAC
+
+
+NOTE:
+	itemoption_gem.csv -> This may not sound familiar, well that's because it was made specifically for this script.  
+	It is merely a csv file with two columns, index & description.  
+	This was converted from the stringtable_com.txt file to an easier to process format.  
+	You can find stringtable_com.txt in data>script>string.
+
+	You should use your own itemetc.csv, itemoption.csv from your client or your data may be off.   
+	Most people don't change stringtable_com.txt, but if you have, 
+	you can make your own itemoption_gem.csv based off the one uploaded here.
+
+	Thanks to JB for this
+
+	! => This does not apply on the free version!
+
+
+
+Version 1.0.0.1 [10 July 2012]
+--------------------------------
+- [ADDED] 	/modules/module_delete_account.php 			=> Missing file
+- [CHANGED] 	/modules/module_delete_character.php 			=> Now it will delete all info, without checkboxes
+- [FIXED] 	/modules_action/account_action_core.xml 		=> Was pointing to online accounts
+
+
+
+Version 1.0.0.0 [2 July 2012]
+--------------------------------
+- Release
+

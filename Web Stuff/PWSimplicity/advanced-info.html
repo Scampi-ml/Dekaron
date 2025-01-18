@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css">
+    <link type="text/css" rel="Stylesheet" href="css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="./index.html"></a></li>
+            <li class="game"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="./game-info.html">Basic Info</a></li>
+                    <li><a href="./advanced-info.html">Advanced Info</a></li>
+                    <li><a href="./races.html">Races</a></li>
+                    <li><a href="./classes.html">Classes</a></li>
+                    <li><a href="./spiritual.html">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house current" href="./advanced-info.html"></a>
+                    <a class="crafting" href="./advanced-info/crafting.html"></a>
+                    <a class="genie" href="./advanced-info/genie.html"></a>
+                    <a class="faction" href="./advanced-info/faction.html"></a>
+                    <a class="imbue" href="./advanced-info/imbue.html"></a>
+                    <a class="marriage" href="./advanced-info/marriage.html"></a>
+                    <a class="mounts" href="./advanced-info/mounts.html"></a>
+                    <a class="pets" href="./advanced-info/pets.html"></a>
+                    <a class="player-shop" href="./advanced-info/player-shop.html"></a>
+                    <a class="player-storage" href="./advanced-info/player-storage.html"></a>
+                    <a class="pvp" href="./advanced-info/pvp.html"></a>
+                    <a class="refining" href="./advanced-info/refining.html"></a>
+                    <a class="teleportation" href="./advanced-info/teleportation.html"></a>
+                    <a class="territory-war" href="./advanced-info/territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./advanced-info/ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Auction House</h1>
+                        <p class="big-words">The auction house is a system that lets you buy and sell in-game items to and from other players. In order to access the auction house, speak with any of the Auctioneer NPCs in any of the major towns.</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Auction Filter</h3></div>
+                        <div class="gcontent"><img class="imgleft" src="images/auctionFilter.png" width="390" height="322">
+        				<p>This window will allow you to find auctions for a specific item. All you will need to do is to figure out the category and subcategory that it is listed under, and then click the Use Filter button.</p>
+        				    <p>This window will allow you to find auctions for a specific item. All you will need to do is to figure out the category and subcategory that it is listed under, and then click the Use Filter button.</p>
+        				    <ol>
+        					    <li>Item Category</li>
+        					    <li>Item Subcategory</li>
+        					    <li>Item Name</li>
+        					    <li>Not Implemented</li>
+        					    <li>Use Filter</li>
+        					    <li>Clear All Search Filters</li>
+        					    <li>Close Filter Window</li>
+        				    </ol>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Auction House - My Auctions</h3></div>
+                        <div class="gcontent"><img src="images/auction-house-screen.png" width="626" height="376"><p>This tab will allow you to monitor the status of any auctions that you have placed bids on. Listings shown in gray indicate that you have been outbid for this item. Listings shown in white indicate that you are currently the highest bidder.</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

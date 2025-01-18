@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css">
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage" href="./marriage.html"></a>
+                    <a class="mounts current" href="./mounts.html"></a>
+                    <a class="pets" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage" href="./player-storage.html"></a>
+                    <a class="pvp" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Mounts</h1>
+                        <p class="big-words">At level 30, all races unlock the ability to fly using aerocrafts. Winged Elves start at level 1 with the ability to fly but their wings consume MP with use. At level 30, all races can use the aerocrafts to fly without any penalty. </p>
+                        <p>In order for you to be able to start using the aerocrafts, you must first go to the Elder of Archosaur and complete the quest he gives you. For all races, the quest tells you to go to your races recluse and speak with them. The Recluse will have you complete a task and after that, you are able to use your races aerocraft. While in flight, you can use the Accelerate command to fly faster and that also has a separate meter that drains with use.</p>
+                        <p>Additional mounts can be found at the Pet trainer in any city or in the Item Mall.</p>
+                        <div class="mounts">
+                            <div class="gallery-mounts wings"></div>
+                            <div class="gallery-mounts riding"></div>
+                            <div class="gallery-mounts human"></div>
+                            <div class="gallery-mounts untamed"></div>
+                            <div class="gallery-mounts flying"></div>
+                            <div class="gallery-mounts riding2"></div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Upgrading your mount</h3></div>
+                        <div class="gcontent">
+                            <p>In order to upgrade your flying mount you will need to travel to Thousand Streams. This is where you will encounter the aerocraft forge (117, 853). Simply click on this forge and it will show you all the available flying mounts by race and type that you can upgrade.</p>
+
+                            <p>Once you have decided to update your mount you will need to access the boutique shop and and purchase wind widgets. They can be located in the Fly -> Upgrades category. Now simply access the forge and find your flying mount. </p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Boutique Mounts</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row"><div class="sprite gallery-mounts windwidget"></div>
+                                <b>Wind Windgets</b>
+                                <p>Use it at the forge in City of a Thousand Streams to increase the speed of your aerogears. Can only be used on aerogear purchased from the Boutique. </p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row"><div class="sprite gallery-mounts spursofalacrity"></div>
+                                <b>Spurs of Alacrity</b>
+                                <p>Use at Pet Manager to upgrade your land mount's speed from 8.0 m/s to 9.0 m/s. Lower the level requisite of the pet from 40 to 20.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row"><div class="sprite gallery-mounts galewindspurs"></div>
+                                <b>Galewind Spurs</b>
+                                <p>Use at Pet Manager to upgrade your land mount's speed from 9.0 m/s to 10.0 m/s. Lower the level requisite of the pet from 60 to 20.</p>
+                                </div>
+                            </div>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Fast Flight / Accelerated Flight Mode</h3></div>
+                        <div class="gcontent">
+                            <p>As you can see here there are 2 versions of Israfel with different flying speeds. In order to obtain the fastest version you will need to make the first one first.</p>
+
+                            <p>To create this simply unequip your mount and be sure to have wind widgets in your inventory and place them on the required matierals icon. Doing this will light those requirements up, indiciating you have fulfill the requirement. Now simply hit start and it will create your upgraded version.</p>
+
+                            <p>Its important to remember that you must do them in order because without the previous version your flying mount cannot be upgraded.</p>
+
+                            <p>Witin in the emote page (E Key) there is a icon labeled Accelerate. If you use this button while in flying mode you will enter the Fast Speed mode of your aerocraft. Here the speed would be +4.50 meters/second. The amount of time you have in this mode is based on each indiviudal craft. This flying craft has 300/600 seconds so you can maintain this speed for that many seconds.</p> 
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Chi Stones</h3></div>
+                        <div class="gcontent">
+                            <p>The only way to refill this bar is to place Yiyuan stones or higher into the item itself by simply dragging and dropping. What you must keep in mind though is that to refill this bar it will take a very large amount of stones so you might not want to use the accelerated mode so hastily.</p>
+
+                            <p>Yiyuan stones and similar types can be created by decomposing items such as weapons and armors. In order to get this ability you must learn the manufacturering skill for the item you wish to decompose. For example if you want to decompose weapons, you need blacksmithing, if you want to decompose armor, you need to have tailor skill, and etc.</p>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts yiyuanstone"></div>
+                                    <b>Yiyuan Stone</b>
+                                    <p>Yiyuan Stones is the smallest unit of condensed Chi.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts lyangyistone"></div>
+                                    <b>Lyiangyi Stone</b>
+                                    <p>Contains more Chi than the Yiyuan Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts santsaistone"></div>
+                                    <b>Santsai Stone</b>
+                                    <p>Contains more Chi than the Liangyi Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts sshushiangstone"></div>
+                                    <b>Sshushiang Stone</b>
+                                    <p>Contains more Chi than the Santsai Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts wushingstone"></div>
+                                    <b>Wushing Stone</b>
+                                    <p>Contains more Chi than the Ssuhsiang Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts liuhostone"></div>
+                                    <b>Liuho Stone</b>
+                                    <p>Contains more Chi than the Wuhsing Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts chishingstone"></div>
+                                    <b>Chishing Stone</b>
+                                    <p>Contains more Chi than the Liuho Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts pakuastone"></div>
+                                    <b>Pakua Stone</b>
+                                    <p>Contains more Chi than the Chihsing Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts chiukungstone"></div>
+                                    <b>Chiukung Stone</b>
+                                    <p>Contains more Chi than the Pakua Stone.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite gallery-mounts perfectstonea"></div>
+                                    <b>Perfect Stone</b>
+                                    <p>The perfect Chi medium in Perfect World.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

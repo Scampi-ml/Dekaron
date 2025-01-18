@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/guide.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="./index.html"></a></li>
+            <li class="game"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="./game-info.html">Basic Info</a></li>
+                    <li><a href="./advanced-info.html">Advanced Info</a></li>
+                    <li><a href="./races.html">Races</a></li>
+                    <li><a href="./classes.html">Classes</a></li>
+                    <li><a href="./spiritual.html">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="adept current" href="./spiritual.html"></a>
+                    <a class="principle" href="./guide/principle.html"></a>
+                    <a class="harmony" href="./guide/harmony.html"></a>
+                    <a class="discord" href="./guide/discord.html"></a>
+                    <a class="coalescence" href="./guide/coalescence.html"></a>
+                    <a class="transcendant" href="./guide/transcendant.html"></a>
+                    <a class="enlightenedone" href="./guide/enlightenedone.html"></a>
+                    <a class="vacuity" href="./guide/vacuity.html"></a>
+                    <a class="sage" href="./guide/sage.html"></a>
+                    <a class="demon" href="./guide/demon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Adept</h1>
+						<div class="big-words"></div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Spiritual Adept - Human - Level 9</h3></div>
+                        <div class="gcontent"><div class="sprite-adept human"></div>
+							<p>1. Talk to the Taoist Master in Etherblade</p>
+							<p>2. Talk to the Old Chief in Hidden Heroes Village</p>
+							<p>3. Kill 9 Emaciated Footsoldiers (540 845) near the Hill of the Swarm</p>
+							<p>4. Return to the Old Chief</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Spiritual Adept - Winged Elves - Level 9</h3></div>
+                        <div class="gcontent"><div class="sprite-adept elves"></div>
+							<p>1. Talk to Mangmang the Taoist in the City of the Plume</p>
+							<p>2. Talk to the Winged Elf Recluse at White Ridge</p>
+							<p>3. Kill 9 Emaciated Traitors (334 329) at White Ridge</p>
+							<p>4. Return to the Winged Elf Recluse</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Spiritual Adept - Untamed - Level 9</h3></div>
+                        <div class="gcontent"><div class="sprite-adept untamed"></div>
+							<p>1. Talk to Miao the Taoist in the City of the Lost</p>
+							<p>2. Talk to the Lost City Recluse south of Broken Bridge Village</p>
+							<p>3. Kill 9 Waspy Ursogs (207 527) at Dribbling Spring</p>
+							<p>4. Return to the Lost city Recluse</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="../classes.html"></a>
+                    <a class="assassin" href="./assassin.html"></a>
+                    <a class="barbarian" href="./barbarian.html"></a>
+                    <a class="blademaster" href="./blademaster.html"></a>
+                    <a class="cleric" href="./cleric.html"></a>
+                    <a class="mystic" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker" href="./seeker.html"></a>
+                    <a class="venomancer" href="./venomancer.html"></a>
+                    <a class="wizzard current" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+							<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/wizard/fashi-wizard.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/wizard/fashi-wizard.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Wizzard</h1>
+                        <p class="class-words">Trained in arcane knowledge, Wizards have developed an array of long-ranged and high-powered magic attacks utilizing the elements of nature.</p>
+						<p>As masters of the conjuring arts, Wizards are vulnerable while casting, but once the casting is complete, they deal great damage to enemies. There are two primary stat builds that players use with Wizards: Full intelligence which maximizes magical damage and high magical defense, or a light armor build which sacrifices magical damage and defense in exchange for better physical defense.</p>
+                        <p><strong>Type:</strong></p>
+                        <p>Ranged Magical Damage Dealer</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Magic Swords, Patakas , Glaives , Wands</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-wizzard">
+                            <div class="skilltree-bg">
+                                <div class="wizzard-skilltree popupskill">
+									<!-- col 1 skills -->
+									<a class="r1c1"><div><h3>Pyrogram</h3><p>Channels the fury of the raging flame into a blazing pyrogram. Deals Fire damage.</p></div></a>
+									<a class="r2c1"><div><h3>Pyroshell</h3><p>Use your energy to form a fire-resistant barrier around yourself.</p><p>Increases Fire Resistance and HP regeneration.</p></div></a>
+									<a class="r3c1"><div><h3>Crown of Flame</h3><p>Place a blazing crown of fire on the opponent's head.</p><p>It burns, causing Fire damage over time.</p></div></a>
+									<a class="r4c1"><div><h3>Divine Pyrogram</h3><p>Using the divine secrets of fire, a searing spell is cast on the enemy to inflict Fire damage.</p></div></a>
+									<a class="r5c1"><div><h3>The Dragon's Breath</h3><p>The power of the dragon god surrounds you with a torrent of magical fire. All nearby enemies suffer constant Fire damage.</p></div></a>
+									<a class="r6c1"><div><h3>Will of the Phoenix</h3><p>Summons a blazing phoenix to attack all enemies in a line and knock them back. Inflicts Fire damage.</p></div></a>
+									<a class="r7c1"><div><h3>Emberstorm</h3><p>Charge up to create a violent explosion, hitting all nearby enemies at the cost of your HP. Inflicts Fire damage based on HP spent.</p></div></a>
+									<a class="r8c1"><div><h3>Blade Tempest</h3><p>Focus your Chi to create dozens of flaming blades that rain down upon the target and surrounding enemies, dealing both Physical and Fire damage</p></div></a>
+									<a class="r9c1"><div><h3>Fire Mastery</h3><p>Your mastery over fire increases all Fire damage.</p></div></a>
+									
+									<!-- col 2 skills -->
+									<a class="r1c2"><div><h3>Gush</h3><p>Forces a powerful water column to spew up from the ground, dealing Water damage. Has a chance to slow the enemy.</p></div></a>
+									<a class="r2c2"><div><h3>Glacial Embrace</h3><p>Uses Chi to form an icy barrier around yourself.</p><p>Increases Water Resistance and Mana regeneration.</p></div></a>
+									<a class="r4c2"><div><h3>Morning Dew</h3><p>Uses Water magic to heal the target.</p></div></a>
+									<a class="r6c2"><div><h3>Frostblade</h3><p>Place an icy sheen on a squad member's weapon, causing their normal attacks to inflict additional Water damage.</p></div></a>
+									<a class="r7c2"><div><h3>Glacial Snare</h3><p>Launch multiple ice arrows at the enemy to trap them in an icy prison, causing Water damage. Has a chance to slow the enemy.</p></div></a>
+									<a class="r8c2"><div><h3>Black Ice Dragon Strike</h3><p>Focus your Chi to summon an icy dragon that soars into the sky and smashes down onto the target and surrounding enemies, dealing Water damage. Has a chance to slow the enemies.</p></div></a>
+									<a class="r9c2"><div><h3>Water Mastery</h3><p>Improves all Water magic damage.</p></div></a>
+									
+									<!-- col 3 skills -->
+									<a class="r3c3"><div><h3>Hailstorm</h3><p>Conjure a hailstorm to rain down on the target, causing it and surrounding enemies to suffer Water damage.</p><p>Has a chance to freeze enemies.</p></div></a>
+									<a class="r5c3"><div><h3>Wellspring Quaff</h3><p>Sip from the wellspring of magic to increase your maximum Mana.</p></div></a>
+									<a class="r8c3"><div><h3>Essential Sutra</h3><p>Consumes Chi to recover mana, and removes the channeling time from all spells for a short time.</p></div></a>
+									<a class="r9c3"><div><h3>Manifest Virtue</h3><p>Imbue your weapon with magic and Chi to increase your magic attack.</p></div></a>
+									
+									<!-- col 4 skills -->
+									<a class="r1c4"><div><h3>Stone Rain</h3><p>A gigantic rock slams into the target, inflicting Earth damage.</p></div></a>
+									<a class="r2c4"><div><h3>Stone Barrier</h3><p>Focus all of your energy to form an earthen barrier around yourself.</p><p>Increases Earth Resistance and Physical Defense.</p></div></a>
+									<a class="r4c4"><div><h3>Pitfall</h3><p>Manipulate the divine force of the earth to create a sinkhole beneath the enemy, inflicting Earth damage over time and slowing the enemy. Has a chance to freeze the enemy.</p></div></a>
+									<a class="r6c4"><div><h3>Sandstorm</h3><p>Launch a powerful wave of sand at target. Inflicts Earth damage and decreases accuracy.</p></div></a>
+									<a class="r7c4"><div><h3>Force of Wil</h3><p>Launches an orb of force at an enemy channeling a spell, interrupting them and preventing them from casting spells.</p></div></a>
+									<a class="r8c4"><div><h3>Mountain's Seize</h3><p>Focus your Chi to summon a massive boulder from a nearby mountain and slam it into your target, causing all surrounding enemies to suffer Earth damage. Has a chance to stun enemies.</p></div></a>
+									<a class="r9c4"><div><h3>Earth Mastery</h3><p>Improves all Earth damage.</p></div></a>
+
+									<!-- col 5 skills -->
+									<a class="r2c5"><div><h3>Elemental Shell</h3><p>Manipulate the flows of magic to increase the target's Metal, Water, Fire, and Earth resistances.</p><p>Has a chance to dispel all status effects on you.</p></div></a>
+									<a class="r4c5"><div><h3>Soporific Whisper</h3><p>A magical word that puts the target to sleep.</p></div></a>
+									<a class="r5c5"><div><h3>Distance Shrink</h3><p>Uses the magical lines of the earth to teleport yourself forward.</p></div></a>
+									<a class="r6c5"><div><h3>Undine Strike</h3><p>Strikes the target with the fury of the earth, reducing its Fire, Water, and Earth Resistances.</p></div></a>
+									<a class="r7c5"><div><h3>Elemental Invocation</h3><p>A combined attack utilizing Water, Fire, and Earth magic to damage the enemy and reduce their Mana and Chi.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-wizard-1.png"></li>
+                                <li><img src="../images/thumb-wizard-2.png"></li>
+                                <li><img src="../images/thumb-wizard-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>OSDS V5 | Test Server @ Janvier123</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style2.css"  />
+<link rel="stylesheet" type="text/css" href="messages.css"  />
+<script type="text/javascript" src="js/jquery-1.4.4.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+</head>
+<body onLoad="cacheOff()">
+ <br />
+<div id="main_pane_left">
+	<div class="group">
+		<form method="get" action="stats_update.php">
+			<span style="float:right;margin-top:2px;"><input type="submit" value="Update" name="Update"></span>
+		</form>
+		<h2>Statistics</h2>
+		<table>
+			  <tr class="even">
+				<td>Accounts</td>
+				<td>12597</td>
+			  </tr>
+			  <tr class="even">
+				<td>Characters</td>
+				<td>23551</td>
+			  </tr>
+			  <tr class="even">
+				<td >Online Accounts</td>
+				<td>5</td>
+			  </tr>
+			  <tr class="even">
+				<td>Banned Characters</td>
+				<td>206</td>
+			  </tr>
+			  <tr class="even">
+				<td >Guilds</td>
+				<td>4136</td>
+			  </tr>
+			  <tr class="even">
+			  <td>Deadfront</td>
+				<td>7</td>
+			  </tr>
+			  <tr class="even">
+				<td >Deleted Characters</td>
+				<td>0</td>
+			  </tr>
+		</table>
+	</div>
+</div>
+<div id="main_pane_left">
+	<div class="group" >
+    <form method="get" action="search.php">
+    	<span style="float:right;margin-top:2px;"><input type="submit" value="Search" name="search"></span>
+		<h2>Search</h2>
+			<table>
+				<tr class="even">
+					<td>Search in</td>
+					<td>
+						<select name="method">
+							<option value="character">Character Database</option>
+							<option value="account">Account Database</option>
+                            <option value="ip_character">Ip on Character</option>
+                            <option value="ip_account">Ip in Account</option>
+                            <option value="email">Email</option>
+                            <option value="guild">Guild Database</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="even">
+					<td>Search for</td>
+					<td><input type="text" value="" size="30" name="search_string"></td>
+				</tr>
+			</table>		
+			
+		</form>
+	</div>
+</div>
+<div id="main_pane_right">
+    <div class="response-msg success">
+		<span>Version</span>
+		5.0.0.3	</div>
+</div>
+
+<div id="main_pane_right">
+	<div class="group" >
+    	<h2>Today</h2>
+        <table>
+			  <tr class="even">
+				<td>New Accounts</td>
+				<td>0</td>
+			  </tr>
+			  <tr class="even">
+				<td>New Characters</td>
+				<td>0</td>
+			  </tr>
+        </table>
+	</div>
+</div>
+
+</body>
+</html>

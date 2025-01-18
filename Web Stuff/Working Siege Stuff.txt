@@ -1,0 +1,456 @@
+Use master;
+Go
+EXEC sp_addlinkedserver 'LSV_GHBILL','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRACNT','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'DKRCASH','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRHELION','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRNUNVICE','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRQUNE','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRRONDOW','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRSIZ','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRTEST','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRZUTO','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'LSV_DKRSTA','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+EXEC sp_addlinkedserver 'DKRACCOUNT01','','MSDASQL',NULL,NULL,'DRIVER={SQL Server};SERVER=localhost;UID=;PWD=;'
+
+
+Use master;
+Go
+exec sp_serveroption 'LSV_GHBILL','rpc out','true'
+exec sp_serveroption 'LSV_GHBILL','rpc','true'
+exec sp_serveroption 'LSV_DKRACNT','rpc out','true'
+exec sp_serveroption 'LSV_DKRACNT','rpc','true'
+exec sp_serveroption 'DKRCASH','rpc out','true'
+exec sp_serveroption 'DKRCASH','rpc','true'
+exec sp_serveroption 'LSV_DKRHELION','rpc out','true'
+exec sp_serveroption 'LSV_DKRHELION','rpc','true'
+exec sp_serveroption 'LSV_DKRNUNVICE','rpc out','true'
+exec sp_serveroption 'LSV_DKRNUNVICE','rpc','true'
+exec sp_serveroption 'LSV_DKRQUNE','rpc out','true'
+exec sp_serveroption 'LSV_DKRQUNE','rpc','true'
+exec sp_serveroption 'LSV_DKRRONDOW','rpc out','true'
+exec sp_serveroption 'LSV_DKRRONDOW','rpc','true'
+exec sp_serveroption 'LSV_DKRSIZ','rpc out','true'
+exec sp_serveroption 'LSV_DKRSIZ','rpc','true'
+exec sp_serveroption 'LSV_DKRTEST','rpc out','true'
+exec sp_serveroption 'LSV_DKRTEST','rpc','true'
+exec sp_serveroption 'LSV_DKRZUTO','rpc out','true'
+exec sp_serveroption 'LSV_DKRZUTO','rpc','true'
+exec sp_serveroption 'LSV_DKRSTA','rpc out','true'
+exec sp_serveroption 'LSV_DKRSTA','rpc','true'
+exec sp_serveroption 'DKRACCOUNT01','rpc out','true'
+exec sp_serveroption 'DKRACCOUNT01','rpc','true'
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+USE [character]
+GO
+/****** Object:  UserDefinedFunction [dbo].[FN_BinDateToDateTime]    Script Date: 07/04/2014 07:19:46 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER OFF
+GO
+
+
+
+
+
+/******************************************************************************
+   ?  ? : dbo.FN_BinDateToDateTime
+   ?  ? : Binary Date? DateTime ???? ????.
+   ??? : 
+   ????:
+   Ver        Date        Author           Description
+   ---------  ----------  ---------------  ------------------------------------
+   1.0        2006-05-05  Han Ji Wook      1. ????
+   1.1        2009-12-22  Park Chanik    1. ?? 2010? ?? ?? ?? , 2010? ?? ??
+ ******************************************************************************/
+ALTER  FUNCTION [dbo].[FN_BinDateToDateTime] (
+ @i_bin_time BINARY(4)
+) RETURNS DATETIME
+AS
+BEGIN
+ DECLARE @v_datetime DATETIME
+ DECLARE @v_strtime VARCHAR(20)
+
+ -- 2009? 12? 22? ?? 
+ IF LEN(CAST(@i_bin_time AS INT)) < 10
+ BEGIN
+  SELECT @v_strtime = '200' + CAST(CAST(@i_bin_time AS INT) AS VARCHAR(20))
+ END
+ ELSE
+ BEGIN
+  SELECT @v_strtime = '20' + CAST(CAST(@i_bin_time AS INT) AS VARCHAR(20))
+ END
+ SELECT @v_strtime = SUBSTRING(@v_strtime,1,4)
+      +'-'+SUBSTRING(@v_strtime,5,2)
+      +'-'+SUBSTRING(@v_strtime,7,2)
+      +' '+SUBSTRING(@v_strtime,9,2)
+      +':'+SUBSTRING(@v_strtime,11,2) 
+ SELECT @v_datetime = CAST(@v_strtime AS DATETIME)
+ RETURN  @v_datetime
+END
+
+
+
+-------------------------------------------------------------
+
+
+USE [character]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_SIEGE_START_TIME_U]    Script Date: 07/04/2014 07:25:23 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+
+/*****************************************************************************
+ Name  : dbo.SP_SIEGE_START_TIME_U
+ Desc  : ??? ???? ??
+ Object : dbo.SIEGE_INFO
+ Return : @o_sp_rtn
+   0   : ??.
+   -1 : ?????? ??
+   -2 : ??? ?? ?? ?? ??
+   -3 : ??? ???? Read ??
+ Ver Date   Author          Description
+ ----   --------------- --------------  ------------------------------
+ 1.0 2006-05-03(WED) Han Ji-Wook  1. Create
+ 1.1 2006-05-08(MON) Han Ji-Wook  1. ??? ???? 1byte ???? ??(0~23)
+ 1.2 2006-05-08(MON) Han Ji-Wook  1. ??? ?? ???? ??? ?? ??? ??
+ 1.3 2006-05-15(MON) Han Ji-Wook  1. ??? ?????? ?????? ??
+ 1.4 2006-07-03(MON) Han Ji-Wook  1. @o_dwRegistTime Type ?? (bigint -> varbinary(4)
+******************************************************************************/
+ALTER PROCEDURE [dbo].[SP_SIEGE_START_TIME_U]
+ @i_guild_code char(10)    , --// ????
+ @i_bychannel tinyint     , --// ???? ??? 
+ @i_byStartTime  varbinary(1)   , --// ??? ????(0~23)
+ @o_dwStartTime varbinary(4) OUTPUT , --// ??? ???? 
+ @o_dwRegistTime varbinary(4) OUTPUT , --// ????? ?? ??
+ @o_sp_rtn  int    OUTPUT  --// ??? ?? (0:??)
+AS
+ DECLARE @v_dwStartTime  varbinary(4) 
+ DECLARE @v_dwOldStartTime varbinary(4)
+ DECLARE @v_byregisttimeflag tinyint   --// ??? ???? ???? (0:??, 1:???)
+BEGIN
+ IF (Len(@i_guild_code) < 1 OR @i_guild_code IS NULL) OR (Len(@i_bychannel) < 1 OR @i_bychannel IS NULL) OR DATALENGTH(@i_byStartTime) < 1 BEGIN
+  SELECT @o_sp_rtn = -1
+  RETURN 
+ END 
+ 
+ SET @v_byregisttimeflag = 1
+ 
+ SELECT @v_dwOldStartTime = dwStartTime
+ FROM dbo.SIEGE_INFO WITH(NOLOCK)
+ WHERE guild_code = @i_guild_code
+ AND  channel_no = @i_bychannel
+ AND  SIEGE_TAG = 'Y'
+
+ IF @@ERROR <> 0 OR @@ROWCOUNT <> 1 BEGIN
+  SELECT @o_sp_rtn = -3
+  RETURN 
+ END
+  
+ 
+ SET @v_dwStartTime = dbo.FN_SetSiegeStartTime_U(@v_dwOldStartTime, @i_byStartTime)
+ SET @o_dwStartTime = @v_dwStartTime
+ SET @o_dwRegistTime = CAST(dbo.FN_GetRemainTimeSec(GetDate(), dbo.FN_BinDateToDateTime(@v_dwStartTime)) as varbinary(4))
+
+ BEGIN TRANSACTION
+ UPDATE dbo.SIEGE_INFO
+ SET  dwstarttime   = @v_dwStartTime
+  , byregisttimeflag  = @v_byregisttimeflag
+  , upt_time = GetDate()
+ WHERE guild_code = @i_guild_code
+ AND  channel_no = @i_bychannel
+ AND  SIEGE_TAG = 'Y'
+
+ IF @@ERROR <> 0 OR @@ROWCOUNT <> 1 BEGIN
+  ROLLBACK TRANSACTION
+  SET @o_sp_rtn = -2
+  RETURN
+ END
+   
+ COMMIT TRANSACTION
+ SET @o_sp_rtn = 0
+ RETURN
+END
+
+
+---------------------------------------------------
+
+USE [character]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_SIEGE_INFO_R]    Script Date: 07/04/2014 07:25:41 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+/*****************************************************************************
+ Name  : dbo.SP_SIEGE_INFO_R
+ Desc  : Read siege info.
+   @o_entryGuildInfo ??(???? ???)
+   Header  : Total size[2] + Total count[1]
+   Detail  : Guild name size[1] + Guild name[Max 30] + Guild master size[1] + Guild master name[Max40] +
+       Guild mark[2] + Guild mark background[2] + Guild mark effect[2] + Guild channel[1][N] 
+ Object : dbo.SP_SIEGE_INFO_R
+ Return : @o_sp_rtn
+   0   : OK.
+   1 : ??? ???? ??
+   -1 : ??? ??
+   -2 : ???? Read ??
+   -3 : ???? Read ??
+   -4 : ???? Read ??
+ Ver Date   Author          Description
+ ----   --------------- --------------  ------------------------------
+ 1.0 2006-05-05(FRI) Han Ji-Wook  1. Create
+ 1.1 2006-05-11(THU) Han Ji-Wook  1. ????? ?? ?? ??
+          2. ????? ?????? ??? 0?
+ 1.2 2006-05-15(MON) Han Ji-Wook  1. ????? ???? ???? ????
+           (@o_dwSealRegistTime -> @o_dwDungeonRegistTime)
+          2. ?? ?????? ?? (@o_guild_master)
+          3. ?????? ?????? ?? 
+           (@o_dwRegistTimeStart, @o_dwRegistTimeEnd)
+          4. ???? ???? ?? (@o_byRegistTimeFlag)
+          5. @o_entryGuildInfo >> ?????? ??
+ 1.3 2006-05-30(TUE) Han Ji-Wook  1. ????? ??? << 1 >> Return
+ 1.4 2006-06-14(WED) Han Ji-Wook  1. ???? ??[10????, ????]
+ 1.5 2006-07-31(MON) Han Ji-Wook  1. ??????????, ???????? ??
+ 1.6 2006-08-09(WED) Han Ji-Wook  1. ??????????, ???????? ??
+ 1.7 2006-09-05(TUE) Han Ji-Wook  1. ?? (billion_cnt, remain_tax) Data Type ??
+ 1.8 2007-01-03(WED) Choi Ji-Hwan 1. ????? ????(@o_DeadFrontTimeInfo) ??.
+ 1.9 2007-01-05(WED) Choi Ji-Hwan 1. ????? ???? ?? ???.
+ 2.0 2007-10-16(TUE) HAN JIWOOK  1. Delete DeadFront Time Info
+******************************************************************************/
+ALTER PROCEDURE [dbo].[SP_SIEGE_INFO_R]
+ @i_byChannel   tinyint     , --// 
+ @o_guild_code   varchar(10)  OUTPUT , --// 
+ @o_guild_name   varchar(30)  OUTPUT , --// 
+ @o_guild_master   varchar(40)  OUTPUT , --// 
+ @o_dwStartTime   varbinary(4) OUTPUT , --// 
+ @o_dwRegistTime   varbinary(4) OUTPUT , --// 
+ @o_dwTaxRegistTime  varbinary(4) OUTPUT , --// 
+ @o_dwDungeonRegistTime varbinary(4) OUTPUT , --// 
+ @o_dwRegistTimeStart varbinary(4) OUTPUT , --// 
+ @o_dwRegistTimeEnd  varbinary(4) OUTPUT , --// 
+ @o_byRegistTimeFlag  varbinary(1) OUTPUT , --// (0:no-regist, 1:regist)
+ @o_guild_mark1    varbinary(2) OUTPUT , --// Guild mark
+ @o_guild_mark2    varbinary(2) OUTPUT , --// Guild mark background
+ @o_guild_effect   varbinary(2) OUTPUT , --// Guild mark effect
+ @o_billion_cnt   tinyint   OUTPUT , --// billion count
+ @o_remain_tax   bigint   OUTPUT , --// Tax.
+ @o_byStartTime   varbinary(1) OUTPUT , --// Start time
+ @o_defenderInfo   varbinary(1000) OUTPUT , --// Defender info.
+ @o_entryGuildInfo  varbinary(1000) OUTPUT , --// Guild info.
+ --// @o_deadFrontTimeInfo varbinary(1000) OUTPUT , --// Dead front time info.
+ @o_sp_rtn    int    OUTPUT  --// return (0:ok)
+AS
+ DECLARE @v_tax_bindate varbinary(4)
+ DECLARE @v_seal_bindate varbinary(4)
+ DECLARE @v_rowcnt  int
+BEGIN  
+ SET @o_sp_rtn = 0
+ --//get dead front time info.
+ /*
+ SET @o_DeadFrontTimeInfo = 0x000300
+ EXEC dbo.SP_DEADFRONT_GET_TIMEINFO  @o_deadFrontTimeInfo  OUTPUT
+         , @o_sp_rtn     OUTPUT
+ */
+ IF LEN(@i_byChannel) < 1 OR @i_byChannel IS NULL BEGIN
+  SET @o_sp_rtn = -1
+  RETURN
+ END
+ --// dbo.Guild_Info
+ SET @o_guild_code   = 'NODATA'
+ SET @o_guild_name   = 'NODATA'
+ SET @o_guild_master   = 'NODATA'
+ SET @o_guild_mark1    = 0x0000
+ SET @o_guild_mark2    = 0x0000
+ SET @o_guild_effect   = 0x0000
+ --// dbo.Siege_Info
+ SET @o_dwStartTime   = 0x00000000
+ SET @o_billion_cnt   = 0x0000
+ SET @o_remain_tax   = 0x00000000
+ SET @o_defenderInfo   = 0x00000000
+ SET @o_dwRegistTime   = 0x00000000
+ SET @o_dwDungeonRegistTime  = 0x00000000
+ SET @o_dwRegistTimeStart = 0x00000000
+ SET @o_dwRegistTimeEnd  = 0x00000000
+ SET @o_byRegistTimeFlag  = 0x01
+
+ SET @o_byStartTime   = 0x00
+ SET @o_entryGuildInfo  = 0x00000000
+ 
+ SET @o_sp_rtn    = -1
+
+ SET @v_tax_bindate   = dbo.FN_GetTaxBinTime(GetDate())
+ SET @o_dwTaxRegistTime  = CAST(dbo.FN_GetRemainTimeSec(GetDate(), dbo.FN_BinDateToDateTime(@v_tax_bindate)) as varbinary(4)) 
+ 
+ SELECT @o_guild_code  = guild_code
+  , @o_guild_name = guild_name
+  , @o_guild_master = dbo.FN_GetGuildMasterName(guild_code)
+  , @o_guild_mark1 = ISNULL(CAST(guild_mark1 as varbinary(2)), 0x0000)
+  , @o_guild_mark2 = ISNULL(CAST(guild_mark2 as varbinary(2)), 0x0000)
+  , @o_guild_effect = CAST(guild_effect as varbinary(2))
+ FROM dbo.GUILD_INFO WITH(NOLOCK)
+ WHERE byState = 1
+ AND  byChannel = @i_byChannel
+ 
+ SET @v_rowcnt = @@ROWCOUNT 
+
+ IF @v_rowcnt < 1 BEGIN
+  SET @o_sp_rtn = 1
+  RETURN
+ END
+
+ IF (@@ERROR <> 0) BEGIN
+  SET @o_sp_rtn = -2
+  RETURN
+ END
+ 
+ SELECT @o_dwStartTime   = dwStartTime
+  , @o_dwRegistTimeStart = CAST(dbo.FN_GetSiegeRemainTimeSec(dwStartTime, -13, '12', GetDate()) as varbinary(4))
+  , @o_dwRegistTimeEnd  = CAST(dbo.FN_GetSiegeRemainTimeSec(dwStartTime, -11, '05', GetDate()) as varbinary(4))
+  , @o_byRegistTimeFlag  = CAST(byregisttimeflag as varbinary(1))
+  , @o_dwRegistTime   = CAST(dbo.FN_GetRemainTimeSec(GetDate(), dbo.FN_BinDateToDateTime(dwStartTime)) as varbinary(4))
+  , @o_billion_cnt   = billion_cnt
+  , @o_remain_tax   = remain_tax
+  , @o_defenderInfo   = defender_info
+  , @o_byStartTime    = CAST(CAST(SUBSTRING(CONVERT(varchar(20), dbo.FN_BinDateToDateTime(dwStartTime), 120), 12,2) as smallint) as varbinary(1))
+ FROM dbo.SIEGE_INFO WITH(NOLOCK)
+ WHERE channel_no = @i_byChannel
+ AND  siege_tag = 'Y'
+
+ SET @v_rowcnt = @@ROWCOUNT 
+
+ IF @v_rowcnt < 1 BEGIN
+  SET @o_sp_rtn = 1
+  RETURN
+ END 
+
+ IF @@ERROR <> 0 BEGIN
+  SET @o_sp_rtn = -3
+  RETURN
+ END 
+
+ SET @o_dwDungeonRegistTime = dbo.FN_GetDungeonRegistTime(@o_dwStartTime, GetDate())
+
+ EXEC dbo.SP_SEAL_GUILD_LIST
+      @i_byChannel
+     , @o_entryGuildInfo OUTPUT
+     , @o_sp_rtn    OUTPUT
+
+ IF @o_sp_rtn < 0 BEGIN
+  SET @o_sp_rtn = -4
+  RETURN
+ END 
+
+ SET @o_sp_rtn = 0
+ RETURN
+END
+
+
+
+
+----------------------------------------------------------------------
+
+USE [Character];
+GO
+DECLARE @v_siege_no char(10) 
+DECLARE @guild_code varchar(10) 
+DECLARE @guild_name varchar(30)
+DECLARE @v_strDate varchar(10)
+DECLARE @v_regdate varchar(10)
+DECLARE @v_strChannel varchar(2)
+DECLARE @i_bychannel tinyint 
+DECLARE @o_dwDungeonRegistTime varbinary(4)
+DECLARE @o_DeadFrontTimeInfo varbinary(1000)
+DECLARE @o_sp_rtn int
+DECLARE @o_dwRegistTimeStart varbinary(4)
+DECLARE @o_dwRegistTimeEnd varbinary(4)
+DECLARE @o_dwTaxRegistTime varbinary(4)
+DECLARE @o_dwStartTime varbinary(4)
+DECLARE @o_dwRegistTime varbinary(4)
+DECLARE @v_strDate1 varchar(10)
+DECLARE @i_GetDate datetime
+DECLARE @v_siege_start_date varchar(14)
+DECLARE @v_siege_start_time varbinary(4)
+
+SET @i_GetDate=getdate()
+
+
+
+SELECT @v_siege_start_date = CONVERT(VARCHAR(10), DATEADD(d, 7-DATEPART(dw, @i_GetDate), @i_GetDate), 112) + '160000'
+SELECT @v_siege_start_time = SUBSTRING(@v_siege_start_date,4,1) * 100000000
++ SUBSTRING(@v_siege_start_date,5,2) * 1000000
++ SUBSTRING(@v_siege_start_date,7,2) * 10000
++ SUBSTRING(@v_siege_start_date,9,2) * 100
++ SUBSTRING(@v_siege_start_date,11,2)
+
+SET @guild_code = '001'
+SET @guild_name = 'FirstSiege'
+SET @v_siege_no = SUBSTRING(dbo.FN_DateToShortStrDate(GetDate()), 3, 4) + '0001'
+INSERT 
+INTO GUILD_INFO(guild_code, guild_name, guild_Level, bystate, bychannel)
+VALUES (@guild_code, @guild_name, 3, 1, 1)
+INSERT 
+INTO SIEGE_INFO(SIEGE_NO, CHANNEL_NO, GUILD_CODE, GUILD_NAME, 
+DWSTARTTIME, BYREGISTTIMEFLAG, DEFENDER_INFO, SIEGE_TAG)
+VALUES (@v_siege_no, 1, @guild_code, @guild_name,@v_siege_start_time, 1, 0X0000, 'Y')
+
+EXEC SP_SIEGE_START_TIME_U @guild_code,1,0x01,@v_siege_start_time output,@o_dwRegistTime output,@o_sp_rtn output
+
+set @v_strDate1=dbo.FN_BinDateToDateTime(@v_siege_start_time)
+
+declare @P1 varchar(13)
+set @P1=NULL
+declare @P2 varchar(33)
+set @P2=NULL
+declare @P3 varchar(25)
+set @P3=NULL
+declare @P4 varbinary(4)
+set @P4=NULL
+declare @P5 varbinary(4)
+set @P5=NULL
+declare @P6 varbinary(4)
+set @P6=NULL
+declare @P7 varbinary(4)
+set @P7=NULL
+declare @P8 varbinary(4)
+set @P8=NULL
+declare @P9 varbinary(4)
+set @P9=NULL
+declare @P10 varbinary(4)
+set @P10=NULL
+declare @P11 varbinary(2)
+set @P11=NULL
+declare @P12 varbinary(2)
+set @P12=NULL
+declare @P13 varbinary(2)
+set @P13=NULL
+declare @P14 int
+set @P14=NULL
+declare @P15 int
+set @P15=NULL
+declare @P16 varbinary(4)
+set @P16=NULL
+declare @P17 varbinary(996)
+set @P17=NULL
+declare @P18 varbinary(996)
+set @P18=NULL
+declare @P19 varbinary(1000)
+set @P19=NULL
+declare @P20 int
+set @P20=NULL
+exec SP_SIEGE_INFO_R 1, @P1 output, @P2 output, @P3 output, @P4 output, @P5 output, @P6 output, @P7 output, @P8 output, @P9 output, @P10 output, @P11 output, @P12 output, @P13 output, @P14 output, @P15 output, @P16 output, @P17 output, @P18 output, @P19 output, @P20 output
+select @P1, @P2, @P3, @P4, @P5, @P6,@v_strDate1

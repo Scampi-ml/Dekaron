@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css">
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage" href="./marriage.html"></a>
+                    <a class="mounts" href="./mounts.html"></a>
+                    <a class="pets" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage" href="./player-storage.html"></a>
+                    <a class="pvp current" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Player vs. Player</h1>
+                        <p class="big-words">Within the game several modes of battle exist. They range from Player vs. Environment (PVE) which includes monsters, bosses, and raids to Player vs. Player (PVP). In PVP players actively engage each other in combat in order to test skills and kill one another. When you kill another player this is known as player killing or PKing. Below are the different visual character statuses a player can be in:</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"></div>
+                        <div class="gcontent">
+                            <p><strong>Blue Names:</strong> Player is in shield mode; they cannot attack or be attacked by any players.</p>
+
+                            <p><strong>White Names:</strong> Player is currently neutral. They may have activated PK mode but has yet to attack anyone.</p>
+
+                            <p><strong>Pink Names:</strong> Player has definitely killed other players. In this mode you have a chance to lose items from your inventory and your equipment slots if you are killed while infamous, so be careful!</p>
+
+                            <p><strong>Red name:</strong> Player has killed many other players. Be careful of red names because you can be next. The more kills you rack up the longer you will stay in this mode. The punishment for death while you have a red name is far more severe than usual. Killing monsters at or above your level will reduce the duration of being infamous.</p>
+
+                            <p><strong>Note:</strong> There are lots of safe zones in Perfect World. You can't PK in these areas.</p>
+
+                            <p><strong>Note:</strong> Players are forced into PK status during Territory Wars and some special activities. There is no death penalty during these times.</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Death Penalty</h3></div>
+                        <div class="gcontent">
+                            <p>When dying in the game there is always a penalty. Whether it be just exp lost or something more severe. Below is what you can possibly lose while in the different character states.</p>
+                            <ul class="row-odd deathpenalty">
+                                <li><b>Color of Name</b></li>
+                                <li><b>Killed by other Player
+                                    Items Currently Equipped</b></li>
+                                <li><b>Killed by other Player
+                                    Inventory</b></li>
+                                <li><b>Killed by a monster
+                                    Inventory</b></li>
+                            </ul>
+                            <ul class="row-even deathpenalty">
+                                <li><b>Blue</b></li>
+                                <li><p>NA</p></li>
+                                <li><p>NA</p></li>
+                                <li><p>99% chance to drop nothing 1% chance to drop one item</p></li>
+                            </ul>
+                            <ul class="row-odd deathpenalty">
+                                <li><b>White</b></li>
+                                <li><p>NA</p></li>
+                                <li><p>99% chance to drop nothing 1% chance to drop one item</p></li>
+                                <li><p>99% chance to drop nothing 1% chance to drop one item</p></li>
+                            </ul>
+                            <ul class="row-even deathpenalty">
+                                <li><b>Pink</b></li>
+                                <li><p>NA</p></li>
+                                <li><p>80% chance to drop nothing 20% one slot</p></li>
+                                <li><p>99% chance to drop nothing 1% chance to drop one item</p></li>
+                            </ul>
+                            <ul class="row-odd deathpenalty">
+                                <li><b>Light Red</b></li>
+                                <li><p>50% chance to drop nothing 50% to drop one item</p></li>
+                                <li><p>40% chance to drop nothing 30% to drop two items 20% to drop three items 10% to drop four items</p></li>
+                                <li><p>99% chance to drop nothing 1% chance to drop one item</p></li>
+                            </ul>
+                            <ul class="row-even deathpenalty">
+                                <li><b>Red</b></li>
+                                <li><p>30% chance to drop nothing
+                                        50% to drop one item
+                                        20% to drop two items</p></li>
+                                <li><p>20% chance to drop nothing
+                                        40% to drop two items
+                                        30% to drop four items
+                                        10% to drop six items</p></li>
+                                <li><p>99% chance to drop nothing
+                                        1% chance to drop one item</p></li>
+                            </ul>
+                            <ul class="row-odd deathpenalty">
+                                <li><b>Dark Red</b></li>
+                                <li><p>360% to drop one item
+                                        30% to drop two items
+                                        10% to drop three items</p></li>
+                                <li><p>60% to drop two items
+                                        30% to drop six items
+                                        10% to drop 9 items</p></li>
+                                <li><p>99% chance to drop nothing
+                                        1% chance to drop one item</p></li>
+                            </ul>
+                            <p>Note: Items Currently Equipped Include: Weapons, Armor, Accessories, Flying Mounts, Mystical Tomes, and Chat items.</p>
+                            <p>Note: All items within your inventory may be dropped, with the exception of items that are bound.</p>
+                            <p>Players of different levels and server types will have different PK restrictions. They are as follows:</p>
+						</div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>PvP Server</h3></div>
+                        <div class="gcontent">
+                            <p>Level 1-29: Between these levels the users are not permitted to enter PK mode. They cannot attack or be attacked by other players.</p>
+                            <p>Level 30 and higher: These levels are free to PK. Once users become this level they are flagged for PVP. There is no way to turn it off but areas like cities will still be considered safe zones and will be PK off.</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>PvE Server</h3></div>
+                        <div class="gcontent">
+                            <p>Level 1-29: Between these levels the users are not permitted to enter PK mode. They cannot attack or be attacked by other players.</p>
+                            <p>Level 30 and higher: These levels are free to PK but in order to do so the player must activate it themselves. In this way a user will not have to PK if they do not want to unless they enter areas that require PK like territory wars.</p>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Boutique - Useful PvP Items</h3></div>
+                        <div class="gcontent">
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pvp guardianangel"></div>
+                                    <b>Guardian Angel</b>
+                                    <p>Character loses no EXP or items when killed.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pvp bindingcharms"></div>
+                                    <b>Binding Charm</b>
+                                    <p>Bound equipment will not drop if your character dies, and can not be traded, discarded, sold, or decomposed. You can destroy bound equipment at the PW Promotion Agent. The destroy process takes 72 hours, during which it can be canceled.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pvp goldguardiancharms"></div>
+                                    <b>Gold Guardian Charm</b>
+                                    <p>Gold Guardian Charms
+                                    Fully recovers HP if below 50%. 600,000 HP.
+                                    Cooldown 10 seconds.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pvp goldspiritcharms"></div>
+                                    <b>Gold Spirit Charm</b>
+                                    <p>Fully recovers MP if below 75%. 900,000 MP.
+                                    Cooldown 5 seconds.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pvp silverguardiancharms"></div>
+                                    <b>Silver Guardian Charm</b>
+                                    <p>Fully recovers HP if below 50%. 350,000 HP.
+                                    Cooldown 10 seconds.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pvp silverspiritcharms"></div>
+                                    <b>Silver Spirit Charm</b>
+                                    <p>Fully recovers MP if below 75%. 525,000 MP.
+                                    Cooldown 5 seconds.</p>
+                                </div>
+                            </div>
+                            <div class="row-odd">
+                                <div class="row">
+                                    <div class="sprite pvp bronzeguardiancharms"></div>
+                                    <b>Bronze Guardian Charm</b>
+                                    <p>Fully recovers HP if below 50%. 100,000 HP.
+                                    Cooldown 10 seconds.</p>
+                                </div>
+                            </div>
+                            <div class="row-even">
+                                <div class="row">
+                                    <div class="sprite pvp bronzespiritcharms"></div>
+                                    <b>Bronze Spirit charm</b>
+                                    <p>Fully recovers MP if below 75%. 150,000 MP.
+                                    Cooldown 5 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

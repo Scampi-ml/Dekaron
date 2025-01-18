@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="./classes.html"></a>
+                    <a class="assassin" href="./assassin.html"></a>
+                    <a class="barbarian current" href="./barbarian.html"></a>
+                    <a class="blademaster" href="./blademaster.html"></a>
+                    <a class="cleric" href="./cleric.html"></a>
+                    <a class="mystic" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker" href="./seeker.html"></a>
+                    <a class="venomancer" href="./venomancer.html"></a>
+                    <a class="wizzard" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/barbarian/yaoshou-barbarian.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/barbarian/yaoshou-barbarian.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Barbarian</h1>
+                        <p class="class-words">Barbarians have evolved from pandas, lions, and other beasts.</p>
+                        <p>The Barbarian is a natural-born warrior on the battlefield, and is comfortable taking hits and returning the punishment. These fighters are also capable of shape-shifting into white tiger form in     order to maximize their physical defense and damage mitigation. Barbarians can allocate their stats a variety of ways, either building for maximum defense or maximum damage.</p>
+                        <p><strong>Type:</strong></p>
+                        <p>Tank, Melee Psychical Damage Dealer</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Dual Swords, Dual Blades, Blades, Swords, Scythes, Spears, Clubs, Poleaxes, Sledgehammers, Dual Hand Axe, Dual Hammers, Fist Weapons</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-barbarian">
+                            <div class="skilltree-bg">
+                                <div class="barbarian-skilltree popupskill">
+                                    <!-- col 1 skills -->
+                                    <a class="r1c1"><div><h3>Stomp of the Beast King</h3><p>Execute a concussive bash. The enemy suffers Physical damage.</p></div></a>
+                                    <a class="r2c1"><div><h3>Garrotte</h3><p>Wrench the opponent inflicting Physical damage and causing it to bleed.</p></div></a>
+                                    <a class="r3c1"><div><h3>Mighty Swing</h3><p>Take a mighty swing dealing massive damage to a single enemy. Has a chance to stun.</p></div></a>
+                                    <a class="r4c1"><div><h3>Penetrate Armor</h3><p>Smash the opponent with serious force, inflicting Physical damage and rendering the opponent's Physical defenses reduced.</p></div></a>
+                                    <a class="r7c1"><div><h3>Bestial Onslaught</h3><p>Reduces enemies' chance to dodge your attacks.</p></div></a>
+                                    <a class="r8c1"><div><h3>Violent Triumph</h3><p>Work the caster into a frenzy that will to possess the body redering the caster immune to stun, freeze and other status ailments.</p></div></a>
+                                    <a class="r9c1"><div><h3>Axe and Hammer Mastery</h3><p>Increases all axe and mace weapon damage.</p></div></a>
+                                    
+                                    <!-- col 2 skills -->
+                                    <a class="r3c2"><div><h3>Swell</h3><p>A sideswiping thrust of your weapon forms a jet stream of air inflicting Physical damage to enemies within a fanlike radius in front of you.</p></div></a>
+                                    <a class="r5c2"><div><h3>Firestorm</h3><p>Emit a scorching blaze of light dealing Physical damage to enemies in a straight line in front of you. They suffer Fire damage over time.</p></div></a>
+                                    <a class="r6c2"><div><h3>Slam</h3><p>Leap up and stomp the ground. Creates a massive shockwave inflicting damage to all nearby enemies knocking them back.</p></div></a>
+                                    <a class="r8c2"><div><h3>Armageddon</h3><p>Use every ounce of energy to consume half of your health and mana points and convert it into a large area effect attack.</p></div></a>
+                                    <a class="r9c2"><div><h3>Ancestral Rage</h3><p>Attack the target in a range of 18 meters, dealing great damage and freezing the target for 8 seconds.</p></div></a>
+                                    
+                                    <!-- col 3 skills -->
+                                    <a class="r1c3"><div><h3>Swimming Mastery</h3><p>Has no effect.</p></div></a>
+                                    <a class="r2c3"><div><h3>Feral Regeneration</h3><p>Increase your health regeneration rate.</p></div></a>
+                                    <a class="r3c3"><div><h3>Beast King's Inspiration</h3><p>A great growl grants oneself and nearby party members an increase in max hit points.</p></div></a>
+                                    <a class="r5c3"><div><h3>Blood Bath</h3><p>Reduces max hit points to increase chance to hit.</p></div></a>
+                                    <a class="r7c3"><div><h3>Strength of the Titans</h3><p>A raging roar renders you and party members more powerful, increasing Physical damage.</p></div></a>
+                                    <a class="r8c3"><div><h3>Clean Sweep</h3><p>Deals base damage to target. Has a 20% chance to remove target's positive buffs.</p></div></a>
+                                    
+                                    <!-- col 4 skills -->
+                                    <a class="r1c4"><div><h3>True Form</h3><p>Morph into a white tiger to increase maximum hit points and movement speed but reduce attack damage.</p></div></a>
+                                    <a class="r2c4"><div><h3>Flesh Ream</h3><p>Rip the enemy's flesh, drawing their aggression onto you.</p><p>Also causes them to suffer bleeding damage over time.</p></div></a>
+                                    <a class="r4c4"><div><h3>Alacrity of the Beast</h3><p>Pounce onto the enemy canceling all spell channeling as well as inflicting Physical damage.</p></div></a>
+                                    <a class="r5c4"><div><h3>Devour</h3><p>Snap at the opponent, dealing Physical damage and reducing their Physical Defense.</p></div></a>
+                                    <a class="r6c4"><div><h3>Surf Impact</h3><p>Pounce on the target with devastating force, causing it and surrounding enemies to suffer Physical damage and reducing their movement speed.</p></div></a>
+                                    <a class="r8c4"><div><h3>Sunder</h3><p>The full force of one's vigor is unleashed with this swirling blow.</p><p>Deals Physical damage and causes enemies to bleed over time.</p><p>This attack also leeches life from the target. </p></div></a>
+                                    <a class="r9c4"><div><h3>Shapeshifting Intensity</h3><p>Increases Physical Defense while in Tiger Form.</p></div></a>
+
+                                    <!-- col 5 skills -->
+                                    <a class="r3c5"><div><h3>Bestial Rage</h3><p>When active, vigor increases with damage taken.</p></div></a>
+                                    <a class="r4c5"><div><h3>Poison Fang</h3><p>All normal attacks deal additional Wood damage as well.</p></div></a>
+                                    <a class="r6c5"><div><h3>Roar</h3><p>With a raging roar, all nearby enemies are forced to attack you.</p></div></a>
+                                    <a class="r7c5"><div><h3>Frighten</h3><p>Strike fear into the hearts of nearby enemies, reducing their speed and attack damage.</p></div></a>
+                                    <a class="r8c5"><div><h3>Untamed Wrath</h3><p>A tremendous roar that causes great hatred and temporarily stuns all nearby targets.</p></div></a>
+                                    <a class="r9c5"><div><h3>Invoke the Spirit</h3><p>The spirit of the Black Warrior Tortoise possesses you. All damage taken will be reduced but your movement speed is also reduced.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-barbarian-1.png"></li>
+                                <li><img src="../images/thumb-barbarian-2.png"></li>
+                                <li><img src="../images/thumb-barbarian-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

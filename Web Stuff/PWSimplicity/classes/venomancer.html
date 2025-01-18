@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/class.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="archer" href="../classes.html"></a>
+                    <a class="assassin" href="./assassin.html"></a>
+                    <a class="barbarian" href="./barbarian.html"></a>
+                    <a class="blademaster" href="./blademaster.html"></a>
+                    <a class="cleric" href="./cleric.html"></a>
+                    <a class="mystic" href="./mystic.html"></a>
+                    <a class="psychic" href="./psychic.html"></a>
+                    <a class="seeker" href="./seeker.html"></a>
+                    <a class="venomancer current" href="./venomancer.html"></a>
+                    <a class="wizzard" href="./wizzard.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="class-info-header">
+                        <div class="model3d">
+                            <script language="javascript" type="text/javascript">
+                                Utils.flashWrite('http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/archer/yumang-archer.swf','670','370','class_spec.swf','#ffffff','transparent')
+                            </script>
+							<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="670" height="370" id="class_spec.swf" align="middle"><param name="movie" value="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/venomancer/yaojing-venomancer.swf"><param name="wmode" value="transparent"><param name="Menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowScriptAccess" value="always"><embed src="http://images-cdn.perfectworld.com/en/pwi/redesign2011/gameinfo/class/venomancer/yaojing-venomancer.swf" wmode="transparent" width="670" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+                        </div>
+                        <h1 class="info-title">Venomancer</h1>
+                        <p class="class-words">Evolved from an assortment of bats, foxes, and other small creatures, Venomancers are cute, seductive, and deadly.</p>
+						<p>Venomancers have the ability to charm animals and tame them as pets, and, similar to the Barbarian, can take the form of a fox in order to increase their physical defense. Venomancers have a lot of freedom in terms of allocating their stats: They can invest a lot of points into strength in order to equip heavy armor and strengthen their defense while in fox form, or they can go full intelligence in order to maximize their ranged poison attacks, or even go for a mix of both in order to wear light armor to mitigate both magical and physical damage. Finally, as the only class in Perfect World that can capture and train pets, Venomancers are a powerful solo force to be reckoned with.</p>
+                        <p><strong>Type:</strong></p>
+                        <p>Ranged Magical Damage Dealer, Pet Tamer</p>
+                        <p><strong>Weapons:</strong></p>
+                        <p>Magic Swords, Patakas , Glaives , Wands</p>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Statistics</h3></div>
+                        <div class="gcontent">
+                            <ul class="row-even class-info">
+                                <li>Character</li>
+                                <li>HP</li>
+                                <li>MP</li>
+                                <li>Dodge</li>
+                                <li>Move Speed</li>
+                                <li>P Atk</li>
+                                <li>M Atk</li>
+                                <li>Accuracy</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Blademaster</li>
+                                <li>75</li>
+                                <li>45</li>
+                                <li>50</li>
+                                <li>5.0 m/sec</li>
+                                <li>4-6</li>
+                                <li>1-1</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Wizzard</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Barbarian</li>
+                                <li>85</li>
+                                <li>35</li>
+                                <li>40</li>
+                                <li>4.9 m/sec</li>
+                                <li>5-9</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Venomancer</li>
+                                <li>60</li>
+                                <li>60</li>
+                                <li>30</li>
+                                <li>5.1 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>25</li>
+                            </ul>
+                            <ul class="row-odd class-info">
+                                <li>Archer</li>
+                                <li>65</li>
+                                <li>55</li>
+                                <li>30</li>
+                                <li>5.2 m/sec</li>
+                                <li>7-11</li>
+                                <li>1-1</li>
+                                <li>40</li>
+                            </ul>
+                            <ul class="row-even class-info">
+                                <li>Cleric</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>10</li>
+                                <li>4.8 m/sec</li>
+                                <li>4-4</li>
+                                <li>6-7</li>
+                                <li>35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Skill Tree</h3></div>
+                        <div class="gcontent">
+                            <div class="class-bg sprite-venomancer">
+                            <div class="skilltree-bg">
+                                <div class="venomancer-skilltree popupskill">
+									<!-- col 1 skills -->
+									<a class="r2c1"><div><h3>Venomous Scarab</h3><p>Throw a virulent parasite at the enemy. Deals Wood damage.</p></div></a>
+									<a class="r3c1"><div><h3>Ironwood Scarab</h3><p>Throw a splinted bug at the enemy inflicting Wood damage and reducing the target's Physical Defense.</p></div></a>
+									<a class="r4c1"><div><h3>Blazing Scarab</h3><p>Throw a flaming parasite at your enemy, causing continuous Fire damage.</p></div></a>
+									<a class="r5c1"><div><h3>Frost Scarab</h3><p>Throw an icy bug at the enemy inflicting Wood damage.</p><p>Has a chance to freeze to the target in place.</p></div></a>
+									<a class="r6c1"><div><h3>Noxious Gas</h3><p>Throw a disease-ridden toxic parasite at the enemiy, causing it and surrounding enemies to inflict Wood damage over time.</p></div></a>
+									<a class="r7c1"><div><h3>Lucky Scarab</h3><p>Throw a toxic scarab at the enemy.</p><p>Has chance to stun the target.</p></div></a>
+									<a class="r8c1"><div><h3>Parasitic Nova</h3><p>Summon a toxic parasite array to attack the target and all enemies within a radius around it. Deals Wood damage.</p></div></a>
+									<a class="r9c1"><div><h3>Wood Mastery</h3><p>Increase all Wood damage.</p></div></a>
+									
+									<!-- col 2 skills -->
+									<a class="r4c2"><div><h3>Metabolic Boost</h3><p>Recovers the caster's health.</p></div></a>
+									<a class="r5c2"><div><h3>Nature's Grace</h3><p>Recovers some mana.</p></div></a>
+									<a class="r6c2"><div><h3>Lending Hand</h3><p>Transfer one Spark to a friendly target.</p></div></a>
+									<a class="r9c2"><div><h3>Arcane Antinomy</h3><p>Deals Physical damage to a target and dazes it.</p><p>Damage dealt increases according to the caster's maximum Mana.</p></div></a>
+									
+									<!-- col 3 skills -->
+									<a class="r3c3"><div><h3>Bramble Guard</h3><p>Cast a bramble shield of protection on a friendly target.</p><p>Returns melee damage to attacker.</p></div></a>
+									<a class="r8c3"><div><h3>Bramble Hood</h3><p>Create an array of magical brambles to return Physical damage.</p><p>Also reduces damage taken for a period.</p></div></a>
+									
+									<!-- col 4 skills -->
+									<a class="r1c4"><div><h3>Heal Pet</h3><p>Heal your pet.</p></div></a>
+									<a class="r2c4"><div><h3>Revive Pet</h3><p>Revive your dead pet!</p></div></a>
+									<a class="r3c4"><div><h3>Tame Beast</h3><p>Attempt to tame target beast.</p></div></a>
+									<a class="r5c4"><div><h3>Soul Transfusion</h3><p>Instantly exchange hit point and Mana point values.</p></div></a>
+									<a class="r6c4"><div><h3>Summer Sprint</h3><p>Greatly increases movement speed.</p></div></a>
+									<a class="r8c4"><div><h3>Feral Concentration</h3><p>Stuns the caster, but also grants invulnerability for a short time.</p></div></a>
+
+									<!-- col 5 skills -->
+									<a class="r2c5"><div><h3>Fox Form</h3><p>Morph into werefox form. Physical Defense and chance to hit are greatly increased, but Mana points are reduced.</p></div></a>
+									<a class="r3c5"><div><h3>Purge</h3><p>Remove all positive enhancements (buffs) on the target enemy.</p></div></a>
+									<a class="r4c5"><div><h3>Amplify Damage</h3><p>Increases damage done to target.</p></div></a>
+									<a class="r5c5"><div><h3>Soul Degeneration</h3><p>Reduce target's hit point and mana regeneration rate.</p></div></a>
+									<a class="r6c5"><div><h3>Crush Vigor</h3><p>Target will lose Chi for every attack it takes.</p></div></a>
+									<a class="r7c5"><div><h3>Myriad Rainbow (Fox Form)</h3><p>Launch numerous scarabs in all directions, causing random status ailments.</p></div></a>
+									<a class="r8c5"><div><h3>Myriad Rainbow</h3><p>Launch a scarab at a distant single target, causing a random curse effect.</p></div></a>
+									<a class="r9c5"><div><h3>Fossilized Curse</h3><p>Increases the target's Defense while lowering their damage.</p><p>Deals damage based on the caster's max HP.</p></div></a>
+
+									<!-- col 6 skills -->
+									<a class="r1c6"><div><h3>Swimming Mastery</h3><p>Has no effect.</p></div></a>
+									<a class="r3c6"><div><h3>Fox Wallop</h3><p>Delivers a powerful melee attack reducing the opponent's spell casting speed.</p></div></a>
+									<a class="r4c6"><div><h3>Befuddling Mist</h3><p>Create a bewitching fog to confound the opponent, reducing their chance to hit you.</p></div></a>
+									<a class="r5c6"><div><h3>Stunning Blow</h3><p>Strike at the enemy, paralyzing it for a short time.</p></div></a>
+									<a class="r6c6"><div><h3>Leech</h3><p>Gives a chance to steal life with every attack.</p></div></a>
+									<a class="r7c6"><div><h3>Consume Spirit</h3><p>Sacrifice hit points to quickly regenerate mana.</p></div></a>
+									<a class="r8c6"><div><h3>Malefic Crush</h3><p>With much pleasure, you attack the opponent causing significant Physical damage and manaburn.</p></div></a>
+									<a class="r9c6"><div><h3>Melee Mastery</h3><p>While in fox form, all Physical damage dealt is increased.</p></div></a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ginnerwrapper">
+                        <div class="gheader"><h3>Screenshots</h3></div>
+                        <div class="gcontent">
+                            <ul class="race-screenshot">
+                                <li><img src="../images/thumb-venomancer-1.png"></li>
+                                <li><img src="../images/thumb-venomancer-2.png"></li>
+                                <li><img src="../images/thumb-venomancer-3.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="../css/guide.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+    <script type="text/javascript">
+        // perform JavaScript after the document is scriptable.
+        $(function() {
+        // setup ul.tabs to work as tabs for each div directly under div.panes
+        $("ul.tabs").tabs("div.panes > div");
+        });
+    </script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="../spiritual.html">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="adept" href="../spiritual.html"></a>
+                    <a class="principle" href="./principle.html"></a>
+                    <a class="harmony" href="./harmony.html"></a>
+                    <a class="discord" href="./discord.html"></a>
+                    <a class="coalescence" href="./coalescence.html"></a>
+                    <a class="transcendant" href="./transcendant.html"></a>
+                    <a class="enlightenedone" href="./enlightenedone.html"></a>
+                    <a class="vacuity" href="./vacuity.html"></a>
+                    <a class="sage current" href="./sage.html"></a>
+                    <a class="demon" href="./demon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Vacuity</h1>
+						<div class="big-words"></div>
+                        <ul class="tabs">
+                            <li><a href="#">Myriad</a></li>
+                            <li><a href="#">Harmony</a></li>
+                            <li><a href="#">Celestial</a></li>
+                        </ul>
+                    </div>
+                    <div class="tabs">
+                        <div class="link-first">
+                            <div class="ginnerwrapper">
+                                <div class="gheader"><h3>Aware of Vacuity - Level 71</h3></div>
+                                <div class="gcontent"><div class="sprite-vacuity smythe"></div>
+                                    <p>1. Talk to the Sentry Captain</p>
+                                    <p>2. Kill 50 Evolved Serpent Soulchasers west of Dreamweaver Port</p>
+                                    <p>3. Return to the Sentry Captain</p>
+                                    <p>4. Kill 50 Enhanced Cougaret Deprivers west of the Lake of Woe</p>
+                                    <p>5. Return to the Sentry Captain</p>
+                                    <p>6. Kill 25 Diabolic Tigaeros west of Dreamweaver Port</p>
+                                    <p>7. Return to the Sentry Captain</p>
+                                    <p>8. Talk to General Tuyan at Dreamweaver Port</p>
+                                    <p>9. Talk to the Grave Robber near the Forest Ruins</p>
+                                    <p>10. Kill 30 Cloudrider Falcons southwest of the Forest Ruins</p>
+                                    <p>11. Return to the Grave Robber</p>
+                                    <p>12. Return to General Tuyan</p>
+                                    <p>13. Kill Ship Captain Smythe on Nightscream Isle</p>
+                                    <p>14. Return to General Tuyan</p>
+                                </div>
+                            </div>
+                            <div class="ginnerwrapper">
+                                <div class="gheader"><h3>Aware of Vacuity - Level 79</h3></div>
+                                <div class="gcontent"><div class="sprite-vacuity ruci"></div>
+                                    <p>15. Talk to the Celestial Elder at the City of Buddha</p>
+                                    <p>16. Talk to the Dreamweaver Elder</p>
+                                    <p>17. Kill Ru Ci the Confucian Templar southwest of Dreamweaver Port</p>
+                                    <p>18. Return to the Celestial Elder</p>
+                                    <p>19. Kill the Brigand Transient in the Hallucinatory Trench</p>
+                                    <p>20. Search the Ocean Pillar in the Hallucinatory Trench</p>
+                                    <p>21. Return to the Celestial Elder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

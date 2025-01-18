@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="../css/bjqs.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+    <script>
+        // Javascript originally by Patrick Griffiths and Dan Webb.
+        // http://htmldog.com/articles/suckerfish/dropdowns/
+        sfHover = function() {
+        var sfEls = document.getElementById("menu").getElementsByTagName("li");
+        for (var i=0; i<sfEls.length; i++) {
+           sfEls[i].onmouseover=function() {
+              this.className+=" hover";
+           }
+           sfEls[i].onmouseout=function() {
+              this.className=this.className.replace(new RegExp(" hover\\b"), "");
+           }
+        }
+        }
+        if (window.attachEvent) window.attachEvent("onload", sfHover);
+    </script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="earthguard" href="../races.html"></a>
+                    <a class="winged-elves current" href="./winged-elves.html"></a>
+                    <a class="humans" href="./humans.html"></a>
+                    <a class="tideborn" href="./tideborn.html"></a>
+                    <a class="untamed" href="./untamed.html"></a>
+                </div>
+                <div class="race-full winged-elves">
+                    <div class="race-info-header">
+                        <h1 class="info-title">Winged Elves</h1>
+                        <p class="race-words">The Winged Elves hail from an ancient and divine bloodline. Their exquisite beauty and naturally-developing wings are the result of divine seed borne by mortal maidens.</p>
+                        <p>This provides them with heightened sense, as well as the ability to fly. In Combat, Winged Elves specialize in archery and supportive healing magic.</p>
+                        <p><strong>Start location:</strong></p>
+                        <p>Battlemark Village</p>
+                        <p><strong>Home City:</strong></p>
+                        <p>Plume City</p>
+                        <p><strong>Racial Mount:</strong></p>
+                        <p>Wings</p>
+                        <p><strong>Available Classes</strong></p>
+                        <p><a href="../classes.html">Archer</a> | <a href="../classes/cleric.html">Cleric</a></p>
+                    </div>
+                </div>
+                <div class="ginnerwrapper">
+                    <div class="gheader"><h3>Screenshots</h3></div>
+                    <div class="gcontent">
+                        <ul class="race-screenshot first">
+                            <li><img src="../images/elves-thumb-1.png"></li>
+                            <li><img src="../images/elves-thumb-2.png"></li>
+                            <li><img src="../images/elves-thumb-3.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

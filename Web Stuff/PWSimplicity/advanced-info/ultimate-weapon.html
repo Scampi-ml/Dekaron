@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perfect World Simplicity</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css">
+    <link type="text/css" rel="Stylesheet" href="../css/advanced.css" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+	<script>
+	    // Javascript originally by Patrick Griffiths and Dan Webb.
+	    // http://htmldog.com/articles/suckerfish/dropdowns/
+	    sfHover = function() {
+	    var sfEls = document.getElementById("menu").getElementsByTagName("li");
+	    for (var i=0; i<sfEls.length; i++) {
+	       sfEls[i].onmouseover=function() {
+		      this.className+=" hover";
+	       }
+	       sfEls[i].onmouseout=function() {
+		      this.className=this.className.replace(new RegExp(" hover\\b"), "");
+	       }
+	    }
+	    }
+	    if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="../index.html"></a></li>
+            <li class="game"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="../game-info.html">Basic Info</a></li>
+                    <li><a href="../advanced-info.html">Advanced Info</a></li>
+                    <li><a href="../races.html">Races</a></li>
+                    <li><a href="../classes.html">Classes</a></li>
+                    <li><a href="#">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="../index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#"></a><!--main logo-->
+        <div class="news-content-full">
+            <div class="news-wrapper-full">
+                <div class="sidebar-full">
+                    <a class="auction-house" href="../advanced-info.html"></a>
+                    <a class="crafting" href="./crafting.html"></a>
+                    <a class="genie" href="./genie.html"></a>
+                    <a class="faction" href="./faction.html"></a>
+                    <a class="imbue" href="./imbue.html"></a>
+                    <a class="marriage" href="./marriage.html"></a>
+                    <a class="mounts" href="./mounts.html"></a>
+                    <a class="pets" href="./pets.html"></a>
+                    <a class="player-shop" href="./player-shop.html"></a>
+                    <a class="player-storage" href="./player-storage.html"></a>
+                    <a class="pvp" href="./pvp.html"></a>
+                    <a class="refining" href="./refining.html"></a>
+                    <a class="teleportation" href="./teleportation.html"></a>
+                    <a class="territory-war" href="./territory-war.html"></a>
+                    <a class="ultimate-weapon current" href="./ultimate-weapon.html"></a>
+                </div>
+                <div class="info-full">
+                    <div class="game-info-header">
+                        <h1 class="info-title">Ultimate Weapon</h1>
+                        <div class="big-words"></div>
+                    </div>
+		    <div class="ginnerwrapper">
+			<div class="gheader"><h3>Manufacture</h3></div>
+			<div class="gcontent">
+			    <p>Ultimate Weapon Manufacturing</p>
+			    <p>1. Use Mysterious Chips and coins to obtain materials from the Mysterious Merchant (131 861) in Thousand Streams.</p>
+			    <p>2. When you get the materials from the Mysterious Merchant, you can go to the Warsoul Spirit (552 652) in the center of Archosaur and exchange them for the final materials and molds for your ultimate weapon.</p>
+			    <p>3. When all the needed materials are in hand, you can go to the "Pwr" tab and manufacture the Ultimate Weapon of your choice.</p>
+			</div>
+		    </div>
+		    <div class="ginnerwrapper">
+			<div class="gheader"><h3>Material Exchange</h3></div>
+			<div class="gcontent">
+			    <p>This is a chart of the materials needed to manufacture the Ultimate Weapons. The exchange success rate is included as well.</p>
+			</div>
+		    </div>
+		    <div class="ginnerwrapper">
+			<div class="gheader"><h3>Twilight Materials</h3></div>
+			<div class="gcontent">
+			    <ul class="header ultimate">
+    				<li>Icon</li>
+    				<li>Raw Material</li>
+    				<li>Quantity</li>
+    				<li>Exchange For:</li>
+    				<li>Quantity</li>
+    				<li>Success Rate</li>
+			    </ul>
+			    <ul class="row-odd ultimate">
+    				<li><div class="sprite ultimate-weapon ancientserpentsorb"></div></li>
+    				<li>Ancient Serpent's Orb</li>
+    				<li>1</li>
+    				<li>
+    				    <p>Warsoul:</p>
+    				    <p>Ksitigarbha Fragment</p>
+    				</li>
+    				<li>1</li>
+    				<li>3.20%</li>
+			    </ul>
+                <ul class="row-even ultimate">
+                    <li><div class="sprite ultimate-weapon fengssteelarmor"></div></li>
+                    <li>Feng's Steel Armor</li>
+                    <li>1</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbha Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>0.89%</li>
+                </ul>
+                <ul class="row-odd ultimate">
+                    <li><div class="sprite ultimate-weapon evilminionsshell"></div></li>
+                    <li>Evil Minion's Shell</li>
+                    <li>1</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbha Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>1.78%</li>
+                </ul>
+                <ul class="row-even ultimate">
+                    <li><div class="sprite ultimate-weapon giantbeastsshell"></div></li>
+                    <li>Giant Beast's Shell</li>
+                    <li>1</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>21.33%</li>
+                </ul>
+                <ul class="row-odd ultimate">
+                    <li><div class="sprite ultimate-weapon giantbeastsshell"></div></li>
+                    <li>Ancient Devil's Soul</li>
+                    <li>3</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>100%</li>
+                </ul>
+                <ul class="row-even ultimate">
+                    <li><div class="sprite ultimate-weapon empiresbackimage"></div></li>
+                    <li>Empire's Back Image</li>
+                    <li>3</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>100%</li>
+                </ul>
+                <ul class="row-odd ultimate">
+                    <li><div class="sprite ultimate-weapon ghostlordsprotection"></div></li>
+                    <li>Ghost Lord's Protection</li>
+                    <li>3</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>100%</li>
+                </ul>
+                <ul class="row-even ultimate">
+                    <li><div class="sprite ultimate-weapon giantapestail"></div></li>
+                    <li>Giant Ape's Tail</li>
+                    <li>1</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>0.60%</li>
+                </ul>
+                <ul class="row-odd ultimate">
+                    <li><div class="sprite ultimate-weapon astralstone"></div></li>
+                    <li>Astral Stone</li>
+                    <li>1</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>0.53%</li>
+                </ul>
+                <ul class="row-even ultimate">
+                    <li><div class="sprite ultimate-weapon giantbeastsarmor"></div></li>
+                    <li>Giant Beasts Armor</li>
+                    <li>1</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>0.62%</li>
+                </ul>
+                <ul class="row-odd ultimate">
+                    <li><div class="sprite ultimate-weapon tsusghostmask"></div></li>
+                    <li>Tsu's Ghost Mask</li>
+                    <li>1</li>
+                    <li>
+                        <p>Warsoul:</p>
+                        <p>Ksitigarbhia Fragment</p>
+                    </li>
+                    <li>1</li>
+                    <li>1.07%</li>
+                </ul>
+			</div>
+		    </div>
+            <div class="ginnerwrapper">
+                <div class="gheader"><h3>Lunar Materials</h3></div>
+                <div class="gcontent">
+                    <ul class="header ultimate">
+                        <li>Icon</li>
+                        <li>Raw Material</li>
+                        <li>Quantity</li>
+                        <li>Exchange For:</li>
+                        <li>Quantity</li>
+                        <li>Success Rate</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon fragmentcrystal"></div></li>
+                        <li>Fragment Crystal</li>
+                        <li>1</li>
+                        <li>Warsoul: Vajra Fragment</li>
+                        <li>1</li>
+                        <li>2.67%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon transparentcrystal"></div></li>
+                        <li>Transparent Crystal</li>
+                        <li>1</li>
+                        <li>Warsoul: Vajra Fragment</li>
+                        <li>1</li>
+                        <li>2.63%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon essencecrystal"></div></li>
+                        <li>Essence Crystal</li>
+                        <li>1</li>
+                        <li>Warsoul: Vajra Fragment</li>
+                        <li>1</li>
+                        <li>30.22%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon unknowntinder"></div></li>
+                        <li>Unknown Tinder</li>
+                        <li>15</li>
+                        <li>Warsoul: Vajra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon chromatictinder"></div></li>
+                        <li>Chromatic Tinder</li>
+                        <li>5</li>
+                        <li>Warsoul: Vajra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon ancienttinder"></div></li>
+                        <li>Ancient Tinder</li>
+                        <li>5</li>
+                        <li>Warsoul: Vajra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ginnerwrapper">
+                <div class="gheader"><h3>Frostland Materials</h3></div>
+                <div class="gcontent">
+                    <ul class="header ultimate">
+                        <li>Icon</li>
+                        <li>Raw Material</li>
+                        <li>Quantity</li>
+                        <li>Exchange For:</li>
+                        <li>Quantity</li>
+                        <li>Success Rate</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon blazingphoenixtailfeather"></div></li>
+                        <li>Blazing Phoenix's Tail Feather</li>
+                        <li>15</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon seelenol"></div></li>
+                        <li>Seelenol</li>
+                        <li>8</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon froststamprightpart"></div></li>
+                        <li>Frost Stamp Right Part</li>
+                        <li>8</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>30.22%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon aeolianol"></div></li>
+                        <li>Aeolianol</li>
+                        <li>10</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon froststampleftpart"></div></li>
+                        <li>Frost Stamp left Part</li>
+                        <li>10</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon blizzardfragment"></div></li>
+                        <li>Blizzard Fragment</li>
+                        <li>10</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>2.38%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon blizzardstamp"></div></li>
+                        <li>Blizzard Stamp</li>
+                        <li>5</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>1.98%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon blizzardheart"></div></li>
+                        <li>Blizzard Heart</li>
+                        <li>5</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>2.38%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon glacialsealfragment"></div></li>
+                        <li>Glacier Seal Fragment</li>
+                        <li>3</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>2.38%</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ginnerwrapper">
+                <div class="gheader"><h3>Warsoul Materials</h3></div>
+                <div class="gcontent">
+                    <ul class="header ultimate">
+                        <li>Icon</li>
+                        <li>Raw Material</li>
+                        <li>Quantity</li>
+                        <li>Exchange For:</li>
+                        <li>Quantity</li>
+                        <li>Success Rate</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon warsoul"></div></li>
+                        <li>Warsoul</li>
+                        <li>1</li>
+                        <li>Warsoul: Manjusri Fragment</li>
+                        <li>10</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon lightofwarsoul"></div></li>
+                        <li>Light of Warsoul</li>
+                        <li>1</li>
+                        <li>Warsoul: Manjusri Fragment</li>
+                        <li>10</li>
+                        <li>1.33%</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ginnerwrapper">
+                <div class="gheader"><h3>Recipe</h3></div>
+                <div class="gcontent">
+                    <ul class="header ultimate">
+                        <li>Icon</li>
+                        <li>Raw Material</li>
+                        <li>Quantity</li>
+                        <li>Exchange For:</li>
+                        <li>Quantity</li>
+                        <li>Success Rate</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon mysticaltomefragment"></div></li>
+                        <li>Mystical Tome Fragment</li>
+                        <li>100</li>
+                        <li>Warsoul: Arkarsja Fragment</li>
+                        <li>10</li>
+                        <li>2.96%</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ginnerwrapper">
+                <div class="gheader"><h3>Perfect Stones</h3></div>
+                <div class="gcontent">
+                    <ul class="header ultimate">
+                        <li>Icon</li>
+                        <li>Raw Material</li>
+                        <li>Quantity</li>
+                        <li>Exchange For:</li>
+                        <li>Quantity</li>
+                        <li>Success Rate</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon purifiedperfectstone"></div></li>
+                        <li>Purified Perfect Stone</li>
+                        <li>18</li>
+                        <li>Warsoul: Jakari Fragment</li>
+                        <li>10</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon perfectstone"></div></li>
+                        <li>Perfect Stone</li>
+                        <li>100</li>
+                        <li>Warsoul: Avalokites Fragment</li>
+                        <li>10</li>
+                        <li>1.44%</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ginnerwrapper">
+                <div class="gheader"><h3>Mysterious Chip Exchange</h3></div>
+                <div class="gcontent">
+                    <ul class="header ultimate">
+                        <li>Icon</li>
+                        <li>Raw Material</li>
+                        <li>Quantity</li>
+                        <li>Money</li>
+                        <li>Exchange For:</li>
+                        <li>Quantity</li>
+                        <li>Success Rate</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon mysteriouschip"></div></li>
+                        <li>Mysterious Chip</li>
+                        <li>788</li>
+                        <li>16875000</li>
+                        <li>Warsoul: Ksitigarbha Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon mysteriouschip"></div></li>
+                        <li>Mysterious Chip</li>
+                        <li>788</li>
+                        <li>16875000</li>
+                        <li>Warsoul: Vajra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon mysteriouschip"></div></li>
+                        <li>Mysterious Chip</li>
+                        <li>1</li>
+                        <li>6750000</li>
+                        <li>Warsoul: Samantabhadra Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon mysteriouschip"></div></li>
+                        <li>Mysterious Chip</li>
+                        <li>158</li>
+                        <li>3375000</li>
+                        <li>Warsoul: Manjusri Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon mysteriouschip"></div></li>
+                        <li>Mysterious Chip</li>
+                        <li>473</li>
+                        <li>10125000</li>
+                        <li>Warsoul: Arkarsja Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-even ultimate">
+                        <li><div class="sprite ultimate-weapon mysteriouschip"></div></li>
+                        <li>Mysterious Chip</li>
+                        <li>473</li>
+                        <li>10125000</li>
+                        <li>Warsoul: Jakari Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                    <ul class="row-odd ultimate">
+                        <li><div class="sprite ultimate-weapon mysteriouschip"></div></li>
+                        <li>Mysterious Chip</li>
+                        <li>158</li>
+                        <li>3375000</li>
+                        <li>Warsoul: Avalokites Fragment</li>
+                        <li>1</li>
+                        <li>100%</li>
+                    </ul>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

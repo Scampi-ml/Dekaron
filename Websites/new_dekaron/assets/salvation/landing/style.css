@@ -1,0 +1,21 @@
+html{width:100%;background:#090403}
+body{font:12px Arial, sans-serif;color:#464646}
+a{color:#464646;outline:none;text-decoration:none}
+a:hover{color:#3f88bc;transition:color 600ms;-moz-transition:color 600ms;-webkit-transition:color 600ms;-o-transition:color 600ms}
+p{color:#464646;font-size:12px;line-height:18px;font-weight:700}
+header{width:100%;height:auto;min-height:134px;background:#090403 url(top_bar.png) no-repeat top center}
+header .logo{width:170px;margin:0 auto;padding:20px 0}
+#middle{width:100%;background:#090403 url(middle_bg.jpg) no-repeat top center;height:480px;margin:-85px 0}
+.holder{width:770px;height:480px;margin:0 auto}
+.expansion{width:300px;margin:45px 0}
+.expansion img{width:296px;height:302px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 8px 6px -6px #000;-moz-box-shadow:0 8px 6px -6px #000;box-shadow:0 8px 6px -6px #000}
+.wotlk{ text-align:center; width:296px;height:56px;background:url(button_wotlk.png)}
+.mop{float:right;width:296px;height:56px;background:url(button_mop.png)}
+.bracket{width:176px;height:24px;float:left}
+.wotlkbr{position:absolute;width:176px;height:24px;background:url(wotlk.png);margin:-10px 60px}
+.mopbr{position:absolute;width:176px;height:24px;background:url(mop.png);margin:-10px 65px}
+.button{display:inline-block;vertical-align:baseline;cursor:pointer;-webkit-box-shadow:0 8px 6px -6px #000;-moz-box-shadow:0 8px 6px -6px #000;box-shadow:0 6px 6px -6px #000;margin:15px 0}
+.wotlk:hover{width:296px;height:56px;background:url(button_wotlkhv.png)}
+.mop:hover{width:296px;height:56px;background:url(button_mophv.png)}
+footer{position:fixed;z-index:999;clear:both;vertical-align:middle;width:100%;height:auto;min-height:480px;background:url(footer_bg.png) no-repeat top center;margin:65px 0}
+.rights{width:440px;height:480px;text-align:center;margin:0 auto;padding:70px 0}

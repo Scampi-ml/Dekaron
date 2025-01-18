@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Website made by Mucski from Mucski Arts / Mucski Inc. 20013
+    For use with any MMORPG , made mainly for PW
+    Please use the ReadMe.txt provided , and consult the documentation.
+    For support please send an e-mail to foryouforfun@gmail.com-->
+    <title>Perfect World Simplicity</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css" /><!--part of simple slider-->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script><!--needed for effects , slider , etc.-->
+    <script src="js/gen_validatorv4.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script><!--slider settings-->
+    <script>
+        jQuery(document).ready(function($) {        
+            $('#banner-fade').bjqs({
+              height      : 200,
+              width       : 700,
+              responsive  : false,
+              showcontrols : false,
+              usecaptions : false
+            });         
+        }); 
+    </script><!--end of slider settings-->
+    <script>
+		// Javascript originally by Patrick Griffiths and Dan Webb.
+		// http://htmldog.com/articles/suckerfish/dropdowns/
+		sfHover = function() {
+			var sfEls = document.getElementById("menu").getElementsByTagName("li");
+			for (var i=0; i<sfEls.length; i++) {
+			   sfEls[i].onmouseover=function() {
+				  this.className+=" hover";
+			   }
+			   sfEls[i].onmouseout=function() {
+				  this.className=this.className.replace(new RegExp(" hover\\b"), "");
+			   }
+			}
+		}
+		if (window.attachEvent) window.attachEvent("onload", sfHover);
+    </script>
+</head>
+<body>
+<div class="wrapper">
+        <ul id="menu">
+            <li class="home"><a href="./index.html"></a></li>
+            <li class="game"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="./game-info.html">Basic Info</a></li>
+                    <li><a href="./advanced-info.html">Advanced Info</a></li>
+                    <li><a href="./races.html">Races</a></li>
+                    <li><a href="./classes.html">Classes</a></li>
+                    <li><a href="./spiritual.html">Spiritual Cultivations</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="community"><a href="./index.html"></a>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Top Players</a></li>
+                    <li><a href="#">Guilds</a></li>
+                    <li><a href="#">Server Status</a></li>
+                </ul>
+            </li>
+            <li class="download"><a href="#"></a></li>
+            <li class="media"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Game Videos</a></li>
+                    <li><a href="#">Screenshots</a></li>
+                    <li><a href="#">Wallpapers</a></li>
+                </ul>
+            </li>
+            <li class="get-zen"><a href="#"></a>
+                <ul>
+                    <li><a href="#">Purchase Zen</a></li>
+                    <li><a href="#">Earn Zen</a></li>
+                    <li><a href="#">My Wallet</a></li>
+                    <li><a href="#">What is Zen?</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="logo" href="#" border="none"></a><!--main logo-->
+        <div class="news-content">
+        <div class="news-wrapper"><!-- starting of news -->
+            <div id="banner-fade"><!--slider start-->
+                <ul class="bjqs">                
+                    <li><img src="images/banner1.gif" title="Automatically generated caption"></li><!--add items like this-->
+                    <li><img src="images/banner2.gif" title="Hehehehehehe"></li>
+                </ul>
+            </div><!--slider end-->
+            <div class="content-divider"></div><!--starting content-->
+            <div class="content">
+                <div class="thumbnail">
+                    <img src="images/thumbnail1.gif" border="0">
+                </div>
+                <h3><a href="./single.html">PWI - Dragon's fire , packs for sale!</a></h3>
+                <p>This week we're starting up a great mix of sales, from Dragon's Fire Packs to pigments and more! Don't miss out on these great deals! On sale starting this week: Dragon's Fire Packs Wildlife Packs Perfect Chest Perfect Iron Hammer Pigments Dragon’s Fire Packs What do you do when you</p>
+                <div class="read-more"><a href="#">Read More..</a></div>
+            </div><!--ending content-->
+            <div class="content-divider"></div><!--starting content-->
+            <div class="content">
+                <!--<div class="thumbnail">
+                    <img src="images/thumbnail2.gif" border="0">
+                </div>-->
+                <h3><a href="./single.html">A CONTENT WITHOUT A THUMBNAIL</a></h3>
+                <p>This week we're starting up sales on guardian and spirit charms, and bringing back Lucky Coral and Drake Mirror Packs! Click through to see all the details! On sale starting this week: Drake Mirror Pack Lucky Coral Gem Pack Lucky Zongzi Platinum Guardian Charm Platinum Spirit Charm Gold Guardian Charm Gold Spirit Charm</p>
+                <div class="read-more"><a href="#">Read More..</a></div>
+            </div><!--ending content-->
+            <div class="content-divider"></div><!--starting content-->
+            <div class="content">
+                <div class="thumbnail">
+                    <img src="images/thumbnail3.gif" border="0">
+                </div>
+                <h3><a href="./single.html">PWI - Introducing Fashion Weapons!</a></h3>
+                <p>Introducing the all new Weapon Fashions! These fun weapons bring a festive flair to any occasion, and each of them come with a special new emote! Also this week, we've got a return of the Easy Rider Pack, Aqueous Scroll, crafting items and more! Don't miss out on this week's amazing sales! On sale starting this week:</p>
+                <div class="read-more"><a href="#">Read More..</a></div>
+            </div><!--ending content-->
+            <div class="content-divider"></div><!--starting content-->
+            <div class="content">
+                <div class="thumbnail">
+                    <img src="images/thumbnail4.gif" border="0">
+                </div>
+                <h3><a href="./single.html">PWI - 15% BONUS ZEN SALE!</a></h3>
+                <p>For a limited time, earn an extra 15% on your ZEN purchases! Between Friday, April 12th at 9:00am (PDT) and Monday, April 15th at 9:00am (PDT), whenever you purchase ZEN, you will be credited with15% additional bonus ZEN! Check out the table below to see exactly what to expect with this great offer! </p>
+                <div class="read-more"><a href="#">Read More..</a></div>
+            </div><!--ending content-->
+            <ul class="pagination">
+                <li><a href="#">< Prev</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">Next ></a></li>
+            </ul>
+        </div><!-- ending of news -->
+        </div>
+        <div class="sd-bar"><!--Begining of sidebar-->
+	    <a class="download" href="./download.html"></a><!--download button-->
+            <div class="realm"><!--realms , add more by copying this...-->
+                <div class="realm-header"><p class="r-name">Heaven</p><p class="online">Online</p></div>
+                <div class="realm-body">
+                    <p class="text-left">Player Count:</p><p class="text-right">2039/3000</p>
+                    <p class="text-left">Server Uptime:</p><p class="text-right">1w, 2d, 3hr</p>
+                </div>
+            </div><!--..until this , and paste it bellow-->
+            <div class="realm"><!--realms, add more by copying this..-->
+                <div class="realm-header"><p class="r-name">Hell</p><p class="offline">Offline</p></div>
+                <div class="realm-body">
+                    <p class="text-left">Player Count:</p><p class="text-right">0/3000</p>
+                    <p class="text-left">Server Uptime:</p><p class="text-right">0w, 0d, 0hr</p>
+                </div>
+            </div><!--..until this , and paste it bellow-->
+            <div class="sd-header"><h3 class="text-left">ACCOUNTS</h3></div><!--starting of a normal sidebar item-->
+            <div class="sd-body">
+                <form id="account" action="#">
+                    <input class="input" type="text" name="login" value="Login.." />
+                    <input class="input" type="password" name="password" value="Password.." />
+                    <input border="0" type="submit" value="" align="midle" class="button" style="z-index:-1" />
+                </form>
+                <a href="./register.html" class="register"></a>
+            </div><!--ending of sidebar item-->
+            <div class="sd-header"><h3 class="text-left">DONATE METERS</h3></div><!--starting of a normal sidebar item-->
+            <div class="sd-body">
+                <div class="progress-label"><p class="text-left">0%</p><p class="text-right">100%</p></div>
+                <div class="progress-container">
+                    <div class="progressbar" style="width:21%; background-image:url('images/progress.gif'); height:9px;"></div>
+                </div>
+                <div class="progress-label"><p class="text-left">0%</p><p class="text-right">100%</p></div>
+                <div class="progress-container">
+                    <div class="progressbar" style="width:99%; background-image:url('images/progress.gif'); height:9px;"></div>
+                </div>
+            </div><!--ending of sidebar item-->
+            <div class="sd-header"><h3 class="text-left">TOP PLAYERS</h3></div><!--starting of a normal sidebar item-->
+            <div class="sd-body">
+                <ul class="column1">
+                    <li>1. Norman</li>
+                    <li>2. James</li>
+                    <li>3. John</li>
+                    <li>4. Megamind</li>
+                    <li>5. LabRat</li>
+                    <li>6. Skyfall</li>
+                    <li>7. Lenny</li>
+                    <li>8. Homer</li>
+                    <li>9. Zumzi</li>
+                    <li>10. Dumdero</li>
+                </ul>
+                <ul class="column2">
+                    <li>8920 Kills</li>
+                    <li>8217 Kills</li>
+                    <li>7882 Kills</li>
+                    <li>6382 Kills</li>
+                    <li>5212 Kills</li>
+                    <li>4235 Kills</li>
+                    <li>3443 Kills</li>
+                    <li>3212 Kills</li>
+                    <li>2411 Kills</li>
+                    <li>1828 Kills</li>
+                </ul>
+            </div><!--ending of sidebar item-->
+            <div class="sd-header"><h3 class="text-left">RECENT VIDEO</h3></div>
+                <div class="sd-body">
+                    <div class="recent-video"><iframe width="220" height="160" src="http://www.youtube.com/embed/HygwX2DrW3U" frameborder="0" allowfullscreen></iframe></div>
+                </div>    
+            </div>
+        </div><!-- End of sidebar -->
+    <div class="clear"></div><!--clear floats for the whole page-->
+    <div class="footer">
+        <div class="copyright">DESIGNED BY MUCSKI ARTS &copy; MUCSKI INC. 2013 ALL RIGHTS RESERVED</div>
+        <div class="submenu">
+            <a href="#">Terms of Service</a> /
+            <a href="#">Privacy Policy</a> /
+            <a href="#">About Us</a> /
+            <a href="#">Contact Us</a> /
+            <a href="#">Career</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
